@@ -1,0 +1,83 @@
+<div xmlns='http://www.w3.org/1999/xhtml'>
+<br/><strong>Extensions defined in this guide</strong><br/><br/>
+<table width='100%' border='1' cellspacing='0' cellpadding='5px'>
+<tr><th>Id</th><th>Url</th><th>Context of Use</th><th>Description</th></tr>
+<tr>
+<td><a href='StructureDefinition-atc.html'>atc</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/atc</td>
+<td>
+<div>Medication</div>
+</td>
+<td>(todo)</td>
+</tr>
+<tr>
+<td><a href='StructureDefinition-cal.html'>cal</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/cal</td>
+<td>
+<div>Medication</div>
+</td>
+<td>Cautionary and Advisory Label</td>
+</tr>
+<tr>
+<td><a href='StructureDefinition-description.html'>description</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/description</td>
+<td>
+<div>Medication</div>
+</td>
+<td>Specific descriptions that apply to this medication</td>
+</tr>
+<tr>
+<td><a href='StructureDefinition-funding.html'>funding</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/funding</td>
+<td>
+<div>Medication</div>
+</td>
+<td>Funding elements specific to NZ. </td>
+</tr>
+<tr>
+<td><a href='StructureDefinition-legalclass.html'>legalclass</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/legalclass</td>
+<td>
+<div>Medication</div>
+</td>
+<td>Legal classification</td>
+</tr>
+<tr>
+<td><a href='StructureDefinition-link.html'>link</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/link</td>
+<td>
+<div>Medication</div>
+</td>
+<td>Reference to other information about this medication</td>
+</tr>
+<tr>
+<td><a href='StructureDefinition-prescribe-by-brand.html'>prescribe-by-brand</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/prescribe-by-brand</td>
+<td>
+<div>Medication</div>
+</td>
+<td>True if can be prescribed by brand</td>
+</tr>
+<tr>
+<td><a href='StructureDefinition-sect29.html'>sect29</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/sect29</td>
+<td>
+<div>Medication</div>
+</td>
+<td>True if this medication is to be used under section 29</td>
+</tr>
+<tr>
+<td><a href='StructureDefinition-supply-information.html'>supply-information</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/supply-information</td>
+<td>
+<div>Medication</div>
+</td>
+<td>Specific descriptions that apply to this medication</td>
+</tr>
+</table>
+<a name="externalExtensions"> </a>
+<h3>Extensions used but defined elsewhere</h3>
+<table width='100%' border='1' cellspacing='0' cellpadding='5px'>
+<tr><th>Url</th><th>Description</th><th>IG</th></tr>
+</table>
+</div>
