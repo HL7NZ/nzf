@@ -1,0 +1,97 @@
+<div xmlns='http://www.w3.org/1999/xhtml'>
+    <br/>
+    <strong>Mappings from source data</strong>
+    <br/>
+    <br/>
+
+    <table width='100%' border='1' cellspacing='0' cellpadding='5px'>
+        <tr>
+            <th>Element</th>
+            <th>MPUU</th>
+            <th>TPUU</th>
+            <th>MPP</th>
+            <th>TPP</th>
+            <th>CTPP</th>
+        </tr>
+
+
+        <tr>
+            <td>code</td>
+            <td>sctId</td>
+            <td>sctId</td>
+            <td>MPP sctId</td>
+            <td>TPP sctId</td>
+            <td>
+                <div>CTPP sctId</div>
+                <div>Pharmacode</div>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td>manufacturer</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>form</td>
+            <td>MPUU.ManufacturedDoseForm</td>
+            <td>TPUU.ManufacturedDoseForm</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>amount</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>ingredients</td>
+            <td>
+                <div>MP from MPUU.MP</div>
+                <div>Substances from MPUU.MP -> substances</div>
+            </td>
+            <td>MP From TPUU -> MPUU.MP </td>
+            <td>
+                <div>MPs From MPP -> MPUU.MP </div>
+                <div>Substances From MPP -> MPUU.MP -> Substances</div>
+            </td>
+            <td>
+                <div>MPs From TPP -> TPUU -> MPUU.MP</div>
+                <div>Substances From TPP -> TPUU -> MPUU.MP -> Substances</div>
+            </td>
+            <td>
+                <div>MPs From CTPP -> TPUU -> MPUU.MP </div>
+                <div>Substances From CTPP -> TPUU -> MPUU.MP -> Substances</div>
+            </td>
+        </tr>
+
+        <tr>
+            <td>batch</td>
+            <td>
+                <div>MP from MPUU.MP</div>
+                <div>Substances from MPUU.MP -> substances</div>
+                </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+
+        </table>
+
+    </div>
+
+
+

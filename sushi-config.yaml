@@ -17,3 +17,4 @@ releaseLabel: ci-build
 menu:
   Home: index.html
   Artifacts: artifacts.html
+  Mappings: mapping.html
