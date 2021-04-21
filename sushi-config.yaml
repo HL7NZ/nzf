@@ -18,4 +18,6 @@ menu:
   Home: index.html
   Artifacts: artifacts.html
   Mappings: mapping.html
-  UseCases: use-cases.html
+  Use cases: use-cases.html
+  Roadmap: roadmap.html
+  faq: faq.md
