@@ -165,7 +165,7 @@
     <strong>Document reference Mappings from source data</strong>
     <br />
     <br />
-    <table>
+    <table width='100%' border='1' cellspacing='0' cellpadding='5px'>
         <tr>
             <th>Element</th>
             <th>Monographs</th>
