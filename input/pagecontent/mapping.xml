@@ -161,5 +161,79 @@
             <td colspan="7">Monographs that include the associated MP</td>
         </tr>
     </table>
-
+    <br />
+    <strong>Document reference Mappings from source data</strong>
+    <br />
+    <br />
+    <table>
+        <tr>
+            <th>Element</th>
+            <th>Monographs</th>
+            <th>Special Authorities</th>
+            <th>Patient Information Leaflets</th>
+            <th>Datasheets</th>
+        </tr>
+        <tr>
+            <td>identifier</td>
+            <td>Monograph id (e.g. nzf_2439)</td>
+            <td>Special Authority Number – e.g. SA1683</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>status</td>
+            <td colspan="4">Current</td>
+        </tr>
+        <tr>
+            <td>docStatus</td>
+            <td colspan="4">Final</td>
+        </tr>
+        <tr>
+            <td>date</td>
+            <td colspan="4">Date of document reference creation</td>
+        </tr>
+        <tr>
+            <td>author</td>
+            <td>NZ Formulary</td>
+            <td>Pharmac</td>
+            <td>NZ Formulary</td>
+            <td>Medsafe</td>
+        </tr>
+        <tr>
+            <td>type</td>
+            <td>'AdultMonograph' or 'ChildMonograph'</td>
+            <td>'SpecialAuthorityForm'</td>
+            <td>'PatientInformationLeaflet'</td>
+            <td>'Datasheet'</td>
+        </tr>
+        <tr>
+            <td>Description</td>
+            <td>Monograph title</td>
+            <td>Special Authority Form for {ctpp name}</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>content.url</td>
+            <td>Url to monograph</td>
+            <td>Url to Special Authority PDF</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>content.data</td>
+            <td></td>
+            <td>Request form xml</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>context.related</td>
+            <td>List of MP codes associated with monograph. Potentially this could be added to include all medicine
+                codes associated with this monograph.</td>
+            <td>CTPP Id<br />Pharmacode</td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
 </div>
