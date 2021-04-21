@@ -1,12 +1,14 @@
 <div xmlns='http://www.w3.org/1999/xhtml'>
-    <br/>
-    <strong>Mappings from source data</strong>
-    <br/>
-    <br/>
+    <br />
+    <strong>Medication Mappings from source data</strong>
+    <br />
+    <br />
 
     <table width='100%' border='1' cellspacing='0' cellpadding='5px'>
         <tr>
             <th>Element</th>
+            <th>MP</th>
+            <th>TP</th>
             <th>MPUU</th>
             <th>TPUU</th>
             <th>MPP</th>
@@ -19,8 +21,10 @@
             <td>code</td>
             <td>sctId</td>
             <td>sctId</td>
-            <td>MPP sctId</td>
-            <td>TPP sctId</td>
+            <td>sctId</td>
+            <td>sctId</td>
+            <td>sctId</td>
+            <td>sctId</td>
             <td>
                 <div>CTPP sctId</div>
                 <div>Pharmacode</div>
@@ -30,15 +34,13 @@
 
         <tr>
             <td>manufacturer</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td colspan="7">Not populated</td>
         </tr>
 
         <tr>
             <td>form</td>
+            <td></td>
+            <td></td>
             <td>MPUU.ManufacturedDoseForm</td>
             <td>TPUU.ManufacturedDoseForm</td>
             <td></td>
@@ -48,15 +50,18 @@
 
         <tr>
             <td>amount</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td colspan="7">Not populated</td>
         </tr>
 
         <tr>
             <td>ingredients</td>
+            <td>
+                <div>Substances from MP -> substances</div>
+            </td>
+            <td>
+                <div>MP from TP -> TPUU -> MPUU -> MP</div>
+                <div>Substances from MPs -> substances</div>
+            </td>
             <td>
                 <div>MP from MPUU.MP</div>
                 <div>Substances from MPUU.MP -> substances</div>
@@ -78,20 +83,83 @@
 
         <tr>
             <td>batch</td>
-            <td>
-                <div>MP from MPUU.MP</div>
-                <div>Substances from MPUU.MP -> substances</div>
-                </td>
+            <td colspan="7">Not populated</td>
+        </tr>
+        <tr>
+            <td colspan="8"><b>Extensions</b></td>
+        </tr>
+        <tr>
+            <td>Type</td>
+            <td>'mp'</td>
+            <td>'tp'</td>
+            <td>'mpuu'</td>
+            <td>'tpuu'</td>
+            <td>'mpp'</td>
+            <td>'tpp'</td>
+            <td>'ctpp'</td>
+        </tr>
+        <tr>
+            <td>CALs</td>
+            <td></td>
+            <td></td>
+            <td>MPUU -> CALs</td>
+            <td>TPUU -> MPUU -> CALs</td>
+            <td>MPP -> MPUU -> CALs</td>
+            <td>TPP -> TPUU -> MPUU -> CALs</td>
+            <td>CTPP -> TPPU -> MPUU -> CALs</td>
+        </tr>
+        <tr>
+            <td>atc</td>
+            <td colspan="7">nzmt_atc_links</td>
+        </tr>
+        <tr>
+            <td>Section 29</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>CTPP.is_section29</td>
+        </tr>
+        <tr>
+            <td>Legal Classification</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Medsafe package, details to come</td>
+        </tr>
+        <tr>
+            <td>Prescribe by brand</td>
+            <td></td>
+            <td></td>
+            <td>MPUU.prescribe_by_brand</td>
             <td></td>
             <td></td>
             <td></td>
             <td></td>
         </tr>
+        <tr>
+            <td>Funding</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Pharmac tables, details to come</td>
+        </tr>
+        <tr>
+            <td>Pharmac supply info</td>
+            <td colspan="7">Based on sctid</td>
+        </tr>
+        <tr>
+            <td>Links - monographs</td>
+            <td colspan="7">Monographs that include the associated MP</td>
+        </tr>
+    </table>
 
-
-        </table>
-
-    </div>
-
-
-
+</div>
