@@ -1,6 +1,8 @@
-## Common use cases
+### Common use cases
 
-**Medications**
+WIP
+
+#### Medications
 
 Get a list of all medications
 >[base]/Medication
@@ -11,7 +13,7 @@ Get a specific medication based on sctid
 
 
 
-**Document references**
+#### Document references
 
 Get a list of all NZF monographs (Adult monographs)
 >[base]/DocumentReference?type:text=AdultMonograph
