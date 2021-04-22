@@ -1,6 +1,6 @@
 ### Common use cases
 
-WIP
+WIP - the intention of this page is to detail common use cases, ranging from the simple retrieval of resources to best practice for using that data (e.g. for interactions checking etc.)
 
 #### Medications
 
@@ -11,8 +11,8 @@ Get a list of all medications
 Get a specific medication based on sctid
 >[base]/Medication?code=44282231000116104
 
-
-
+Get recently changed medications (can be useful for maintaining a local cache)
+>[base]
 #### Document references
 
 Get a list of all NZF monographs (Adult monographs)
