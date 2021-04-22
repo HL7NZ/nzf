@@ -12,9 +12,7 @@ version: 0.1.0
 fhirVersion: 4.0.1
 copyrightYear: 2021+
 releaseLabel: ci-build
-publisher:
-  name: New Zealand Medicines Formulary LP
-  url: http://nzformulary.org/
+publisher: New Zealand Medicines Formulary LP
 
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
 # │  To use a provided ig-data/input/includes/menu.xml file, delete the "menu" property below.     │
@@ -24,5 +22,6 @@ menu:
   Artifacts: artifacts.html
   Mappings: mapping.html
   Use cases: use-cases.html
-  Roadmap: roadmap.html
   FAQ: faq.html
+  Roadmap: roadmap.html
+  Change log: changelog.html
