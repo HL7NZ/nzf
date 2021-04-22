@@ -5,7 +5,7 @@
 id: fhir.nzformulary
 canonical: http://example.org
 name: NZFormulary IG
-title: HL7 FHIR Implementation Guide: New Zealand Formulary/NZULM IG
+title: HL7 FHIR Implementation Guide - New Zealand Formulary/NZULM IG
 description: IG that details how to use the New Zealand Formulary/NZULM FHIR server
 status: draft
 version: 0.1.0
