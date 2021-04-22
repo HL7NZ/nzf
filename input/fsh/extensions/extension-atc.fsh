@@ -12,10 +12,10 @@ Description: "ATC Code - see https://www.who.int/tools/atc-ddd-toolkit/atc-class
     code 1..1 and
     isPrimary 1..1
 
-* extension[id].url = "code" (exactly)
-* extension[id] ^definition = "The ATC Code."
-* extension[id].value[x] only coding
+* extension[code].url = "code" (exactly)
+* extension[code] ^definition = "The ATC Code."
+* extension[code].value[x] only coding
 
-* extension[type].url = "is-primary" (exactly)
-* extension[type] ^definition = "Whether the ATC code is the primary code"
-* extension[type].value[x] only boolean
+* extension[isPrimary].url = "is-primary" (exactly)
+* extension[isPrimary] ^definition = "Whether the ATC code is the primary code"
+* extension[isPrimary].value[x] only boolean
