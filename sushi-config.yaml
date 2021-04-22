@@ -3,7 +3,7 @@
 # │  supported properties, see: https://fshschool.org/sushi/configuration/                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: fhir.nzformulary
-canonical: http://example.org
+canonical: http://build.fhir.org/ig/HL7NZ/nzf/
 name: NZFormulary IG
 title: HL7 FHIR Implementation Guide - New Zealand Formulary/NZULM IG
 description: IG that details how to use the New Zealand Formulary/NZULM FHIR server
