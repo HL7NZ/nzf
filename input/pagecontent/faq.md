@@ -7,4 +7,5 @@ WIP
 **We currently receive the monthly downloads from the NZULM...**
 > More details to come
 
-**Local cache**
+**We don't want to rely on an external API, can we cache the data?**
+> More details to come

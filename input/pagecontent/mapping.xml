@@ -4,7 +4,7 @@
     <br />
     <br />
 
-    <table width='100%' border='1' cellspacing='0' cellpadding='5px'>
+    <table width='100%' border='1' cellspacing='0' cellpadding='5px' class="table table-bordered">
         <tr>
             <th>Element</th>
             <th>MP</th>
@@ -165,7 +165,7 @@
     <strong>Document reference Mappings from source data</strong>
     <br />
     <br />
-    <table width='100%' border='1' cellspacing='0' cellpadding='5px'>
+    <table width='100%' border='1' cellspacing='0' cellpadding='5px' class="table table-bordered">
         <tr>
             <th>Element</th>
             <th>Monographs</th>
