@@ -1,6 +1,6 @@
 Extension: Atc
 Id: atc
-Description: "ATC Code - see https://www.who.int/tools/atc-ddd-toolkit/atc-classification"
+Description: "Anatomical Therapeutic Chemical (ATC) Classification - see https://www.who.int/tools/atc-ddd-toolkit/atc-classification"
 
 * ^url = "http://hl7.org.nz/fhir/StructureDefinition/atc"
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ

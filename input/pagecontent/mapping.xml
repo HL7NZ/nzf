@@ -26,17 +26,10 @@
             <td>sctId</td>
             <td>sctId</td>
             <td>
-                <div>CTPP sctId</div>
+                <div>sctId</div>
                 <div>Pharmacode</div>
             </td>
         </tr>
-
-
-        <tr>
-            <td>manufacturer</td>
-            <td colspan="7">Not populated</td>
-        </tr>
-
         <tr>
             <td>form</td>
             <td></td>

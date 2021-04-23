@@ -10,4 +10,3 @@ Description: "Reference to other information about this medication"
  
 * extension 0..0
 * value[x] only Reference(DocumentReference)
-//* valueCodeableConcept from https://standards.digital.health.nz/fhir/ValueSet/dhb-code (preferred)

@@ -4,6 +4,7 @@ WIP - the intention of this page is to detail common use cases, ranging from the
 
 #### Medications
 
+
 Get a list of all medications
 >[base]/Medication
 
@@ -11,8 +12,17 @@ Get a list of all medications
 Get a specific medication based on sctid
 >[base]/Medication?code=44282231000116104
 
-Get recently changed medications (can be useful for maintaining a local cache)
->[base]
+
+Get medications that have been updated since 1 Apr 2021 (can be useful for maintaining a local cache)
+>[base]/Medication?_lastUpdated=gt2021-04-01
+
+
+Get list of medications that contain paracetamol
+>[base]/Medication?
+
+**Note currently the FHIR server isn't configured to filter by extension which makes limiting to a medication type difficult.  This will be fixed soon**
+
+
 #### Document references
 
 Get a list of all NZF monographs (Adult monographs)
