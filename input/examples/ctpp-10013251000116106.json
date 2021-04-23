@@ -2,51 +2,64 @@
     "resourceType": "Medication",
     "id": "ctpp-10013251000116106",
     "meta": {
-        "versionId": "1",
-        "lastUpdated": "2021-04-21T04:28:26.201+00:00"
+        "versionId": "3",
+        "lastUpdated": "2021-04-23T02:02:56.673+00:00"
     },
     "extension": [
         {
             "url": "http://hl7.org.nz/fhir/StructureDefinition/nzmt-type",
-            "valueString": "ctpp"
-        },
-        {
-            "url": "http://hl7.org.nz/fhir/StructureDefinition/sect29",
-            "valueBoolean": false
+            "valueString": "mp"
         },
         {
             "extension": [
                 {
-                    "url": "id",
-                    "valueString": "10"
+                    "url": "code",
+                    "valueCoding": {
+                        "system": "http://atc",
+                        "code": "M01AE01",
+                        "display": "Ibuprofen"
+                    }
                 },
                 {
-                    "url": "type",
-                    "valueString": "label"
-                },
-                {
-                    "url": "text",
-                    "valueString": "Take each dose with a large glass of water."
+                    "url": "isPrimary",
+                    "valueBoolean": false
                 }
             ],
-            "url": "http://hl7.org.nz/fhir/StructureDefinition/cal"
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/atc"
         },
         {
             "extension": [
                 {
-                    "url": "id",
-                    "valueString": "B"
+                    "url": "code",
+                    "valueCoding": {
+                        "system": "http://atc",
+                        "code": "C01EB16",
+                        "display": "Ibuprofen"
+                    }
                 },
                 {
-                    "url": "type",
-                    "valueString": "reference"
-                },
-                {
-                    "url": "text",
-                    "valueString": "with food"
+                    "url": "isPrimary",
+                    "valueBoolean": false
                 }
             ],
-            "url": "http://hl7.org.nz/fhir/StructureDefinition/cal"
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/atc"
+        },
+        {
+            "extension": [
+                {
+                    "url": "code",
+                    "valueCoding": {
+                        "system": "http://atc",
+                        "code": "M02AA13",
+                        "display": "Ibuprofen"
+                    }
+                },
+                {
+                    "url": "isPrimary",
+                    "valueBoolean": false
+                }
+            ],
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/atc"
         },
         {
             "url": "http://hl7.org.nz/fhir/StructureDefinition/link",
@@ -75,49 +88,18 @@
                 "reference": "0f051919-bcdd-4418-9a61-925c0207f3dd",
                 "display": "Monograph for ibuprofen (systemic)"
             }
-        },
-        {
-            "url": "http://hl7.org.nz/fhir/StructureDefinition/legalclass",
-            "valueCodeableConcept": {
-                "text": "Pharmacy only"
-            }
-        },
-        {
-            "extension": [
-                {
-                    "url": "type",
-                    "valueCode": "community"
-                },
-                {
-                    "url": "status",
-                    "valueCode": "no subsidy"
-                }
-            ],
-            "url": "http://hl7.org.nz/fhir/StructureDefinition/funding"
         }
     ],
     "code": {
         "coding": [
             {
                 "system": "https://nzulm.org.nz/nzmt",
-                "code": "50212101000117104",
-                "display": "Nurofen 200 mg tablet: sugar-coated, 12 tablets, bottle"
+                "code": "10013251000116106",
+                "display": "ibuprofen"
             }
         ]
     },
     "ingredient": [
-        {
-            "itemCodeableConcept": {
-                "coding": [
-                    {
-                        "system": "https://nzulm.org.nz/nzmt",
-                        "code": "10013251000116106",
-                        "display": "ibuprofen"
-                    }
-                ]
-            },
-            "isActive": true
-        },
         {
             "itemCodeableConcept": {
                 "coding": [

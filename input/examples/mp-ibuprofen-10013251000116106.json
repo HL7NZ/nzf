@@ -2,13 +2,64 @@
     "resourceType": "Medication",
     "id": "mp-ibuprofen-10013251000116106",
     "meta": {
-        "versionId": "2",
-        "lastUpdated": "2021-04-21T19:40:04.755+00:00"
+        "versionId": "3",
+        "lastUpdated": "2021-04-23T02:02:56.673+00:00"
     },
     "extension": [
         {
             "url": "http://hl7.org.nz/fhir/StructureDefinition/nzmt-type",
             "valueString": "mp"
+        },
+        {
+            "extension": [
+                {
+                    "url": "code",
+                    "valueCoding": {
+                        "system": "http://atc",
+                        "code": "M01AE01",
+                        "display": "Ibuprofen"
+                    }
+                },
+                {
+                    "url": "isPrimary",
+                    "valueBoolean": false
+                }
+            ],
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/atc"
+        },
+        {
+            "extension": [
+                {
+                    "url": "code",
+                    "valueCoding": {
+                        "system": "http://atc",
+                        "code": "C01EB16",
+                        "display": "Ibuprofen"
+                    }
+                },
+                {
+                    "url": "isPrimary",
+                    "valueBoolean": false
+                }
+            ],
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/atc"
+        },
+        {
+            "extension": [
+                {
+                    "url": "code",
+                    "valueCoding": {
+                        "system": "http://atc",
+                        "code": "M02AA13",
+                        "display": "Ibuprofen"
+                    }
+                },
+                {
+                    "url": "isPrimary",
+                    "valueBoolean": false
+                }
+            ],
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/atc"
         },
         {
             "url": "http://hl7.org.nz/fhir/StructureDefinition/link",
@@ -21,14 +72,14 @@
             "url": "http://hl7.org.nz/fhir/StructureDefinition/link",
             "valueReference": {
                 "reference": "feab8dcf-c525-4c91-a5de-3976d552fd41",
-                "display": "Monograph for  ibuprofen (intravenous)"
+                "display": "Monograph for ibuprofen (intravenous)"
             }
         },
         {
             "url": "http://hl7.org.nz/fhir/StructureDefinition/link",
             "valueReference": {
                 "reference": "bbc3bac9-f22d-44f4-9259-e14a86698d61",
-                "display": "Monograph for  ibuprofen (topical)"
+                "display": "Monograph for ibuprofen (topical)"
             }
         },
         {

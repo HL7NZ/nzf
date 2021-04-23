@@ -2,8 +2,8 @@
     "resourceType": "Medication",
     "id": "mpuu-ibuprofen-200-mg-capsule-10013271000116104",
     "meta": {
-        "versionId": "2",
-        "lastUpdated": "2021-04-21T04:16:23.354+00:00"
+        "versionId": "3",
+        "lastUpdated": "2021-04-23T02:02:59.748+00:00"
     },
     "extension": [
         {
@@ -49,31 +49,48 @@
             "url": "http://hl7.org.nz/fhir/StructureDefinition/cal"
         },
         {
+            "extension": [
+                {
+                    "url": "code",
+                    "valueCoding": {
+                        "system": "http://atc",
+                        "code": "M01AE01",
+                        "display": "Ibuprofen"
+                    }
+                },
+                {
+                    "url": "isPrimary",
+                    "valueBoolean": false
+                }
+            ],
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/atc"
+        },
+        {
             "url": "http://hl7.org.nz/fhir/StructureDefinition/link",
             "valueReference": {
                 "reference": "a04838a9-c166-4886-ba0d-c49da235d059",
-                "display": "Fhir reference for ibuprofen (oral)(Monograph)"
+                "display": "Monograph for ibuprofen (oral)"
             }
         },
         {
             "url": "http://hl7.org.nz/fhir/StructureDefinition/link",
             "valueReference": {
                 "reference": "feab8dcf-c525-4c91-a5de-3976d552fd41",
-                "display": "Fhir reference for ibuprofen (intravenous)(Monograph)"
+                "display": "Monograph for ibuprofen (intravenous)"
             }
         },
         {
             "url": "http://hl7.org.nz/fhir/StructureDefinition/link",
             "valueReference": {
                 "reference": "bbc3bac9-f22d-44f4-9259-e14a86698d61",
-                "display": "Fhir reference for ibuprofen (topical)(Monograph)"
+                "display": "Monograph for ibuprofen (topical)"
             }
         },
         {
             "url": "http://hl7.org.nz/fhir/StructureDefinition/link",
             "valueReference": {
                 "reference": "0f051919-bcdd-4418-9a61-925c0207f3dd",
-                "display": "Fhir reference for ibuprofen (systemic)(Monograph)"
+                "display": "Monograph for ibuprofen (systemic)"
             }
         }
     ],
