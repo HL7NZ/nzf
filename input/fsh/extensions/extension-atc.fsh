@@ -14,7 +14,7 @@ Description: "ATC Code - see https://www.who.int/tools/atc-ddd-toolkit/atc-class
 
 * extension[code].url = "code" (exactly)
 * extension[code] ^definition = "The ATC Code."
-* extension[code].value[x] only code
+* extension[code].value[x] only Coding
 
 * extension[isPrimary].url = "isPrimary" (exactly)
 * extension[isPrimary] ^definition = "Whether the ATC code is the primary code"
