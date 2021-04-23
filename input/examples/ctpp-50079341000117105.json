@@ -1,0 +1,155 @@
+{
+    "resourceType": "Medication",
+    "id": "ctpp-50079341000117105",
+    "meta": {
+        "versionId": "2",
+        "lastUpdated": "2021-04-23T02:16:06.718+00:00"
+    },
+    "extension": [
+        {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzmt-type",
+            "valueString": "ctpp"
+        },
+        {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/sect29",
+            "valueBoolean": false
+        },
+        {
+            "extension": [
+                {
+                    "url": "id",
+                    "valueString": "10"
+                },
+                {
+                    "url": "type",
+                    "valueString": "label"
+                },
+                {
+                    "url": "text",
+                    "valueString": "Take each dose with a large glass of water."
+                }
+            ],
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/cal"
+        },
+        {
+            "extension": [
+                {
+                    "url": "id",
+                    "valueString": "B"
+                },
+                {
+                    "url": "type",
+                    "valueString": "reference"
+                },
+                {
+                    "url": "text",
+                    "valueString": "with food"
+                }
+            ],
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/cal"
+        },
+        {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/link",
+            "valueReference": {
+                "reference": "a04838a9-c166-4886-ba0d-c49da235d059",
+                "display": "Monograph for ibuprofen (oral)"
+            }
+        },
+        {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/link",
+            "valueReference": {
+                "reference": "feab8dcf-c525-4c91-a5de-3976d552fd41",
+                "display": "Monograph for ibuprofen (intravenous)"
+            }
+        },
+        {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/link",
+            "valueReference": {
+                "reference": "bbc3bac9-f22d-44f4-9259-e14a86698d61",
+                "display": "Monograph for ibuprofen (topical)"
+            }
+        },
+        {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/link",
+            "valueReference": {
+                "reference": "0f051919-bcdd-4418-9a61-925c0207f3dd",
+                "display": "Monograph for ibuprofen (systemic)"
+            }
+        },
+        {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/legalclass",
+            "valueCodeableConcept": {
+                "text": "General sale"
+            }
+        },
+        {
+            "extension": [
+                {
+                    "url": "type",
+                    "valueCode": "community"
+                },
+                {
+                    "url": "status",
+                    "valueCode": "no subsidy"
+                }
+            ],
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/funding"
+        },
+        {
+            "extension": [
+                {
+                    "url": "code",
+                    "valueCoding": {
+                        "system": "http://atc",
+                        "code": "M01AE01",
+                        "display": "Ibuprofen"
+                    }
+                },
+                {
+                    "url": "isPrimary",
+                    "valueBoolean": true
+                }
+            ],
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/atc"
+        }
+    ],
+    "code": {
+        "coding": [
+            {
+                "system": "https://nzulm.org.nz/nzmt",
+                "code": "50079341000117105",
+                "display": "Nurofen 200 mg tablet: sugar-coated, 12 tablets, blister pack"
+            },
+            {
+                "system": "https://nzulm.org.nz/pharmacode",
+                "code": "377147"
+            }
+        ]
+    },
+    "ingredient": [
+        {
+            "itemCodeableConcept": {
+                "coding": [
+                    {
+                        "system": "https://nzulm.org.nz/nzmt",
+                        "code": "10013251000116106",
+                        "display": "ibuprofen"
+                    }
+                ]
+            },
+            "isActive": true
+        },
+        {
+            "itemCodeableConcept": {
+                "coding": [
+                    {
+                        "system": "https://nzulm.org.nz/nzmt",
+                        "code": "2211011000036101",
+                        "display": "ibuprofen"
+                    }
+                ]
+            },
+            "isActive": true
+        }
+    ]
+}
