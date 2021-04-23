@@ -29,7 +29,7 @@ Title:          "Medication resource for NZ Formulary"
     
 
 
-* extension[atc] ^short = "ATC (whatever that is)"
+* extension[atc] ^short = "Anatomical Therapeutic Chemical (ATC) Classification"
 * extension[link] ^short = "Links to other information about this medication"
 * extension[cal] ^short = "Cautionary and Advisory Label"
 * extension[funding] ^short = "Funding constraints and requirements"
