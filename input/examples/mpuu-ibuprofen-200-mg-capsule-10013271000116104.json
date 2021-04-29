@@ -5,6 +5,10 @@
         "versionId": "3",
         "lastUpdated": "2021-04-23T02:02:59.748+00:00"
     },
+    "text" : {
+        "status": "generated",
+        "div": "<div xmlns='http://www.w3.org/1999/xhtml'>Text of med</div>"
+    },
     "extension": [
         {
             "url": "http://hl7.org.nz/fhir/StructureDefinition/nzmt-type",
