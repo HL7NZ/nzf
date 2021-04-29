@@ -5,6 +5,7 @@ Description: "Specific descriptions that apply to this medication"
 * ^url = "http://hl7.org.nz/fhir/StructureDefinition/supply-information"
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
 
+* ^status = #draft
 * ^context.type = #element
 * ^context.expression = "Medication"
 

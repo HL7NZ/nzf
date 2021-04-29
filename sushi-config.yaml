@@ -19,6 +19,7 @@ publisher: New Zealand Medicines Formulary LP
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   Home: index.html
+  Extensions: extensions.html
   Artifacts: artifacts.html
   Mappings: mapping.html
   Use cases: use-cases.html

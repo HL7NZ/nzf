@@ -16,8 +16,8 @@ echo "Creating Profiles and extensions summary pages..."
 #echo "Making API summary"
 #../scripts/makeCapabilityStatement.js medtech
 
-#echo "Making examples"
-#../scripts/makeExamplePage.js medtech
+echo "Making examples"
+../scripts/makeExamplePage.js nzf
 
 # echo "Making NamingSystem summary"
 # temp ../scripts/makeNamingSystemSummary.js medtech

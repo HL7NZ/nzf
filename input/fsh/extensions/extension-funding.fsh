@@ -5,6 +5,7 @@ Description: "Funding elements specific to NZ. "
 * ^url = "http://hl7.org.nz/fhir/StructureDefinition/funding"
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
 
+* ^status = #draft
 * ^context.type = #element
 * ^context.expression = "Medication"
 

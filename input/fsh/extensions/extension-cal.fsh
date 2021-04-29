@@ -8,6 +8,7 @@ Description: "Cautionary and Advisory Label"
 
 * ^title = "Cautionary and Advisory Label"
 
+* ^status = #draft
 * ^context.type = #element
 * ^context.expression = "Medication"
 
