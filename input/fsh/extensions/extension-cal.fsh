@@ -14,7 +14,7 @@ Description: "Cautionary and Advisory Label"
 
 * extension contains
     id 1..1 and
-    type 1..1 and 
+    labelType 1..1 and 
     text 1..1
 
 * extension[id].url = "id" (exactly)
