@@ -49,8 +49,8 @@ The standard Medication resource provides the key information needed for integra
     <tr>
         <td>ATC</td>
         <td>The Anatomical Therapeutic Chemical Classification code(s)</td>
-        <td></td>
-        <td></td>
+        <td>Yes</td>
+        <td>Yes</td>
         <td>Yes</td>
         <td>Yes</td>
         <td>Yes</td>

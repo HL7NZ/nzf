@@ -11,4 +11,4 @@ Description: "Legal classification"
 * ^context.expression = "Medication"       
  
 * extension 0..0
-* value[x] only CodeableConcept
+* value[x] only CodeableConcept from https://standards.digital.health.nz/fhir/ValueSet/medication-legal-classification-code

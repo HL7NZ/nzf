@@ -19,12 +19,12 @@ Description: "Cautionary and Advisory Label"
 
 * extension[id].url = "id" (exactly)
 * extension[id] ^definition = "An id for this CAL."
-* extension[id].value[x] only string
+* extension[id].value[x] only id
 
-* extension[type].url = "type" (exactly)
-* extension[type] ^definition = "The categorization of the CAL."
+* extension[type].url = "labelType" (exactly)
+* extension[type] ^definition = "The type of label."
 * extension[type].value[x] only code
 
 * extension[text].url = "text" (exactly)
-* extension[text] ^definition = "The textual display for this CAL."
+* extension[text] ^definition = "The label text."
 * extension[text].value[x] only string
