@@ -119,11 +119,11 @@
             <td>Legal Classification</td>
             <td></td>
             <td></td>
+            <td>*</td>
+            <td>**</td>
             <td></td>
             <td></td>
-            <td></td>
-            <td></td>
-            <td>Medsafe package, details to come</td>
+            <td>CTPP -> ms_product.classification</td>
         </tr>
         <tr>
             <td>Prescribe by brand</td>
@@ -230,3 +230,5 @@
         </tr>
     </table>
 </div>
+<p>* legal classifications for MPUUs are derived from their matching TPUU - see below</p>
+<p>** legal classifications for TPUUs are derived from their associated CTPPs.  If all CTPPs have the same classification then this is assigned to the TPUU.  If not, then this is left blank</p>
