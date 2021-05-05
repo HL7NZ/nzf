@@ -73,8 +73,8 @@ The standard Medication resource provides the key information needed for integra
         <td>Medsafe legal classification</td>
         <td></td>
         <td></td>
-        <td></td>
-        <td></td>
+        <td>Yes</td>
+        <td>Yes</td>
         <td></td>
         <td></td>
         <td>Yes</td>
