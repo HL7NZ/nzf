@@ -1,4 +1,4 @@
-ValueSet: MedicineClassificationCode
+CodeSystem:  MedicineClassificationCode
 Id: medicine-classification-code
 Title: "Possible values for Medication Legal Classification"
 Description: "The set of all possible legal classifications"
