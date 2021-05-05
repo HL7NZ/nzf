@@ -14,9 +14,9 @@ Description: "Legal classification"
     conditions 0..1
 
 * extension[code].url = "code" (exactly)
-* extension[type] ^definition = "Medsafe legal classification code"
-* extension[type].value[x] only CodeableConcept 
-* extension[type].valueCodeableConcept from https://standards.digital.health.nz/fhir/ValueSet/medicine-classification-code
+* extension[code] ^definition = "Medsafe legal classification code"
+* extension[code].value[x] only CodeableConcept 
+* extension[code].valueCodeableConcept from https://standards.digital.health.nz/fhir/ValueSet/medicine-classification-code
 
 * extension[conditions].url = "conditions" (exactly)
 * extension[conditions] ^definition = "Classification conditions"
