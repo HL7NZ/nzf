@@ -6,10 +6,17 @@ Description: "Legal classification"
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
 
 * ^status = #draft
-
 * ^context.type = #element
 * ^context.expression = "Medication"       
  
-* extension 0..0
-* value[x] only CodeableConcept 
+* extension contains
+    code 1..1 and
+    conditions 0..1
 
+* extension[code].url = "code" (exactly)
+* extension[type] ^definition = "Medsafe legal classification code"
+* extension[type].value[x] only CodeableConcept from https://standards.digital.health.nz/fhir/ValueSet/medicine-classification-code
+
+* extension[conditions].url = "conditions" (exactly)
+* extension[conditions] ^definition = "Classification conditions"
+* extension[conditions].value[x] only string
