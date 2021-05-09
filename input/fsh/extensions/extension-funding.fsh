@@ -25,7 +25,7 @@ Description: "Funding elements specific to NZ. "
 
 * extension[status].url = "status" (exactly)
 * extension[status] ^definition = "Full, partial, none"
-* extension[status].value[x] only code
+* extension[status].value[x] only CodeableConcept
 
 * extension[subsidyPrice].url = "subsidyPrice" (exactly)
 * extension[subsidyPrice] ^definition = "The subsided price"

@@ -27,8 +27,6 @@ Title:          "Medication resource for NZ Formulary"
     $pbb named prescribebybrand 0..1 and
     $si named supplyinformation 0..*
     
-
-
 * extension[atc] ^short = "Anatomical Therapeutic Chemical (ATC) Classification"
 * extension[link] ^short = "Links to other information about this medication"
 * extension[cal] ^short = "Cautionary and Advisory Label"
@@ -38,3 +36,10 @@ Title:          "Medication resource for NZ Formulary"
 * extension[legalclass] ^short = "Legal classification of the medication"
 * extension[prescribebybrand] ^short = "True if can be prescribed by brand"
 * extension[supplyinformation] ^short = "Supply information"
+
+// elements that have been removed
+status 0..0
+sponsor 0..0
+amount 0..0
+ingredient.strength[x] 0..0
+batch 0..0
