@@ -4,3 +4,5 @@ This page details the recent changes we have made to the NZ Formulary/NZULM FHIR
 
 - 23/4/2021: Added ATC extension to medication resources
 - 30/4/2021: Updated ATC extension to be a CodeableConcept
+- 6/5/2021: Coded legal classifications
+- 10/5/2021: Modified Pharmac supply extension types, added descriptions

@@ -11,6 +11,6 @@ Details on what we are working on and what is coming up
 
 ### Medium term
 
-- **MedicinalProductDefinition**: Populate the MedicinalProductDefinition resource
 - **Interactions**: Provide interactions data using the ClinicalUseIssue resource and investigate the use of a CDS service/hook for access
+- **MedicinalProductDefinition**: Populate the MedicinalProductDefinition resource
 - **Medicine groups**: Establish a method of distributing medicine group information
