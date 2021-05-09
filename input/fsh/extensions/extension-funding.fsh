@@ -21,7 +21,7 @@ Description: "Funding elements specific to NZ. "
 
 * extension[type].url = "type" (exactly)
 * extension[type] ^definition = "Type of funding - hospital, community."
-* extension[type].value[x] only code
+* extension[type].value[x] only CodeableConcept
 
 * extension[status].url = "status" (exactly)
 * extension[status] ^definition = "Full, partial, none"

@@ -38,8 +38,8 @@ Title:          "Medication resource for NZ Formulary"
 * extension[supplyinformation] ^short = "Supply information"
 
 // elements that have been removed
-status 0..0
-sponsor 0..0
-amount 0..0
-ingredient.strength[x] 0..0
-batch 0..0
+* status 0..0
+* sponsor 0..0
+* amount 0..0
+* ingredient.strength[x] 0..0
+* batch 0..0
