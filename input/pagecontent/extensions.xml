@@ -83,8 +83,8 @@
 <td>draft</td>
 </tr>
 <tr>
-<td><a href='StructureDefinition-sect29.html'>sect29</a></td>
-<td>http://hl7.org.nz/fhir/StructureDefinition/sect29</td>
+<td><a href='StructureDefinition-unapproved.html'>unapproved</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/unapproved</td>
 <td>
 <div>Medication</div>
 </td>
