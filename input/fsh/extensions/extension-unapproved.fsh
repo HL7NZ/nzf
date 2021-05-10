@@ -1,5 +1,5 @@
-Extension: Sect29
-Id: sect29
+Extension: Unapproved
+Id: unapproved
 Description: "True if this medication can be used under section 29"
 
 * ^url = "http://hl7.org.nz/fhir/StructureDefinition/unapproved"
