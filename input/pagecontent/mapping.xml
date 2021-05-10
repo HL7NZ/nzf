@@ -126,6 +126,16 @@
             <td>CTPP -> ms_product.classification</td>
         </tr>
         <tr>
+            <td>Medsafe status</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>CTPP -> ms_package.pkg_status</td>
+        </tr>        
+        <tr>
             <td>Prescribe by brand</td>
             <td></td>
             <td></td>
