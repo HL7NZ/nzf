@@ -80,6 +80,17 @@ The standard Medication resource provides the key information needed for integra
         <td>Yes</td>
     </tr>
     <tr>
+        <td>Medsafe Status</td>
+        <td>Medsafe product status</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Yes</td>
+    </tr>    
+    <tr>
         <td>Prescribe by Brand</td>
         <td>Whether the medication should be prescribed by brand or not</td>
         <td></td>

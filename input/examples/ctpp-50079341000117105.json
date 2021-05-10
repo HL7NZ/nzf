@@ -93,6 +93,12 @@
             }
         },
         {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/medsafeStatus",
+            "valueCodeableConcept": {
+                "text": "Active"
+            }
+        },
+        {
             "extension": [
                 {
                     "url": "type",
