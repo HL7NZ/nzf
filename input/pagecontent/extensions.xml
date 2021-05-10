@@ -50,6 +50,17 @@
 <td>draft</td>
 </tr>
 <tr>
+<td><a href='StructureDefinition-medsafestatus.html'>medsafeStatus</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/medsafeStatus</td>
+<td>
+<div>Medication</div>
+</td>
+<td>Medsafe Status</td>
+<td></td>
+<td>0</td>
+<td>draft</td>
+</tr>
+<tr>
 <td><a href='StructureDefinition-link.html'>link</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/link</td>
 <td>
