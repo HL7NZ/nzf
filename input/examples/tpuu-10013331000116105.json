@@ -1,22 +1,17 @@
 {
     "resourceType": "Medication",
-    "id": "mpuu-ibuprofen-200-mg-capsule-10013271000116104",
+    "id": "tpuu-10013331000116105",
     "meta": {
-        "versionId": "5",
-        "lastUpdated": "2021-05-09T23:51:16.187+00:00"
+        "versionId": "4",
+        "lastUpdated": "2021-05-09T23:52:02.446+00:00"
     },
     "text": {
-        "status": "generated",
-        "div": "<div xmlns='http://www.w3.org/1999/xhtml'>ibuprofen 200 mg capsule (mpuu) 10013271000116104</div>"
+        "div": "<div xmlns='http://www.w3.org/1999/xhtml'>ACT-3 (ibuprofen 200 mg) capsule: soft, 1 capsule (tpuu) - 10013331000116105</div>"
     },
     "extension": [
         {
             "url": "http://hl7.org.nz/fhir/StructureDefinition/nzmt-type",
-            "valueString": "mpuu"
-        },
-        {
-            "url": "http://hl7.org.nz/fhir/StructureDefinition/prescribe-by-brand",
-            "valueBoolean": false
+            "valueString": "tpuu"
         },
         {
             "extension": [
@@ -68,7 +63,7 @@
                 },
                 {
                     "url": "isPrimary",
-                    "valueBoolean": false
+                    "valueBoolean": true
                 }
             ],
             "url": "http://hl7.org.nz/fhir/StructureDefinition/atc"
@@ -106,8 +101,8 @@
         "coding": [
             {
                 "system": "https://nzulm.org.nz/nzmt",
-                "code": "10013271000116104",
-                "display": "ibuprofen 200 mg capsule"
+                "code": "10013331000116105",
+                "display": "ACT-3 (ibuprofen 200 mg) capsule: soft, 1 capsule"
             }
         ]
     },
@@ -115,8 +110,8 @@
         "coding": [
             {
                 "system": "https://nzulm.org.nz/nzmt",
-                "code": "107011000036108",
-                "display": "capsule"
+                "code": "163011000036103",
+                "display": "capsule: soft"
             }
         ]
     },

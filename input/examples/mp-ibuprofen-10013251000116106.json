@@ -1,13 +1,13 @@
 {
     "resourceType": "Medication",
-    "id": "mp-ibuprofen-10013251000116106",
+    "id": "mp-10013251000116106",
     "meta": {
-        "versionId": "3",
-        "lastUpdated": "2021-04-23T02:02:56.673+00:00"
+        "versionId": "5",
+        "lastUpdated": "2021-05-09T23:51:12.762+00:00"
     },
-    "text" : {
+    "text": {
         "status": "generated",
-        "div": "<div xmlns='http://www.w3.org/1999/xhtml'>Text of med</div>"
+        "div": "<div xmlns='http://www.w3.org/1999/xhtml'>ibuprofen (mp) 10013251000116106</div>"
     },
     "extension": [
         {
@@ -18,10 +18,14 @@
             "extension": [
                 {
                     "url": "code",
-                    "valueCoding": {
-                        "system": "http://atc",
-                        "code": "M01AE01",
-                        "display": "Ibuprofen"
+                    "valueCodeableConcept": {
+                        "coding": [
+                            {
+                                "system": "http://atc",
+                                "code": "M01AE01"
+                            }
+                        ],
+                        "text": "Ibuprofen"
                     }
                 },
                 {
@@ -35,10 +39,14 @@
             "extension": [
                 {
                     "url": "code",
-                    "valueCoding": {
-                        "system": "http://atc",
-                        "code": "C01EB16",
-                        "display": "Ibuprofen"
+                    "valueCodeableConcept": {
+                        "coding": [
+                            {
+                                "system": "http://atc",
+                                "code": "C01EB16"
+                            }
+                        ],
+                        "text": "Ibuprofen"
                     }
                 },
                 {
@@ -52,10 +60,14 @@
             "extension": [
                 {
                     "url": "code",
-                    "valueCoding": {
-                        "system": "http://atc",
-                        "code": "M02AA13",
-                        "display": "Ibuprofen"
+                    "valueCodeableConcept": {
+                        "coding": [
+                            {
+                                "system": "http://atc",
+                                "code": "M02AA13"
+                            }
+                        ],
+                        "text": "Ibuprofen"
                     }
                 },
                 {
@@ -64,20 +76,6 @@
                 }
             ],
             "url": "http://hl7.org.nz/fhir/StructureDefinition/atc"
-        },
-        {
-            "url": "http://hl7.org.nz/fhir/StructureDefinition/link",
-            "valueReference": {
-                "reference": "a04838a9-c166-4886-ba0d-c49da235d059",
-                "display": "Monograph for ibuprofen (oral)"
-            }
-        },
-        {
-            "url": "http://hl7.org.nz/fhir/StructureDefinition/link",
-            "valueReference": {
-                "reference": "feab8dcf-c525-4c91-a5de-3976d552fd41",
-                "display": "Monograph for ibuprofen (intravenous)"
-            }
         },
         {
             "url": "http://hl7.org.nz/fhir/StructureDefinition/link",
@@ -91,6 +89,20 @@
             "valueReference": {
                 "reference": "0f051919-bcdd-4418-9a61-925c0207f3dd",
                 "display": "Monograph for ibuprofen (systemic)"
+            }
+        },
+        {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/link",
+            "valueReference": {
+                "reference": "a04838a9-c166-4886-ba0d-c49da235d059",
+                "display": "Monograph for ibuprofen (oral)"
+            }
+        },
+        {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/link",
+            "valueReference": {
+                "reference": "feab8dcf-c525-4c91-a5de-3976d552fd41",
+                "display": "Monograph for ibuprofen (intravenous)"
             }
         }
     ],

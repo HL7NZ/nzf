@@ -2,12 +2,12 @@
     "resourceType": "Medication",
     "id": "ctpp-50079341000117105",
     "meta": {
-        "versionId": "2",
-        "lastUpdated": "2021-04-23T02:16:06.718+00:00"
+        "versionId": "4",
+        "lastUpdated": "2021-05-10T00:04:00.772+00:00"
     },
-    "text" : {
+    "text": {
         "status": "generated",
-        "div": "<div xmlns='http://www.w3.org/1999/xhtml'>Text of med</div>"
+        "div": "<div xmlns='http://www.w3.org/1999/xhtml'>Nurofen 200 mg tablet: sugar-coated, 12 tablets, blister pack (ctpp) 50079341000117105</div>"
     },
     "extension": [
         {
@@ -22,10 +22,10 @@
             "extension": [
                 {
                     "url": "id",
-                    "valueString": "10"
+                    "valueId": "10"
                 },
                 {
-                    "url": "type",
+                    "url": "labelType",
                     "valueString": "label"
                 },
                 {
@@ -39,10 +39,10 @@
             "extension": [
                 {
                     "url": "id",
-                    "valueString": "B"
+                    "valueId": "B"
                 },
                 {
-                    "url": "type",
+                    "url": "labelType",
                     "valueString": "reference"
                 },
                 {
@@ -51,20 +51,6 @@
                 }
             ],
             "url": "http://hl7.org.nz/fhir/StructureDefinition/cal"
-        },
-        {
-            "url": "http://hl7.org.nz/fhir/StructureDefinition/link",
-            "valueReference": {
-                "reference": "a04838a9-c166-4886-ba0d-c49da235d059",
-                "display": "Monograph for ibuprofen (oral)"
-            }
-        },
-        {
-            "url": "http://hl7.org.nz/fhir/StructureDefinition/link",
-            "valueReference": {
-                "reference": "feab8dcf-c525-4c91-a5de-3976d552fd41",
-                "display": "Monograph for ibuprofen (intravenous)"
-            }
         },
         {
             "url": "http://hl7.org.nz/fhir/StructureDefinition/link",
@@ -81,8 +67,28 @@
             }
         },
         {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/link",
+            "valueReference": {
+                "reference": "a04838a9-c166-4886-ba0d-c49da235d059",
+                "display": "Monograph for ibuprofen (oral)"
+            }
+        },
+        {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/link",
+            "valueReference": {
+                "reference": "feab8dcf-c525-4c91-a5de-3976d552fd41",
+                "display": "Monograph for ibuprofen (intravenous)"
+            }
+        },
+        {
             "url": "http://hl7.org.nz/fhir/StructureDefinition/legalclass",
             "valueCodeableConcept": {
+                "coding": [
+                    {
+                        "system": "https://standards.digital.health.nz/fhir/ValueSet/medicine-classification-code",
+                        "code": "GS"
+                    }
+                ],
                 "text": "General sale"
             }
         },
@@ -90,11 +96,15 @@
             "extension": [
                 {
                     "url": "type",
-                    "valueCode": "community"
+                    "valueCodeableConcept": {
+                        "text": "community"
+                    }
                 },
                 {
                     "url": "status",
-                    "valueCode": "no subsidy"
+                    "valueCodeableConcept": {
+                        "text": "no subsidy"
+                    }
                 }
             ],
             "url": "http://hl7.org.nz/fhir/StructureDefinition/funding"
@@ -103,10 +113,14 @@
             "extension": [
                 {
                     "url": "code",
-                    "valueCoding": {
-                        "system": "http://atc",
-                        "code": "M01AE01",
-                        "display": "Ibuprofen"
+                    "valueCodeableConcept": {
+                        "coding": [
+                            {
+                                "system": "http://atc",
+                                "code": "M01AE01"
+                            }
+                        ],
+                        "text": "Ibuprofen"
                     }
                 },
                 {
