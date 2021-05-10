@@ -39,7 +39,7 @@ Title:          "Medication resource for NZ Formulary"
 
 // elements that have been removed
 * status 0..0
-* sponsor 0..0
+* manufacturer 0..0
 * amount 0..0
-* ingredient.strength[x] 0..0
+* ingredient.strength 0..0
 * batch 0..0
