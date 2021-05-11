@@ -1,9 +1,21 @@
+ValueSet: DHB
+Id: dhb
+Title: "District Health Board HPI Organisation Identifer"
+Description: "District Health Board HPI Organisation Identifer"
+
+* ^url = "https://standards.digital.health.nz/fhir/ValueSet/medicine-classification-code"
+* ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
+
+* codes from system https://standards.digital.health.nz/ns/medicine-classification-code
+
+
+
 CodeSystem:  MedicineClassificationCode
 Id: medicine-classification-code
 Title: "Possible values for Medication Legal Classification"
 Description: "The set of all possible legal classifications"
 
-* ^url = "https://standards.digital.health.nz/fhir/ValueSet/medicine-classification-code"
+* ^url = "https://standards.digital.health.nz/ns/medicine-classification-code"
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
 
 * #P "Prescription"
