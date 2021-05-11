@@ -36,4 +36,5 @@ Get a list of all NZFC monographs (Child monographs)
 Get a list of monographs by an MP sctid
 >[base]/DocumentReference?context.related=10013251000116106
 
-
+Get a list of all Special Authority Forms
+>[base]/DocumentReference?type:text=SpecialAuthorityForm
