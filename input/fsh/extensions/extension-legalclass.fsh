@@ -15,9 +15,11 @@ Description: "Legal classification"
 
 * extension[code].url = "code" (exactly)
 * extension[code] ^definition = "Medsafe legal classification code"
+* extension[code] ^short = "Medsafe legal classification code"
 * extension[code].value[x] only CodeableConcept 
 * extension[code].valueCodeableConcept from https://standards.digital.health.nz/fhir/ValueSet/medicine-classification-code
 
 * extension[conditions].url = "conditions" (exactly)
 * extension[conditions] ^definition = "Classification conditions"
+* extension[conditions] ^short = "Classification conditions"
 * extension[conditions].value[x] only string

@@ -21,28 +21,35 @@ Description: "Funding elements specific to NZ. "
 
 * extension[type].url = "type" (exactly)
 * extension[type] ^definition = "Type of funding - hospital, community."
+* extension[type] ^short = "Type of funding - hospital, community."
 * extension[type].value[x] only CodeableConcept
 
 * extension[status].url = "status" (exactly)
 * extension[status] ^definition = "Full, partial, none"
+* extension[status] ^short = "Full, partial, none"
 * extension[status].value[x] only CodeableConcept
 
 * extension[subsidyPrice].url = "subsidyPrice" (exactly)
 * extension[subsidyPrice] ^definition = "The subsided price"
+* extension[subsidyPrice] ^short = "The subsided price"
 * extension[subsidyPrice].value[x] only Money
 
 * extension[manPrice].url = "manPrice" (exactly)
 * extension[manPrice] ^definition = "The manufacturer price."
+* extension[manPrice] ^short = "The manufacturer price."
 * extension[manPrice].value[x] only Money
 
 * extension[scheduleDate].url = "scheduleDate" (exactly)
 * extension[scheduleDate] ^definition = "The date this item was placed on the schedule"
+* extension[scheduleDate] ^short = "The date this item was placed on the schedule"
 * extension[scheduleDate].value[x] only date
 
 * extension[note].url = "note" (exactly)
 * extension[note] ^definition = "A note that applies to this funding"
+* extension[note] ^short = "A note that applies to this funding"
 * extension[note].value[x] only string
 
 * extension[rule].url = "rule" (exactly)
 * extension[rule] ^definition = "A rule that applies to this funding"
+* extension[rule] ^short = "A rule that applies to this funding"
 * extension[rule].value[x] only string

@@ -50,23 +50,23 @@
 <td>draft</td>
 </tr>
 <tr>
-<td><a href='StructureDefinition-medsafeStatus.html'>medsafeStatus</a></td>
-<td>http://hl7.org.nz/fhir/StructureDefinition/medsafeStatus</td>
-<td>
-<div>Medication</div>
-</td>
-<td>Medsafe Status</td>
-<td></td>
-<td>0</td>
-<td>draft</td>
-</tr>
-<tr>
 <td><a href='StructureDefinition-link.html'>link</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/link</td>
 <td>
 <div>Medication</div>
 </td>
 <td>Reference to other information about this medication</td>
+<td></td>
+<td>0</td>
+<td>draft</td>
+</tr>
+<tr>
+<td><a href='StructureDefinition-medsafeStatus.html'>medsafeStatus</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/medsafeStatus</td>
+<td>
+<div>Medication</div>
+</td>
+<td>Medsafe Status</td>
 <td></td>
 <td>0</td>
 <td>draft</td>
@@ -83,23 +83,23 @@
 <td>draft</td>
 </tr>
 <tr>
-<td><a href='StructureDefinition-unapproved.html'>unapproved</a></td>
-<td>http://hl7.org.nz/fhir/StructureDefinition/unapproved</td>
-<td>
-<div>Medication</div>
-</td>
-<td>True if this medication is to be used under section 29</td>
-<td></td>
-<td>0</td>
-<td>draft</td>
-</tr>
-<tr>
 <td><a href='StructureDefinition-supply-information.html'>supply-information</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/supply-information</td>
 <td>
 <div>Medication</div>
 </td>
-<td>Specific descriptions that apply to this medication</td>
+<td>Information around the supply and availability of medications applied at each NZMT level.  For example, when paracetamol tablets are in short supply an alert may be attached to the MP level medication along with the relevant details.</td>
+<td></td>
+<td>0</td>
+<td>draft</td>
+</tr>
+<tr>
+<td><a href='StructureDefinition-unapproved.html'>unapproved</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/unapproved</td>
+<td>
+<div>Medication</div>
+</td>
+<td>True if this medication can be used under section 29</td>
 <td></td>
 <td>0</td>
 <td>draft</td>

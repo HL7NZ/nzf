@@ -6,6 +6,11 @@
 <table class='table table-bordered table-condensed'>
 <tr><th width='30%'>Description</th><th width='20%'>Type</th><th width='20%'>Id</th></tr>
 <tr>
+<td><a href='Medication-tpuu-10013331000116105.html'>undefined</a></td>
+<td>Medication</td>
+<td>tpuu-10013331000116105</td>
+</tr>
+<tr>
 <td><a href='Medication-mpuu-ibuprofen-200-mg-capsule-10013271000116104.html'>undefined</a></td>
 <td>Medication</td>
 <td>mpuu-ibuprofen-200-mg-capsule-10013271000116104</td>
@@ -40,6 +45,10 @@
 <tr>
 <td><a href='Medication-mpuu-ibuprofen-200-mg-capsule-10013271000116104.html'>undefined</a></td>
 <td>mpuu-ibuprofen-200-mg-capsule-10013271000116104</td>
+</tr>
+<tr>
+<td><a href='Medication-tpuu-10013331000116105.html'>undefined</a></td>
+<td>tpuu-10013331000116105</td>
 </tr>
 </table>
 </div>
