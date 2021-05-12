@@ -58,8 +58,8 @@ The standard Medication resource provides the key information needed for integra
         <td>Yes</td>
     </tr>
     <tr>
-        <td>Section 29</td>
-        <td>Whether the medication is section 29 or not</td>
+        <td>Unapproved</td>
+        <td>True if the medication has not been approved by Medsafe and can be prescribed under section 29</td>
         <td></td>
         <td></td>
         <td></td>
