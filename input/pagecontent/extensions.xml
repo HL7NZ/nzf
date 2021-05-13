@@ -72,6 +72,17 @@
 <td>draft</td>
 </tr>
 <tr>
+<td><a href='StructureDefinition-nzmtType.html'>nzmtType</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/nzmtType</td>
+<td>
+<div>Medication</div>
+</td>
+<td>Type of NZMT record (e.g. MP, MPUU)</td>
+<td></td>
+<td>0</td>
+<td>draft</td>
+</tr>
+<tr>
 <td><a href='StructureDefinition-prescribe-by-brand.html'>prescribe-by-brand</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/prescribe-by-brand</td>
 <td>
@@ -99,7 +110,7 @@
 <td>
 <div>Medication</div>
 </td>
-<td>True if this medication can be used under section 29</td>
+<td>True if this medication has not been approved by Medsafe and can be prescribed under section 29</td>
 <td></td>
 <td>0</td>
 <td>draft</td>
