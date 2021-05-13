@@ -28,8 +28,8 @@ Get list of medications that contain ibuprofen (MP)
 Get list of medications that contain ibuprofen (substance)
 >[base]/Medication?ingredient-code=2211011000036101
 
-Get list of all active medications (based on the formulary criteria - see [mappings for criteria](./mappings.html) )
->[base]/Medication?ingredient-code=2211011000036101
+Not available yet - Get list of all active medications (based on the formulary criteria - see [mappings for criteria](./mapping.html) )
+>[base]/Medication?status=active
 
 **Note currently the FHIR server isn't configured to filter by extension which makes limiting to a medication type difficult.  This will be fixed soon**
 
