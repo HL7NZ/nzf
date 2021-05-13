@@ -1,7 +1,7 @@
-ValueSet: DHB
-Id: dhb
-Title: "District Health Board HPI Organisation Identifer"
-Description: "District Health Board HPI Organisation Identifer"
+ValueSet: MedicineClassificationCodeHB
+Id: medicine-classification-code
+Title: "Legal Medication status"
+Description: "Legal Medication status"
 
 * ^url = "https://standards.digital.health.nz/fhir/ValueSet/medicine-classification-code"
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
