@@ -17,8 +17,14 @@ Get medications that have been updated since 1 Apr 2021 (can be useful for maint
 >[base]/Medication?_lastUpdated=gt2021-04-01
 
 
-Get list of medications that contain paracetamol
->[base]/Medication?
+Get list of medications that contain ibuprofen (MP)
+>[base]/Medication?ingredient-code=10013251000116106
+
+Get list of medications that contain ibuprofen (substance)
+>[base]/Medication?ingredient-code=2211011000036101
+
+Get list of all active medications (based on the formulary criteria - see [mappings for criteria](./mappings.html) )
+>[base]/Medication?ingredient-code=2211011000036101
 
 **Note currently the FHIR server isn't configured to filter by extension which makes limiting to a medication type difficult.  This will be fixed soon**
 
