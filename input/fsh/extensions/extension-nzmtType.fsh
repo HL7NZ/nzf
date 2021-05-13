@@ -10,5 +10,6 @@ Description: "Type of NZMT record (e.g. MP, MPUU)"
 * ^context.expression = "Medication"       
  
 * extension 0..0
-* value[x] only CodeableConcept from https://standards.digital.health.nz/fhir/ValueSet/nzmt-type
+* value[x] only CodeableConcept 
+* value[x].valueCodeableConcept from https://standards.digital.health.nz/fhir/ValueSet/nzmt-type
 
