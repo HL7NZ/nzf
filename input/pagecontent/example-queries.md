@@ -1,4 +1,4 @@
-### Common use cases
+### Example queries
 
 WIP - the intention of this page is to detail common use cases, ranging from the simple retrieval of resources to best practice for using that data (e.g. for interactions checking etc.)
 
