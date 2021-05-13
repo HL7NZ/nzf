@@ -1,3 +1,4 @@
+Alias: $nzmtType = http://hl7.org.nz/fhir/StructureDefinition/nzmtType
 Alias: $atc = http://hl7.org.nz/fhir/StructureDefinition/atc
 Alias: $link = http://hl7.org.nz/fhir/StructureDefinition/link
 Alias: $cal = http://hl7.org.nz/fhir/StructureDefinition/cal
@@ -18,6 +19,7 @@ Title:          "Medication resource for NZ Formulary"
 * ^url = "http://hl7.org.nz/fhir/StructureDefinition/nzf-medication"
 
 * extension contains
+    $nzmtType named nzmtType 1..1 and
     $atc named atc 0..* and
     $link named link 0..* and 
     $cal named cal 0..* and
@@ -28,7 +30,8 @@ Title:          "Medication resource for NZ Formulary"
     $medsafeStatus named medsafeStatus 0..1 and
     $pbb named prescribebybrand 0..1 and
     $si named supplyinformation 0..*
-    
+
+* extension[nzmtType] ^short = "Type of NZMT record (e.g. MP, MPUU)"    
 * extension[atc] ^short = "Anatomical Therapeutic Chemical (ATC) Classification"
 * extension[link] ^short = "Links to other information about this medication"
 * extension[cal] ^short = "Cautionary and Advisory Label"

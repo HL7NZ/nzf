@@ -22,8 +22,9 @@ menu:
   Extensions: extensions.html
   Profiles: profiles.html
   Artifacts: artifacts.html
+  Notes: notes.html
   Mappings: mapping.html
-  Use cases: use-cases.html
+  Example queries: example-queries.html
   FAQ: faq.html
   Roadmap: roadmap.html
   Change log: changelog.html
