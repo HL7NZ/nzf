@@ -212,7 +212,7 @@
         <tr>
             <td>Description</td>
             <td>Monograph title</td>
-            <td>Special Authority Form for {ctpp name}</td>
+            <td>Special Authority Form {SA Form Id}</td>
             <td></td>
             <td></td>
         </tr>
@@ -234,7 +234,7 @@
             <td>context.related</td>
             <td>List of MP codes associated with monograph. Potentially this could be added to include all medicine
                 codes associated with this monograph.</td>
-            <td>CTPP Id<br />Pharmacode</td>
+            <td>CTPP Id(s) that are linked to SA Form</td>
             <td></td>
             <td></td>
         </tr>

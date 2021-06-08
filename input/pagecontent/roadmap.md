@@ -13,7 +13,6 @@ Details on what we are working on and what is coming up
 
 ### Probable additions
 
-- **Special Authority Document References**: Create Special Authority document references and link to medications
 - **Medsafe Datasheets**: Create Medsafe datasheet document references and link to medications
 - **Patient Information Leaflets (PILs) Document References**: Create PIL document references and link to medications
 - **GTINS**
