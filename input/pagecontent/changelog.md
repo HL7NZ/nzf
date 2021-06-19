@@ -9,4 +9,6 @@ This page details the recent changes we have made to the NZ Formulary/NZULM FHIR
 - 10/5/2021: Added legal classification to MPUU and TPUUs, see mappings for details (with the exception of s29 products)
 - 11/5/2021: Added medsafe status to CTPP medication resources
 - 11/5/2021: Renamed section29 extension to unapproved to reflect upcoming legalisation
+- 8/6/2021: Added special authority form document references and medication links
+
 
