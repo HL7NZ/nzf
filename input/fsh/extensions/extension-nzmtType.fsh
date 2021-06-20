@@ -2,7 +2,7 @@ Extension: NzmtType
 Id: nzmtType
 Description: "Type of NZMT record (e.g. MP, MPUU)"
 
-* ^url = "http://hl7.org.nz/fhir/StructureDefinition/nzmtType"
+* ^url = "http://hl7.org.nz/fhir/StructureDefinition/nzf-nzmtType"
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
 
 * ^status = #draft

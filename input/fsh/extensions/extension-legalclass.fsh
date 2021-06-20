@@ -2,7 +2,7 @@ Extension: LegalClass
 Id: legalclass
 Description: "Legal classification"
 
-* ^url = "http://hl7.org.nz/fhir/StructureDefinition/legalclass"
+* ^url = "http://hl7.org.nz/fhir/StructureDefinition/nzf-legalclass"
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
 
 * ^status = #draft

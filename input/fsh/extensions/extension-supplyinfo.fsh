@@ -2,7 +2,7 @@ Extension: SupplyInformation
 Id: supply-information
 Description: "Information around the supply and availability of medications applied at each NZMT level.  For example, when paracetamol tablets are in short supply an alert may be attached to the MP level medication along with the relevant details."
 
-* ^url = "http://hl7.org.nz/fhir/StructureDefinition/supply-information"
+* ^url = "http://hl7.org.nz/fhir/StructureDefinition/nzf-supply-information"
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
 
 * ^status = #draft

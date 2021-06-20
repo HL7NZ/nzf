@@ -11,11 +11,11 @@
     },
     "extension": [
         {
-            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzmt-type",
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-nzmt-type",
             "valueString": "ctpp"
         },
         {
-            "url": "http://hl7.org.nz/fhir/StructureDefinition/unapproved",
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-unapproved",
             "valueBoolean": false
         },
         {
@@ -33,7 +33,7 @@
                     "valueString": "Take each dose with a large glass of water."
                 }
             ],
-            "url": "http://hl7.org.nz/fhir/StructureDefinition/cal"
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-cal"
         },
         {
             "extension": [
@@ -50,38 +50,38 @@
                     "valueString": "with food"
                 }
             ],
-            "url": "http://hl7.org.nz/fhir/StructureDefinition/cal"
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-cal"
         },
         {
-            "url": "http://hl7.org.nz/fhir/StructureDefinition/link",
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-link",
             "valueReference": {
                 "reference": "bbc3bac9-f22d-44f4-9259-e14a86698d61",
                 "display": "Monograph for ibuprofen (topical)"
             }
         },
         {
-            "url": "http://hl7.org.nz/fhir/StructureDefinition/link",
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-link",
             "valueReference": {
                 "reference": "0f051919-bcdd-4418-9a61-925c0207f3dd",
                 "display": "Monograph for ibuprofen (systemic)"
             }
         },
         {
-            "url": "http://hl7.org.nz/fhir/StructureDefinition/link",
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-link",
             "valueReference": {
                 "reference": "a04838a9-c166-4886-ba0d-c49da235d059",
                 "display": "Monograph for ibuprofen (oral)"
             }
         },
         {
-            "url": "http://hl7.org.nz/fhir/StructureDefinition/link",
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-link",
             "valueReference": {
                 "reference": "feab8dcf-c525-4c91-a5de-3976d552fd41",
                 "display": "Monograph for ibuprofen (intravenous)"
             }
         },
         {
-            "url": "http://hl7.org.nz/fhir/StructureDefinition/legalclass",
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-legalclass",
             "valueCodeableConcept": {
                 "coding": [
                     {
@@ -93,7 +93,7 @@
             }
         },
         {
-            "url": "http://hl7.org.nz/fhir/StructureDefinition/medsafeStatus",
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-medsafeStatus",
             "valueCodeableConcept": {
                 "text": "Active"
             }
@@ -113,7 +113,7 @@
                     }
                 }
             ],
-            "url": "http://hl7.org.nz/fhir/StructureDefinition/funding"
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-funding"
         },
         {
             "extension": [
@@ -134,7 +134,7 @@
                     "valueBoolean": true
                 }
             ],
-            "url": "http://hl7.org.nz/fhir/StructureDefinition/atc"
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-atc"
         }
     ],
     "code": {

@@ -3,7 +3,7 @@ Id: cal
 Description: "Cautionary and Advisory Label"
 
 
-* ^url = "http://hl7.org.nz/fhir/StructureDefinition/cal"
+* ^url = "http://hl7.org.nz/fhir/StructureDefinition/nzf-cal"
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
 
 * ^title = "Cautionary and Advisory Label"
