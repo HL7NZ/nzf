@@ -1,14 +1,14 @@
-Alias: $nzmtType = http://hl7.org.nz/fhir/StructureDefinition/nzmtType
-Alias: $atc = http://hl7.org.nz/fhir/StructureDefinition/atc
-Alias: $link = http://hl7.org.nz/fhir/StructureDefinition/link
-Alias: $cal = http://hl7.org.nz/fhir/StructureDefinition/cal
-Alias: $funding = http://hl7.org.nz/fhir/StructureDefinition/funding
+Alias: $nzmtType = http://hl7.org.nz/fhir/StructureDefinition/nzf-nzmtType
+Alias: $atc = http://hl7.org.nz/fhir/StructureDefinition/nzf-atc
+Alias: $link = http://hl7.org.nz/fhir/StructureDefinition/nzf-link
+Alias: $cal = http://hl7.org.nz/fhir/StructureDefinition/nzf-cal
+Alias: $funding = http://hl7.org.nz/fhir/StructureDefinition/nzf-funding
 // Alias: $description = http://hl7.org.nz/fhir/StructureDefinition/description
-Alias: $unapproved = http://hl7.org.nz/fhir/StructureDefinition/unapproved
-Alias: $legalclass = http://hl7.org.nz/fhir/StructureDefinition/legalclass
-Alias: $medsafeStatus = http://hl7.org.nz/fhir/StructureDefinition/medsafeStatus
-Alias: $pbb = http://hl7.org.nz/fhir/StructureDefinition/prescribe-by-brand
-Alias: $si = http://hl7.org.nz/fhir/StructureDefinition/supply-information
+Alias: $unapproved = http://hl7.org.nz/fhir/StructureDefinition/nzf-unapproved
+Alias: $legalclass = http://hl7.org.nz/fhir/StructureDefinition/nzf-legalclass
+Alias: $medsafeStatus = http://hl7.org.nz/fhir/StructureDefinition/nzf-medsafeStatus
+Alias: $pbb = http://hl7.org.nz/fhir/StructureDefinition/nzf-prescribe-by-brand
+Alias: $si = http://hl7.org.nz/fhir/StructureDefinition/nzf-supply-information
 
 Profile:        NzfMedication
 Parent:         Medication
