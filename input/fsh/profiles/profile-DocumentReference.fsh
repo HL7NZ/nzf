@@ -1,7 +1,3 @@
-Alias: $atc = http://hl7.org.nz/fhir/StructureDefinition/atc
-Alias: $link = http://hl7.org.nz/fhir/StructureDefinition/link
-
-
 Profile:        NzfDocumentReference
 Parent:         DocumentReference
 Id:             NzfDocumentReference
