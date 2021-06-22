@@ -1,5 +1,5 @@
 Extension: Link
-Id: link
+Id: nzf-link
 Description: "Reference to other information about this medication"
 
 * ^url = "http://hl7.org.nz/fhir/StructureDefinition/nzf-link"

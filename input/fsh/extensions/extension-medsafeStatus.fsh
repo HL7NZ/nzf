@@ -1,5 +1,5 @@
 Extension: MedsafeStatus
-Id: medsafeStatus
+Id: nzf-medsafeStatus
 Description: "Medsafe Status"
 
 * ^url = "http://hl7.org.nz/fhir/StructureDefinition/nzf-medsafeStatus"

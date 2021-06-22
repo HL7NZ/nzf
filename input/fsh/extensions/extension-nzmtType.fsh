@@ -1,5 +1,5 @@
 Extension: NzmtType
-Id: nzmtType
+Id: nzf-nzmtType
 Description: "Type of NZMT record (e.g. MP, MPUU)"
 
 * ^url = "http://hl7.org.nz/fhir/StructureDefinition/nzf-nzmtType"

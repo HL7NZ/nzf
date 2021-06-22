@@ -1,5 +1,5 @@
 Extension: PrescribeByBrand
-Id: prescribe-by-brand
+Id: nzf-prescribe-by-brand
 Description: "True if can be prescribed by brand"
 
 * ^url = "http://hl7.org.nz/fhir/StructureDefinition/nzf-prescribe-by-brand"

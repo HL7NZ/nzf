@@ -1,5 +1,5 @@
 Extension: LegalClass
-Id: legalclass
+Id: nzf-legalclass
 Description: "Legal classification"
 
 * ^url = "http://hl7.org.nz/fhir/StructureDefinition/nzf-legalclass"

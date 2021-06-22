@@ -1,5 +1,5 @@
 Extension: Unapproved
-Id: unapproved
+Id: nzf-unapproved
 Description: "True if this medication has not been approved by Medsafe and can be prescribed under section 29"
 
 * ^url = "http://hl7.org.nz/fhir/StructureDefinition/nzf-unapproved"

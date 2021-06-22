@@ -1,5 +1,5 @@
 Extension: Funding
-Id: funding
+Id: nzf-funding
 Description: "Funding elements specific to NZ. "
 
 * ^url = "http://hl7.org.nz/fhir/StructureDefinition/nzf-funding"

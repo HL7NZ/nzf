@@ -1,5 +1,5 @@
 Extension: Cal
-Id: cal
+Id: nzf-cal
 Description: "Cautionary and Advisory Label"
 
 
