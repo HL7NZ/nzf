@@ -6,7 +6,7 @@
 <th>Status</th>
 </tr>
 <tr>
-<td><a href='StructureDefinition-atc.html'>atc</a></td>
+<td><a href='StructureDefinition-nzf-atc.html'>nzf-atc</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/nzf-atc</td>
 <td>
 <div>Medication</div>
@@ -17,7 +17,7 @@
 <td>draft</td>
 </tr>
 <tr>
-<td><a href='StructureDefinition-cal.html'>cal</a></td>
+<td><a href='StructureDefinition-nzf-cal.html'>nzf-cal</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/nzf-cal</td>
 <td>
 <div>Medication</div>
@@ -28,7 +28,7 @@
 <td>draft</td>
 </tr>
 <tr>
-<td><a href='StructureDefinition-funding.html'>funding</a></td>
+<td><a href='StructureDefinition-nzf-funding.html'>nzf-funding</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/nzf-funding</td>
 <td>
 <div>Medication</div>
@@ -39,7 +39,7 @@
 <td>draft</td>
 </tr>
 <tr>
-<td><a href='StructureDefinition-legalclass.html'>legalclass</a></td>
+<td><a href='StructureDefinition-nzf-legalclass.html'>nzf-legalclass</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/nzf-legalclass</td>
 <td>
 <div>Medication</div>
@@ -50,7 +50,7 @@
 <td>draft</td>
 </tr>
 <tr>
-<td><a href='StructureDefinition-link.html'>link</a></td>
+<td><a href='StructureDefinition-nzf-link.html'>nzf-link</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/nzf-link</td>
 <td>
 <div>Medication</div>
@@ -61,7 +61,7 @@
 <td>draft</td>
 </tr>
 <tr>
-<td><a href='StructureDefinition-medsafeStatus.html'>medsafeStatus</a></td>
+<td><a href='StructureDefinition-nzf-medsafeStatus.html'>nzf-medsafeStatus</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/nzf-medsafeStatus</td>
 <td>
 <div>Medication</div>
@@ -72,7 +72,7 @@
 <td>draft</td>
 </tr>
 <tr>
-<td><a href='StructureDefinition-nzmtType.html'>nzmtType</a></td>
+<td><a href='StructureDefinition-nzf-nzmtType.html'>nzf-nzmtType</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/nzf-nzmtType</td>
 <td>
 <div>Medication</div>
@@ -83,7 +83,7 @@
 <td>draft</td>
 </tr>
 <tr>
-<td><a href='StructureDefinition-prescribe-by-brand.html'>prescribe-by-brand</a></td>
+<td><a href='StructureDefinition-nzf-prescribe-by-brand.html'>nzf-prescribe-by-brand</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/nzf-prescribe-by-brand</td>
 <td>
 <div>Medication</div>
@@ -94,7 +94,7 @@
 <td>draft</td>
 </tr>
 <tr>
-<td><a href='StructureDefinition-supply-information.html'>supply-information</a></td>
+<td><a href='StructureDefinition-nzf-supply-information.html'>nzf-supply-information</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/nzf-supply-information</td>
 <td>
 <div>Medication</div>
@@ -105,7 +105,7 @@
 <td>draft</td>
 </tr>
 <tr>
-<td><a href='StructureDefinition-unapproved.html'>unapproved</a></td>
+<td><a href='StructureDefinition-nzf-unapproved.html'>nzf-unapproved</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/nzf-unapproved</td>
 <td>
 <div>Medication</div>
