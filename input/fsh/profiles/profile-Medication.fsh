@@ -6,7 +6,7 @@ Alias: $funding = http://hl7.org.nz/fhir/StructureDefinition/nzf-funding
 // Alias: $description = http://hl7.org.nz/fhir/StructureDefinition/description
 Alias: $unapproved = http://hl7.org.nz/fhir/StructureDefinition/nzf-unapproved
 Alias: $legalclass = http://hl7.org.nz/fhir/StructureDefinition/nzf-legalclass
-Alias: $medsafeStatus = http://hl7.org.nz/fhir/StructureDefinition/nzf-medsafeStatus
+Alias: $medsafeStatus = http://hl7.org.nz/fhir/StructureDefinition/nzf-medsafe
 Alias: $pbb = http://hl7.org.nz/fhir/StructureDefinition/nzf-prescribe-by-brand
 Alias: $si = http://hl7.org.nz/fhir/StructureDefinition/nzf-supply-information
 
@@ -27,7 +27,7 @@ Title:          "Medication resource for NZ Formulary"
     // $description named description 0..* and
     $unapproved named unapproved 0..1 and
     $legalclass named legalclass 0..1 and
-    $medsafeStatus named medsafeStatus 0..1 and
+    $medsafe named medsafe 0..1 and
     $pbb named prescribebybrand 0..1 and
     $si named supplyinformation 0..*
 
@@ -38,7 +38,7 @@ Title:          "Medication resource for NZ Formulary"
 * extension[funding] ^short = "Funding constraints and requirements"
 * extension[unapproved] ^short = "Whether the medication can be used under section29"
 * extension[legalclass] ^short = "Legal classification of the medication"
-* extension[medsafeStatus] ^short = "Medsafe status of the medication"
+* extension[medsafe] ^short = "Medsafe details of the medication"
 * extension[prescribebybrand] ^short = "True if can be prescribed by brand"
 * extension[supplyinformation] ^short = "Supply information"
 
