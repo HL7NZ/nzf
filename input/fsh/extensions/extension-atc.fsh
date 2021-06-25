@@ -17,7 +17,7 @@ Description: "Anatomical Therapeutic Chemical (ATC) Classification - see https:/
 * extension[code] ^definition = "The ATC (Anatomic Therapautic Chemical) Code."
 * extension[code] ^short = "The ATC Code."
 * extension[code].value[x] only CodeableConcept 
-* extension[code].valueCodeableConcept from http://www.whocc.no/atc
+* extension[code].valueCodeableConcept from https://standards.digital.health.nz/fhir/ValueSet/atc-code
 
 * extension[isPrimary].url = "isPrimary" (exactly)
 * extension[isPrimary] ^definition = "Whether the ATC code is the primary code"
