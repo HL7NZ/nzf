@@ -17,10 +17,8 @@ Description: "Medsafe details"
 * extension[status] ^definition = "Medsafe package status"
 * extension[status] ^short = "Medsafe package status."
 * extension[status].value[x] only CodeableConcept 
-* extension[status].valueCodeableConcept
 
 * extension[regSituation].url = "regSituation" (exactly)
 * extension[regSituation] ^definition = "Medsafe reg situation"
 * extension[regSituation] ^short = "Medsafe reg situation"
 * extension[regSituation].value[x] only CodeableConcept 
-* extension[regSituation].valueCodeableConcept
