@@ -2,6 +2,7 @@
     "resourceType": "Medication",
     "id": "ctpp-50079341000117105",
     "text": {
+      "status": "generated",
       "div": "<div xmlns='http://www.w3.org/1999/xhtml'>Nurofen 200 mg tablet: sugar-coated, 12 tablets, blister pack (ctpp) - 50079341000117105</div>"
     },
     "extension": [
@@ -21,16 +22,21 @@
         "valueBoolean": false
       },
       {
-        "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-legalclass",
-        "valueCodeableConcept": {
-          "coding": [
-            {
-              "system": "https://standards.digital.health.nz/fhir/ValueSet/medicine-classification-code",
-              "code": "GS"
+        "extension": [
+          {
+            "url": "code",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://standards.digital.health.nz/ns/medicine-classification-code",
+                  "code": "GS"
+                }
+              ],
+              "text": "General sale"
             }
-          ],
-          "text": "General sale"
-        }
+          }
+        ],
+        "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-legalclass"
       },
       {
         "extension": [
