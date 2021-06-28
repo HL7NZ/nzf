@@ -30,20 +30,21 @@ Description: "Funding elements specific to NZ. "
 * extension[status].value[x] only CodeableConcept
 * extension[status].value[x] from https://standards.digital.health.nz/fhir/ValueSet/funding-code
 
-* extension[subsidyPrice].url = "subsidyPrice" (exactly)
-* extension[subsidyPrice] ^definition = "The subsided price"
-* extension[subsidyPrice] ^short = "The subsided price"
-* extension[subsidyPrice].value[x] only Money
+// TODO 
+// * extension[subsidyPrice].url = "subsidyPrice" (exactly)
+// * extension[subsidyPrice] ^definition = "The subsided price"
+// * extension[subsidyPrice] ^short = "The subsided price"
+// * extension[subsidyPrice].value[x] only Money
 
-* extension[manPrice].url = "manPrice" (exactly)
-* extension[manPrice] ^definition = "The manufacturer price."
-* extension[manPrice] ^short = "The manufacturer price."
-* extension[manPrice].value[x] only Money
+// * extension[manPrice].url = "manPrice" (exactly)
+// * extension[manPrice] ^definition = "The manufacturer price."
+// * extension[manPrice] ^short = "The manufacturer price."
+// * extension[manPrice].value[x] only Money
 
-* extension[scheduleDate].url = "scheduleDate" (exactly)
-* extension[scheduleDate] ^definition = "The date this item was placed on the schedule"
-* extension[scheduleDate] ^short = "The date this item was placed on the schedule"
-* extension[scheduleDate].value[x] only date
+// * extension[scheduleDate].url = "scheduleDate" (exactly)
+// * extension[scheduleDate] ^definition = "The date this item was placed on the schedule"
+// * extension[scheduleDate] ^short = "The date this item was placed on the schedule"
+// * extension[scheduleDate].value[x] only date
 
 * extension[note].url = "note" (exactly)
 * extension[note] ^definition = "A note that applies to this funding"
