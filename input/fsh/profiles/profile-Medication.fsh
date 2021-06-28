@@ -6,7 +6,7 @@ Alias: $funding = http://hl7.org.nz/fhir/StructureDefinition/nzf-funding
 // Alias: $description = http://hl7.org.nz/fhir/StructureDefinition/description
 Alias: $unapproved = http://hl7.org.nz/fhir/StructureDefinition/nzf-unapproved
 Alias: $legalclass = http://hl7.org.nz/fhir/StructureDefinition/nzf-legalclass
-Alias: $medsafeStatus = http://hl7.org.nz/fhir/StructureDefinition/nzf-medsafe
+Alias: $medsafe = http://hl7.org.nz/fhir/StructureDefinition/nzf-medsafe
 Alias: $pbb = http://hl7.org.nz/fhir/StructureDefinition/nzf-prescribe-by-brand
 Alias: $si = http://hl7.org.nz/fhir/StructureDefinition/nzf-supply-information
 
