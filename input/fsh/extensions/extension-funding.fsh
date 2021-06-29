@@ -12,9 +12,9 @@ Description: "Funding elements specific to NZ. "
 * extension contains
     type 1..1 and
     status 1..1 and 
-    subsidyPrice 1..1 and
-    manPrice 0..1 and
-    scheduleDate 0..1 and
+    // subsidyPrice 1..1 and
+    // manPrice 0..1 and
+    // scheduleDate 0..1 and
     note 0..* and
     rule 0..*
 
