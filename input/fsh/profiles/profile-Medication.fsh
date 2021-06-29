@@ -1,4 +1,4 @@
-Alias: $nzmtType = http://hl7.org.nz/fhir/StructureDefinition/nzf-nzmtType
+Alias: $nzmtType = http://hl7.org.nz/fhir/StructureDefinition/nzf-nzmt-type
 Alias: $atc = http://hl7.org.nz/fhir/StructureDefinition/nzf-atc
 Alias: $link = http://hl7.org.nz/fhir/StructureDefinition/nzf-link
 Alias: $cal = http://hl7.org.nz/fhir/StructureDefinition/nzf-cal
