@@ -2,7 +2,6 @@ Details on what we are working on and what is coming up
 
 ### Short-term
 
-- **Populate availability of medications**: Based on NZF availability formula
 - **Populate s29 TPUU/CTPP legal classifications**
 - **Update system urls**
 

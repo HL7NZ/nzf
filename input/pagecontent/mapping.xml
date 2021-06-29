@@ -31,6 +31,16 @@
             </td>
         </tr>
         <tr>
+            <td>status</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>*</td>
+        </tr>
+        <tr>
             <td>form</td>
             <td></td>
             <td></td>
@@ -165,6 +175,16 @@
         </tr>
     </table>
     <br />
+    <p>* A CTPP medication is deemed active if the following criteria is met</p>
+    <ul>
+        <li>Has some level of community funding</li>
+        <li>Is Hml</li>
+        <li>Is section 29</li>
+        <li>Has no medsafe nzmt link</li>
+        <li>Medsafe package summary is either "Active" or "Under Assessment" and Medsafe regSituation is either "Consent given" or "Provisional consent"</li>       
+    </ul>
+    <br/>
+    <br/>
     <strong>Document reference Mappings from source data</strong>
     <br />
     <br />
