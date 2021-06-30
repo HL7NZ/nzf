@@ -1,6 +1,6 @@
 Extension: Medsafe
 Id: nzf-medsafe
-Description: "Medsafe details"
+Description: "Medsafe package and reg situation details"
 
 * ^url = "http://hl7.org.nz/fhir/StructureDefinition/nzf-medsafe"
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
