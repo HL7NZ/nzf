@@ -4,6 +4,7 @@ Details on what we are working on and what is coming up
 
 - **Populate s29 TPUU/CTPP legal classifications**
 - **Update system urls**
+- **Complete pharmac extension (add missing details)**
 
 ### Medium term
 
