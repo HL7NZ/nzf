@@ -1,0 +1,247 @@
+{
+    "resourceType": "Medication",
+    "id": "ctpp-50000391000117104",
+    "text": {
+        "status": "generated",
+        "div": "<div xmlns='http://www.w3.org/1999/xhtml'>Glycoprep-C lemon oral liquid: powder for, 1 x 70 g sachet (ctpp) - 50000391000117104</div>"
+    },
+    "extension": [
+        {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-nzmt-type",
+            "valueCodeableConcept": {
+                "coding": [
+                    {
+                        "system": "https://standards.digital.health.nz/ns/nzmt-type",
+                        "code": "ctpp"
+                    }
+                ]
+            }
+        },
+        {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-unapproved",
+            "valueBoolean": false
+        },
+        {
+            "extension": [
+                {
+                    "url": "code",
+                    "valueCodeableConcept": {
+                        "coding": [
+                            {
+                                "system": "https://standards.digital.health.nz/ns/medicine-classification-code",
+                                "code": "RM"
+                            }
+                        ],
+                        "text": "Restricted"
+                    }
+                }
+            ],
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-legalclass"
+        },
+        {
+            "extension": [
+                {
+                    "url": "status",
+                    "valueCodeableConcept": {
+                        "text": "Active"
+                    }
+                },
+                {
+                    "url": "regSituation",
+                    "valueCodeableConcept": {
+                        "text": "Consent given"
+                    }
+                }
+            ],
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-medsafe"
+        },
+        {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-link",
+            "valueReference": {
+                "reference": "DocumentReference/ac1bc05a-9e73-4c07-a30d-3dd9f136b60b",
+                "display": "Datasheet for 50000391000117104"
+            }
+        },
+        {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-link",
+            "valueReference": {
+                "reference": "DocumentReference/8f262beb-40be-442b-a273-c4fd4568bfed",
+                "display": "CMI for 50000391000117104"
+            }
+        },
+        {
+            "extension": [
+                {
+                    "url": "type",
+                    "valueCodeableConcept": {
+                        "text": "community"
+                    }
+                },
+                {
+                    "url": "status",
+                    "valueCodeableConcept": {
+                        "coding": [
+                            {
+                                "system": "https://standards.digital.health.nz/ns/funding-code",
+                                "code": "0",
+                                "display": "no subsidy"
+                            }
+                        ],
+                        "text": "no subsidy"
+                    }
+                }
+            ],
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-funding"
+        },
+        {
+            "extension": [
+                {
+                    "url": "type",
+                    "valueCodeableConcept": {
+                        "text": "hml"
+                    }
+                },
+                {
+                    "url": "status",
+                    "valueCodeableConcept": {
+                        "text": "hml"
+                    }
+                }
+            ],
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-funding"
+        },
+        {
+            "extension": [
+                {
+                    "url": "code",
+                    "valueCodeableConcept": {
+                        "coding": [
+                            {
+                                "system": "http://www.whocc.no/atc",
+                                "code": "A06AD65"
+                            }
+                        ],
+                        "text": "Macrogol, combinations"
+                    }
+                },
+                {
+                    "url": "isPrimary",
+                    "valueBoolean": true
+                }
+            ],
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-atc"
+        },
+        {
+            "extension": [
+                {
+                    "url": "id",
+                    "valueId": "0"
+                },
+                {
+                    "url": "labelType",
+                    "valueString": "label"
+                },
+                {
+                    "url": "text",
+                    "valueString": "No label required."
+                }
+            ],
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-cal"
+        },
+        {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-link",
+            "valueReference": {
+                "reference": "DocumentReference/eb87c581-18c2-4efe-98b9-b24af513751e",
+                "display": "Monograph for ascorbic acid + macrogol-3350 + potassium chloride + sodium chloride + sodium sulfate"
+            }
+        }
+    ],
+    "code": {
+        "coding": [
+            {
+                "system": "https://nzulm.org.nz/nzmt",
+                "code": "50000391000117104",
+                "display": "Glycoprep-C lemon oral liquid: powder for, 1 x 70 g sachet"
+            },
+            {
+                "system": "https://nzulm.org.nz/pharmacode",
+                "code": "2003899"
+            }
+        ]
+    },
+    "status": "active",
+    "ingredient": [
+        {
+            "itemCodeableConcept": {
+                "coding": [
+                    {
+                        "system": "https://nzulm.org.nz/nzmt",
+                        "code": "20477391000116100",
+                        "display": "ascorbic acid + macrogol-3350 + potassium chloride + sodium chloride + sodium sulfate"
+                    }
+                ]
+            },
+            "isActive": true
+        },
+        {
+            "itemCodeableConcept": {
+                "coding": [
+                    {
+                        "system": "https://nzulm.org.nz/nzmt",
+                        "code": "30781011000036102",
+                        "display": "ascorbic acid"
+                    }
+                ]
+            },
+            "isActive": true
+        },
+        {
+            "itemCodeableConcept": {
+                "coding": [
+                    {
+                        "system": "https://nzulm.org.nz/nzmt",
+                        "code": "2799011000036106",
+                        "display": "macrogol-3350"
+                    }
+                ]
+            },
+            "isActive": true
+        },
+        {
+            "itemCodeableConcept": {
+                "coding": [
+                    {
+                        "system": "https://nzulm.org.nz/nzmt",
+                        "code": "2500011000036101",
+                        "display": "potassium chloride"
+                    }
+                ]
+            },
+            "isActive": true
+        },
+        {
+            "itemCodeableConcept": {
+                "coding": [
+                    {
+                        "system": "https://nzulm.org.nz/nzmt",
+                        "code": "2591011000036106",
+                        "display": "sodium chloride"
+                    }
+                ]
+            },
+            "isActive": true
+        },
+        {
+            "itemCodeableConcept": {
+                "coding": [
+                    {
+                        "system": "https://nzulm.org.nz/nzmt",
+                        "code": "52367011000036107",
+                        "display": "sodium sulfate"
+                    }
+                ]
+            },
+            "isActive": true
+        }
+    ]
+}

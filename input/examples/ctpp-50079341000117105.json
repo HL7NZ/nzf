@@ -133,6 +133,34 @@
         }
       ],
       "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-cal"
+    },
+    {
+      "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-link",
+      "valueReference": {
+        "reference": "DocumentReference/c23dcc5f-d5fa-4f80-8cd4-fc732880cccd",
+        "display": "Monograph for ibuprofen (oral)"
+      }
+    },
+    {
+      "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-link",
+      "valueReference": {
+        "reference": "DocumentReference/9d4b8151-c8f8-4758-8407-1ad85b3a30b2",
+        "display": "Monograph for ibuprofen (intravenous)"
+      }
+    },
+    {
+      "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-link",
+      "valueReference": {
+        "reference": "DocumentReference/d5eb36de-bcf1-411d-8c63-86936bb6a8a8",
+        "display": "Monograph for ibuprofen (topical)"
+      }
+    },
+    {
+      "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-link",
+      "valueReference": {
+        "reference": "DocumentReference/a5a4df93-cfdc-4f97-bb3e-41486ed86243",
+        "display": "Monograph for ibuprofen (systemic)"
+      }
     }
   ],
   "code": {
