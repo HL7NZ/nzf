@@ -13,4 +13,5 @@ This page details the recent changes we have made to the NZ Formulary/NZULM FHIR
 - 21/6/2021: Updated extension identifiers to have a nzf- prefix
 - 25/6/2021: Updated medsafe extension to include reg situation
 - 30/6/2021: Added 'availability' via the medication status field based on current formulary logic - see mapping tab
+- 12/7/2021: Added codeableconcept for document type
 
