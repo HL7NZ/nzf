@@ -30,7 +30,7 @@
   "author": [
     {
       "reference": "#Medsafe",
-      "type": "Organisation",
+      "type": "Organization",
       "display": "Medsafe"
     }
   ],
