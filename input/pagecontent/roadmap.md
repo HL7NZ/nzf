@@ -2,7 +2,6 @@
 
 ### Short-term
 
-- **Add codes to document reference types** 
 - **Populate s29 TPUU/CTPP legal classifications**
 - **Update system urls**
 - **Complete pharmac extension (add missing details)**
@@ -14,7 +13,6 @@
 
 ### Probable additions
 
-- **Medsafe Datasheets**: Create Medsafe datasheet document references and link to medications
 - **Patient Information Leaflets (PILs) Document References**: Create PIL document references and link to medications
 - **GTINS**
 - **MedicationKnowledge**: Populate the MedicationKnowledge resource with more formulary information
