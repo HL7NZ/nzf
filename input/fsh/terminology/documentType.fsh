@@ -3,7 +3,7 @@ Id: nzf-document-type
 Title: "NZF Document Type"
 Description: "New Zealand Formulary Document Type"
 
-* ^url = "https://standards.digital.health.nz/fhir/ValueSet/nzf-document-type"
+* ^url = "https://nzhts.digital.health.nz/fhir/ValueSet/nzf-document-type"
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
 
 * codes from system https://standards.digital.health.nz/ns/nzf-document-type
@@ -24,3 +24,4 @@ Description: "The set of all possible nzf document types"
 * #SpecialAuthorityForm "Pharmac Special Authority Form"
 * #Datasheet "Medsafe Datasheet"
 * #CMI "Medsafe CMI"
+* #PIL "Patient Information Leaflet"

@@ -3,7 +3,7 @@ Id: nzmt-type-code
 Title: "Nzmt type"
 Description: "New Zealand Medication Terminology Type"
 
-* ^url = "https://standards.digital.health.nz/fhir/ValueSet/nzmt-type"
+* ^url = "https://nzhts.digital.health.nz/fhir/ValueSet/nzmt-type"
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
 
 * codes from system https://standards.digital.health.nz/ns/nzmt-type

@@ -28,7 +28,7 @@ Description: "Funding elements specific to NZ. "
 * extension[status] ^definition = "no subsidy, partial subsidy, full subsidy"
 * extension[status] ^short = "no subsidy, partial subsidy, full subsidy"
 * extension[status].value[x] only CodeableConcept
-* extension[status].value[x] from https://standards.digital.health.nz/fhir/ValueSet/funding-code
+* extension[status].value[x] from https://nzhts.digital.health.nz/fhir/ValueSet/funding-code
 
 * extension[subsidyPrice].url = "subsidyPrice" (exactly)
 * extension[subsidyPrice] ^definition = "The subsided price"
