@@ -7,7 +7,7 @@ Description: "Attachment page size"
 
 * ^status = #draft
 * ^context.type = #element
-* ^context.expression = "DocumentReference.attachment"       
+* ^context.expression = "DocumentReference.content.attachment"       
  
 * extension 0..0
 * value[x] only CodeableConcept 
