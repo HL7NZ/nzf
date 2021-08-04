@@ -7,7 +7,7 @@
             "name": "NewZealandFormulary"
         }
     ],
-    "id": "patient-information-leaflet-example",
+    "id": "patient-information-leaftlet-example",
     "status": "current",
     "docStatus": "final",
     "type": {
@@ -20,7 +20,7 @@
         ],
         "text": "Patient Information Leaflet"
     },
-    "date": "2021-08-04T12:19:43.5815407+12:00",
+    "date": "2021-08-04T12:52:51.389493+12:00",
     "author": [
         {
             "reference": "#NewZealandFormulary",
@@ -58,13 +58,13 @@
     "context": {
         "extension": [
             {
-                "url": "source",
+                "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-pil-source",
                 "valueCodeableConcept": {
                     "text": "MyMedicine"
                 }
             },
             {
-                "url": "formulary",
+                "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-pil-formulary",
                 "valueCodeableConcept": {
                     "text": "NZF"
                 }
