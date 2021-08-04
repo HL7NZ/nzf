@@ -12,12 +12,10 @@ Description: "Funding elements specific to NZ. "
 * extension contains
     type 1..1 and
     status 1..1 and 
-    subsidyPrice 1..1 and
+    subsidy 0..1 and
     manPrice 0..1 and
     scheduleDate 0..1 and
-    note 0..* and
-    rule 0..*
-
+    annotation 0..* and
 
 * extension[type].url = "type" (exactly)
 * extension[type] ^definition = "Type of funding - hospital, community."
@@ -30,10 +28,10 @@ Description: "Funding elements specific to NZ. "
 * extension[status].value[x] only CodeableConcept
 * extension[status].value[x] from https://nzhts.digital.health.nz/fhir/ValueSet/funding-code
 
-* extension[subsidyPrice].url = "subsidyPrice" (exactly)
-* extension[subsidyPrice] ^definition = "The subsided price"
-* extension[subsidyPrice] ^short = "The subsided price"
-* extension[subsidyPrice].value[x] only Money
+* extension[subsidy].url = "subsidyPrice" (exactly)
+* extension[subsidy] ^definition = "The subsided price"
+* extension[subsidy] ^short = "The subsided price"
+* extension[subsidy].value[x] only Money
 
 * extension[manPrice].url = "manPrice" (exactly)
 * extension[manPrice] ^definition = "The manufacturer price."
@@ -45,12 +43,16 @@ Description: "Funding elements specific to NZ. "
 * extension[scheduleDate] ^short = "The date this item was placed on the schedule"
 * extension[scheduleDate].value[x] only date
 
-* extension[note].url = "note" (exactly)
-* extension[note] ^definition = "A note that applies to this funding"
-* extension[note] ^short = "A note that applies to this funding"
-* extension[note].value[x] only string
+* extension[annotation].url = "note" (exactly)
+* extension[annotation] ^definition = "Annotations that apply to this funding"
+* extension[annotation] ^short = "Annotations that apply to this funding"
 
-* extension[rule].url = "rule" (exactly)
-* extension[rule] ^definition = "A rule that applies to this funding"
-* extension[rule] ^short = "A rule that applies to this funding"
-* extension[rule].value[x] only string
+* extension[annotation].extension[type].url = "type" (exactly)
+* extension[annotation].extension[type] ^definition = "The type of annotation"
+* extension[annotation].extension[type] ^short = "The type of annotation"
+* extension[annotation].extension[type].value[x] only CodeableConcept
+
+* extension[annotation].extension[type].url = "details" (exactly)
+* extension[annotation].extension[type] ^definition = "Annotation details"
+* extension[annotation].extension[type] ^short = "Annotation details"
+* extension[annotation].extension[type].value[x] only string
