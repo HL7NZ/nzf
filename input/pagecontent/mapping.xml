@@ -258,6 +258,42 @@
             <td></td>
             <td></td>
         </tr>
+        <tr>
+            <td>context.extension.formulary</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Applicable formulary (e.g. nzf, nzfc)</td>
+        </tr>        
+        <tr>
+            <td>context.extension.source</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Source of PIL (e.g. mymedicines)</td>
+        </tr>        
+        <tr>
+            <td>context.extension.indication</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Indication that this PIL applies to</td>
+        </tr>        
+        <tr>
+            <td>context.extension.dose-form</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Doseform that this PIL applies to</td>
+        </tr>        
+        <tr>
+            <td>context.extension.route-of-admin</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Route of admin that this PIL applies to</td>
+        </tr>        
+
     </table>
     <br/>
     <p>* legal classifications for MPUUs are derived from their matching TPUU - see below</p>
