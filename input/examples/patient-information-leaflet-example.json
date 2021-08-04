@@ -1,0 +1,82 @@
+{
+    "resourceType": "DocumentReference",
+    "contained": [
+        {
+            "resourceType": "Organization",
+            "id": "NewZealandFormulary",
+            "name": "NewZealandFormulary"
+        }
+    ],
+    "id": "patient-information-leaflet-example",
+    "status": "current",
+    "docStatus": "final",
+    "type": {
+        "coding": [
+            {
+                "system": "https://standards.digital.health.nz/ns/nzf-document-type-code",
+                "code": "PIL",
+                "display": "Patient Information Leaflet"
+            }
+        ],
+        "text": "Patient Information Leaflet"
+    },
+    "date": "2021-08-04T12:19:43.5815407+12:00",
+    "author": [
+        {
+            "reference": "#NewZealandFormulary",
+            "type": "Organization",
+            "display": "NewZealandFormulary"
+        }
+    ],
+    "description": "Acarbose",
+    "content": [
+        {
+            "attachment": {
+                "contentType": "application/pdf",
+                "language": "en-NZ",
+                "url": "http://www.mymedicines.nz/home/sheet/Acarbose?format=pdfA4&inline=true",
+                "title": "Acarbose - English A4"
+            }
+        },
+        {
+            "attachment": {
+                "contentType": "application/pdf",
+                "language": "en-NZ",
+                "url": "http://www.mymedicines.nz/home/sheet/Acarbose?format=pdfA5&inline=true",
+                "title": "Acarbose - English A5"
+            }
+        },
+        {
+            "attachment": {
+                "contentType": "application/pdf",
+                "language": "mi",
+                "url": "https://mymedicines.nz/TeReo/NZF/Acarbose.pdf",
+                "title": "Acarbose - Te Reo A4"
+            }
+        }
+    ],
+    "context": {
+        "extension": [
+            {
+                "url": "source",
+                "valueCodeableConcept": {
+                    "text": "MyMedicine"
+                }
+            },
+            {
+                "url": "formulary",
+                "valueCodeableConcept": {
+                    "text": "NZF"
+                }
+            }
+        ],
+        "related": [
+            {
+                "identifier": {
+                    "system": "https://nzulm.org.nz/nzmt",
+                    "value": "10306101000116100"
+                }
+            }
+        ]
+    }
+}

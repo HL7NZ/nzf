@@ -3,7 +3,7 @@
 ### Short-term
 
 - **Populate s29 TPUU/CTPP legal classifications**
-- **Update system urls**
+- **Update system urls - awaiting HISO feedback**
 - **Complete pharmac extension (add missing details)**
 
 ### Medium term
@@ -13,6 +13,5 @@
 
 ### Probable additions
 
-- **Patient Information Leaflets (PILs) Document References**: Create PIL document references and link to medications
 - **GTINS**
 - **MedicationKnowledge**: Populate the MedicationKnowledge resource with more formulary information

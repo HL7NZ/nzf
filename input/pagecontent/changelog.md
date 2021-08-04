@@ -15,3 +15,4 @@ This page details the recent changes we have made to the NZ Formulary/NZULM FHIR
 - 30/6/2021: Added 'availability' via the medication status field based on current formulary logic - see mapping tab
 - 12/7/2021: Added codeableconcept for document type
 - 22/7/2021: Added medsafe datasheet/cmi document references, including links to medications and examples
+- 4/8/2021: Added Patient Information Leaflet document references and example
