@@ -47,7 +47,13 @@
                     "valueDateTime": "2021-08-01T00:00:00+12:00"
                 },
                 {
-                    "url": "price",
+                    "url": "manPrice",
+                    "valueMoney": {
+                        "value": 13.9200
+                    }
+                },
+                {
+                    "url": "subsidy",
                     "valueMoney": {
                         "value": 13.9200
                     }
@@ -56,7 +62,9 @@
                     "extension": [
                         {
                             "url": "type",
-                            "valueString": "originalpack"
+                            "valueCodeableConcept": {
+                                "text": "originalpack"
+                            }
                         },
                         {
                             "url": "detail",
@@ -64,14 +72,16 @@
                         },
                         {
                             "url": "type",
-                            "valueString": "statim"
+                            "valueCodeableConcept": {
+                                "text": "statim"
+                            }
                         },
                         {
                             "url": "detail",
                             "valueString": "Statim: Three months or six months, as applicable, dispensed all-at-once."
                         }
                     ],
-                    "url": "note"
+                    "url": "annotation"
                 }
             ],
             "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-funding"
@@ -96,7 +106,7 @@
         {
             "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-link",
             "valueReference": {
-                "reference": "DocumentReference/509b5fbc-d3c3-443b-93fd-718c7d4761a1",
+                "reference": "DocumentReference/21442837-8b70-4cb9-8fdb-e30dc921e3fb",
                 "display": "Monograph for Urinalysis"
             }
         }
