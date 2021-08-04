@@ -43,16 +43,16 @@ Description: "Funding elements specific to NZ. "
 * extension[scheduleDate] ^short = "The date this item was placed on the schedule"
 * extension[scheduleDate].value[x] only date
 
-* extension[annotation].url = "note" (exactly)
+* extension[annotation].url = "annotation" (exactly)
 * extension[annotation] ^definition = "Annotations that apply to this funding"
 * extension[annotation] ^short = "Annotations that apply to this funding"
 
-// * extension[annotation].extension[type].url = "type" (exactly)
-// * extension[annotation].extension[type] ^definition = "The type of annotation"
-// * extension[annotation].extension[type] ^short = "The type of annotation"
-// * extension[annotation].extension[type].value[x] only CodeableConcept
+* extension[annotation].extension[type].url = "type" (exactly)
+* extension[annotation].extension[type] ^definition = "The type of annotation"
+* extension[annotation].extension[type] ^short = "The type of annotation"
+* extension[annotation].extension[type].value[x] only CodeableConcept
 
-// * extension[annotation].extension[details].url = "details" (exactly)
-// * extension[annotation].extension[details] ^definition = "Annotation details"
-// * extension[annotation].extension[details] ^short = "Annotation details"
-// * extension[annotation].extension[details].value[x] only string
+* extension[annotation].extension[details].url = "details" (exactly)
+* extension[annotation].extension[details] ^definition = "Annotation details"
+* extension[annotation].extension[details] ^short = "Annotation details"
+* extension[annotation].extension[details].value[x] only string

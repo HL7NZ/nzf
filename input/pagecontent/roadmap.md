@@ -4,7 +4,6 @@
 
 - **Populate s29 TPUU/CTPP legal classifications**
 - **Update system urls - awaiting HISO feedback**
-- **Complete pharmac extension (add missing details)**
 
 ### Medium term
 
