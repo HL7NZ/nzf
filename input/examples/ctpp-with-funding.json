@@ -1,0 +1,132 @@
+{
+    "resourceType": "Medication",
+    "id": "ctpp-with-funding",
+    "text": {
+        "status": "generated",
+        "div": "<div xmlns='http://www.w3.org/1999/xhtml'>Albustix diagnostic test: strip, 100 strips, bottle (ctpp) - 50000221000117106</div>"
+    },
+    "extension": [
+        {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-nzmt-type",
+            "valueCodeableConcept": {
+                "coding": [
+                    {
+                        "system": "https://standards.digital.health.nz/ns/nzmt-type-code",
+                        "code": "ctpp"
+                    }
+                ]
+            }
+        },
+        {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-unapproved",
+            "valueBoolean": false
+        },
+        {
+            "extension": [
+                {
+                    "url": "type",
+                    "valueCodeableConcept": {
+                        "text": "community"
+                    }
+                },
+                {
+                    "url": "status",
+                    "valueCodeableConcept": {
+                        "coding": [
+                            {
+                                "system": "https://standards.digital.health.nz/ns/funding-code",
+                                "code": "1",
+                                "display": "part subsidy"
+                            }
+                        ],
+                        "text": "part subsidy"
+                    }
+                },
+                {
+                    "url": "scheduleDate",
+                    "valueDateTime": "2021-08-01T00:00:00+12:00"
+                },
+                {
+                    "url": "price",
+                    "valueMoney": {
+                        "value": 13.9200
+                    }
+                },
+                {
+                    "extension": [
+                        {
+                            "url": "type",
+                            "valueString": "originalpack"
+                        },
+                        {
+                            "url": "detail",
+                            "valueString": "Original Pack"
+                        },
+                        {
+                            "url": "type",
+                            "valueString": "statim"
+                        },
+                        {
+                            "url": "detail",
+                            "valueString": "Statim: Three months or six months, as applicable, dispensed all-at-once."
+                        }
+                    ],
+                    "url": "note"
+                }
+            ],
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-funding"
+        },
+        {
+            "extension": [
+                {
+                    "url": "id",
+                    "valueId": "0"
+                },
+                {
+                    "url": "labelType",
+                    "valueString": "label"
+                },
+                {
+                    "url": "text",
+                    "valueString": "No label required."
+                }
+            ],
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-cal"
+        },
+        {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-link",
+            "valueReference": {
+                "reference": "DocumentReference/509b5fbc-d3c3-443b-93fd-718c7d4761a1",
+                "display": "Monograph for Urinalysis"
+            }
+        }
+    ],
+    "code": {
+        "coding": [
+            {
+                "system": "https://nzulm.org.nz/nzmt",
+                "code": "50000221000117106",
+                "display": "Albustix diagnostic test: strip, 100 strips, bottle"
+            },
+            {
+                "system": "https://nzulm.org.nz/pharmacode",
+                "code": "200190"
+            }
+        ]
+    },
+    "status": "active",
+    "ingredient": [
+        {
+            "itemCodeableConcept": {
+                "coding": [
+                    {
+                        "system": "https://nzulm.org.nz/nzmt",
+                        "code": "20015381000116107",
+                        "display": "protein indicator urine"
+                    }
+                ]
+            },
+            "isActive": true
+        }
+    ]
+}
