@@ -103,18 +103,6 @@
     "context": {
         "extension": [
             {
-                "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-pil-dose-form",
-                "valueCodeableConcept": {
-                    "coding": [
-                        {
-                            "system": "https://nzulm.org.nz/nzmt",
-                            "code": "#N/A"
-                        }
-                    ],
-                    "text": ""
-                }
-            },
-            {
                 "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-pil-source",
                 "valueCodeableConcept": {
                     "text": "MyMedicine"
