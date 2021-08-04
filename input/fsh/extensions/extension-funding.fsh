@@ -46,7 +46,6 @@ Description: "Funding elements specific to NZ. "
 * extension[annotation].url = "annotation" (exactly)
 * extension[annotation] ^definition = "Annotations that apply to this funding"
 * extension[annotation] ^short = "Annotations that apply to this funding"
-* extension[annotation].value[x] only extension
 
 * extension[annotation].extension[type].url = "type" (exactly)
 * extension[annotation].extension[type] ^definition = "The type of annotation"
