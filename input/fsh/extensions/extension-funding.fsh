@@ -15,7 +15,9 @@ Description: "Funding elements specific to NZ. "
     subsidy 0..1 and
     manPrice 0..1 and
     scheduleDate 0..1 and
-    annotation 0..*
+    annotation 0..* contains 
+        type 1..1
+        details: 0..1
 
 * extension[type].url = "type" (exactly)
 * extension[type] ^definition = "Type of funding - hospital, community."
