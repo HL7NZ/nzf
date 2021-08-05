@@ -44,12 +44,12 @@ Description: "Funding elements specific to NZ. "
 * extension[scheduleDate] ^short = "The date this item was placed on the schedule"
 * extension[scheduleDate].value[x] only date
 
-* extension[annotation].url = "annotation" (exactly)
-* extension[annotation] ^definition = "Annotations that apply to this funding"
-* extension[annotation] ^short = "Annotations that apply to this funding"
+// * extension[annotation].url = "annotation" (exactly)
+// * extension[annotation] ^definition = "Annotations that apply to this funding"
+// * extension[annotation] ^short = "Annotations that apply to this funding"
 * extension[annotation].extension contains 
-        type 1..1 and
-        details: 0..1
+    type 1..1 and
+    details: 0..1
 
 * extension[annotation].extension[type].url = "type" (exactly)
 * extension[annotation].extension[type] ^definition = "The type of annotation"
