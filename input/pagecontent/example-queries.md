@@ -36,16 +36,30 @@ Not available yet - Get list of all active medications (based on the formulary c
 
 #### Document references
 
-Get a list of all NZF monographs (Adult monographs)
->[base]/DocumentReference?type:text=AdultMonograph
+To get a list of all types of document references then they can be filtered by type e.g.
 
+[base]/DocumentReference?type=https://standards.digital.health.nz/ns/nzf-document-type-code|[Code]
+
+Get a list of all NZF monographs (Adult monographs)
+>[base]/DocumentReference?type=https://standards.digital.health.nz/ns/nzf-document-type-code|AdultMonograph
 
 Get a list of all NZFC monographs (Child monographs)
->[base]/DocumentReference?type:text=ChildMonograph
-
+>[base]/DocumentReference?type=https://standards.digital.health.nz/ns/nzf-document-type-code|ChildMonograph
 
 Get a list of monographs by an MP sctid
->[base]/DocumentReference?context.related=10013251000116106
+>[base]/DocumentReference?type=https://standards.digital.health.nz/ns/nzf-document-type-code|AdultMonograph&context.related=10013251000116106
 
 Get a list of all Special Authority Forms
->[base]/DocumentReference?type:text=SpecialAuthorityForm
+>[base]/DocumentReference?type=https://standards.digital.health.nz/ns/nzf-document-type-code|SpecialAuthorityForm
+
+Get a list of all Datasheets
+>[base]/DocumentReference?type=https://standards.digital.health.nz/ns/nzf-document-type-code|Datasheet
+
+Get a list of all CMIs
+>[base]/DocumentReference?type=https://standards.digital.health.nz/ns/nzf-document-type-code|CMI
+
+Get a list of all Patient Information Leaflets
+[base]/DocumentReference?type=https://standards.digital.health.nz/ns/nzf-document-type-code|PIL
+
+Get a specific Patient Information Leaflet for a given MP
+[base]/DocumentReference?type=https://standards.digital.health.nz/ns/nzf-document-type-code|PIL&context.related=10037191000116105
