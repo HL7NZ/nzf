@@ -1,5 +1,5 @@
-Extension: PilSource
-Id: nzf-pil-source
+Extension: PilIndication
+Id: nzf-pil-indication
 Description: "Indication that this PIL applies to"
 
 * ^url = "http://hl7.org.nz/fhir/StructureDefinition/nzf-pil-indication"

@@ -1,5 +1,5 @@
-Extension: PilSource
-Id: nzf-pil-source
+Extension: PilRouteOfAdmin
+Id: nzf-pil-route-of-admin
 Description: "Route of admin that this PIL applies to"
 
 * ^url = "http://hl7.org.nz/fhir/StructureDefinition/nzf-pil-route-of-admin"
