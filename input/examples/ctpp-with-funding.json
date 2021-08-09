@@ -44,7 +44,7 @@
                 },
                 {
                     "url": "scheduleDate",
-                    "valueDateTime": "2021-08-01T00:00:00+12:00"
+                    "valueString": "2021-08-01"
                 },
                 {
                     "url": "manPrice",
@@ -93,7 +93,7 @@
         {
             "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-link",
             "valueReference": {
-                "reference": "DocumentReference/c38ee057-3e69-4168-874f-c5b26c947178",
+                "reference": "DocumentReference/22bb312f-5814-48d7-8828-255f0abdc82a",
                 "display": "Monograph for Urinalysis"
             }
         }
