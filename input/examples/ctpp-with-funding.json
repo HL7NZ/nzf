@@ -59,29 +59,16 @@
                     }
                 },
                 {
-                    "extension": [
-                        {
-                            "url": "type",
-                            "valueCodeableConcept": {
-                                "text": "originalpack"
-                            }
-                        },
-                        {
-                            "url": "detail",
-                            "valueString": "Original Pack"
-                        },
-                        {
-                            "url": "type",
-                            "valueCodeableConcept": {
-                                "text": "statim"
-                            }
-                        },
-                        {
-                            "url": "detail",
-                            "valueString": "Statim: Three months or six months, as applicable, dispensed all-at-once."
-                        }
-                    ],
-                    "url": "annotation"
+                    "url": "annotation",
+                    "valueCodeableConcept": {
+                        "text": "Original Pack"
+                    }
+                },
+                {
+                    "url": "annotation",
+                    "valueCodeableConcept": {
+                        "text": "Statim: Three months or six months, as applicable, dispensed all-at-once."
+                    }
                 }
             ],
             "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-funding"
@@ -106,7 +93,7 @@
         {
             "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-link",
             "valueReference": {
-                "reference": "DocumentReference/21442837-8b70-4cb9-8fdb-e30dc921e3fb",
+                "reference": "DocumentReference/c38ee057-3e69-4168-874f-c5b26c947178",
                 "display": "Monograph for Urinalysis"
             }
         }
