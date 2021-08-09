@@ -1,123 +1,152 @@
 {
-    "resourceType": "Medication",
-    "id": "mpuu-ibuprofen-200-mg-capsule-10013271000116104",
-    "text": {
-      "div": "<div xmlns='http://www.w3.org/1999/xhtml'>ibuprofen 200 mg capsule (mpuu) - 10013271000116104</div>"
-    },
-    "extension": [
-      {
-        "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-nzmt-type",
-        "valueCodeableConcept": {
-          "coding": [
-            {
-              "system": "https://standards.digital.health.nz/ns/nzmt-type",
-              "code": "mpuu"
-            }
-          ]
-        }
-      },
-      {
-        "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-prescribe-by-brand",
-        "valueBoolean": false
-      },
-      {
-        "extension": [
+  "resourceType": "Medication",
+  "id": "mpuu-ibuprofen-200-mg-capsule-10013271000116104",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns='http://www.w3.org/1999/xhtml'>ibuprofen 200 mg capsule (mpuu) - 10013271000116104</div>"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-nzmt-type",
+      "valueCodeableConcept": {
+        "coding": [
           {
-            "url": "id",
-            "valueId": "10"
-          },
-          {
-            "url": "labelType",
-            "valueString": "label"
-          },
-          {
-            "url": "text",
-            "valueString": "Take each dose with a large glass of water."
+            "system": "https://standards.digital.health.nz/ns/nzmt-type-code",
+            "code": "mpuu"
           }
-        ],
-        "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-cal"
-      },
-      {
-        "extension": [
-          {
-            "url": "id",
-            "valueId": "B"
-          },
-          {
-            "url": "labelType",
-            "valueString": "reference"
-          },
-          {
-            "url": "text",
-            "valueString": "with food"
-          }
-        ],
-        "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-cal"
-      },
-      {
-        "extension": [
-          {
-            "url": "code",
-            "valueCodeableConcept": {
-              "coding": [
-                {
-                  "system": "http://www.whocc.no/atc",
-                  "code": "M01AE01"
-                }
-              ],
-              "text": "Ibuprofen"
-            }
-          },
-          {
-            "url": "isPrimary",
-            "valueBoolean": false
-          }
-        ],
-        "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-atc"
+        ]
       }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "https://nzulm.org.nz/nzmt",
-          "code": "10013271000116104",
-          "display": "ibuprofen 200 mg capsule"
-        }
-      ]
     },
-    "form": {
-      "coding": [
-        {
-          "system": "https://nzulm.org.nz/nzmt",
-          "code": "107011000036108",
-          "display": "capsule"
-        }
-      ]
+    {
+      "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-prescribe-by-brand",
+      "valueBoolean": false
     },
-    "ingredient": [
-      {
-        "itemCodeableConcept": {
-          "coding": [
-            {
-              "system": "https://nzulm.org.nz/nzmt",
-              "code": "10013251000116106",
-              "display": "ibuprofen"
-            }
-          ]
+    {
+      "extension": [
+        {
+          "url": "id",
+          "valueId": "10"
         },
-        "isActive": true
-      },
-      {
-        "itemCodeableConcept": {
-          "coding": [
-            {
-              "system": "https://nzulm.org.nz/nzmt",
-              "code": "2211011000036101",
-              "display": "ibuprofen"
-            }
-          ]
+        {
+          "url": "labelType",
+          "valueString": "label"
         },
-        "isActive": true
+        {
+          "url": "text",
+          "valueString": "Take each dose with a large glass of water."
+        }
+      ],
+      "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-cal"
+    },
+    {
+      "extension": [
+        {
+          "url": "id",
+          "valueId": "B"
+        },
+        {
+          "url": "labelType",
+          "valueString": "reference"
+        },
+        {
+          "url": "text",
+          "valueString": "with food"
+        }
+      ],
+      "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-cal"
+    },
+    {
+      "extension": [
+        {
+          "url": "code",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://www.whocc.no/atc",
+                "code": "M01AE01"
+              }
+            ],
+            "text": "Ibuprofen"
+          }
+        },
+        {
+          "url": "isPrimary",
+          "valueBoolean": false
+        }
+      ],
+      "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-atc"
+    },
+    {
+      "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-link",
+      "valueReference": {
+        "reference": "DocumentReference/cf355b0f-e14d-48b0-9c37-4e43a671a889",
+        "display": "Monograph for ibuprofen (oral)"
+      }
+    },
+    {
+      "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-link",
+      "valueReference": {
+        "reference": "DocumentReference/644b104c-bd59-461e-85dc-5071f58e8fe1",
+        "display": "Monograph for ibuprofen (intravenous)"
+      }
+    },
+    {
+      "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-link",
+      "valueReference": {
+        "reference": "DocumentReference/5bbd38b8-869c-464d-8f6d-0e26ea267463",
+        "display": "Monograph for ibuprofen (topical)"
+      }
+    },
+    {
+      "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-link",
+      "valueReference": {
+        "reference": "DocumentReference/6b1b63d0-7e37-4286-9310-57b719cd41ee",
+        "display": "Monograph for ibuprofen (systemic)"
+      }
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "https://nzulm.org.nz/nzmt",
+        "code": "10013271000116104",
+        "display": "ibuprofen 200 mg capsule"
       }
     ]
-  }
+  },
+  "form": {
+    "coding": [
+      {
+        "system": "https://nzulm.org.nz/nzmt",
+        "code": "107011000036108",
+        "display": "capsule"
+      }
+    ]
+  },
+  "ingredient": [
+    {
+      "itemCodeableConcept": {
+        "coding": [
+          {
+            "system": "https://nzulm.org.nz/nzmt",
+            "code": "10013251000116106",
+            "display": "ibuprofen"
+          }
+        ]
+      },
+      "isActive": true
+    },
+    {
+      "itemCodeableConcept": {
+        "coding": [
+          {
+            "system": "https://nzulm.org.nz/nzmt",
+            "code": "2211011000036101",
+            "display": "ibuprofen"
+          }
+        ]
+      },
+      "isActive": true
+    }
+  ]
+}

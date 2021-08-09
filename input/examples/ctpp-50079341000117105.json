@@ -11,7 +11,7 @@
       "valueCodeableConcept": {
         "coding": [
           {
-            "system": "https://standards.digital.health.nz/ns/nzmt-type",
+            "system": "https://standards.digital.health.nz/ns/nzmt-type-code",
             "code": "ctpp"
           }
         ]
@@ -137,28 +137,28 @@
     {
       "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-link",
       "valueReference": {
-        "reference": "DocumentReference/c23dcc5f-d5fa-4f80-8cd4-fc732880cccd",
+        "reference": "DocumentReference/e69db9cc-52bb-45da-abe6-51516039f44b",
         "display": "Monograph for ibuprofen (oral)"
       }
     },
     {
       "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-link",
       "valueReference": {
-        "reference": "DocumentReference/9d4b8151-c8f8-4758-8407-1ad85b3a30b2",
+        "reference": "DocumentReference/98fe151b-a6f4-4867-b8ed-8f289be4d0b4",
         "display": "Monograph for ibuprofen (intravenous)"
       }
     },
     {
       "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-link",
       "valueReference": {
-        "reference": "DocumentReference/d5eb36de-bcf1-411d-8c63-86936bb6a8a8",
+        "reference": "DocumentReference/ab76fca4-5b2a-4212-835d-64bdff389359",
         "display": "Monograph for ibuprofen (topical)"
       }
     },
     {
       "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-link",
       "valueReference": {
-        "reference": "DocumentReference/a5a4df93-cfdc-4f97-bb3e-41486ed86243",
+        "reference": "DocumentReference/2cf7ccaf-6bef-4ee1-afd6-29e6832974b1",
         "display": "Monograph for ibuprofen (systemic)"
       }
     }
