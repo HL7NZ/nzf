@@ -17,7 +17,6 @@ Description: "Funding elements specific to NZ. "
     scheduleDate 0..1 and
     annotation 0..*
 
-
 * extension[type].url = "type" (exactly)
 * extension[type] ^definition = "Type of funding - hospital, community."
 * extension[type] ^short = "Type of funding - hospital, community."
@@ -44,19 +43,8 @@ Description: "Funding elements specific to NZ. "
 * extension[scheduleDate] ^short = "The date this item was placed on the schedule"
 * extension[scheduleDate].value[x] only date
 
-// * extension[annotation].url = "annotation" (exactly)
-// * extension[annotation] ^definition = "Annotations that apply to this funding"
-// * extension[annotation] ^short = "Annotations that apply to this funding"
-* extension[annotation].extension contains 
-    type 1..1 and
-    details: 0..1
+* extension[annotation].url = "annotation" (exactly)
+* extension[annotation] ^definition = "Annotations that apply to this funding"
+* extension[annotation] ^short = "Annotations that apply to this funding"
+* extension[annotation].value[x] only CodeableConcept
 
-* extension[annotation].extension[type].url = "type" (exactly)
-* extension[annotation].extension[type] ^definition = "The type of annotation"
-* extension[annotation].extension[type] ^short = "The type of annotation"
-* extension[annotation].extension[type].value[x] only CodeableConcept
-
-* extension[annotation].extension[details].url = "details" (exactly)
-* extension[annotation].extension[details] ^definition = "Annotation details"
-* extension[annotation].extension[details] ^short = "Annotation details"
-* extension[annotation].extension[details].value[x] only string

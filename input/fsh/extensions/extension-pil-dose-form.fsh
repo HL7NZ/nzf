@@ -1,5 +1,5 @@
-Extension: PilSource
-Id: nzf-pil-source
+Extension: PilDoseForm
+Id: nzf-pil-dose-form
 Description: "Doseform that this PIL applies to"
 
 * ^url = "http://hl7.org.nz/fhir/StructureDefinition/nzf-pil-dose-form"
