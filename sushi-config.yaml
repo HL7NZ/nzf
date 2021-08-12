@@ -7,12 +7,15 @@ canonical: http://hl7.org.nz/fhir/ig/formulary
 name: NZFormulary IG
 title: HL7 FHIR Implementation Guide - New Zealand Formulary/NZULM IG
 description: IG that details how to use the New Zealand Formulary/NZULM FHIR server
+publisher:
+  name: New Zealand Medicines Formulary LP
+  email: mailto:reuben@illuminsoftware.com 
 status: draft
 version: 0.1.0
 fhirVersion: 4.0.1
 copyrightYear: 2021+
 releaseLabel: ci-build
-publisher: New Zealand Medicines Formulary LP
+
 
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
 # │  To use a provided ig-data/input/includes/menu.xml file, delete the "menu" property below.     │

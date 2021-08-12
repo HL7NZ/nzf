@@ -83,6 +83,72 @@
 <td>draft</td>
 </tr>
 <tr>
+<td><a href='StructureDefinition-nzf-page-size.html'>nzf-page-size</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/nzf-page-size</td>
+<td>
+<div>DocumentReference.content.attachment</div>
+</td>
+<td>Attachment page size</td>
+<td></td>
+<td>0</td>
+<td>draft</td>
+</tr>
+<tr>
+<td><a href='StructureDefinition-nzf-pil-dose-form.html'>nzf-pil-dose-form</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/nzf-pil-dose-form</td>
+<td>
+<div>DocumentReference.context</div>
+</td>
+<td>Doseform that this PIL applies to</td>
+<td></td>
+<td>0</td>
+<td>draft</td>
+</tr>
+<tr>
+<td><a href='StructureDefinition-nzf-pil-formulary.html'>nzf-pil-formulary</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/nzf-pil-formulary</td>
+<td>
+<div>DocumentReference.context</div>
+</td>
+<td>Applicable formulary for PIL</td>
+<td></td>
+<td>0</td>
+<td>draft</td>
+</tr>
+<tr>
+<td><a href='StructureDefinition-nzf-pil-indication.html'>nzf-pil-indication</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/nzf-pil-indication</td>
+<td>
+<div>DocumentReference.context</div>
+</td>
+<td>Indication that this PIL applies to</td>
+<td></td>
+<td>0</td>
+<td>draft</td>
+</tr>
+<tr>
+<td><a href='StructureDefinition-nzf-pil-route-of-admin.html'>nzf-pil-route-of-admin</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/nzf-pil-route-of-admin</td>
+<td>
+<div>DocumentReference.context</div>
+</td>
+<td>Route of admin that this PIL applies to</td>
+<td></td>
+<td>0</td>
+<td>draft</td>
+</tr>
+<tr>
+<td><a href='StructureDefinition-nzf-pil-source.html'>nzf-pil-source</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/nzf-pil-source</td>
+<td>
+<div>DocumentReference.context</div>
+</td>
+<td>Source of the PIL (e.g. mymedicines)</td>
+<td></td>
+<td>0</td>
+<td>draft</td>
+</tr>
+<tr>
 <td><a href='StructureDefinition-nzf-prescribe-by-brand.html'>nzf-prescribe-by-brand</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/nzf-prescribe-by-brand</td>
 <td>
@@ -119,6 +185,6 @@
 <a name="externalExtensions"> </a>
 <h3>Extensions used but defined elsewhere</h3>
 <table width='100%' border='1' cellspacing='0' cellpadding='5px'>
-<tr><th>Url</th><th>Description</th><th>IG</th></tr>
+<tr><th>Path</th><th>Url</th><th>Description</th><th>IG where defined</th></tr>
 </table>
 </div>
