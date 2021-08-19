@@ -31,8 +31,9 @@ Get list of medications that contain ibuprofen (substance)
 Not available yet - Get list of all active medications (based on the formulary criteria - see [mappings for criteria](./mapping.html) )
 >[base]/Medication?status=active
 
-**Note currently the FHIR server isn't configured to filter by extension which makes limiting to a medication type difficult.  This will be fixed soon**
 
+Get list of medication based on nzmt type
+>[base]/Medication?nzf-nzmt-type=https://standards.digital.health.nz/ns/nzmt-type-code|mpuu
 
 #### Document references
 
