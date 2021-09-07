@@ -1,0 +1,21 @@
+{
+    "resourceType": "SearchParameter",
+    "url": "http://hl7.org/fhir/nzf/SearchParameter/nzf-link",
+    "version": "1.0.1",
+    "name": "NzfLink",
+    "status": "active",
+    "date": "2021-08-26",
+    "publisher": "NZ Formulary",
+    "description": "Returns medications matching the given document reference",
+    "code": "nzf-link",
+    "base": [
+        "Medication"
+    ],
+    "type": "reference",
+    "expression": "Medication.extension.where(url = 'http://hl7.org.nz/fhir/StructureDefinition/nzf-link')",
+    "xpath": "f:Medication/f:extension[@url='http://hl7.org.nz/fhir/StructureDefinition/nzf-link')']",
+    "xpathUsage": "normal",
+    "target": [
+        "Medication"
+    ]
+}
