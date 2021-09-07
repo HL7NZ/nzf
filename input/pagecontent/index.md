@@ -136,11 +136,11 @@ The standard Medication resource provides the key information needed for integra
     </tr>
 </table>
 
-The medication resources will also link to several documents (using the link extension).  To facilitate this, we use [DocumentReference](http://hl7.org/fhir/documentreference.html) resources which are linked to via the medication link extension.
+The medication resources will also link to several documents (using the link extension).  To facilitate this, we use [DocumentReference](http://hl7.org/fhir/documentreference.html) resources.
 
 We provide document references for the following data:
 
-<table>
+<table class="table table-bordered">
 <tr>
     <th>Data</th>
     <th>Description</th>
