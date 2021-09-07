@@ -1,4 +1,4 @@
-ValueSet: NzmtTypeCodeHB
+ValueSet: PharmacFundingCodeHB
 Id: funding-code
 Title: "Derived pharmac funding code"
 Description: "Derived pharmac funding code"
@@ -10,9 +10,9 @@ Description: "Derived pharmac funding code"
 
 
 
-CodeSystem:  NzmtTypeCode
-Id: nzmt-type-code
-Title: "Possible values for Derived Pharmac funding codde"
+CodeSystem:  PharmacFundingCode
+Id: nzf-pharmac-funding-code
+Title: "Possible values for Derived Pharmac funding code"
 Description: "The set of all possible funding codes"
 
 * ^url = "https://standards.digital.health.nz/ns/funding-code"
