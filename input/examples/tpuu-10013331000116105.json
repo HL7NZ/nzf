@@ -104,7 +104,7 @@
   "code": {
     "coding": [
       {
-        "system": "https://nzulm.org.nz/nzmt",
+        "system": "https://standards.digital.health.nz/ns/nzmt-code",
         "code": "10013331000116105",
         "display": "ACT-3 (ibuprofen 200 mg) capsule: soft, 1 capsule"
       }
@@ -113,7 +113,7 @@
   "form": {
     "coding": [
       {
-        "system": "https://nzulm.org.nz/nzmt",
+        "system": "https://standards.digital.health.nz/ns/nzmt-code",
         "code": "163011000036103",
         "display": "capsule: soft"
       }
@@ -124,7 +124,7 @@
       "itemCodeableConcept": {
         "coding": [
           {
-            "system": "https://nzulm.org.nz/nzmt",
+            "system": "https://standards.digital.health.nz/ns/nzmt-code",
             "code": "10013251000116106",
             "display": "ibuprofen"
           }
@@ -136,7 +136,7 @@
       "itemCodeableConcept": {
         "coding": [
           {
-            "system": "https://nzulm.org.nz/nzmt",
+            "system": "https://standards.digital.health.nz/ns/nzmt-code",
             "code": "2211011000036101",
             "display": "ibuprofen"
           }

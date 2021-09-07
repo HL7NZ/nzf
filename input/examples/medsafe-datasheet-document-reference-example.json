@@ -47,7 +47,7 @@
     "related": [
       {
         "identifier": {
-          "system": "https://nzulm.org.nz/nzmt",
+          "system": "https://standards.digital.health.nz/ns/nzmt-code",
           "value": "50000121000117103"
         }
       }

@@ -101,7 +101,7 @@
     "code": {
         "coding": [
             {
-                "system": "https://nzulm.org.nz/nzmt",
+                "system": "https://standards.digital.health.nz/ns/nzmt-code",
                 "code": "50000221000117106",
                 "display": "Albustix diagnostic test: strip, 100 strips, bottle"
             },
@@ -117,7 +117,7 @@
             "itemCodeableConcept": {
                 "coding": [
                     {
-                        "system": "https://nzulm.org.nz/nzmt",
+                        "system": "https://standards.digital.health.nz/ns/nzmt-code",
                         "code": "20015381000116107",
                         "display": "protein indicator urine"
                     }

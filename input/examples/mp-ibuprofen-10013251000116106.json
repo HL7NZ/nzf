@@ -112,7 +112,7 @@
   "code": {
     "coding": [
       {
-        "system": "https://nzulm.org.nz/nzmt",
+        "system": "https://standards.digital.health.nz/ns/nzmt-code",
         "code": "10013251000116106",
         "display": "ibuprofen"
       }
@@ -123,7 +123,7 @@
       "itemCodeableConcept": {
         "coding": [
           {
-            "system": "https://nzulm.org.nz/nzmt",
+            "system": "https://standards.digital.health.nz/ns/nzmt-code",
             "code": "2211011000036101",
             "display": "ibuprofen"
           }

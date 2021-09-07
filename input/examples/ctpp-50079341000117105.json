@@ -166,7 +166,7 @@
   "code": {
     "coding": [
       {
-        "system": "https://nzulm.org.nz/nzmt",
+        "system": "https://standards.digital.health.nz/ns/nzmt-code",
         "code": "50079341000117105",
         "display": "Nurofen 200 mg tablet: sugar-coated, 12 tablets, blister pack"
       },
@@ -182,7 +182,7 @@
       "itemCodeableConcept": {
         "coding": [
           {
-            "system": "https://nzulm.org.nz/nzmt",
+            "system": "https://standards.digital.health.nz/ns/nzmt-code",
             "code": "10013251000116106",
             "display": "ibuprofen"
           }
@@ -194,7 +194,7 @@
       "itemCodeableConcept": {
         "coding": [
           {
-            "system": "https://nzulm.org.nz/nzmt",
+            "system": "https://standards.digital.health.nz/ns/nzmt-code",
             "code": "2211011000036101",
             "display": "ibuprofen"
           }

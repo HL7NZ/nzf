@@ -142,7 +142,7 @@
     "code": {
         "coding": [
             {
-                "system": "https://nzulm.org.nz/nzmt",
+                "system": "https://standards.digital.health.nz/ns/nzmt-code",
                 "code": "50000391000117104",
                 "display": "Glycoprep-C lemon oral liquid: powder for, 1 x 70 g sachet"
             },
@@ -158,7 +158,7 @@
             "itemCodeableConcept": {
                 "coding": [
                     {
-                        "system": "https://nzulm.org.nz/nzmt",
+                        "system": "https://standards.digital.health.nz/ns/nzmt-code",
                         "code": "20477391000116100",
                         "display": "ascorbic acid + macrogol-3350 + potassium chloride + sodium chloride + sodium sulfate"
                     }
@@ -170,7 +170,7 @@
             "itemCodeableConcept": {
                 "coding": [
                     {
-                        "system": "https://nzulm.org.nz/nzmt",
+                        "system": "https://standards.digital.health.nz/ns/nzmt-code",
                         "code": "30781011000036102",
                         "display": "ascorbic acid"
                     }
@@ -182,7 +182,7 @@
             "itemCodeableConcept": {
                 "coding": [
                     {
-                        "system": "https://nzulm.org.nz/nzmt",
+                        "system": "https://standards.digital.health.nz/ns/nzmt-code",
                         "code": "2799011000036106",
                         "display": "macrogol-3350"
                     }
@@ -194,7 +194,7 @@
             "itemCodeableConcept": {
                 "coding": [
                     {
-                        "system": "https://nzulm.org.nz/nzmt",
+                        "system": "https://standards.digital.health.nz/ns/nzmt-code",
                         "code": "2500011000036101",
                         "display": "potassium chloride"
                     }
@@ -206,7 +206,7 @@
             "itemCodeableConcept": {
                 "coding": [
                     {
-                        "system": "https://nzulm.org.nz/nzmt",
+                        "system": "https://standards.digital.health.nz/ns/nzmt-code",
                         "code": "2591011000036106",
                         "display": "sodium chloride"
                     }
@@ -218,7 +218,7 @@
             "itemCodeableConcept": {
                 "coding": [
                     {
-                        "system": "https://nzulm.org.nz/nzmt",
+                        "system": "https://standards.digital.health.nz/ns/nzmt-code",
                         "code": "52367011000036107",
                         "display": "sodium sulfate"
                     }
