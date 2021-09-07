@@ -28,12 +28,15 @@ Get list of medications that contain ibuprofen (MP)
 Get list of medications that contain ibuprofen (substance)
 >[base]/Medication?ingredient-code=2211011000036101
 
-Not available yet - Get list of all active medications (based on the formulary criteria - see [mappings for criteria](./mapping.html) )
+Get list of all active medications (based on the formulary criteria - see [mappings for criteria](./mapping.html) )
 >[base]/Medication?status=active
 
-
 Get list of medication based on nzmt type
+>[base]/Medication?nzf-nzmt-type=mpuu
 >[base]/Medication?nzf-nzmt-type=https://standards.digital.health.nz/ns/nzmt-type-code&#124;mpuu
+
+Get a medication with the nzf-link document references included (this can be used to retrieve the references to the available monographs)
+>[base]/Medication?code=10346001000116101&_include=Medication:nzf-link
 
 #### Document references
 
@@ -43,24 +46,30 @@ To get a list of all types of document references then they can be filtered by t
 
 Get a list of all NZF monographs (Adult monographs)
 >[base]/DocumentReference?type=https://standards.digital.health.nz/ns/nzf-document-type-code&#124;AdultMonograph
+>[base]/DocumentReference?type=AdultMonograph
 
 Get a list of all NZFC monographs (Child monographs)
 >[base]/DocumentReference?type=https://standards.digital.health.nz/ns/nzf-document-type-code&#124;ChildMonograph
+>[base]/DocumentReference?type=ChildMonograph
 
-Get a list of monographs by an MP sctid
->[base]/DocumentReference?type=https://standards.digital.health.nz/ns/nzf-document-type-code&#124;AdultMonograph&context.related=10013251000116106
+Get a list of medications that are contained in a monograph
+>[base]Medication?nzf-link-type=DocumentReference/a8e50e23-773a-46d5-8f38-544b0dc89857&_elements=code
 
 Get a list of all Special Authority Forms
 >[base]/DocumentReference?type=https://standards.digital.health.nz/ns/nzf-document-type-code&#124;SpecialAuthorityForm
+>[base]/DocumentReference?type=SpecialAuthorityForm
 
 Get a list of all Datasheets
 >[base]/DocumentReference?type=https://standards.digital.health.nz/ns/nzf-document-type-code&#124;Datasheet
+>[base]/DocumentReference?type=Datasheet
 
 Get a list of all CMIs
 >[base]/DocumentReference?type=https://standards.digital.health.nz/ns/nzf-document-type-code&#124;CMI
+>[base]/DocumentReference?type=CMI
 
 Get a list of all Patient Information Leaflets
-[base]/DocumentReference?type=https://standards.digital.health.nz/ns/nzf-document-type-code&#124;PIL
+>[base]/DocumentReference?type=https://standards.digital.health.nz/ns/nzf-document-type-code&#124;PIL
+>[base]/DocumentReference?type=PIL
 
-Get a specific Patient Information Leaflet for a given MP
-[base]/DocumentReference?type=https://standards.digital.health.nz/ns/nzf-document-type-code&#124;PIL&context.related=10037191000116105
+Get a Patient Information Leaflet for a given MP (this includes all document references - these will need to be filtered on return)
+>[base]/Medication?code=10037191000116105&_include=Medication:nzf-link
