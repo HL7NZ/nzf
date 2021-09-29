@@ -11,6 +11,6 @@
 - **Medicine groups**: Establish a method of distributing medicine group information
 
 ### Probable additions
-
+- ** Strength information ** - based on the NZULM MPUUSAI data
 - **GTINS**
 - **MedicationKnowledge**: Populate the MedicationKnowledge resource with more formulary information
