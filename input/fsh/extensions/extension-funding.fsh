@@ -12,12 +12,10 @@ Description: "Funding elements specific to NZ. "
 * extension contains
     type 1..1 and
     status 1..1 and 
-    // subsidyPrice 1..1 and
-    // manPrice 0..1 and
-    // scheduleDate 0..1 and
-    note 0..* and
-    rule 0..*
-
+    subsidy 0..1 and
+    manPrice 0..1 and
+    scheduleDate 0..1 and
+    annotation 0..*
 
 * extension[type].url = "type" (exactly)
 * extension[type] ^definition = "Type of funding - hospital, community."
@@ -28,30 +26,25 @@ Description: "Funding elements specific to NZ. "
 * extension[status] ^definition = "no subsidy, partial subsidy, full subsidy"
 * extension[status] ^short = "no subsidy, partial subsidy, full subsidy"
 * extension[status].value[x] only CodeableConcept
-* extension[status].value[x] from https://standards.digital.health.nz/fhir/ValueSet/funding-code
+* extension[status].value[x] from https://nzhts.digital.health.nz/fhir/ValueSet/funding-code
 
-// TODO 
-// * extension[subsidyPrice].url = "subsidyPrice" (exactly)
-// * extension[subsidyPrice] ^definition = "The subsided price"
-// * extension[subsidyPrice] ^short = "The subsided price"
-// * extension[subsidyPrice].value[x] only Money
+* extension[subsidy].url = "subsidy" (exactly)
+* extension[subsidy] ^definition = "The subsided price"
+* extension[subsidy] ^short = "The subsided price"
+* extension[subsidy].value[x] only Money
 
-// * extension[manPrice].url = "manPrice" (exactly)
-// * extension[manPrice] ^definition = "The manufacturer price."
-// * extension[manPrice] ^short = "The manufacturer price."
-// * extension[manPrice].value[x] only Money
+* extension[manPrice].url = "manPrice" (exactly)
+* extension[manPrice] ^definition = "The manufacturer price."
+* extension[manPrice] ^short = "The manufacturer price."
+* extension[manPrice].value[x] only Money
 
-// * extension[scheduleDate].url = "scheduleDate" (exactly)
-// * extension[scheduleDate] ^definition = "The date this item was placed on the schedule"
-// * extension[scheduleDate] ^short = "The date this item was placed on the schedule"
-// * extension[scheduleDate].value[x] only date
+* extension[scheduleDate].url = "scheduleDate" (exactly)
+* extension[scheduleDate] ^definition = "The date this item was placed on the schedule"
+* extension[scheduleDate] ^short = "The date this item was placed on the schedule"
+* extension[scheduleDate].value[x] only date
 
-* extension[note].url = "note" (exactly)
-* extension[note] ^definition = "A note that applies to this funding"
-* extension[note] ^short = "A note that applies to this funding"
-* extension[note].value[x] only string
+* extension[annotation].url = "annotation" (exactly)
+* extension[annotation] ^definition = "Annotations that apply to this funding"
+* extension[annotation] ^short = "Annotations that apply to this funding"
+* extension[annotation].value[x] only CodeableConcept
 
-* extension[rule].url = "rule" (exactly)
-* extension[rule] ^definition = "A rule that applies to this funding"
-* extension[rule] ^short = "A rule that applies to this funding"
-* extension[rule].value[x] only string

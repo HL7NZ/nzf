@@ -1,0 +1,56 @@
+{
+  "id": "medsafe-datasheet-document-reference-example",
+  "resourceType": "DocumentReference",
+  "contained": [
+    {
+      "resourceType": "Organization",
+      "id": "Medsafe",
+      "name": "Medsafe"
+    }
+  ],
+  "identifier": [
+    {
+      "system": "https://standards.digital.health.nz/ns/nzmt-type",
+      "value": "50000121000117103"
+    }
+  ],
+  "status": "current",
+  "docStatus": "final",
+  "type": {
+    "coding": [
+      {
+        "system": "https://standards.digital.health.nz/ns/nzf-document-type",
+        "code": "Datasheet",
+        "display": "Medsafe Datasheet"
+      }
+    ],
+    "text": "Medsafe Datasheet"
+  },
+  "date": "2021-07-21T13:03:03.0597357+12:00",
+  "author": [
+    {
+      "reference": "#Medsafe",
+      "type": "Organization",
+      "display": "Medsafe"
+    }
+  ],
+  "description": "Datasheet for 50000121000117103",
+  "content": [
+    {
+      "attachment": {
+        "url": "https://www.medsafe.govt.nz/profs/datasheet/r/Risperdaltabquickletssol.pdf",
+        "title": "Datasheet for 50000121000117103"
+      }
+    }
+  ],
+  "context": {
+    "related": [
+      {
+        "identifier": {
+          "system": "https://standards.digital.health.nz/ns/nzmt-code",
+          "value": "50000121000117103"
+        }
+      }
+    ]
+  }
+}

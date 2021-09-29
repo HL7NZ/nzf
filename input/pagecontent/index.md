@@ -136,6 +136,39 @@ The standard Medication resource provides the key information needed for integra
     </tr>
 </table>
 
-The medication resources will also link to several documents (using the link extension).  To facilitate this, we use [DocumentReference](http://hl7.org/fhir/documentreference.html) resources.  Currently the intention is to have document references to formulary monographs, datasheets, patient information leaflets and pharmac special authority forms.  These will be linked from the specific medication that they apply to as well as at a DocumentReference endpoint.  This will allow for retrieval of all DocumentReferences of a certain type (e.g. give me all the datasheets etc.).
+The medication resources will also link to several documents (using the link extension).  To facilitate this, we use [DocumentReference](http://hl7.org/fhir/documentreference.html) resources.
+
+We provide document references for the following data:
+
+<table class="table table-bordered">
+<tr>
+    <th>Data</th>
+    <th>Description</th>
+</tr>
+<tr>
+    <td>Adult monographs</td>
+    <td>A reference to all adult monographs - this allows for integrating systems to determine which monograph(s) to link to for a given medication</td>
+</tr>
+<tr>
+    <td>Child monographs</td>
+    <td>A reference to all children monographs - this allows for integrating systems to determine which monograph(s) to link to for a given medication</td>
+</tr>
+<tr>
+    <td>Patient information leaflets</td>
+    <td>A link to all patient information leaflets - these contain a number of extensions to provide extra information about the PIL (see mapping tab)</td>
+</tr>
+<tr>
+    <td>Medsafe Datasheets</td>
+    <td>A reference to all medsafe datasheet URLs</td>
+</tr>
+<tr>
+    <td>Medsafe CMIs</td>
+    <td>A reference to all medsafe CMI URLs</td>
+</tr>
+<tr>
+    <td>Pharmac Special Authority Forms</td>
+    <td>A reference to all pharmac special authority forms, including the form XML</td>
+</tr>
+</table>
 
 As we stated we want this to be as useful as possible so please get in touch if you have any feedback.

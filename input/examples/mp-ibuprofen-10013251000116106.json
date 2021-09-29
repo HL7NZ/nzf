@@ -1,106 +1,135 @@
 {
-    "resourceType": "Medication",
-    "id": "mp-ibuprofen-10013251000116106",
-    "text": {
-      "div": "<div xmlns='http://www.w3.org/1999/xhtml'>ibuprofen (mp) - 10013251000116106</div>"
-    },
-    "extension": [
-      {
-        "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-nzmt-type",
-        "valueCodeableConcept": {
-          "coding": [
-            {
-              "system": "https://standards.digital.health.nz/ns/nzmt-type",
-              "code": "mp"
-            }
-          ]
-        }
-      },
-      {
-        "extension": [
+  "resourceType": "Medication",
+  "id": "mp-ibuprofen-10013251000116106",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns='http://www.w3.org/1999/xhtml'>ibuprofen (mp) - 10013251000116106</div>"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-nzmt-type",
+      "valueCodeableConcept": {
+        "coding": [
           {
-            "url": "code",
-            "valueCodeableConcept": {
-              "coding": [
-                {
-                  "system": "http://www.whocc.no/atc",
-                  "code": "M01AE01"
-                }
-              ],
-              "text": "Ibuprofen"
-            }
-          },
-          {
-            "url": "isPrimary",
-            "valueBoolean": false
+            "system": "https://standards.digital.health.nz/ns/nzmt-type-code",
+            "code": "mp"
           }
-        ],
-        "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-atc"
-      },
-      {
-        "extension": [
-          {
-            "url": "code",
-            "valueCodeableConcept": {
-              "coding": [
-                {
-                  "system": "http://www.whocc.no/atc",
-                  "code": "C01EB16"
-                }
-              ],
-              "text": "Ibuprofen"
-            }
-          },
-          {
-            "url": "isPrimary",
-            "valueBoolean": false
-          }
-        ],
-        "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-atc"
-      },
-      {
-        "extension": [
-          {
-            "url": "code",
-            "valueCodeableConcept": {
-              "coding": [
-                {
-                  "system": "http://www.whocc.no/atc",
-                  "code": "M02AA13"
-                }
-              ],
-              "text": "Ibuprofen"
-            }
-          },
-          {
-            "url": "isPrimary",
-            "valueBoolean": false
-          }
-        ],
-        "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-atc"
+        ]
       }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "https://nzulm.org.nz/nzmt",
-          "code": "10013251000116106",
-          "display": "ibuprofen"
-        }
-      ]
     },
-    "ingredient": [
-      {
-        "itemCodeableConcept": {
-          "coding": [
-            {
-              "system": "https://nzulm.org.nz/nzmt",
-              "code": "2211011000036101",
-              "display": "ibuprofen"
-            }
-          ]
+    {
+      "extension": [
+        {
+          "url": "code",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://www.whocc.no/atc",
+                "code": "M01AE01"
+              }
+            ],
+            "text": "Ibuprofen"
+          }
         },
-        "isActive": true
+        {
+          "url": "isPrimary",
+          "valueBoolean": false
+        }
+      ],
+      "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-atc"
+    },
+    {
+      "extension": [
+        {
+          "url": "code",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://www.whocc.no/atc",
+                "code": "C01EB16"
+              }
+            ],
+            "text": "Ibuprofen"
+          }
+        },
+        {
+          "url": "isPrimary",
+          "valueBoolean": false
+        }
+      ],
+      "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-atc"
+    },
+    {
+      "extension": [
+        {
+          "url": "code",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://www.whocc.no/atc",
+                "code": "M02AA13"
+              }
+            ],
+            "text": "Ibuprofen"
+          }
+        },
+        {
+          "url": "isPrimary",
+          "valueBoolean": false
+        }
+      ],
+      "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-atc"
+    },
+    {
+      "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-link",
+      "valueReference": {
+        "reference": "DocumentReference/1c88d6ed-5c9d-4781-adad-502fe313df75",
+        "display": "Monograph for ibuprofen (oral)"
+      }
+    },
+    {
+      "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-link",
+      "valueReference": {
+        "reference": "DocumentReference/d3e98703-c9f7-4395-9e5d-abff58997fc5",
+        "display": "Monograph for ibuprofen (intravenous)"
+      }
+    },
+    {
+      "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-link",
+      "valueReference": {
+        "reference": "DocumentReference/20bc043a-2b38-497c-961e-63bea3c04db7",
+        "display": "Monograph for ibuprofen (topical)"
+      }
+    },
+    {
+      "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-link",
+      "valueReference": {
+        "reference": "DocumentReference/35162cd4-27ad-4fe2-a4d5-650bcd2e3c27",
+        "display": "Monograph for ibuprofen (systemic)"
+      }
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "https://standards.digital.health.nz/ns/nzmt-code",
+        "code": "10013251000116106",
+        "display": "ibuprofen"
       }
     ]
-  }
+  },
+  "ingredient": [
+    {
+      "itemCodeableConcept": {
+        "coding": [
+          {
+            "system": "https://standards.digital.health.nz/ns/nzmt-code",
+            "code": "2211011000036101",
+            "display": "ibuprofen"
+          }
+        ]
+      },
+      "isActive": true
+    }
+  ]
+}

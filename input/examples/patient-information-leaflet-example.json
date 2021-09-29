@@ -1,0 +1,127 @@
+{
+    "resourceType": "DocumentReference",
+    "contained": [
+        {
+            "resourceType": "Organization",
+            "id": "NewZealandFormulary",
+            "name": "NewZealandFormulary"
+        }
+    ],
+    "id": "patient-information-leaflet-example",
+    "status": "current",
+    "docStatus": "final",
+    "type": {
+        "coding": [
+            {
+                "system": "https://standards.digital.health.nz/ns/nzf-document-type-code",
+                "code": "PIL",
+                "display": "Patient Information Leaflet"
+            }
+        ],
+        "text": "Patient Information Leaflet"
+    },
+    "date": "2021-08-05T08:38:36.8551119+12:00",
+    "author": [
+        {
+            "reference": "#NewZealandFormulary",
+            "type": "Organization",
+            "display": "NewZealandFormulary"
+        }
+    ],
+    "description": "Acarbose",
+    "content": [
+        {
+            "attachment": {
+                "extension": [
+                    {
+                        "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-page-size",
+                        "valueCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "https://standards.digital.health.nz/ns/nzf-page-size-code",
+                                    "code": "A4",
+                                    "display": "A4"
+                                }
+                            ],
+                            "text": "A4"
+                        }
+                    }
+                ],
+                "contentType": "application/pdf",
+                "language": "en-NZ",
+                "url": "http://www.mymedicines.nz/home/sheet/Acarbose?format=pdfA4&inline=true",
+                "title": "Acarbose"
+            }
+        },
+        {
+            "attachment": {
+                "extension": [
+                    {
+                        "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-page-size",
+                        "valueCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "https://standards.digital.health.nz/ns/nzf-page-size-code",
+                                    "code": "A5",
+                                    "display": "A5"
+                                }
+                            ],
+                            "text": "A5"
+                        }
+                    }
+                ],
+                "contentType": "application/pdf",
+                "language": "en-NZ",
+                "url": "http://www.mymedicines.nz/home/sheet/Acarbose?format=pdfA5&inline=true",
+                "title": "Acarbose"
+            }
+        },
+        {
+            "attachment": {
+                "extension": [
+                    {
+                        "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-page-size",
+                        "valueCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "https://standards.digital.health.nz/ns/nzf-page-size-code",
+                                    "code": "A4",
+                                    "display": "A4"
+                                }
+                            ],
+                            "text": "A4"
+                        }
+                    }
+                ],
+                "contentType": "application/pdf",
+                "language": "mi",
+                "url": "https://mymedicines.nz/TeReo/NZF/Acarbose.pdf",
+                "title": "Acarbose"
+            }
+        }
+    ],
+    "context": {
+        "extension": [
+            {
+                "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-pil-source",
+                "valueCodeableConcept": {
+                    "text": "MyMedicine"
+                }
+            },
+            {
+                "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-pil-formulary",
+                "valueCodeableConcept": {
+                    "text": "NZF"
+                }
+            }
+        ],
+        "related": [
+            {
+                "identifier": {
+                    "system": "https://nzulm.org.nz/nzmt",
+                    "value": "10306101000116100"
+                }
+            }
+        ]
+    }
+}

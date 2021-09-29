@@ -1,9 +1,9 @@
-Details on what we are working on and what is coming up
+## Details on what we are working on and what is coming up
 
 ### Short-term
 
 - **Populate s29 TPUU/CTPP legal classifications**
-- **Update system urls**
+- **Update system urls - awaiting HISO feedback**
 
 ### Medium term
 
@@ -12,7 +12,5 @@ Details on what we are working on and what is coming up
 
 ### Probable additions
 
-- **Medsafe Datasheets**: Create Medsafe datasheet document references and link to medications
-- **Patient Information Leaflets (PILs) Document References**: Create PIL document references and link to medications
 - **GTINS**
 - **MedicationKnowledge**: Populate the MedicationKnowledge resource with more formulary information

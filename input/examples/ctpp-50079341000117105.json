@@ -11,7 +11,7 @@
       "valueCodeableConcept": {
         "coding": [
           {
-            "system": "https://standards.digital.health.nz/ns/nzmt-type",
+            "system": "https://standards.digital.health.nz/ns/nzmt-type-code",
             "code": "ctpp"
           }
         ]
@@ -133,12 +133,40 @@
         }
       ],
       "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-cal"
+    },
+    {
+      "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-link",
+      "valueReference": {
+        "reference": "DocumentReference/e69db9cc-52bb-45da-abe6-51516039f44b",
+        "display": "Monograph for ibuprofen (oral)"
+      }
+    },
+    {
+      "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-link",
+      "valueReference": {
+        "reference": "DocumentReference/98fe151b-a6f4-4867-b8ed-8f289be4d0b4",
+        "display": "Monograph for ibuprofen (intravenous)"
+      }
+    },
+    {
+      "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-link",
+      "valueReference": {
+        "reference": "DocumentReference/ab76fca4-5b2a-4212-835d-64bdff389359",
+        "display": "Monograph for ibuprofen (topical)"
+      }
+    },
+    {
+      "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-link",
+      "valueReference": {
+        "reference": "DocumentReference/2cf7ccaf-6bef-4ee1-afd6-29e6832974b1",
+        "display": "Monograph for ibuprofen (systemic)"
+      }
     }
   ],
   "code": {
     "coding": [
       {
-        "system": "https://nzulm.org.nz/nzmt",
+        "system": "https://standards.digital.health.nz/ns/nzmt-code",
         "code": "50079341000117105",
         "display": "Nurofen 200 mg tablet: sugar-coated, 12 tablets, blister pack"
       },
@@ -154,7 +182,7 @@
       "itemCodeableConcept": {
         "coding": [
           {
-            "system": "https://nzulm.org.nz/nzmt",
+            "system": "https://standards.digital.health.nz/ns/nzmt-code",
             "code": "10013251000116106",
             "display": "ibuprofen"
           }
@@ -166,7 +194,7 @@
       "itemCodeableConcept": {
         "coding": [
           {
-            "system": "https://nzulm.org.nz/nzmt",
+            "system": "https://standards.digital.health.nz/ns/nzmt-code",
             "code": "2211011000036101",
             "display": "ibuprofen"
           }

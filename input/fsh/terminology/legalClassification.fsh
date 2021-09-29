@@ -3,7 +3,7 @@ Id: medicine-classification-code
 Title: "Legal Medication status"
 Description: "Legal Medication status"
 
-* ^url = "https://standards.digital.health.nz/fhir/ValueSet/medicine-classification-code"
+* ^url = "https://nzhts.digital.health.nz/fhir/ValueSet/medicine-classification-code"
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
 
 * codes from system https://standards.digital.health.nz/ns/medicine-classification-code
