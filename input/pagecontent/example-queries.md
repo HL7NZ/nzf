@@ -17,7 +17,6 @@ Get a specific medication based on sctid via code - returns a bundle
 Get a specific medication based on sctid via pharmacode (only applies to CTPPs) - returns a bundle
 >[base]/Medication?code=393924
 
-
 Get medications that have been updated since 1 Apr 2021 (can be useful for maintaining a local cache)
 >[base]/Medication?_lastUpdated=gt2021-04-01
 
@@ -37,6 +36,13 @@ Get list of medication based on nzmt type
 
 Get a medication with the nzf-link document references included (this can be used to retrieve the references to the available monographs)
 >[base]/Medication?code=10346001000116101&_include=Medication:nzf-link
+
+Search for a medication based on part of the preferred term (other string based search options can be used on this search parameter)
+>[base]/Medication?nzf-preferred-term:contains=purified
+
+Search for a CTPP medication based on part of the preferred term (other string based search options can be used on this search parameter)
+>[base]/Medication?nzf-preferred-term:contains=purified&nzf-nzmt-type=ctpp
+
 
 #### Document references
 

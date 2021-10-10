@@ -1,0 +1,21 @@
+{
+    "resourceType": "SearchParameter",
+    "url": "http://hl7.org/fhir/nzf/SearchParameter/nzf-preferred-term",
+    "version": "1.0.2",
+    "name": "PreferredTerm",
+    "status": "active",
+    "date": "2021-10-06",
+    "publisher": "NZ Formulary",
+    "description": "Returns medications based on the medication preferred term",
+    "code": "nzf-preferred-term",
+    "base": [
+        "Medication"
+    ],
+    "type": "string",
+    "expression": "Medication.code.coding.display",
+    "xpath": "f:Medication/f:code.coding.display",
+    "xpathUsage": "normal",
+    "target": [
+        "Medication"
+    ]
+}
