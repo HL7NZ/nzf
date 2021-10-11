@@ -16,6 +16,7 @@ Description: "Specific descriptions that apply to this medication"
 * extension[type].url = "type" (exactly)
 * extension[type] ^definition = "Type of description."
 * extension[type].value[x] only CodeableConcept
+* extension[type].value[x] from https://nzhts.digital.health.nz/fhir/ValueSet/nzf-description-types
 
 * extension[term].url = "term" (exactly)
 * extension[term] ^definition = "the text of the description"

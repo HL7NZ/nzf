@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-sushi fsh -o .
+sushi -o .
 if [[ $? -eq 0 ]]
 then
 
