@@ -17,3 +17,5 @@ This page details the recent changes we have made to the NZ Formulary/NZULM FHIR
 - 22/7/2021: Added medsafe datasheet/cmi document references, including links to medications and examples
 - 4/8/2021: Added Patient Information Leaflet document references and example
 - 5/8/2021: Updated funding extension and added example
+- 8/10/2021: Added 'PreferredTerm' search parameters to allow for better text searches
+- 11/10/2021: Re-added descriptions extension which includes NZMT descriptions (to be discussed in a wider group)
