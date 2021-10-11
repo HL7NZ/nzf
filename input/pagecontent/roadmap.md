@@ -11,9 +11,10 @@
 - **Medicine groups**: Establish a method of distributing medicine group information
 
 ### Suggested additions under consideration
-- ** Strength information ** - Populate the medication.ingredient.strength based on the NZULM MPUUSAI data
-- ** NZULM Concept Traversal ** - Provide a way to navigate between related NZULM concepts
-- ** Pharmac funding - provide more atomised FHIR data **
-- ** Manufacturer info **
+
+- **Strength information** - Populate the medication.ingredient.strength based on the NZULM MPUUSAI data
+- **NZULM Concept Traversal** - Provide a way to navigate between related NZULM concepts
+- **Pharmac funding - provide more atomised FHIR data**
+- **Manufacturer info** - manufacturer info is not available but we could potential add sponsor details
 - **GTINS**
 - **MedicationKnowledge**: Populate the MedicationKnowledge resource with more formulary information
