@@ -3,7 +3,8 @@ Alias: $atc = http://hl7.org.nz/fhir/StructureDefinition/nzf-atc
 Alias: $link = http://hl7.org.nz/fhir/StructureDefinition/nzf-link
 Alias: $cal = http://hl7.org.nz/fhir/StructureDefinition/nzf-cal
 Alias: $funding = http://hl7.org.nz/fhir/StructureDefinition/nzf-funding
-// Alias: $description = http://hl7.org.nz/fhir/StructureDefinition/description
+Alias: $fundingRule = http://hl7.org.nz/fhir/StructureDefinition/nzf-funding-rule
+Alias: $description = http://hl7.org.nz/fhir/StructureDefinition/description
 Alias: $unapproved = http://hl7.org.nz/fhir/StructureDefinition/nzf-unapproved
 Alias: $legalclass = http://hl7.org.nz/fhir/StructureDefinition/nzf-legalclass
 Alias: $medsafe = http://hl7.org.nz/fhir/StructureDefinition/nzf-medsafe
@@ -24,7 +25,8 @@ Title:          "Medication resource for NZ Formulary"
     $link named link 0..* and 
     $cal named cal 0..* and
     $funding named funding 0..* and
-    // $description named description 0..* and
+    $fundingRule named fundingRule 0..* and
+    $description named description 0..* and
     $unapproved named unapproved 0..1 and
     $legalclass named legalclass 0..1 and
     $medsafe named medsafe 0..1 and
@@ -34,8 +36,10 @@ Title:          "Medication resource for NZ Formulary"
 * extension[nzmtType] ^short = "Type of NZMT record (e.g. MP, MPUU)"    
 * extension[atc] ^short = "Anatomical Therapeutic Chemical (ATC) Classification"
 * extension[link] ^short = "Links to other information about this medication"
+* extension[description] ^short = "NZMT descriptions for the medicine"
 * extension[cal] ^short = "Cautionary and Advisory Label"
-* extension[funding] ^short = "Funding constraints and requirements"
+* extension[funding] ^short = "General Funding details"
+* extension[fundingRule] ^short = "Funding constraints and requirements"
 * extension[unapproved] ^short = "Whether the medication can be used under section29"
 * extension[legalclass] ^short = "Legal classification of the medication"
 * extension[medsafe] ^short = "Medsafe details of the medication"
@@ -43,7 +47,6 @@ Title:          "Medication resource for NZ Formulary"
 * extension[supplyinformation] ^short = "Supply information"
 
 // elements that have been removed
-* status 0..0
 * manufacturer 0..0
 * amount 0..0
 * ingredient.strength 0..0

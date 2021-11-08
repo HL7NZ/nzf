@@ -19,3 +19,4 @@ This page details the recent changes we have made to the NZ Formulary/NZULM FHIR
 - 5/8/2021: Updated funding extension and added example
 - 8/10/2021: Added 'PreferredTerm' search parameters to allow for better text searches
 - 11/10/2021: Re-added descriptions extension which includes NZMT descriptions (to be discussed in a wider group)
+- 8/11/2021: Updated funding information including adding a new extension - nzf-funding-rule to store funding restriction details

@@ -175,10 +175,9 @@
         </tr>
     </table>
     <br />
-    <p>* A CTPP medication is deemed active if the following criteria is met</p>
+    <p>* A CTPP medication is deemed active if the following criteria is met and the medication is not deemed obsolete (via NZMT is_obsolete flag)</p>
     <ul>
-        <li>Has some level of community funding</li>
-        <li>Is Hml</li>
+        <li>Has some level of community funding or HML funding for any of the schedules associated with the medication (i.e. current or future)</li>
         <li>Is section 29</li>
         <li>Has no medsafe nzmt link</li>
         <li>Medsafe package summary is either "Active" or "Under Assessment" and Medsafe regSituation is either "Consent given" or "Provisional consent"</li>       
