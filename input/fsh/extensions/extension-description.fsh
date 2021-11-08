@@ -1,6 +1,6 @@
-Extension: Description
-Id: description
-Description: "Specific descriptions that apply to this medication"
+Extension: NzmtDescription
+Id: nzf-nzmt-description
+Description: "Specific NZMT descriptions that apply to this medication"
 
 * ^url = "http://hl7.org.nz/fhir/StructureDefinition/description"
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ

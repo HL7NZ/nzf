@@ -4,7 +4,7 @@ Alias: $link = http://hl7.org.nz/fhir/StructureDefinition/nzf-link
 Alias: $cal = http://hl7.org.nz/fhir/StructureDefinition/nzf-cal
 Alias: $funding = http://hl7.org.nz/fhir/StructureDefinition/nzf-funding
 Alias: $fundingRule = http://hl7.org.nz/fhir/StructureDefinition/nzf-funding-rule
-Alias: $description = http://hl7.org.nz/fhir/StructureDefinition/description
+Alias: $description = http://hl7.org.nz/fhir/StructureDefinition/nzf-nzmt-description
 Alias: $unapproved = http://hl7.org.nz/fhir/StructureDefinition/nzf-unapproved
 Alias: $legalclass = http://hl7.org.nz/fhir/StructureDefinition/nzf-legalclass
 Alias: $medsafe = http://hl7.org.nz/fhir/StructureDefinition/nzf-medsafe
@@ -26,7 +26,7 @@ Title:          "Medication resource for NZ Formulary"
     $cal named cal 0..* and
     $funding named funding 0..* and
     $fundingRule named fundingRule 0..* and
-    $description named description 0..* and
+    $description named nzmtDescription 0..* and
     $unapproved named unapproved 0..1 and
     $legalclass named legalclass 0..1 and
     $medsafe named medsafe 0..1 and

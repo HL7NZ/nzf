@@ -1,5 +1,5 @@
-Extension: Funding
-Id: nzf-funding
+Extension: FundingRule
+Id: nzf-funding-rule
 Description: "Funding elements specific to NZ. "
 
 * ^url = "http://hl7.org.nz/fhir/StructureDefinition/nzf-funding-rule"
@@ -26,7 +26,7 @@ Description: "Funding elements specific to NZ. "
 * extension[ruleType].url = "ruleType" (exactly)
 * extension[ruleType] ^definition = "The type of pharmac rule - primarily sourced from the ps_rule table but can be derived for attribute based rules"
 * extension[ruleType] ^short = "The type of pharmac rule - primarily sourced from the ps_rule table but can be derived for attribute based rules"
-* extension[ruleType].value[x] only string
+* extension[ruleType].value[x] only CodeableConcept
 
 * extension[subsidy].url = "ruleAttribute" (exactly)
 * extension[subsidy] ^definition = "The attribute from the ps_rule table"
