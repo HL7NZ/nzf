@@ -19,7 +19,7 @@ Title:          "Medication resource for NZ Formulary"
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
 * ^url = "http://hl7.org.nz/fhir/StructureDefinition/nzf-medication"
 
-* extension contains
+* extension contains  
     $nzmtType named nzmtType 1..1 and
     $atc named atc 0..* and
     $link named link 0..* and 
