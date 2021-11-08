@@ -2,9 +2,10 @@ Extension: NzmtDescription
 Id: nzf-nzmt-description
 Description: "Specific NZMT descriptions that apply to this medication"
 
-* ^url = "http://hl7.org.nz/fhir/StructureDefinition/description"
+* ^url = "http://hl7.org.nz/fhir/StructureDefinition/nzf-nzmt-description"
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
 
+* ^status = #draft
 * ^context.type = #element
 * ^context.expression = "Medication"
 

@@ -37,7 +37,7 @@ Description: "General funding information specific to NZ."
 * extension[manPrice] ^short = "Community - The manufacturer price."
 * extension[manPrice].value[x] only Money
 
-* extension[manPrice].url = "isHml" (exactly)
-* extension[manPrice] ^definition = "Is HML"
-* extension[manPrice] ^short = "Is HML."
-* extension[manPrice].value[x] only boolean
+* extension[isHml].url = "isHml" (exactly)
+* extension[isHml] ^definition = "Is HML"
+* extension[isHml] ^short = "Is HML."
+* extension[isHml].value[x] only boolean
