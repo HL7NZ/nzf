@@ -5,17 +5,6 @@
 <th>FMM</th>
 <th>Status</th>
 </tr>
-<tr style='background-color:#FFCCCC'>
-<td><a href='StructureDefinition-description.html'>description</a></td>
-<td>http://hl7.org.nz/fhir/StructureDefinition/description</td>
-<td>
-<div>Medication</div>
-</td>
-<td>Specific descriptions that apply to this medication</td>
-<td></td>
-<td>0</td>
-<td>active</td>
-</tr>
 <tr>
 <td><a href='StructureDefinition-nzf-atc.html'>nzf-atc</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/nzf-atc</td>
@@ -39,12 +28,23 @@
 <td>draft</td>
 </tr>
 <tr>
+<td><a href='StructureDefinition-nzf-funding-rule.html'>nzf-funding-rule</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/nzf-funding-rule</td>
+<td>
+<div>Medication</div>
+</td>
+<td>Funding elements specific to NZ. </td>
+<td></td>
+<td>0</td>
+<td>draft</td>
+</tr>
+<tr>
 <td><a href='StructureDefinition-nzf-funding.html'>nzf-funding</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/nzf-funding</td>
 <td>
 <div>Medication</div>
 </td>
-<td>Funding elements specific to NZ. </td>
+<td>General funding information specific to NZ.</td>
 <td></td>
 <td>0</td>
 <td>draft</td>
@@ -78,6 +78,17 @@
 <div>Medication</div>
 </td>
 <td>Medsafe package and reg situation details</td>
+<td></td>
+<td>0</td>
+<td>draft</td>
+</tr>
+<tr>
+<td><a href='StructureDefinition-nzf-nzmt-description.html'>nzf-nzmt-description</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/nzf-nzmt-description</td>
+<td>
+<div>Medication</div>
+</td>
+<td>Specific NZMT descriptions that apply to this medication</td>
 <td></td>
 <td>0</td>
 <td>draft</td>
