@@ -26,8 +26,76 @@
                 {
                     "url": "type",
                     "valueCodeableConcept": {
-                        "text": "community"
+                        "coding": [
+                            {
+                                "system": "https://nzmt.org.nz",
+                                "code": "20069071000116107"
+                            }
+                        ]
                     }
+                },
+                {
+                    "url": "term",
+                    "valueCodeableConcept": {
+                        "coding": [
+                            {
+                                "system": "https://nzmt.org.nz",
+                                "code": "24034771000116118",
+                                "display": "Albustix diagnostic test: strip, 100 strips, bottle"
+                            }
+                        ],
+                        "text": "Albustix diagnostic test: strip, 100 strips, bottle"
+                    }
+                }
+            ],
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-description"
+        },
+        {
+            "extension": [
+                {
+                    "url": "type",
+                    "valueCodeableConcept": {
+                        "coding": [
+                            {
+                                "system": "https://nzmt.org.nz",
+                                "code": "20072381000116109"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "url": "term",
+                    "valueCodeableConcept": {
+                        "coding": [
+                            {
+                                "system": "https://nzmt.org.nz",
+                                "code": "24034781000116116",
+                                "display": "Albustix (protein indicator urine) diagnostic test: strip, 100 strips, bottle (containered trade product pack)"
+                            }
+                        ],
+                        "text": "Albustix (protein indicator urine) diagnostic test: strip, 100 strips, bottle (containered trade product pack)"
+                    }
+                }
+            ],
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-description"
+        },
+        {
+            "extension": [
+                {
+                    "url": "scheduleDate",
+                    "valueDateTime": "2021-11-01"
+                },
+                {
+                    "url": "isHml",
+                    "valueBoolean": false
+                },
+                {
+                    "url": "subsidy",
+                    "valueString": "7.02"
+                },
+                {
+                    "url": "manPrice",
+                    "valueString": "13.92"
                 },
                 {
                     "url": "status",
@@ -36,38 +104,10 @@
                             {
                                 "system": "https://standards.digital.health.nz/ns/funding-code",
                                 "code": "1",
-                                "display": "part subsidy"
+                                "display": "partial"
                             }
                         ],
-                        "text": "part subsidy"
-                    }
-                },
-                {
-                    "url": "scheduleDate",
-                    "valueString": "2021-08-01"
-                },
-                {
-                    "url": "manPrice",
-                    "valueMoney": {
-                        "value": 13.9200
-                    }
-                },
-                {
-                    "url": "subsidy",
-                    "valueMoney": {
-                        "value": 13.9200
-                    }
-                },
-                {
-                    "url": "annotation",
-                    "valueCodeableConcept": {
-                        "text": "Original Pack"
-                    }
-                },
-                {
-                    "url": "annotation",
-                    "valueCodeableConcept": {
-                        "text": "Statim: Three months or six months, as applicable, dispensed all-at-once."
+                        "text": "partial"
                     }
                 }
             ],
@@ -76,38 +116,68 @@
         {
             "extension": [
                 {
-                    "url": "id",
-                    "valueId": "0"
+                    "url": "scheduleDate",
+                    "valueDateTime": "2021-11-01"
                 },
                 {
-                    "url": "labelType",
-                    "valueString": "label"
+                    "url": "type",
+                    "valueCodeableConcept": {
+                        "text": "Community"
+                    }
                 },
                 {
-                    "url": "text",
-                    "valueString": "No label required."
+                    "url": "ruleType",
+                    "valueCodeableConcept": {
+                        "text": "OriginalPack"
+                    }
+                },
+                {
+                    "url": "ruleText",
+                    "valueString": "Original Pack"
                 }
             ],
-            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-cal"
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-funding-rule"
         },
         {
-            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-link",
-            "valueReference": {
-                "reference": "DocumentReference/22bb312f-5814-48d7-8828-255f0abdc82a",
-                "display": "Monograph for Urinalysis"
-            }
+            "extension": [
+                {
+                    "url": "scheduleDate",
+                    "valueDateTime": "2021-11-01"
+                },
+                {
+                    "url": "type",
+                    "valueCodeableConcept": {
+                        "text": "Community"
+                    }
+                },
+                {
+                    "url": "ruleType",
+                    "valueCodeableConcept": {
+                        "text": "Statim"
+                    }
+                },
+                {
+                    "url": "ruleValue",
+                    "valueString": "Must"
+                },
+                {
+                    "url": "ruleText",
+                    "valueString": "Statim: Three months or six months, as applicable, dispensed all-at-once."
+                }
+            ],
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-funding-rule"
         }
     ],
     "code": {
         "coding": [
             {
-                "system": "https://standards.digital.health.nz/ns/nzmt-code",
+                "system": "https://nzmt.org.nz",
                 "code": "50000221000117106",
                 "display": "Albustix diagnostic test: strip, 100 strips, bottle"
             },
             {
                 "system": "https://nzulm.org.nz/pharmacode",
-                "code": "200190"
+                "code": "50000221000117106"
             }
         ]
     },
@@ -117,7 +187,7 @@
             "itemCodeableConcept": {
                 "coding": [
                     {
-                        "system": "https://standards.digital.health.nz/ns/nzmt-code",
+                        "system": "https://nzmt.org.nz",
                         "code": "20015381000116107",
                         "display": "protein indicator urine"
                     }
