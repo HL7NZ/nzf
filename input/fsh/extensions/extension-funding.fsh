@@ -1,6 +1,6 @@
 Extension: Funding
 Id: nzf-funding
-Description: "General funding information specific to NZ."
+Description: "General funding information specific to NZ.  This details whether the product is either community funded or is on the HML.  The extension can be added multiple times to a product for each pharmac schedule.  These can be differentiated via the scheduleDate field."
 
 * ^url = "http://hl7.org.nz/fhir/StructureDefinition/nzf-funding"
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
