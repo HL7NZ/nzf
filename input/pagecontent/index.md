@@ -187,7 +187,7 @@ We provide document references for the following data:
 <p>Funding information is added to Container Trade Product Packs where applicable.  The funding information is derived from both the Pharmac community schedule as well as the HML.</p>
 <p>There are two extensions added that store this information.  The first is <b>nzf-funding</b>.  This stores the general information around funding for a specific product, including some of the community schedule details (price etc.) - <a href="./StructureDefinition-nzf-funding.html">see extension details</a> To cater for the existence of multiple schedules this extension can be added to a product multiple times, once per schedule.  This allows vendors to see both the current schedule information as well as an upcoming schedule.  To determine which set of information to use the 'scheduleDate' field can be used.  The second extension is <b>nzf-funding-rule</b>.  This extension once again has a schedule date so vendors can determine which schedule they would like to look at.  The purpose of this extension is to provide the pharmac funding rules that apply to the given product.  Most of the data here comes from the ps_rule table (in the NZMT releases) however a number of attribute rules are also added.  These are:</p>
 
-<table>
+<table class="table table-bordered">
     <tr>
     <td>Name</td>
     <td>Condition</td>
