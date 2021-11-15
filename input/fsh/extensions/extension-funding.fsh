@@ -27,12 +27,12 @@ Description: "General funding information specific to NZ."
 * extension[status].value[x] only CodeableConcept
 * extension[status].value[x] from https://nzhts.digital.health.nz/fhir/ValueSet/funding-code
 
-* extension[subsidy].url = "subsidy" (exactly)
+* extension[subsidy].url = "communitySubsidy" (exactly)
 * extension[subsidy] ^definition = "Community - The subsided price"
 * extension[subsidy] ^short = "Community - The subsided price"
 * extension[subsidy].value[x] only Money
 
-* extension[manPrice].url = "manPrice" (exactly)
+* extension[manPrice].url = "communityManPrice" (exactly)
 * extension[manPrice] ^definition = "Community - The manufacturer price."
 * extension[manPrice] ^short = "Community - The manufacturer price."
 * extension[manPrice].value[x] only Money
