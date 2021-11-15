@@ -1,6 +1,6 @@
 Extension: FundingRule
 Id: nzf-funding-rule
-Description: "Funding elements specific to NZ. "
+Description: "Funding restriction information which complements the general funding information provided in the nzf-funding extension.  The extension can be added multiple times to a product for each given rule as well as for each pharmac schedule.  These can be differentiated via the scheduleDate field."
 
 * ^url = "http://hl7.org.nz/fhir/StructureDefinition/nzf-funding-rule"
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ

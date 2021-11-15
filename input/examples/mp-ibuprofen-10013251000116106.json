@@ -2,134 +2,237 @@
   "resourceType": "Medication",
   "id": "mp-ibuprofen-10013251000116106",
   "text": {
-    "status": "generated",
-    "div": "<div xmlns='http://www.w3.org/1999/xhtml'>ibuprofen (mp) - 10013251000116106</div>"
+      "status": "generated",
+      "div": "<div xmlns='http://www.w3.org/1999/xhtml'>ibuprofen (mp) - 10013251000116106</div>"
   },
   "extension": [
-    {
-      "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-nzmt-type",
-      "valueCodeableConcept": {
-        "coding": [
-          {
-            "system": "https://standards.digital.health.nz/ns/nzmt-type-code",
-            "code": "mp"
-          }
-        ]
-      }
-    },
-    {
-      "extension": [
-        {
-          "url": "code",
+      {
+          "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-nzmt-type",
           "valueCodeableConcept": {
-            "coding": [
-              {
-                "system": "http://www.whocc.no/atc",
-                "code": "M01AE01"
-              }
-            ],
-            "text": "Ibuprofen"
+              "coding": [
+                  {
+                      "system": "https://standards.digital.health.nz/ns/nzmt-type-code",
+                      "code": "mp"
+                  }
+              ]
           }
-        },
-        {
-          "url": "isPrimary",
-          "valueBoolean": false
-        }
-      ],
-      "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-atc"
-    },
-    {
-      "extension": [
-        {
-          "url": "code",
-          "valueCodeableConcept": {
-            "coding": [
+      },
+      {
+          "extension": [
               {
-                "system": "http://www.whocc.no/atc",
-                "code": "C01EB16"
-              }
-            ],
-            "text": "Ibuprofen"
-          }
-        },
-        {
-          "url": "isPrimary",
-          "valueBoolean": false
-        }
-      ],
-      "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-atc"
-    },
-    {
-      "extension": [
-        {
-          "url": "code",
-          "valueCodeableConcept": {
-            "coding": [
+                  "url": "type",
+                  "valueCodeableConcept": {
+                      "coding": [
+                          {
+                              "system": "https://nzmt.org.nz",
+                              "code": "20069071000116107"
+                          }
+                      ]
+                  }
+              },
               {
-                "system": "http://www.whocc.no/atc",
-                "code": "M02AA13"
+                  "url": "term",
+                  "valueCodeableConcept": {
+                      "coding": [
+                          {
+                              "system": "https://nzmt.org.nz",
+                              "code": "23669931000116115",
+                              "display": "ibuprofen"
+                          }
+                      ],
+                      "text": "ibuprofen"
+                  }
               }
-            ],
-            "text": "Ibuprofen"
+          ],
+          "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-description"
+      },
+      {
+          "extension": [
+              {
+                  "url": "type",
+                  "valueCodeableConcept": {
+                      "coding": [
+                          {
+                              "system": "https://nzmt.org.nz",
+                              "code": "20072381000116109"
+                          }
+                      ]
+                  }
+              },
+              {
+                  "url": "term",
+                  "valueCodeableConcept": {
+                      "coding": [
+                          {
+                              "system": "https://nzmt.org.nz",
+                              "code": "23669941000116110",
+                              "display": "ibuprofen (medicinal product)"
+                          }
+                      ],
+                      "text": "ibuprofen (medicinal product)"
+                  }
+              }
+          ],
+          "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-description"
+      },
+      {
+          "extension": [
+              {
+                  "url": "type",
+                  "valueCodeableConcept": {
+                      "coding": [
+                          {
+                              "system": "https://nzmt.org.nz",
+                              "code": "45081511000116102"
+                          }
+                      ]
+                  }
+              },
+              {
+                  "url": "term",
+                  "valueCodeableConcept": {
+                      "coding": [
+                          {
+                              "system": "https://nzmt.org.nz",
+                              "code": "47369881000116112",
+                              "display": "ibuprofen"
+                          }
+                      ],
+                      "text": "ibuprofen"
+                  }
+              }
+          ],
+          "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-description"
+      },
+      {
+          "extension": [
+              {
+                  "url": "code",
+                  "valueCodeableConcept": {
+                      "coding": [
+                          {
+                              "system": "http://www.whocc.no/atc",
+                              "code": "M01AE01"
+                          }
+                      ],
+                      "text": "Ibuprofen"
+                  }
+              },
+              {
+                  "url": "isPrimary",
+                  "valueBoolean": false
+              }
+          ],
+          "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-atc"
+      },
+      {
+          "extension": [
+              {
+                  "url": "code",
+                  "valueCodeableConcept": {
+                      "coding": [
+                          {
+                              "system": "http://www.whocc.no/atc",
+                              "code": "C01EB16"
+                          }
+                      ],
+                      "text": "Ibuprofen"
+                  }
+              },
+              {
+                  "url": "isPrimary",
+                  "valueBoolean": false
+              }
+          ],
+          "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-atc"
+      },
+      {
+          "extension": [
+              {
+                  "url": "code",
+                  "valueCodeableConcept": {
+                      "coding": [
+                          {
+                              "system": "http://www.whocc.no/atc",
+                              "code": "M02AA13"
+                          }
+                      ],
+                      "text": "Ibuprofen"
+                  }
+              },
+              {
+                  "url": "isPrimary",
+                  "valueBoolean": false
+              }
+          ],
+          "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-atc"
+      },
+      {
+          "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-link",
+          "valueReference": {
+              "reference": "DocumentReference/b38268ce-c58e-4bb3-913f-76c1842a56b1",
+              "identifier": {
+                  "system": "http://nzformulary.org/monograph-system",
+                  "value": "nzf_10069"
+              },
+              "display": "nzf_10069"
           }
-        },
-        {
-          "url": "isPrimary",
-          "valueBoolean": false
-        }
-      ],
-      "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-atc"
-    },
-    {
-      "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-link",
-      "valueReference": {
-        "reference": "DocumentReference/1c88d6ed-5c9d-4781-adad-502fe313df75",
-        "display": "Monograph for ibuprofen (oral)"
+      },
+      {
+          "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-link",
+          "valueReference": {
+              "reference": "DocumentReference/a9ccb15d-0412-4a75-bfbb-c3ff05d712d2",
+              "identifier": {
+                  "system": "http://nzformulary.org/monograph-system",
+                  "value": "nzfc_70081"
+              },
+              "display": "nzfc_70081"
+          }
+      },
+      {
+          "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-link",
+          "valueReference": {
+              "reference": "DocumentReference/d201aa5a-5250-4fb0-beb0-389e987453c4",
+              "identifier": {
+                  "system": "http://nzformulary.org/monograph-system",
+                  "value": "nzf_5524"
+              },
+              "display": "nzf_5524"
+          }
+      },
+      {
+          "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-link",
+          "valueReference": {
+              "reference": "DocumentReference/43d47637-3f43-4348-9ace-4e2ce65252b1",
+              "identifier": {
+                  "system": "http://nzformulary.org/monograph-system",
+                  "value": "nzfc_5524"
+              },
+              "display": "nzfc_5524"
+          }
       }
-    },
-    {
-      "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-link",
-      "valueReference": {
-        "reference": "DocumentReference/d3e98703-c9f7-4395-9e5d-abff58997fc5",
-        "display": "Monograph for ibuprofen (intravenous)"
-      }
-    },
-    {
-      "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-link",
-      "valueReference": {
-        "reference": "DocumentReference/20bc043a-2b38-497c-961e-63bea3c04db7",
-        "display": "Monograph for ibuprofen (topical)"
-      }
-    },
-    {
-      "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-link",
-      "valueReference": {
-        "reference": "DocumentReference/35162cd4-27ad-4fe2-a4d5-650bcd2e3c27",
-        "display": "Monograph for ibuprofen (systemic)"
-      }
-    }
   ],
   "code": {
-    "coding": [
-      {
-        "system": "https://standards.digital.health.nz/ns/nzmt-code",
-        "code": "10013251000116106",
-        "display": "ibuprofen"
-      }
-    ]
+      "coding": [
+          {
+              "system": "https://nzmt.org.nz",
+              "code": "10013251000116106",
+              "display": "ibuprofen"
+          }
+      ]
   },
   "ingredient": [
-    {
-      "itemCodeableConcept": {
-        "coding": [
-          {
-            "system": "https://standards.digital.health.nz/ns/nzmt-code",
-            "code": "2211011000036101",
-            "display": "ibuprofen"
-          }
-        ]
-      },
-      "isActive": true
-    }
+      {
+          "itemCodeableConcept": {
+              "coding": [
+                  {
+                      "system": "https://nzmt.org.nz",
+                      "code": "2211011000036101",
+                      "display": "ibuprofen"
+                  }
+              ]
+          },
+          "isActive": true
+      }
   ]
 }
