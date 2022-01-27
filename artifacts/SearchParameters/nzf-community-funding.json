@@ -1,0 +1,20 @@
+{
+    "resourceType": "SearchParameter",
+    "id": "9e93b54d-69af-4587-bae0-c2a0ac2d0137",
+    "url": "http://hl7.org/fhir/nzf/SearchParameter/nzf-supply-information-type",
+    "version": "1.0.4",
+    "name": "NzfSupplyInformationType",
+    "status": "active",
+    "date": "2022-01-27",
+    "publisher": "NZ Formulary",
+    "description": "Returns medications matching the supply information type",
+    "code": "nzf-supply-information-type",
+    "base": [
+        "Medication"
+    ],
+    "type": "token",
+    "expression": "Medication.extension.where(url = 'http://hl7.org.nz/fhir/StructureDefinition/nzf-supply-information').extension.where(url = 'type').value.text",
+    "target": [
+        "Medication"
+    ]
+}
