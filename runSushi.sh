@@ -2,6 +2,7 @@
 
 
 sushi fsh -o .
+# on some dev environments use sushi fsh -o .
 if [[ $? -eq 0 ]]
 then
 
