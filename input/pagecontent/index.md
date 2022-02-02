@@ -260,6 +260,38 @@ We provide document references for the following data:
     </tr>
 </table>
 
-<p>See <a href="./StructureDefinition-nzf-funding-rule.html">see extension details</a></p>
+<p>See <a href="./StructureDefinition-nzf-funding-rule.html">extension details</a></p>
 
 <p>As we stated we want this to be as useful as possible so please get in touch if you have any feedback.</p>
+
+<h3>Related medications</h3>
+
+<p>Each medication can have one or more optional related medication extensions.  These allow navigation through the NZMT concept hierarchy.<p>
+<p>See <a href="./StructureDefinition-nzf-related-medication.html">extension details</a></p>
+<p>The following table shows the related medications for each concept</p>
+<table>
+<tr>
+<td>Concept</td>
+<td>Related medications</td>
+</tr>
+<tr>
+    <td>CTPP</td>
+    <td>TPP</td>
+</tr>
+<tr>
+    <td>MPP</td>
+    <td>MPUU (1 or more)</td>
+</tr>
+<tr>
+    <td>MPUU</td>
+    <td>MP<br>MPP (1 or more)</td>
+</tr>
+<tr>
+    <td>TPP</td>
+    <td>TPUU (1 or more)</td>
+</tr>
+<tr>
+    <td>TPUU</td>
+    <td>TP<br>TPP (1 or more)<br>MPUU</td>
+</tr>
+</table>

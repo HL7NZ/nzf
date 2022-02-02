@@ -12,8 +12,8 @@ Description: "General funding information specific to NZ.  This details whether 
 * extension contains
     scheduleDate 1..1 and 
     status 1..1 and 
-    subsidy 0..1 and
-    manPrice 0..1 and
+    communitySubsidy 0..1 and
+    communityManPrice 0..1 and
     isHml 0..1
 
 * extension[scheduleDate].url = "scheduleDate" (exactly)
@@ -27,15 +27,15 @@ Description: "General funding information specific to NZ.  This details whether 
 * extension[status].value[x] only CodeableConcept
 * extension[status].value[x] from https://nzhts.digital.health.nz/fhir/ValueSet/funding-code
 
-* extension[subsidy].url = "communitySubsidy" (exactly)
-* extension[subsidy] ^definition = "Community - The subsided price"
-* extension[subsidy] ^short = "Community - The subsided price"
-* extension[subsidy].value[x] only Money
+* extension[communitySubsidy].url = "communitySubsidy" (exactly)
+* extension[communitySubsidy] ^definition = "Community - The subsided price"
+* extension[communitySubsidy] ^short = "Community - The subsided price"
+* extension[communitySubsidy].value[x] only Money
 
-* extension[manPrice].url = "communityManPrice" (exactly)
-* extension[manPrice] ^definition = "Community - The manufacturer price."
-* extension[manPrice] ^short = "Community - The manufacturer price."
-* extension[manPrice].value[x] only Money
+* extension[communityManPrice].url = "communityManPrice" (exactly)
+* extension[communityManPrice] ^definition = "Community - The manufacturer price."
+* extension[communityManPrice] ^short = "Community - The manufacturer price."
+* extension[communityManPrice].value[x] only Money
 
 * extension[isHml].url = "isHml" (exactly)
 * extension[isHml] ^definition = "Is HML"
