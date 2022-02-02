@@ -269,7 +269,7 @@ We provide document references for the following data:
 <p>Each medication can have one or more optional related medication extensions.  These allow navigation through the NZMT concept hierarchy.<p>
 <p>See <a href="./StructureDefinition-nzf-related-medication.html">extension details</a></p>
 <p>The following table shows the related medications for each concept</p>
-<table>
+<table class="table table-bordered">
 <tr>
 <td>Concept</td>
 <td>Related medications</td>
