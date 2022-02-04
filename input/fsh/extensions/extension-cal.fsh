@@ -25,7 +25,7 @@ Description: "Cautionary and Advisory Label"
 * extension[labelType].url = "labelType" (exactly)
 * extension[labelType] ^definition = "The type of label."
 * extension[labelType] ^short = "The type of label."
-* extension[labelType].value[x] only CodeableConcept
+* extension[labelType].value[x] only string
 
 * extension[text].url = "text" (exactly)
 * extension[text] ^definition = "The label text."
