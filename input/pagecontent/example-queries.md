@@ -43,6 +43,12 @@ Search for a medication based on part of the preferred term (other string based 
 Search for a CTPP medication based on part of the preferred term (other string based search options can be used on this search parameter)
 >[base]/Medication?nzf-preferred-term:contains=purified&nzf-nzmt-type=ctpp
 
+Get list of medications based on related medications
+>[base]//Medication?nzf-related-medication=10044651000116102
+
+Get a list of TPUUs based on related medications (MPUU)
+>[base]/Medication?_elements=code&nzf-related-medication=10044651000116102&nzf-nzmt-type=tpuu
+
 
 #### Document references
 
