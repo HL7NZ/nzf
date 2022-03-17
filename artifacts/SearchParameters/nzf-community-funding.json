@@ -1,19 +1,24 @@
 {
     "resourceType": "SearchParameter",
-    "id": "9e93b54d-69af-4587-bae0-c2a0ac2d0137",
-    "url": "http://hl7.org/fhir/nzf/SearchParameter/nzf-supply-information-type",
-    "version": "1.0.4",
-    "name": "NzfSupplyInformationType",
+    "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-01-26T23:49:51.179+00:00"
+    },
+    "url": "http://hl7.org/fhir/nzf/SearchParameter/nzf-community-funding",
+    "version": "1.0.1",
+    "name": "NzfCommunityFunding",
     "status": "active",
     "date": "2022-01-27",
     "publisher": "NZ Formulary",
-    "description": "Returns medications matching the supply information type",
-    "code": "nzf-supply-information-type",
+    "description": "Returns medications matching the community funding level",
+    "code": "nzf-community-funding",
     "base": [
         "Medication"
     ],
     "type": "token",
-    "expression": "Medication.extension.where(url = 'http://hl7.org.nz/fhir/StructureDefinition/nzf-supply-information').extension.where(url = 'type').value.text",
+    "expression": "Medication.extension.where(url = 'http://hl7.org.nz/fhir/StructureDefinition/nzf-funding').extension.where(url = 'status')",
+    "xpath": "f:Medication/f:extension[@url='http://hl7.org.nz/fhir/StructureDefinition/nzf-funding')']/f:extension[@url='status')]",
+    "xpathUsage": "normal",
     "target": [
         "Medication"
     ]

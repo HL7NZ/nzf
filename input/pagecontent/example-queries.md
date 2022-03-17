@@ -44,7 +44,7 @@ Search for a CTPP medication based on part of the preferred term (other string b
 >[base]/Medication?nzf-preferred-term:contains=purified&nzf-nzmt-type=ctpp
 
 Get list of medications based on related medications
->[base]//Medication?nzf-related-medication=10044651000116102
+>[base]/Medication?nzf-related-medication=10044651000116102
 
 Get a list of TPUUs based on related medications (MPUU)
 >[base]/Medication?_elements=code&nzf-related-medication=10044651000116102&nzf-nzmt-type=tpuu
@@ -66,10 +66,6 @@ Get a list of all NZFC monographs (Child monographs)
 
 Get a list of medications that are contained in a monograph
 >[base]Medication?nzf-link-type=DocumentReference/a8e50e23-773a-46d5-8f38-544b0dc89857&_elements=code
-
-Get a list of all Special Authority Forms
->[base]/DocumentReference?type=https://standards.digital.health.nz/ns/nzf-document-type-code&#124;SpecialAuthorityForm
->[base]/DocumentReference?type=SpecialAuthorityForm
 
 Get a list of all Datasheets
 >[base]/DocumentReference?type=https://standards.digital.health.nz/ns/nzf-document-type-code&#124;Datasheet
