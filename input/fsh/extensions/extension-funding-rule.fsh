@@ -27,8 +27,8 @@ Description: "Funding restriction information which complements the general fund
 * extension[type].url = "type" (exactly)
 * extension[type] ^definition = "Type of funding - hml, community."
 * extension[type] ^short = "Type of funding - hml, community."
-* extension[status].value[x] only CodeableConcept
-* extension[status].value[x] from https://nzhts.digital.health.nz/fhir/ValueSet/nzf-funding-type
+* extension[type].value[x] only CodeableConcept
+* extension[type].value[x] from https://nzhts.digital.health.nz/fhir/ValueSet/nzf-funding-type
 
 * extension[ruleType].url = "ruleType" (exactly)
 * extension[ruleType] ^definition = "The type of pharmac rule - primarily sourced from the ps_rule table but can be derived for attribute based rules"

@@ -25,7 +25,7 @@ Description: "General funding information specific to NZ.  This details whether 
 * extension[status] ^definition = "status of community funding - no subsidy, partial subsidy, full subsidy"
 * extension[status] ^short = "status of community funding - no subsidy, partial subsidy, full subsidy"
 * extension[status].value[x] only CodeableConcept
-* extension[status].value[x] from https://nzhts.digital.health.nz/fhir/ValueSet/funding-code
+* extension[status].value[x] from https://nzhts.digital.health.nz/fhir/ValueSet/nzf-funding-code
 
 * extension[subsidy].url = "subsidy" (exactly)
 * extension[subsidy] ^definition = "The subsided price"
@@ -40,4 +40,5 @@ Description: "General funding information specific to NZ.  This details whether 
 * extension[type].url = "type" (exactly)
 * extension[type] ^definition = "A list of funding types, currently either community or hml"
 * extension[type] ^short = "A list of funding types, currently either community or hml"
-* extension[type].value[x] only Code
+* extension[type].value[x] only CodeableConcept
+* extension[type].value[x] from https://nzhts.digital.health.nz/fhir/ValueSet/nzf-funding-type
