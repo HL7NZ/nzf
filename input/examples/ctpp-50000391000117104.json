@@ -173,7 +173,7 @@
                     {
                         "extension": [
                             {
-                                "url": "isPrimary",
+                                "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-is-primary-coding",
                                 "valueBoolean": true
                             }
                         ],
@@ -234,7 +234,7 @@
             {
                 "extension": [
                     {
-                        "url": "isPrimary",
+                        "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-is-primary-coding",
                         "valueBoolean": true
                     }
                 ],
