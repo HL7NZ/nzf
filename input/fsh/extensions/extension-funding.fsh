@@ -11,7 +11,7 @@ Description: "General funding information specific to NZ.  This details whether 
 
 * extension contains
     scheduleDate 1..1 and 
-    status 1..1 and 
+    status 0..1 and 
     subsidy 0..1 and
     price 0..1 and
     type 1..*

@@ -1,5 +1,5 @@
 Profile:        NzfCoding
-Parent:         coding
+Parent:         Coding
 Id:             NzfCoding
 Title:          "Coding resource for NZ Formulary"
 Description:    "Coding resource for NZ Formulary"
