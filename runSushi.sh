@@ -1,8 +1,8 @@
 #!/bin/bash
 
 
-sushi fsh -o .
-# on some dev environments use sushi fsh -o .
+sushi -o .
+# on some dev environments use sushi -o .
 if [[ $? -eq 0 ]]
 then
 
