@@ -32,7 +32,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "20069071000116107",
                                 "display": "Preferred Term"
                             }
@@ -45,7 +45,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "24035031000116117",
                                 "display": "Glycoprep-C lemon oral liquid: powder for, 1 x 70 g sachet"
                             }
@@ -63,7 +63,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "20072381000116109",
                                 "display": "Fully Specified Name"
                             }
@@ -76,7 +76,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "24035041000116112",
                                 "display": "Glycoprep-C lemon (ascorbic acid 5.96 g + macrogol-3350 52.9 g + potassium chloride 739 mg (potassium 10 mmol) + sodium chloride 2.61 g + sodium sulfate 5.64 g) oral liquid: powder for, 1 x 70g sachet (containered trade product pack)"
                             }
@@ -94,7 +94,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "24312321000116102",
                                 "display": "Sort Name"
                             }
@@ -107,7 +107,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "26643661000116116",
                                 "display": "Glycoprep-C lemon oral liquid: powder for, 1 x 070 g sachet"
                             }
@@ -203,7 +203,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "10311451000116107"
                             }
                         ]
@@ -227,7 +227,7 @@
     "code": {
         "coding": [
             {
-                "system": "https://nzmt.org.nz",
+                "system": "http://nzmt.org.nz",
                 "code": "50000391000117104",
                 "display": "Glycoprep-C lemon oral liquid: powder for, 1 x 70 g sachet"
             },
@@ -249,7 +249,7 @@
             "itemCodeableConcept": {
                 "coding": [
                     {
-                        "system": "https://nzmt.org.nz",
+                        "system": "http://nzmt.org.nz",
                         "code": "20477391000116100",
                         "display": "ascorbic acid + macrogol-3350 + potassium chloride + sodium chloride + sodium sulfate"
                     }
@@ -261,7 +261,7 @@
             "itemCodeableConcept": {
                 "coding": [
                     {
-                        "system": "https://nzmt.org.nz",
+                        "system": "http://nzmt.org.nz",
                         "code": "30781011000036102",
                         "display": "ascorbic acid"
                     }
@@ -273,7 +273,7 @@
             "itemCodeableConcept": {
                 "coding": [
                     {
-                        "system": "https://nzmt.org.nz",
+                        "system": "http://nzmt.org.nz",
                         "code": "2799011000036106",
                         "display": "macrogol-3350"
                     }
@@ -285,7 +285,7 @@
             "itemCodeableConcept": {
                 "coding": [
                     {
-                        "system": "https://nzmt.org.nz",
+                        "system": "http://nzmt.org.nz",
                         "code": "2500011000036101",
                         "display": "potassium chloride"
                     }
@@ -297,7 +297,7 @@
             "itemCodeableConcept": {
                 "coding": [
                     {
-                        "system": "https://nzmt.org.nz",
+                        "system": "http://nzmt.org.nz",
                         "code": "2591011000036106",
                         "display": "sodium chloride"
                     }
@@ -309,7 +309,7 @@
             "itemCodeableConcept": {
                 "coding": [
                     {
-                        "system": "https://nzmt.org.nz",
+                        "system": "http://nzmt.org.nz",
                         "code": "52367011000036107",
                         "display": "sodium sulfate"
                     }

@@ -28,7 +28,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "20069071000116107",
                                 "display": "Preferred Term"
                             }
@@ -41,7 +41,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "23669931000116115",
                                 "display": "ibuprofen"
                             }
@@ -59,7 +59,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "20072381000116109",
                                 "display": "Fully Specified Name"
                             }
@@ -72,7 +72,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "23669941000116110",
                                 "display": "ibuprofen (medicinal product)"
                             }
@@ -90,7 +90,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "45081511000116102",
                                 "display": "Charting Term"
                             }
@@ -103,7 +103,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "47369881000116112",
                                 "display": "ibuprofen"
                             }
@@ -233,7 +233,7 @@
     "code": {
         "coding": [
             {
-                "system": "https://nzmt.org.nz",
+                "system": "http://nzmt.org.nz",
                 "code": "10013251000116106",
                 "display": "ibuprofen"
             }
@@ -244,7 +244,7 @@
             "itemCodeableConcept": {
                 "coding": [
                     {
-                        "system": "https://nzmt.org.nz",
+                        "system": "http://nzmt.org.nz",
                         "code": "2211011000036101",
                         "display": "ibuprofen"
                     }

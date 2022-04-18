@@ -32,7 +32,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "20069071000116107",
                                 "display": "Preferred Term"
                             }
@@ -45,7 +45,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "24034771000116118",
                                 "display": "Albustix diagnostic test: strip, 100 strips, bottle"
                             }
@@ -63,7 +63,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "20072381000116109",
                                 "display": "Fully Specified Name"
                             }
@@ -76,7 +76,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "24034781000116116",
                                 "display": "Albustix (protein indicator urine) diagnostic test: strip, 100 strips, bottle (containered trade product pack)"
                             }
@@ -278,7 +278,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "10025501000116103"
                             }
                         ]
@@ -302,7 +302,7 @@
     "code": {
         "coding": [
             {
-                "system": "https://nzmt.org.nz",
+                "system": "http://nzmt.org.nz",
                 "code": "50000221000117106",
                 "display": "Albustix diagnostic test: strip, 100 strips, bottle"
             },
@@ -324,7 +324,7 @@
             "itemCodeableConcept": {
                 "coding": [
                     {
-                        "system": "https://nzmt.org.nz",
+                        "system": "http://nzmt.org.nz",
                         "code": "20015381000116107",
                         "display": "protein indicator urine"
                     }

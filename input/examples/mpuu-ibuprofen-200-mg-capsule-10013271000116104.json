@@ -28,7 +28,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "20069011000116104",
                                 "display": "Label name (40)"
                             }
@@ -41,7 +41,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "44545141000116110",
                                 "display": "ibuprofen 200 mg capsule"
                             }
@@ -59,7 +59,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "20069041000116103",
                                 "display": "Label name (80)"
                             }
@@ -72,7 +72,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "44581771000116113",
                                 "display": "ibuprofen 200 mg capsule"
                             }
@@ -90,7 +90,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "20069061000116102",
                                 "display": "Prescribing Term"
                             }
@@ -103,7 +103,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "46358871000116112",
                                 "display": "ibuprofen 200 mg capsule"
                             }
@@ -121,7 +121,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "20069071000116107",
                                 "display": "Preferred Term"
                             }
@@ -134,7 +134,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "23916371000116111",
                                 "display": "ibuprofen 200 mg capsule"
                             }
@@ -152,7 +152,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "20072381000116109",
                                 "display": "Fully Specified Name"
                             }
@@ -165,7 +165,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "23916381000116113",
                                 "display": "ibuprofen 200 mg capsule (medicinal product unit of use)"
                             }
@@ -183,7 +183,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "24312321000116102",
                                 "display": "Sort Name"
                             }
@@ -196,7 +196,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "46852481000116110",
                                 "display": "0ibuprofen 200 mg capsule"
                             }
@@ -214,7 +214,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "45081511000116102",
                                 "display": "Charting Term"
                             }
@@ -227,7 +227,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "46358881000116114",
                                 "display": "ibuprofen 200 mg capsule"
                             }
@@ -245,7 +245,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "45453411000116100",
                                 "display": "Label name (160)"
                             }
@@ -258,7 +258,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "45912241000116118",
                                 "display": "ibuprofen 200 mg capsule"
                             }
@@ -351,7 +351,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "10013251000116106"
                             }
                         ]
@@ -378,7 +378,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "10013291000116100"
                             }
                         ]
@@ -405,7 +405,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "10013371000116107"
                             }
                         ]
@@ -432,7 +432,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "10013411000116106"
                             }
                         ]
@@ -459,7 +459,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "10013451000116105"
                             }
                         ]
@@ -486,7 +486,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "10013501000116108"
                             }
                         ]
@@ -513,7 +513,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "31221741000116108"
                             }
                         ]
@@ -540,7 +540,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "31222041000116101"
                             }
                         ]
@@ -567,7 +567,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "31233321000116102"
                             }
                         ]
@@ -594,7 +594,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "44659511000116108"
                             }
                         ]
@@ -621,7 +621,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "44805831000116101"
                             }
                         ]
@@ -648,7 +648,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "44806081000116100"
                             }
                         ]
@@ -675,7 +675,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "45270051000116104"
                             }
                         ]
@@ -702,7 +702,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "46358891000116107"
                             }
                         ]
@@ -729,7 +729,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "46358971000116102"
                             }
                         ]
@@ -756,7 +756,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "46360041000116104"
                             }
                         ]
@@ -783,7 +783,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "46885961000116107"
                             }
                         ]
@@ -810,7 +810,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "46886001000116104"
                             }
                         ]
@@ -834,7 +834,7 @@
     "code": {
         "coding": [
             {
-                "system": "https://nzmt.org.nz",
+                "system": "http://nzmt.org.nz",
                 "code": "10013271000116104",
                 "display": "ibuprofen 200 mg capsule"
             }
@@ -843,7 +843,7 @@
     "form": {
         "coding": [
             {
-                "system": "https://nzmt.org.nz",
+                "system": "http://nzmt.org.nz",
                 "code": "107011000036108",
                 "display": "capsule"
             }
@@ -854,7 +854,7 @@
             "itemCodeableConcept": {
                 "coding": [
                     {
-                        "system": "https://nzmt.org.nz",
+                        "system": "http://nzmt.org.nz",
                         "code": "10013251000116106",
                         "display": "ibuprofen"
                     }
@@ -866,7 +866,7 @@
             "itemCodeableConcept": {
                 "coding": [
                     {
-                        "system": "https://nzmt.org.nz",
+                        "system": "http://nzmt.org.nz",
                         "code": "2211011000036101",
                         "display": "ibuprofen"
                     }

@@ -28,7 +28,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "20069011000116104",
                                 "display": "Label name (40)"
                             }
@@ -41,7 +41,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "44425931000116112",
                                 "display": "ACT-3 200 mg capsule"
                             }
@@ -59,7 +59,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "20069041000116103",
                                 "display": "Label name (80)"
                             }
@@ -72,7 +72,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "44482661000116114",
                                 "display": "ACT-3 200 mg capsule"
                             }
@@ -90,7 +90,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "20069061000116102",
                                 "display": "Prescribing Term"
                             }
@@ -103,7 +103,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "27929881000116112",
                                 "display": "ACT-3 - ibuprofen 200 mg capsule"
                             }
@@ -121,7 +121,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "20069071000116107",
                                 "display": "Preferred Term"
                             }
@@ -134,7 +134,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "23485391000116117",
                                 "display": "ACT-3 (ibuprofen 200 mg) capsule: soft, 1 capsule"
                             }
@@ -152,7 +152,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "20072381000116109",
                                 "display": "Fully Specified Name"
                             }
@@ -165,7 +165,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "23485401000116119",
                                 "display": "ACT-3 (ibuprofen 200 mg) capsule: soft, 1 capsule (trade product unit of use)"
                             }
@@ -183,7 +183,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "24312321000116102",
                                 "display": "Sort Name"
                             }
@@ -196,7 +196,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "43761831000116118",
                                 "display": "ACT-3 200 mg capsule"
                             }
@@ -214,7 +214,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "45081511000116102",
                                 "display": "Charting Term"
                             }
@@ -227,7 +227,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "45166281000116114",
                                 "display": "ACT-3 200 mg capsule"
                             }
@@ -245,7 +245,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "45453411000116100",
                                 "display": "Label name (160)"
                             }
@@ -258,7 +258,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "45811021000116116",
                                 "display": "ACT-3 200 mg capsule"
                             }
@@ -329,7 +329,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "10013321000116108"
                             }
                         ]
@@ -356,7 +356,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "10013351000116100"
                             }
                         ]
@@ -383,7 +383,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "10013391000116106"
                             }
                         ]
@@ -410,7 +410,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "10013431000116100"
                             }
                         ]
@@ -437,7 +437,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "10013481000116101"
                             }
                         ]
@@ -464,7 +464,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "10013521000116101"
                             }
                         ]
@@ -491,7 +491,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "44806301000116106"
                             }
                         ]
@@ -518,7 +518,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "44806171000116103"
                             }
                         ]
@@ -545,7 +545,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "44805911000116102"
                             }
                         ]
@@ -572,7 +572,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://nzmt.org.nz",
+                                "system": "http://nzmt.org.nz",
                                 "code": "10013271000116104"
                             }
                         ]
@@ -596,7 +596,7 @@
     "code": {
         "coding": [
             {
-                "system": "https://nzmt.org.nz",
+                "system": "http://nzmt.org.nz",
                 "code": "10013331000116105",
                 "display": "ACT-3 (ibuprofen 200 mg) capsule: soft, 1 capsule"
             }
@@ -605,7 +605,7 @@
     "form": {
         "coding": [
             {
-                "system": "https://nzmt.org.nz",
+                "system": "http://nzmt.org.nz",
                 "code": "163011000036103",
                 "display": "capsule: soft"
             }
@@ -616,7 +616,7 @@
             "itemCodeableConcept": {
                 "coding": [
                     {
-                        "system": "https://nzmt.org.nz",
+                        "system": "http://nzmt.org.nz",
                         "code": "10013251000116106",
                         "display": "ibuprofen"
                     }
@@ -628,7 +628,7 @@
             "itemCodeableConcept": {
                 "coding": [
                     {
-                        "system": "https://nzmt.org.nz",
+                        "system": "http://nzmt.org.nz",
                         "code": "2211011000036101",
                         "display": "ibuprofen"
                     }
