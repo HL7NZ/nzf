@@ -4,14 +4,19 @@
 <table class='table table-bordered table-hover table-sm'>
 <tr><th>Id</th><th>Url</th><th>Description</th></tr>
 <tr>
+<td><a href='StructureDefinition-NzfCoding.html'>NzfCoding</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/NzfCoding</td>
+<td>Coding resource for NZ Formulary</td>
+</tr>
+<tr>
 <td><a href='StructureDefinition-NzfDocumentReference.html'>NzfDocumentReference</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/nzf-documentreference</td>
-<td>undefined</td>
+<td>DocumentReference resource for NZ Formulary</td>
 </tr>
 <tr>
 <td><a href='StructureDefinition-NzfMedication.html'>NzfMedication</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/nzf-medication</td>
-<td>undefined</td>
+<td>Medication resource for NZ Formulary</td>
 </tr>
 </table>
 </div>

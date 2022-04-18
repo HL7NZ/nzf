@@ -50,6 +50,17 @@
 <td>draft</td>
 </tr>
 <tr>
+<td><a href='StructureDefinition-nzf-is-primary-coding.html'>nzf-is-primary-coding</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/nzf-is-primary-coding</td>
+<td>
+<div>Coding</div>
+</td>
+<td>Is primary code within given context, e.g. primary pharmacode when multiple given</td>
+<td></td>
+<td>0</td>
+<td>draft</td>
+</tr>
+<tr>
 <td><a href='StructureDefinition-nzf-legalclass.html'>nzf-legalclass</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/nzf-legalclass</td>
 <td>
