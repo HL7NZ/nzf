@@ -12,9 +12,9 @@ Description: "General funding information specific to NZ.  This details whether 
 * extension contains
     scheduleDate 1..1 and 
     status 1..1 and 
-    communitySubsidy 0..1 and
-    communityManPrice 0..1 and
-    isHml 0..1
+    subsidy 0..1 and
+    price 0..1 and
+    type 1..*
 
 * extension[scheduleDate].url = "scheduleDate" (exactly)
 * extension[scheduleDate] ^definition = "The date this item was placed on the schedule"
@@ -27,17 +27,17 @@ Description: "General funding information specific to NZ.  This details whether 
 * extension[status].value[x] only CodeableConcept
 * extension[status].value[x] from https://nzhts.digital.health.nz/fhir/ValueSet/funding-code
 
-* extension[communitySubsidy].url = "communitySubsidy" (exactly)
-* extension[communitySubsidy] ^definition = "Community - The subsided price"
-* extension[communitySubsidy] ^short = "Community - The subsided price"
-* extension[communitySubsidy].value[x] only Money
+* extension[subsidy].url = "subsidy" (exactly)
+* extension[subsidy] ^definition = "The subsided price"
+* extension[subsidy] ^short = "The subsided price"
+* extension[subsidy].value[x] only Money
 
-* extension[communityManPrice].url = "communityManPrice" (exactly)
-* extension[communityManPrice] ^definition = "Community - The manufacturer price."
-* extension[communityManPrice] ^short = "Community - The manufacturer price."
-* extension[communityManPrice].value[x] only Money
+* extension[price].url = "price" (exactly)
+* extension[price] ^definition = "The manufacturer price."
+* extension[price] ^short = "The manufacturer price."
+* extension[price].value[x] only Money
 
-* extension[isHml].url = "isHml" (exactly)
-* extension[isHml] ^definition = "Is HML"
-* extension[isHml] ^short = "Is HML."
-* extension[isHml].value[x] only boolean
+* extension[type].url = "type" (exactly)
+* extension[type] ^definition = "A list of funding types, currently either community or hml"
+* extension[type] ^short = "A list of funding types, currently either community or hml"
+* extension[type].value[x] only Code

@@ -16,7 +16,8 @@ Description: "Funding restriction information which complements the general fund
     ruleAttribute 0..1 and 
     ruleValue 0..1 and
     ruleText 0..1 and
-    ruleWaiver 0..1
+    ruleWaiver 0..1 and
+    ruleXlinkHref 0..1
 
 * extension[scheduleDate].url = "scheduleDate" (exactly)
 * extension[scheduleDate] ^definition = "The date this item was placed on the schedule"
@@ -24,9 +25,10 @@ Description: "Funding restriction information which complements the general fund
 * extension[scheduleDate].value[x] only date
 
 * extension[type].url = "type" (exactly)
-* extension[type] ^definition = "Type of funding - hospital, community."
-* extension[type] ^short = "Type of funding - hospital, community."
-* extension[type].value[x] only CodeableConcept
+* extension[type] ^definition = "Type of funding - hml, community."
+* extension[type] ^short = "Type of funding - hml, community."
+* extension[status].value[x] only CodeableConcept
+* extension[status].value[x] from https://nzhts.digital.health.nz/fhir/ValueSet/nzf-funding-type
 
 * extension[ruleType].url = "ruleType" (exactly)
 * extension[ruleType] ^definition = "The type of pharmac rule - primarily sourced from the ps_rule table but can be derived for attribute based rules"
@@ -52,3 +54,8 @@ Description: "Funding restriction information which complements the general fund
 * extension[ruleWaiver] ^definition = "The waiver from the ps_rule table"
 * extension[ruleWaiver] ^short = "The waiver from the ps_rule table"
 * extension[ruleWaiver].value[x] only string
+
+* extension[ruleXlinkHref].url = "ruleXlinkHref" (exactly)
+* extension[ruleXlinkHref] ^definition = "The xlinkHref from the ps_rule table"
+* extension[ruleXlinkHref] ^short = "The xlinkHref from the ps_rule table"
+* extension[ruleXlinkHref].value[x] only string
