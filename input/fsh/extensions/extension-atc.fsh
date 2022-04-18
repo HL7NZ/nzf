@@ -11,4 +11,4 @@ Description: "Anatomical Therapeutic Chemical (ATC) Classification - see https:/
 
 * extension 0..0
 * value[x] only CodeableConcept
-* extension[code].valueCodeableConcept from https://nzhts.digital.health.nz/fhir/ValueSet/atc-code
+* value[x].valueCodeableConcept from https://nzhts.digital.health.nz/fhir/ValueSet/atc-code
