@@ -35,12 +35,12 @@ Description: "Information around the supply and availability of medications appl
 
 * extension[action].url = "action" (exactly)
 * extension[action] ^definition = "Description of the action prompted by the issue and solution.  Possible values: Prescribing action, Depensing action, Clinical caution, Recall action, Information."
-* extension[action] ^short = "Description of the action prompted by the issue and solution. "
+* extension[action] ^short = "Description of the action prompted by the issue and solution."
 * extension[action].value[x] only string
 
 * extension[date].url = "date" (exactly)
-* extension[date] ^definition = "the date the issue was entered"
-* extension[date] ^short = "the date the issue was entered"
+* extension[date] ^definition = "The date the issue was entered."
+* extension[date] ^short = "The date the issue was entered."
 * extension[date].value[x] only date
 
 * extension[information].url = "information" (exactly)

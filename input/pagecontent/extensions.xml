@@ -28,6 +28,17 @@
 <td>draft</td>
 </tr>
 <tr>
+<td><a href='StructureDefinition-nzf-description.html'>nzf-description</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/nzf-description</td>
+<td>
+<div>Medication</div>
+</td>
+<td>Specific NZMT descriptions that apply to this medication</td>
+<td></td>
+<td>0</td>
+<td>draft</td>
+</tr>
+<tr>
 <td><a href='StructureDefinition-nzf-funding-rule.html'>nzf-funding-rule</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/nzf-funding-rule</td>
 <td>
@@ -89,17 +100,6 @@
 <div>Medication</div>
 </td>
 <td>Medsafe package and reg situation details</td>
-<td></td>
-<td>0</td>
-<td>draft</td>
-</tr>
-<tr>
-<td><a href='StructureDefinition-nzf-nzmt-description.html'>nzf-nzmt-description</a></td>
-<td>http://hl7.org.nz/fhir/StructureDefinition/nzf-nzmt-description</td>
-<td>
-<div>Medication</div>
-</td>
-<td>Specific NZMT descriptions that apply to this medication</td>
 <td></td>
 <td>0</td>
 <td>draft</td>

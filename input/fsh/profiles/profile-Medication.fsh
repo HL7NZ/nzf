@@ -4,7 +4,7 @@ Alias: $link = http://hl7.org.nz/fhir/StructureDefinition/nzf-link
 Alias: $cal = http://hl7.org.nz/fhir/StructureDefinition/nzf-cal
 Alias: $funding = http://hl7.org.nz/fhir/StructureDefinition/nzf-funding
 Alias: $fundingRule = http://hl7.org.nz/fhir/StructureDefinition/nzf-funding-rule
-Alias: $description = http://hl7.org.nz/fhir/StructureDefinition/nzf-nzmt-description
+Alias: $description = http://hl7.org.nz/fhir/StructureDefinition/nzf-description
 Alias: $unapproved = http://hl7.org.nz/fhir/StructureDefinition/nzf-unapproved
 Alias: $legalclass = http://hl7.org.nz/fhir/StructureDefinition/nzf-legalclass
 Alias: $medsafe = http://hl7.org.nz/fhir/StructureDefinition/nzf-medsafe
@@ -27,7 +27,7 @@ Description:    "Medication resource for NZ Formulary"
     $cal named cal 0..* and
     $funding named funding 0..* and
     $fundingRule named fundingRule 0..* and
-    $description named nzmtDescription 0..* and
+    $description named description 0..* and
     $unapproved named unapproved 0..1 and
     $legalclass named legalclass 0..1 and
     $medsafe named medsafe 0..1 and
@@ -37,7 +37,7 @@ Description:    "Medication resource for NZ Formulary"
 * extension[nzmtType] ^short = "Type of NZMT record (e.g. MP, MPUU)"    
 * extension[atc] ^short = "Anatomical Therapeutic Chemical (ATC) Classification"
 * extension[link] ^short = "Links to other information about this medication"
-* extension[nzmtDescription] ^short = "NZMT descriptions for the medicine"
+* extension[description] ^short = "NZMT descriptions for the medicine"
 * extension[cal] ^short = "Cautionary and Advisory Label"
 * extension[funding] ^short = "General Funding details"
 * extension[fundingRule] ^short = "Funding constraints and requirements"
