@@ -50,6 +50,8 @@ Get a list of TPUUs based on related medications (MPUU)
 >[base]/Medication?_elements=code&nzf-related-medication=10044651000116102&nzf-nzmt-type=tpuu
 
 
+
+
 #### Document references
 
 To get a list of all types of document references then they can be filtered by type e.g.

@@ -1,0 +1,31 @@
+{
+    "resourceType": "SearchParameter",
+    "url": "http://hl7.org/fhir/nzf/SearchParameter/nzf-funding-schedule-date-type",
+    "version": "1.0.0",
+    "name": "NzfFundingScheduleDateType",
+    "status": "active",
+    "date": "2022-03-03",
+    "publisher": "NZ Formulary",
+    "description": "Returns medications with funding matching the given schedule date and the given type",
+    "code": "nzf-funding-schedule-date-type",
+    "base": [
+        "Medication"
+    ],
+    "type": "composite",
+    "expression": "Medication",
+    "target": [
+        "Medication"
+    ],
+    "xpathUsage": "normal",
+    "multipleOr": false,
+    "component": [
+        {
+            "definition": "http://hl7.org/fhir/nzf/SearchParameter/nzf-funding-schedule-date",
+            "expression": "Medication.extension.where(url = 'http://hl7.org.nz/fhir/StructureDefinition/nzf-funding').extension.where(url = 'scheduleDate').value"
+        },
+        {
+            "definition": "http://hl7.org/fhir/nzf/SearchParameter/nzf-funding-type",
+            "expression": "Medication.extension.where(url = 'http://hl7.org.nz/fhir/StructureDefinition/nzf-funding').extension.where(url = 'type').value"
+        }
+    ]
+}
