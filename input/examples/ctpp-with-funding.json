@@ -2,8 +2,8 @@
     "resourceType": "Medication",
     "id": "ctpp-with-funding",
     "meta": {
-        "versionId": "6",
-        "lastUpdated": "2022-04-11T03:35:30.165+00:00"
+        "versionId": "7",
+        "lastUpdated": "2022-04-20T03:22:29.406+00:00"
     },
     "text": {
         "status": "generated",
@@ -110,7 +110,7 @@
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://standards.digital.health.nz/ns/funding-code",
+                                "system": "https://standards.digital.health.nz/ns/nzf-funding-code",
                                 "code": "1",
                                 "display": "partial"
                             }
@@ -120,45 +120,16 @@
                 },
                 {
                     "url": "type",
-                    "valueCode": "community"
-                }
-            ],
-            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-funding"
-        },
-        {
-            "extension": [
-                {
-                    "url": "scheduleDate",
-                    "valueDate": "2022-04-01"
-                },
-                {
-                    "url": "subsidy",
-                    "valueMoney": {
-                        "value": 7.02
-                    }
-                },
-                {
-                    "url": "price",
-                    "valueMoney": {
-                        "value": 13.92
-                    }
-                },
-                {
-                    "url": "status",
                     "valueCodeableConcept": {
                         "coding": [
                             {
-                                "system": "https://standards.digital.health.nz/ns/funding-code",
-                                "code": "1",
-                                "display": "partial"
+                                "system": "https://standards.digital.health.nz/ns/nzf-funding-type",
+                                "code": "community",
+                                "display": "community"
                             }
                         ],
-                        "text": "partial"
+                        "text": "community"
                     }
-                },
-                {
-                    "url": "type",
-                    "valueCode": "community"
                 }
             ],
             "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-funding"
@@ -167,66 +138,19 @@
             "extension": [
                 {
                     "url": "scheduleDate",
-                    "valueDate": "2022-04-01"
-                },
-                {
-                    "url": "type",
-                    "valueCodeableConcept": {
-                        "text": "Community"
-                    }
-                },
-                {
-                    "url": "ruleType",
-                    "valueCodeableConcept": {
-                        "text": "OriginalPack"
-                    }
-                },
-                {
-                    "url": "ruleText",
-                    "valueString": "Original Pack"
-                }
-            ],
-            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-funding-rule"
-        },
-        {
-            "extension": [
-                {
-                    "url": "scheduleDate",
-                    "valueDate": "2022-04-01"
-                },
-                {
-                    "url": "type",
-                    "valueCodeableConcept": {
-                        "text": "Community"
-                    }
-                },
-                {
-                    "url": "ruleType",
-                    "valueCodeableConcept": {
-                        "text": "Statim"
-                    }
-                },
-                {
-                    "url": "ruleValue",
-                    "valueString": "Must"
-                },
-                {
-                    "url": "ruleText",
-                    "valueString": "Statim: Three months or six months, as applicable, dispensed all-at-once."
-                }
-            ],
-            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-funding-rule"
-        },
-        {
-            "extension": [
-                {
-                    "url": "scheduleDate",
                     "valueDate": "2022-04-12"
                 },
                 {
                     "url": "type",
                     "valueCodeableConcept": {
-                        "text": "Community"
+                        "coding": [
+                            {
+                                "system": "https://standards.digital.health.nz/ns/nzf-funding-type",
+                                "code": "community",
+                                "display": "community"
+                            }
+                        ],
+                        "text": "community"
                     }
                 },
                 {
@@ -251,7 +175,14 @@
                 {
                     "url": "type",
                     "valueCodeableConcept": {
-                        "text": "Community"
+                        "coding": [
+                            {
+                                "system": "https://standards.digital.health.nz/ns/nzf-funding-type",
+                                "code": "community",
+                                "display": "community"
+                            }
+                        ],
+                        "text": "community"
                     }
                 },
                 {

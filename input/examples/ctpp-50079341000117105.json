@@ -1,9 +1,9 @@
 {
     "resourceType": "Medication",
-    "id": "ctpp-50079341000117105",
+    "id": "50079341000117105",
     "meta": {
-        "versionId": "6",
-        "lastUpdated": "2022-04-11T03:38:28.147+00:00"
+        "versionId": "7",
+        "lastUpdated": "2022-04-20T03:31:21.043+00:00"
     },
     "text": {
         "status": "generated",
@@ -141,32 +141,16 @@
                 },
                 {
                     "url": "type",
-                    "valueCode": "hml"
-                }
-            ],
-            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-funding"
-        },
-        {
-            "extension": [
-                {
-                    "url": "scheduleDate",
-                    "valueDate": "2022-04-01"
-                },
-                {
-                    "url": "subsidy",
-                    "valueMoney": {
-                        "value": 0
+                    "valueCodeableConcept": {
+                        "coding": [
+                            {
+                                "system": "https://standards.digital.health.nz/ns/nzf-funding-type",
+                                "code": "hml",
+                                "display": "hml"
+                            }
+                        ],
+                        "text": "hml"
                     }
-                },
-                {
-                    "url": "price",
-                    "valueMoney": {
-                        "value": 0
-                    }
-                },
-                {
-                    "url": "type",
-                    "valueCode": "hml"
                 }
             ],
             "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-funding"

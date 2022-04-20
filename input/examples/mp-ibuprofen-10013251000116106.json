@@ -2,8 +2,8 @@
     "resourceType": "Medication",
     "id": "mp-ibuprofen-10013251000116106",
     "meta": {
-        "versionId": "1",
-        "lastUpdated": "2022-03-15T23:56:42.926+00:00"
+        "versionId": "2",
+        "lastUpdated": "2022-04-20T02:54:13.052+00:00"
     },
     "text": {
         "status": "generated",
