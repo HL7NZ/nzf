@@ -1,7 +1,7 @@
 {
     "resourceType": "SearchParameter",
     "url": "http://hl7.org/fhir/nzf/SearchParameter/nzf-supply-information-type",
-    "version": "1.0.1",
+    "version": "1.0.4",
     "name": "NzfSupplyInformationType",
     "status": "active",
     "date": "2022-01-27",
@@ -12,9 +12,7 @@
         "Medication"
     ],
     "type": "token",
-    "expression": "Medication.extension.where(url = 'http://hl7.org.nz/fhir/StructureDefinition/nzf-supply-information').extension.where(url = 'type')",
-    "xpath": "f:Medication/f:extension[@url='http://hl7.org.nz/fhir/StructureDefinition/nzf-supply-information')']/f:extension[@url='type')]",
-    "xpathUsage": "normal",
+    "expression": "Medication.extension.where(url = 'http://hl7.org.nz/fhir/StructureDefinition/nzf-supply-information').extension.where(url = 'type').value.text",
     "target": [
         "Medication"
     ]
