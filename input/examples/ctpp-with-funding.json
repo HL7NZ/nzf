@@ -3,28 +3,13 @@
     "id": "ctpp-with-funding",
     "meta": {
         "versionId": "7",
-        "lastUpdated": "2022-04-20T03:22:29.406+00:00"
+        "lastUpdated": "2022-10-18T20:53:13.374+00:00"
     },
     "text": {
         "status": "generated",
         "div": "<div xmlns='http://www.w3.org/1999/xhtml'>Albustix diagnostic test: strip, 100 strips, bottle (ctpp) - 50000221000117106</div>"
     },
     "extension": [
-        {
-            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-nzmt-type",
-            "valueCodeableConcept": {
-                "coding": [
-                    {
-                        "system": "https://standards.digital.health.nz/ns/nzmt-type-code",
-                        "code": "ctpp"
-                    }
-                ]
-            }
-        },
-        {
-            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-unapproved",
-            "valueBoolean": false
-        },
         {
             "extension": [
                 {
@@ -91,12 +76,12 @@
             "extension": [
                 {
                     "url": "scheduleDate",
-                    "valueDate": "2022-04-12"
+                    "valueDate": "2022-11-01"
                 },
                 {
                     "url": "subsidy",
                     "valueMoney": {
-                        "value": 7.02
+                        "value": 13.92
                     }
                 },
                 {
@@ -111,11 +96,11 @@
                         "coding": [
                             {
                                 "system": "https://standards.digital.health.nz/ns/nzf-funding-code",
-                                "code": "1",
-                                "display": "partial"
+                                "code": "2",
+                                "display": "full"
                             }
                         ],
-                        "text": "partial"
+                        "text": "full"
                     }
                 },
                 {
@@ -138,7 +123,54 @@
             "extension": [
                 {
                     "url": "scheduleDate",
-                    "valueDate": "2022-04-12"
+                    "valueDate": "2022-10-01"
+                },
+                {
+                    "url": "subsidy",
+                    "valueMoney": {
+                        "value": 13.92
+                    }
+                },
+                {
+                    "url": "price",
+                    "valueMoney": {
+                        "value": 13.92
+                    }
+                },
+                {
+                    "url": "status",
+                    "valueCodeableConcept": {
+                        "coding": [
+                            {
+                                "system": "https://standards.digital.health.nz/ns/nzf-funding-code",
+                                "code": "2",
+                                "display": "full"
+                            }
+                        ],
+                        "text": "full"
+                    }
+                },
+                {
+                    "url": "type",
+                    "valueCodeableConcept": {
+                        "coding": [
+                            {
+                                "system": "https://standards.digital.health.nz/ns/nzf-funding-type",
+                                "code": "community",
+                                "display": "community"
+                            }
+                        ],
+                        "text": "community"
+                    }
+                }
+            ],
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-funding"
+        },
+        {
+            "extension": [
+                {
+                    "url": "scheduleDate",
+                    "valueDate": "2022-10-01"
                 },
                 {
                     "url": "type",
@@ -170,7 +202,7 @@
             "extension": [
                 {
                     "url": "scheduleDate",
-                    "valueDate": "2022-04-12"
+                    "valueDate": "2022-10-01"
                 },
                 {
                     "url": "type",
@@ -205,6 +237,85 @@
         {
             "extension": [
                 {
+                    "url": "scheduleDate",
+                    "valueDate": "2022-11-01"
+                },
+                {
+                    "url": "type",
+                    "valueCodeableConcept": {
+                        "coding": [
+                            {
+                                "system": "https://standards.digital.health.nz/ns/nzf-funding-type",
+                                "code": "community",
+                                "display": "community"
+                            }
+                        ],
+                        "text": "community"
+                    }
+                },
+                {
+                    "url": "ruleType",
+                    "valueCodeableConcept": {
+                        "text": "OriginalPack"
+                    }
+                },
+                {
+                    "url": "ruleText",
+                    "valueString": "Original Pack"
+                }
+            ],
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-funding-rule"
+        },
+        {
+            "extension": [
+                {
+                    "url": "scheduleDate",
+                    "valueDate": "2022-11-01"
+                },
+                {
+                    "url": "type",
+                    "valueCodeableConcept": {
+                        "coding": [
+                            {
+                                "system": "https://standards.digital.health.nz/ns/nzf-funding-type",
+                                "code": "community",
+                                "display": "community"
+                            }
+                        ],
+                        "text": "community"
+                    }
+                },
+                {
+                    "url": "ruleType",
+                    "valueCodeableConcept": {
+                        "text": "Statim"
+                    }
+                },
+                {
+                    "url": "ruleValue",
+                    "valueString": "Must"
+                },
+                {
+                    "url": "ruleText",
+                    "valueString": "Statim: Three months or six months, as applicable, dispensed all-at-once."
+                }
+            ],
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-funding-rule"
+        },
+        {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-nzmt-type",
+            "valueCodeableConcept": {
+                "coding": [
+                    {
+                        "system": "https://standards.digital.health.nz/ns/nzmt-type-code",
+                        "code": "ctpp"
+                    }
+                ]
+            }
+        },
+        {
+            "extension": [
+                {
                     "url": "code",
                     "valueCodeableConcept": {
                         "coding": [
@@ -228,6 +339,10 @@
                 }
             ],
             "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-related-medication"
+        },
+        {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-unapproved",
+            "valueBoolean": false
         }
     ],
     "code": {

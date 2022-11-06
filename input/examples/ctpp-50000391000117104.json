@@ -3,7 +3,7 @@
     "id": "ctpp-50000391000117104",
     "meta": {
         "versionId": "2",
-        "lastUpdated": "2022-04-20T03:31:17.014+00:00"
+        "lastUpdated": "2022-10-12T02:17:44.455+00:00"
     },
     "text": {
         "status": "generated",
@@ -11,19 +11,23 @@
     },
     "extension": [
         {
-            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-nzmt-type",
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-atc",
             "valueCodeableConcept": {
                 "coding": [
                     {
-                        "system": "https://standards.digital.health.nz/ns/nzmt-type-code",
-                        "code": "ctpp"
+                        "extension": [
+                            {
+                                "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-is-primary-coding",
+                                "valueBoolean": true
+                            }
+                        ],
+                        "system": "http://www.whocc.no/atc",
+                        "code": "A06AD65",
+                        "display": "Macrogol, combinations"
                     }
-                ]
+                ],
+                "text": "Macrogol, combinations"
             }
-        },
-        {
-            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-unapproved",
-            "valueBoolean": false
         },
         {
             "extension": [
@@ -136,6 +140,31 @@
             "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-legalclass"
         },
         {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-link",
+            "valueReference": {
+                "reference": "DocumentReference/6c675a61-c0be-4a1a-8ba6-d4de5429a0df",
+                "display": "Datasheet for 50000391000117104"
+            }
+        },
+        {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-link",
+            "valueReference": {
+                "reference": "DocumentReference/773781f6-7253-4754-92c6-4f3605e2347d",
+                "display": "CMI for 50000391000117104"
+            }
+        },
+        {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-link",
+            "valueReference": {
+                "reference": "DocumentReference/b578c1c1-cd61-4675-9929-bd5fa55ec268",
+                "identifier": {
+                    "system": "http://nzformulary.org/monograph-system",
+                    "value": "nzf_10182"
+                },
+                "display": "nzf_10182"
+            }
+        },
+        {
             "extension": [
                 {
                     "url": "status",
@@ -153,47 +182,14 @@
             "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-medsafe"
         },
         {
-            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-link",
-            "valueReference": {
-                "reference": "DocumentReference/6c675a61-c0be-4a1a-8ba6-d4de5429a0df",
-                "display": "Datasheet for 50000391000117104"
-            }
-        },
-        {
-            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-link",
-            "valueReference": {
-                "reference": "DocumentReference/773781f6-7253-4754-92c6-4f3605e2347d",
-                "display": "CMI for 50000391000117104"
-            }
-        },
-        {
-            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-atc",
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-nzmt-type",
             "valueCodeableConcept": {
                 "coding": [
                     {
-                        "extension": [
-                            {
-                                "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-is-primary-coding",
-                                "valueBoolean": true
-                            }
-                        ],
-                        "system": "http://www.whocc.no/atc",
-                        "code": "A06AD65",
-                        "display": "Macrogol, combinations"
+                        "system": "https://standards.digital.health.nz/ns/nzmt-type-code",
+                        "code": "ctpp"
                     }
-                ],
-                "text": "Macrogol, combinations"
-            }
-        },
-        {
-            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-link",
-            "valueReference": {
-                "reference": "DocumentReference/b578c1c1-cd61-4675-9929-bd5fa55ec268",
-                "identifier": {
-                    "system": "http://nzformulary.org/monograph-system",
-                    "value": "nzf_10182"
-                },
-                "display": "nzf_10182"
+                ]
             }
         },
         {
@@ -222,6 +218,10 @@
                 }
             ],
             "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-related-medication"
+        },
+        {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-unapproved",
+            "valueBoolean": false
         }
     ],
     "code": {
@@ -262,8 +262,20 @@
                 "coding": [
                     {
                         "system": "http://nzmt.org.nz",
-                        "code": "30781011000036102",
-                        "display": "ascorbic acid"
+                        "code": "2500011000036101",
+                        "display": "potassium chloride"
+                    }
+                ]
+            },
+            "isActive": true
+        },
+        {
+            "itemCodeableConcept": {
+                "coding": [
+                    {
+                        "system": "http://nzmt.org.nz",
+                        "code": "2591011000036106",
+                        "display": "sodium chloride"
                     }
                 ]
             },
@@ -286,20 +298,8 @@
                 "coding": [
                     {
                         "system": "http://nzmt.org.nz",
-                        "code": "2500011000036101",
-                        "display": "potassium chloride"
-                    }
-                ]
-            },
-            "isActive": true
-        },
-        {
-            "itemCodeableConcept": {
-                "coding": [
-                    {
-                        "system": "http://nzmt.org.nz",
-                        "code": "2591011000036106",
-                        "display": "sodium chloride"
+                        "code": "30781011000036102",
+                        "display": "ascorbic acid"
                     }
                 ]
             },
