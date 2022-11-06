@@ -47,6 +47,9 @@ Description:    "Medication resource for NZ Formulary"
 * extension[prescribebybrand] ^short = "True if can be prescribed by brand"
 * extension[supplyinformation] ^short = "Supply information"
 
+* code only CodeableConcept
+* code from http://nzmt.org.nz/vs
+
 // elements that have been removed
 * manufacturer 0..0
 * amount 0..0
