@@ -22,7 +22,7 @@ Description:    "Medication resource for NZ Formulary"
 * ^url = "http://hl7.org.nz/fhir/StructureDefinition/nzf-medication"
 
 * extension contains 
-    $nzmtType named nzmtType 1..1 and
+    $nzmtType named nzmtType 0..1 and
     $atc named atc 0..* and
     $link named link 0..* and 
     $cal named cal 0..* and
@@ -53,7 +53,7 @@ Description:    "Medication resource for NZ Formulary"
 * extension[relatedmedication] ^short = "Related medication"
 
 * code only CodeableConcept
-* code from http://nzmt.org.nz/vs
+* code from http://nzmt.org.nz/vs (preferred)
 
 // elements that have been removed
 * manufacturer 0..0
