@@ -177,6 +177,12 @@
                     "valueCodeableConcept": {
                         "text": "Consent given"
                     }
+                },
+                {
+                    "url": "administrationRoute",
+                    "valueCodeableConcept": {
+                        "text": "Oral"
+                    }
                 }
             ],
             "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-medsafe"

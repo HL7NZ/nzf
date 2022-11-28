@@ -28,6 +28,7 @@
             <td>
                 <div>sctId</div>
                 <div>Pharmacode</div>
+                <div>GTIN</div>
             </td>
         </tr>
         <tr>
@@ -144,6 +145,16 @@
             <td></td>
             <td></td>
             <td>CTPP -> ms_package.pkg_status</td>
+        </tr> 
+        <tr>
+            <td>Medsafe route of administration</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>CTPP -> ms_route_of_admin.route</td>
         </tr>        
         <tr>
             <td>Prescribe by brand</td>

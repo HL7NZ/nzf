@@ -55,7 +55,7 @@
 <td>
 <div>Medication</div>
 </td>
-<td>General funding information specific to NZ.  This details whether the product is either community funded or is on the HML.  The extension can be added multiple times to a product for each pharmac schedule.  These can be differentiated via the scheduleDate field.</td>
+<td>Core funding information specific to NZ.  The extension can be added multiple times to a product for each pharmac schedule.  These can be differentiated via the scheduleDate field.</td>
 <td></td>
 <td>0</td>
 <td>draft</td>
@@ -99,7 +99,7 @@
 <td>
 <div>Medication</div>
 </td>
-<td>Medsafe package and reg situation details</td>
+<td>Medsafe package, reg situation and administration route details</td>
 <td></td>
 <td>0</td>
 <td>draft</td>
