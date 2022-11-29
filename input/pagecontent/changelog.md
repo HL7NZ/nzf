@@ -22,3 +22,5 @@ This page details the recent changes we have made to the NZ Formulary/NZULM FHIR
 - 8/11/2021: Updated funding information including adding a new extension - nzf-funding-rule to store funding restriction details
 - 22/12/2021: Added isPrimary flag to Coded for use with ATC extension and pharmacodes
 - 2/02/2022: Added related medication extension to allow for navigating around the NZMT hierarchy
+- 29/11/2022: Added GTIN to medication coding
+- 29/11/2022: Added route of administration to medsafe extension

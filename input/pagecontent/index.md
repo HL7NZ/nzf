@@ -182,6 +182,10 @@ We provide document references for the following data:
 </tr>
 </table>
 
+<h3>Medication code</h3>
+
+<p>All medications will have a nzmt code.  Where applicable one or more pharmacodes will be added.  Where applicable one or more GTIN codes will added</p>
+
 <h3>Funding information</h3>
 
 <p>Funding information is added to Container Trade Product Packs where applicable.  The funding information is derived from both the Pharmac community schedule as well as the HML.</p>
