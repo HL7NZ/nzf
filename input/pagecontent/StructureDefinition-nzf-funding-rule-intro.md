@@ -1,7 +1,7 @@
-<p>Funding information is added to Container Trade Product Packs where applicable.  The funding information is derived from both the Pharmac schedule.</p>
+<p>Funding information is added to Containered Trade Product Packs where applicable.  The funding information is derived from both the PHARMAC schedule.</p>
 <p>There are two extensions added that store this information.  The first is <b>nzf-funding</b>.  This stores the general information around funding for a specific product such as price and subsidy.</p>
 
-<p>The second extension is <b>nzf-funding-rule</b>.  This extension once again has a schedule date so vendors can determine which schedule they would like to look at.  The purpose of this extension is to provide the pharmac funding rules that apply to the given product.  Most of the data here comes from the ps_rule table (in the NZMT releases) however a number of attribute rules are also added.  These are:</p>
+<p>The second extension is <b>nzf-funding-rule</b>.  This extension once again has a schedule date so vendors can determine which schedule they would like to look at.  The purpose of this extension is to provide the PHARMAC funding rules that apply to the given product.  Most of the data here comes from the ps_rule table (in the NZMT releases) however a number of attribute rules are also added.  These are:</p>
 
 <table class="table table-bordered">
     <tr>

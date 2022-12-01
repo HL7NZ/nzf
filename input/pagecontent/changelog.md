@@ -5,7 +5,7 @@ This page details the recent changes we have made to the NZ Formulary/NZULM FHIR
 - 23/4/2021: Added ATC extension to medication resources
 - 30/4/2021: Updated ATC extension to be a CodeableConcept
 - 6/5/2021: Coded legal classifications
-- 10/5/2021: Modified Pharmac supply extension types, added descriptions
+- 10/5/2021: Modified PHARMAC supply extension types, added descriptions
 - 10/5/2021: Added legal classification to MPUU and TPUUs, see mappings for details (with the exception of s29 products)
 - 11/5/2021: Added medsafe status to CTPP medication resources
 - 11/5/2021: Renamed section29 extension to unapproved to reflect upcoming legalisation
@@ -20,7 +20,7 @@ This page details the recent changes we have made to the NZ Formulary/NZULM FHIR
 - 8/10/2021: Added 'PreferredTerm' search parameters to allow for better text searches
 - 11/10/2021: Re-added descriptions extension which includes NZMT descriptions (to be discussed in a wider group)
 - 8/11/2021: Updated funding information including adding a new extension - nzf-funding-rule to store funding restriction details
-- 22/12/2021: Added isPrimary flag to Coded for use with ATC extension and pharmacodes
+- 22/12/2021: Added isPrimary flag to Coded for use with ATC extension and Pharmacodes® 
 - 2/02/2022: Added related medication extension to allow for navigating around the NZMT hierarchy
 - 29/11/2022: Added GTIN to medication coding
 - 29/11/2022: Added route of administration to medsafe extension

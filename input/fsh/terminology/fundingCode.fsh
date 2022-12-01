@@ -1,7 +1,7 @@
 ValueSet: PharmacFundingCodeHB
 Id: funding-code
-Title: "Derived pharmac funding code"
-Description: "Derived pharmac funding code"
+Title: "Derived PHARMAC funding code"
+Description: "Derived PHARMAC funding code"
 
 * ^url = "https://nzhts.digital.health.nz/fhir/ValueSet/funding-code"
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
@@ -12,7 +12,7 @@ Description: "Derived pharmac funding code"
 
 CodeSystem:  PharmacFundingCode
 Id: nzf-pharmac-funding-code
-Title: "Possible values for Derived Pharmac funding code"
+Title: "Possible values for Derived PHARMAC funding code"
 Description: "The set of all possible funding codes"
 
 * ^url = "https://standards.digital.health.nz/ns/funding-code"

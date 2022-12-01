@@ -21,7 +21,7 @@ Description: "The set of all possible nzf document types"
 
 * #AdultMonograph "NZF Adult Monograph"
 * #ChildMonograph "NZFC Child Monograph"
-* #SpecialAuthorityForm "Pharmac Special Authority Form"
+* #SpecialAuthorityForm "PHARMAC Special Authority Form"
 * #Datasheet "Medsafe Datasheet"
 * #CMI "Medsafe CMI"
 * #PIL "Patient Information Leaflet"

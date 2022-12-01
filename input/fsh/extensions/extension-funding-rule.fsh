@@ -1,6 +1,6 @@
 Extension: FundingRule
 Id: nzf-funding-rule
-Description: "Funding restriction information which complements the general funding information provided in the nzf-funding extension.  The extension can be added multiple times to a product for each given rule as well as for each pharmac schedule.  These can be differentiated via the scheduleDate field."
+Description: "Funding restriction information which complements the general funding information provided in the nzf-funding extension.  The extension can be added multiple times to a product for each given rule as well as for each PHARMAC schedule.  These can be differentiated via the scheduleDate field."
 
 * ^url = "http://hl7.org.nz/fhir/StructureDefinition/nzf-funding-rule"
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
@@ -31,8 +31,8 @@ Description: "Funding restriction information which complements the general fund
 * extension[type].value[x] from https://nzhts.digital.health.nz/fhir/ValueSet/nzf-funding-type
 
 * extension[ruleType].url = "ruleType" (exactly)
-* extension[ruleType] ^definition = "The type of pharmac rule - primarily sourced from the ps_rule table but can be derived for attribute based rules"
-* extension[ruleType] ^short = "The type of pharmac rule - primarily sourced from the ps_rule table but can be derived for attribute based rules"
+* extension[ruleType] ^definition = "The type of PHARMAC rule - primarily sourced from the ps_rule table but can be derived for attribute based rules"
+* extension[ruleType] ^short = "The type of PHARMAC rule - primarily sourced from the ps_rule table but can be derived for attribute based rules"
 * extension[ruleType].value[x] only CodeableConcept
 
 * extension[ruleAttribute].url = "ruleAttribute" (exactly)
