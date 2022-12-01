@@ -6,7 +6,7 @@ The key resource for this implementation is the Medication resource. For those t
 - Trade Product (TP) e.g. panadol
 - Medicinal Product Unit of Use (MPUU) e.g. paracetamol 500 mg tablet
 - Trade Product Unit of Use (TPUU) e.g. Panadol (paracetamol 500 mg) tablet: film-coated, 1 tablet
-- Container Trade Product Pack (CTPP) e.g. Panadol 500 mg tablet: film-coated, 1000 tablets, blister pack
+- Containered Trade Product Pack (CTPP) e.g. Panadol 500 mg tablet: film-coated, 1000 tablets, blister pack
 - Medicinal Product Pack (MPP) e.g. paracetamol 120 mg/5 mL oral liquid, 200 mL
 - Trade Product Pack (TPP) e.g. Panadol 500 mg tablet: film-coated, 12 tablets
 
@@ -50,7 +50,7 @@ The standard Medication resource provides the key information needed for integra
         <td>ATC</td>
         <td>The Anatomical Therapeutic Chemical Classification code(s)</td>
         <td>Yes</td>
-        <td>Yes</td>
+        <td></td>
         <td>Yes</td>
         <td>Yes</td>
         <td>Yes</td>
@@ -103,7 +103,7 @@ The standard Medication resource provides the key information needed for integra
     </tr>
     <tr>
         <td>Funding</td>
-        <td>NZ specific funding information provided by pharmac</td>
+        <td>NZ specific funding information provided by PHARMAC</td>
         <td></td>
         <td></td>
         <td></td>
@@ -114,7 +114,7 @@ The standard Medication resource provides the key information needed for integra
     </tr>
     <tr>
         <td>Funding rules</td>
-        <td>The rules and constraints around funding for the given medicine provided by pharmac</td>
+        <td>The rules and constraints around funding for the given medicine provided by PHARMAC</td>
         <td></td>
         <td></td>
         <td></td>
@@ -124,8 +124,8 @@ The standard Medication resource provides the key information needed for integra
         <td>Yes</td>
     </tr>    
     <tr>
-        <td>Pharmac Supply Information</td>
-        <td>Pharmac provided information detailing medication supply issues</td>
+        <td>PHARMAC Supply Information</td>
+        <td>PHARMAC provided information detailing medication supply issues</td>
         <td>Yes</td>
         <td>Yes</td>
         <td>Yes</td>
@@ -177,19 +177,19 @@ We provide document references for the following data:
     <td>A reference to all medsafe CMI URLs</td>
 </tr>
 <tr>
-    <td>Pharmac Special Authority Forms</td>
-    <td>A reference to all pharmac special authority forms, including the form XML</td>
+    <td>PHARMAC Special Authority Forms</td>
+    <td>A reference to all PHARMAC special authority forms, including the form XML</td>
 </tr>
 </table>
 
 <h3>Medication code</h3>
 
-<p>All medications will have a nzmt code.  Where applicable one or more pharmacodes will be added.  Where applicable one or more GTIN codes will added</p>
+<p>All medications will have a nzmt code.  Where applicable one or more Pharmacodes® will be added to a CTPP.  Where applicable one or more GTIN codes will added to a CTPP or a TPUU</p>
 
-<h3>Funding information</h3>
+<h3>Subsidy information</h3>
 
-<p>Funding information is added to Container Trade Product Packs where applicable.  The funding information is derived from both the Pharmac community schedule as well as the HML.</p>
-<p>There are two extensions added that store this information.  The first is <b>nzf-funding</b>.  This stores the general information around funding for a specific product, including some of the community schedule details (price etc.) - <a href="./StructureDefinition-nzf-funding.html">see extension details</a> To cater for the existence of multiple schedules this extension can be added to a product multiple times, once per schedule.  This allows vendors to see both the current schedule information as well as an upcoming schedule.  To determine which set of information to use the 'scheduleDate' field can be used.  The second extension is <b>nzf-funding-rule</b>.  This extension once again has a schedule date so vendors can determine which schedule they would like to look at.  The purpose of this extension is to provide the pharmac funding rules that apply to the given product.  Most of the data here comes from the ps_rule table (in the NZMT releases) however a number of attribute rules are also added.  These are:</p>
+<p>Subsidy information is added to Containered Trade Product Packs where applicable.  The funding information is derived from both the PHARMAC community schedule as well as the HML.</p>
+<p>There are two extensions added that store this information.  The first is <b>nzf-funding</b>.  This stores the general information around funding for a specific product, including some of the community schedule details (price etc.) - <a href="./StructureDefinition-nzf-funding.html">see extension details</a> To cater for the existence of multiple schedules this extension can be added to a product multiple times, once per schedule.  This allows vendors to see both the current schedule information as well as an upcoming schedule.  To determine which set of information to use the 'scheduleDate' field can be used.  The second extension is <b>nzf-funding-rule</b>.  This extension once again has a schedule date so vendors can determine which schedule they would like to look at.  The purpose of this extension is to provide the PHARMAC funding rules that apply to the given product.  Most of the data here comes from the ps_rule table (in the NZMT releases) however a number of attribute rules are also added.  These are:</p>
 
 <table class="table table-bordered">
     <tr>
@@ -200,11 +200,11 @@ We provide document references for the following data:
     <td>Rule text</td>
     </tr>
     <tr>
-    <td>Sole subsidy</td>
+    <td>Sole Subsidised Supply</td>
     <td>When a CTPP associated with a ps_brand entry has the sole_supply flag set</td>
     <td>SoleSupply</td>
     <td></td>
-    <td>Sole Subsided Supply</td>
+    <td>Sole Subsidised Supply</td>
     </tr>
     <tr>
     <td>Principal Sole Supply</td>

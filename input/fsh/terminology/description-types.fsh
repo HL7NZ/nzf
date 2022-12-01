@@ -10,7 +10,7 @@ Description: "NZMT Description types"
 
 * $NZMT#20069011000116104 "Label name (40)"
 * $NZMT#20069021000116108 "Unit Dose name"
-* $NZMT#20069031000116105 "Pharmac name"
+* $NZMT#20069031000116105 "PHARMAC name"
 * $NZMT#20069041000116103 "Label name (80)"
 * $NZMT#20069051000116100 "Manufacturers name"
 * $NZMT#20069061000116102 "Prescribing Term"

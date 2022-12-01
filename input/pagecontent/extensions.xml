@@ -44,7 +44,7 @@
 <td>
 <div>Medication</div>
 </td>
-<td>Funding restriction information which complements the general funding information provided in the nzf-funding extension.  The extension can be added multiple times to a product for each given rule as well as for each pharmac schedule.  These can be differentiated via the scheduleDate field.</td>
+<td>Funding restriction information which complements the general funding information provided in the nzf-funding extension.  The extension can be added multiple times to a product for each given rule as well as for each PHARMAC schedule.  These can be differentiated via the scheduleDate field.</td>
 <td></td>
 <td>0</td>
 <td>draft</td>
@@ -55,7 +55,7 @@
 <td>
 <div>Medication</div>
 </td>
-<td>Core funding information specific to NZ.  The extension can be added multiple times to a product for each pharmac schedule.  These can be differentiated via the scheduleDate field.</td>
+<td>Core funding information specific to NZ.  The extension can be added multiple times to a product for each PHARMAC schedule.  These can be differentiated via the scheduleDate field.</td>
 <td></td>
 <td>0</td>
 <td>draft</td>
@@ -66,7 +66,7 @@
 <td>
 <div>Coding</div>
 </td>
-<td>Is primary code within given context, e.g. primary pharmacode when multiple given</td>
+<td>Is primary code within given context, e.g. primary Pharmacode® when multiple given</td>
 <td></td>
 <td>0</td>
 <td>draft</td>
