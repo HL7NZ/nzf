@@ -176,10 +176,6 @@ We provide document references for the following data:
     <td>Medsafe CMIs</td>
     <td>A reference to all medsafe CMI URLs</td>
 </tr>
-<tr>
-    <td>Pharmac Special Authority Forms</td>
-    <td>A reference to all pharmac special authority forms, including the form XML</td>
-</tr>
 </table>
 
 <h3>Medication code</h3>
@@ -280,11 +276,11 @@ We provide document references for the following data:
 </tr>
 <tr>
     <td>CTPP</td>
-    <td>TPP</td>
+    <td>MP<br/>TPP</td>
 </tr>
 <tr>
     <td>MPP</td>
-    <td>MPUU (1 or more)</td>
+    <td>MP<br/>MPUU (1 or more)</td>
 </tr>
 <tr>
     <td>MPUU</td>
@@ -292,10 +288,10 @@ We provide document references for the following data:
 </tr>
 <tr>
     <td>TPP</td>
-    <td>TPUU (1 or more)<br/>MPP</td>
+    <td>MP<br/>TP<br/>TPUU (1 or more)<br/>MPP</td>
 </tr>
 <tr>
     <td>TPUU</td>
-    <td>TP<br>TPP (1 or more)<br>MPUU</td>
+    <td>MP<br/>TP<br>TPP (1 or more)<br>MPUU</td>
 </tr>
 </table>
