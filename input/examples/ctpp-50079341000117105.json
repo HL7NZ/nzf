@@ -2,8 +2,8 @@
     "resourceType": "Medication",
     "id": "ctpp-50079341000117105",
     "meta": {
-        "versionId": "7",
-        "lastUpdated": "2022-04-20T03:31:21.043+00:00"
+        "versionId": "2",
+        "lastUpdated": "2022-08-09T22:05:54.775+00:00"
     },
     "text": {
         "status": "generated",
@@ -11,19 +11,57 @@
     },
     "extension": [
         {
-            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-nzmt-type",
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-atc",
             "valueCodeableConcept": {
                 "coding": [
                     {
-                        "system": "https://standards.digital.health.nz/ns/nzmt-type-code",
-                        "code": "ctpp"
+                        "extension": [
+                            {
+                                "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-is-primary-coding",
+                                "valueBoolean": true
+                            }
+                        ],
+                        "system": "http://www.whocc.no/atc",
+                        "code": "M01AE01",
+                        "display": "Ibuprofen"
                     }
-                ]
+                ],
+                "text": "Ibuprofen"
             }
         },
         {
-            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-unapproved",
-            "valueBoolean": false
+            "extension": [
+                {
+                    "url": "id",
+                    "valueId": "10"
+                },
+                {
+                    "url": "labelType",
+                    "valueString": "label"
+                },
+                {
+                    "url": "text",
+                    "valueString": "Take each dose with a large glass of water."
+                }
+            ],
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-cal"
+        },
+        {
+            "extension": [
+                {
+                    "url": "id",
+                    "valueId": "B"
+                },
+                {
+                    "url": "labelType",
+                    "valueString": "reference"
+                },
+                {
+                    "url": "text",
+                    "valueString": "with food"
+                }
+            ],
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-cal"
         },
         {
             "extension": [
@@ -105,76 +143,6 @@
             "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-legalclass"
         },
         {
-            "extension": [
-                {
-                    "url": "status",
-                    "valueCodeableConcept": {
-                        "text": "Active"
-                    }
-                },
-                {
-                    "url": "regSituation",
-                    "valueCodeableConcept": {
-                        "text": "Consent given"
-                    }
-                }
-            ],
-            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-medsafe"
-        },
-        {
-            "extension": [
-                {
-                    "url": "scheduleDate",
-                    "valueDate": "2022-04-12"
-                },
-                {
-                    "url": "subsidy",
-                    "valueMoney": {
-                        "value": 0
-                    }
-                },
-                {
-                    "url": "price",
-                    "valueMoney": {
-                        "value": 0
-                    }
-                },
-                {
-                    "url": "type",
-                    "valueCodeableConcept": {
-                        "coding": [
-                            {
-                                "system": "https://standards.digital.health.nz/ns/nzf-funding-type",
-                                "code": "hml",
-                                "display": "hml"
-                            }
-                        ],
-                        "text": "hml"
-                    }
-                }
-            ],
-            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-funding"
-        },
-        {
-            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-atc",
-            "valueCodeableConcept": {
-                "coding": [
-                    {
-                        "extension": [
-                            {
-                                "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-is-primary-coding",
-                                "valueBoolean": true
-                            }
-                        ],
-                        "system": "http://www.whocc.no/atc",
-                        "code": "M01AE01",
-                        "display": "Ibuprofen"
-                    }
-                ],
-                "text": "Ibuprofen"
-            }
-        },
-        {
             "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-link",
             "valueReference": {
                 "reference": "DocumentReference/340ad3e8-56e6-4920-bfc5-529f1d7c6dd7",
@@ -199,36 +167,36 @@
         {
             "extension": [
                 {
-                    "url": "id",
-                    "valueId": "10"
+                    "url": "status",
+                    "valueCodeableConcept": {
+                        "text": "Active"
+                    }
                 },
                 {
-                    "url": "labelType",
-                    "valueString": "label"
+                    "url": "regSituation",
+                    "valueCodeableConcept": {
+                        "text": "Consent given"
+                    }
                 },
                 {
-                    "url": "text",
-                    "valueString": "Take each dose with a large glass of water."
+                    "url": "administrationRoute",
+                    "valueCodeableConcept": {
+                        "text": "Oral"
+                    }
                 }
             ],
-            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-cal"
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-medsafe"
         },
         {
-            "extension": [
-                {
-                    "url": "id",
-                    "valueId": "B"
-                },
-                {
-                    "url": "labelType",
-                    "valueString": "reference"
-                },
-                {
-                    "url": "text",
-                    "valueString": "with food"
-                }
-            ],
-            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-cal"
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-nzmt-type",
+            "valueCodeableConcept": {
+                "coding": [
+                    {
+                        "system": "https://standards.digital.health.nz/ns/nzmt-type-code",
+                        "code": "ctpp"
+                    }
+                ]
+            }
         },
         {
             "extension": [
@@ -256,6 +224,10 @@
                 }
             ],
             "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-related-medication"
+        },
+        {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-unapproved",
+            "valueBoolean": false
         }
     ],
     "code": {

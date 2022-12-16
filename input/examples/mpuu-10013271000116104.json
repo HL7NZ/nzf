@@ -1,9 +1,9 @@
 {
     "resourceType": "Medication",
-    "id": "mpuu-ibuprofen-200-mg-capsule-10013271000116104",
+    "id": "mpuu-10013271000116104",
     "meta": {
-        "versionId": "2",
-        "lastUpdated": "2022-04-20T02:44:21.201+00:00"
+        "versionId": "1",
+        "lastUpdated": "2022-08-03T00:28:59.466+00:00"
     },
     "text": {
         "status": "generated",
@@ -11,15 +11,57 @@
     },
     "extension": [
         {
-            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-nzmt-type",
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-atc",
             "valueCodeableConcept": {
                 "coding": [
                     {
-                        "system": "https://standards.digital.health.nz/ns/nzmt-type-code",
-                        "code": "mpuu"
+                        "extension": [
+                            {
+                                "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-is-primary-coding",
+                                "valueBoolean": false
+                            }
+                        ],
+                        "system": "http://www.whocc.no/atc",
+                        "code": "M01AE01",
+                        "display": "Ibuprofen"
                     }
-                ]
+                ],
+                "text": "Ibuprofen"
             }
+        },
+        {
+            "extension": [
+                {
+                    "url": "id",
+                    "valueId": "10"
+                },
+                {
+                    "url": "labelType",
+                    "valueString": "label"
+                },
+                {
+                    "url": "text",
+                    "valueString": "Take each dose with a large glass of water."
+                }
+            ],
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-cal"
+        },
+        {
+            "extension": [
+                {
+                    "url": "id",
+                    "valueId": "B"
+                },
+                {
+                    "url": "labelType",
+                    "valueString": "reference"
+                },
+                {
+                    "url": "text",
+                    "valueString": "with food"
+                }
+            ],
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-cal"
         },
         {
             "extension": [
@@ -270,59 +312,6 @@
             "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-description"
         },
         {
-            "extension": [
-                {
-                    "url": "id",
-                    "valueId": "10"
-                },
-                {
-                    "url": "labelType",
-                    "valueString": "label"
-                },
-                {
-                    "url": "text",
-                    "valueString": "Take each dose with a large glass of water."
-                }
-            ],
-            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-cal"
-        },
-        {
-            "extension": [
-                {
-                    "url": "id",
-                    "valueId": "B"
-                },
-                {
-                    "url": "labelType",
-                    "valueString": "reference"
-                },
-                {
-                    "url": "text",
-                    "valueString": "with food"
-                }
-            ],
-            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-cal"
-        },
-        {
-            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-atc",
-            "valueCodeableConcept": {
-                "coding": [
-                    {
-                        "extension": [
-                            {
-                                "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-is-primary-coding",
-                                "valueBoolean": false
-                            }
-                        ],
-                        "system": "http://www.whocc.no/atc",
-                        "code": "M01AE01",
-                        "display": "Ibuprofen"
-                    }
-                ],
-                "text": "Ibuprofen"
-            }
-        },
-        {
             "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-link",
             "valueReference": {
                 "reference": "DocumentReference/340ad3e8-56e6-4920-bfc5-529f1d7c6dd7",
@@ -342,6 +331,17 @@
                     "value": "nzfc_5524"
                 },
                 "display": "nzfc_5524"
+            }
+        },
+        {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-nzmt-type",
+            "valueCodeableConcept": {
+                "coding": [
+                    {
+                        "system": "https://standards.digital.health.nz/ns/nzmt-type-code",
+                        "code": "mpuu"
+                    }
+                ]
             }
         },
         {

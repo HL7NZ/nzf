@@ -1,6 +1,6 @@
 Extension: Funding
 Id: nzf-funding
-Description: "Core funding information specific to NZ.  The extension can be added multiple times to a product for each pharmac schedule.  These can be differentiated via the scheduleDate field."
+Description: "Core funding information specific to NZ.  The extension can be added multiple times to a product for each PHARMAC schedule.  These can be differentiated via the scheduleDate field."
 
 * ^url = "http://hl7.org.nz/fhir/StructureDefinition/nzf-funding"
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ

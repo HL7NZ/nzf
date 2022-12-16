@@ -1,3 +1,4 @@
+/* Work in progress */
 {
     "resourceType": "SearchParameter",
     "url": "http://hl7.org/fhir/nzf/SearchParameter/nzf-funding-schedule-date-type",
@@ -12,20 +13,16 @@
         "Medication"
     ],
     "type": "composite",
-    "expression": "Medication",
-    "target": [
-        "Medication"
-    ],
     "xpathUsage": "normal",
     "multipleOr": false,
     "component": [
         {
             "definition": "http://hl7.org/fhir/nzf/SearchParameter/nzf-funding-schedule-date",
-            "expression": "Medication.extension.where(url = 'http://hl7.org.nz/fhir/StructureDefinition/nzf-funding').extension.where(url = 'scheduleDate').value"
+            "expression": "Medication"
         },
         {
             "definition": "http://hl7.org/fhir/nzf/SearchParameter/nzf-funding-type",
-            "expression": "Medication.extension.where(url = 'http://hl7.org.nz/fhir/StructureDefinition/nzf-funding').extension.where(url = 'type').value"
+            "expression": "Medication"
         }
     ]
 }

@@ -1,6 +1,6 @@
 Extension: Medsafe
 Id: nzf-medsafe
-Description: "Medsafe package and reg situation details"
+Description: "Medsafe package, reg situation and administration route details"
 
 * ^url = "http://hl7.org.nz/fhir/StructureDefinition/nzf-medsafe"
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
@@ -11,7 +11,8 @@ Description: "Medsafe package and reg situation details"
  
 * extension contains
     status 0..1 and
-    regSituation 0..1
+    regSituation 0..1 and
+    administrationRoute 0..1
 
 * extension[status].url = "status" (exactly)
 * extension[status] ^definition = "Medsafe package status"
@@ -22,3 +23,8 @@ Description: "Medsafe package and reg situation details"
 * extension[regSituation] ^definition = "Medsafe reg situation"
 * extension[regSituation] ^short = "Medsafe reg situation"
 * extension[regSituation].value[x] only CodeableConcept 
+
+* extension[administrationRoute].url = "administrationRoute" (exactly)
+* extension[administrationRoute] ^definition = "Medsafe administration route"
+* extension[administrationRoute] ^short = "Medsafe administration route"
+* extension[administrationRoute].value[x] only CodeableConcept 

@@ -14,8 +14,11 @@ Get a specific medication based on sctid
 Get a specific medication based on sctid via code - returns a bundle
 >[base]/Medication?code=44282231000116104
 
-Get a specific medication based on sctid via pharmacode (only applies to CTPPs) - returns a bundle
+Get a specific medication based on sctid via Pharmacode® (only applies to CTPPs) - returns a bundle
 >[base]/Medication?code=393924
+
+Get a specific medication based on sctid via GTIN - returns a bundle
+>[base]/Medication?code=https://www.gs1.org/gtin|09322838012989
 
 Get medications that have been updated since 1 Apr 2021 (can be useful for maintaining a local cache)
 >[base]/Medication?_lastUpdated=gt2021-04-01

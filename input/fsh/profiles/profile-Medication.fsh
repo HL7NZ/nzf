@@ -10,6 +10,7 @@ Alias: $legalclass = http://hl7.org.nz/fhir/StructureDefinition/nzf-legalclass
 Alias: $medsafe = http://hl7.org.nz/fhir/StructureDefinition/nzf-medsafe
 Alias: $pbb = http://hl7.org.nz/fhir/StructureDefinition/nzf-prescribe-by-brand
 Alias: $si = http://hl7.org.nz/fhir/StructureDefinition/nzf-supply-information
+Alias: $rm = http://hl7.org.nz/fhir/StructureDefinition/nzf-related-medication
 
 Profile:        NzfMedication
 Parent:         Medication
@@ -21,7 +22,7 @@ Description:    "Medication resource for NZ Formulary"
 * ^url = "http://hl7.org.nz/fhir/StructureDefinition/nzf-medication"
 
 * extension contains 
-    $nzmtType named nzmtType 1..1 and
+    $nzmtType named nzmtType 0..1 and
     $atc named atc 0..* and
     $link named link 0..* and 
     $cal named cal 0..* and
@@ -32,7 +33,10 @@ Description:    "Medication resource for NZ Formulary"
     $legalclass named legalclass 0..1 and
     $medsafe named medsafe 0..1 and
     $pbb named prescribebybrand 0..1 and
-    $si named supplyinformation 0..*
+    $si named supplyinformation 0..* and
+    $rm named relatedmedication 0..*
+
+
 
 * extension[nzmtType] ^short = "Type of NZMT record (e.g. MP, MPUU)"    
 * extension[atc] ^short = "Anatomical Therapeutic Chemical (ATC) Classification"
@@ -46,6 +50,10 @@ Description:    "Medication resource for NZ Formulary"
 * extension[medsafe] ^short = "Medsafe details of the medication"
 * extension[prescribebybrand] ^short = "True if can be prescribed by brand"
 * extension[supplyinformation] ^short = "Supply information"
+* extension[relatedmedication] ^short = "Related medication"
+
+* code only CodeableConcept
+* code from http://nzmt.org.nz/vs (preferred)
 
 // elements that have been removed
 * manufacturer 0..0

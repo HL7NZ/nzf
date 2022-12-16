@@ -27,7 +27,8 @@
             <td>sctId</td>
             <td>
                 <div>sctId</div>
-                <div>Pharmacode</div>
+                <div>Pharmacode®</div>
+                <div>GTIN</div>
             </td>
         </tr>
         <tr>
@@ -144,6 +145,16 @@
             <td></td>
             <td></td>
             <td>CTPP -> ms_package.pkg_status</td>
+        </tr> 
+        <tr>
+            <td>Medsafe route of administration</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>CTPP -> ms_route_of_admin.route</td>
         </tr>        
         <tr>
             <td>Prescribe by brand</td>
@@ -163,10 +174,10 @@
             <td></td>
             <td></td>
             <td></td>
-            <td>Pharmac tables, details to come</td>
+            <td>PHARMAC tables, details to come</td>
         </tr>
         <tr>
-            <td>Pharmac supply info</td>
+            <td>PHARMAC supply info</td>
             <td colspan="7">Based on sctid</td>
         </tr>
         <tr>
@@ -219,7 +230,7 @@
         <tr>
             <td>author</td>
             <td>NZ Formulary</td>
-            <td>Pharmac</td>
+            <td>PHARMAC</td>
             <td>NZ Formulary</td>
             <td>Medsafe</td>
             <td>Medsafe</td>
