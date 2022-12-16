@@ -176,10 +176,6 @@ We provide document references for the following data:
     <td>Medsafe CMIs</td>
     <td>A reference to all medsafe CMI URLs</td>
 </tr>
-<tr>
-    <td>Pharmac Special Authority Forms</td>
-    <td>A reference to all pharmac special authority forms, including the form XML</td>
-</tr>
 </table>
 
 <h3>Funding information</h3>
