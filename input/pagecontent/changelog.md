@@ -24,3 +24,4 @@ This page details the recent changes we have made to the NZ Formulary/NZULM FHIR
 - 2/02/2022: Added related medication extension to allow for navigating around the NZMT hierarchy
 - 29/11/2022: Added GTIN to medication coding
 - 29/11/2022: Added route of administration to medsafe extension
+- Feb - 2023: Added ingredients/strength information - work-in-progress

@@ -4,7 +4,6 @@
 
 ### Medium term
 
-- **Strength information** - Populate the medication.ingredient.strength based on the NZULM MPUUSAI data
 - **Medicine groups**: Establish a method of distributing medicine group information
 
 ### Suggested additions under consideration
