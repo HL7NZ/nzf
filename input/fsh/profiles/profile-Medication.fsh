@@ -38,7 +38,7 @@ Description:    "Medication resource for NZ Formulary"
 
 
 
-* extension[nzmtType] ^short = "Type of NZMT record (e.g. MP, MPUU)"    
+* extension[nzmtType] ^short = "The NZ Medicines Terminology (NZMT) Data Class – MP (Medicinal Product), MPUU (Medicinal Product Unit of Use), MPP (Medicinal Product Pack), TP (Trade Product), TPUU (Trade Product Unit of Use), TPP (Trade Product Pack) or CTPP (Containered Trade Product Pack) – that the Medication is a member of."    
 * extension[atc] ^short = "Anatomical Therapeutic Chemical (ATC) Classification"
 * extension[link] ^short = "Links to other information about this medication"
 * extension[description] ^short = "NZMT descriptions for the medicine"
