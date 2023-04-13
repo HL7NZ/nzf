@@ -1,2 +1,8 @@
 <p>Funding information is added to Containered Trade Product Packs where applicable.  The funding information is derived from both the PHARMAC schedule.</p>
 <p>There are two extensions added that store this information.  The first is <b>nzf-funding</b>.  This stores the general information around funding for a specific product such as price and subsidy.  This also includes a 'type' field which indicates whether it applies to community, hml or both. To cater for the existence of multiple schedules this extension can be added to a product multiple times, once per schedule.  This allows vendors to see both the current schedule information as well as an upcoming schedule.  To determine which set of information to use the 'scheduleDate' field can be used.  </p>
+<p>To determine what schedules are available at any given time there is a 'Basic' resource that provides metadata (id and code =metadata).  This metadata object contains a list of pharmacSchedule details, including the schedule dates.</p>
+
+<p><b>To determine the appropriate pharmac subsidy code:</b><p>
+<ul><li>Community – the pharmacode associated with the given CTPP should always be used.  This is in the code field for the CTPP Medication resource.</li>
+<li>HML – some items are HML due to generic level funding (e.g. at the MPUU level).  If this is the case then the genericLevelFundingCode will be populated for the core funding extension and should be used.  This should only be used for HML.  If no genericLevelFundingCode exists then the pharmacode associated with the given CTPP should be used.</li>
+</ul>

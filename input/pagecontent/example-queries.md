@@ -25,7 +25,7 @@ Get medications that have been updated since 1 Apr 2021 (can be useful for maint
 
 
 Get list of medications that contain ibuprofen (MP)
->[base]/Medication?ingredient-code=10013251000116106
+>[base]/Medication?nzf-related-medication=10013251000116106
 
 Get list of medications that contain ibuprofen (substance)
 >[base]/Medication?ingredient-code=2211011000036101
@@ -52,8 +52,26 @@ Get list of medications based on related medications
 Get a list of TPUUs based on related medications (MPUU)
 >[base]/Medication?_elements=code&nzf-related-medication=10044651000116102&nzf-nzmt-type=tpuu
 
+Get list of available pharmac schedules
+>[base]/Basic/metadata
 
+Get list of all funded medications (either Community or HML) for the given schedule date
+>[base]/Medication?_sort=nzf-preferred-term&_summary=text&nzf-funding-schedule-date=2023-04-12
 
+Get a list of all prescribe by brand medications
+>[base]/Medication?nzf-prescribe-by-brand=true
+
+Get a list of all prescribe by brand MPUU medications
+>[base]/Medication?nzf-prescribe-by-brand=true&nzf-nzmt-type=mpuu
+
+Get a list of all prescribe by brand MPP medications
+>[base]/Medication?nzf-prescribe-by-brand=true&nzf-nzmt-type=mpp
+
+Get a list of all medications that have current pharmac supply information
+>[base]/Medication?nzf-supply-information-type:missing=false
+
+Get a list of all unapproved medications (section 29)
+>[base]/Medication?nzf-unapproved=true
 
 #### Document references
 
