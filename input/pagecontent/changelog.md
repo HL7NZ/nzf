@@ -26,3 +26,4 @@ This page details the recent changes we have made to the NZ Formulary/NZULM FHIR
 - 29/11/2022: Added route of administration to medsafe extension
 - Feb - 2023: Added ingredients/strength information - work-in-progress
 - 13/4/2023: Added a metadata resource to allow easy retrieving of details around pharmac schedules
+- 3/5/2023: Added substance resources for each NZMT substance

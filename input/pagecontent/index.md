@@ -1,6 +1,6 @@
 This IG is to support retrieving formulary and medication information in New Zealand. This is part of a project by the NZULM/NZ Formulary to provide the information we produce and collate in a standards-based form. As an organisation we want to make it as easy as possible to retrieve the medication information that you require in a timely manner.
 
-The key resource for this implementation is the Medication resource. For those that are familiar with the New Zealand Medicines Terminology (NZMT) we will provide a medication resource for the key types of medications in the NZMT. These are:
+The key resource for this implementation is the Medication resource. For those that are familiar with the New Zealand Medicines Terminology (NZMT) we provide a medication resource for the key types of medications in the NZMT. These are:
 
 - Medicinal Product (MP) e.g. paracetamol
 - Trade Product (TP) e.g. panadol
@@ -147,7 +147,7 @@ The standard Medication resource provides the key information needed for integra
     </tr>
 </table>
 
-The medication resources will also link to several documents (using the link extension). To facilitate this, we use [DocumentReference](http://hl7.org/fhir/documentreference.html) resources.
+The medication resources will also link to several documents (using the link extension). To facilitate this, we use [DocumentReference](http://hl7.org/fhir/R4B/documentreference.html) resources.
 
 We provide document references for the following data:
 
@@ -177,6 +177,8 @@ We provide document references for the following data:
     <td>A reference to all medsafe CMI URLs</td>
 </tr>
 </table>
+
+We also provide substance resources for each NZMT substance. [Substance](http://hl7.org/fhir/R4B/substance.html) resources.
 
 <h3>Medication code</h3>
 

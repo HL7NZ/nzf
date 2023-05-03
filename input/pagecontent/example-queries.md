@@ -73,6 +73,9 @@ Get a list of all medications that have current pharmac supply information
 Get a list of all unapproved medications (section 29)
 >[base]/Medication?nzf-unapproved=true
 
+Get a list of all substances
+>[base]/Substance
+
 #### Document references
 
 To get a list of all types of document references then they can be filtered by type e.g.
