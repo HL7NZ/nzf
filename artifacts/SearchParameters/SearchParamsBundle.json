@@ -1,0 +1,280 @@
+{
+    "resourceType": "Bundle",
+    "type": "batch",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "SearchParameter",
+                "url": "http://hl7.org/fhir/nzf/SearchParameter/nzf-community-funding",
+                "version": "1.0.1",
+                "name": "NzfCommunityFunding",
+                "status": "active",
+                "date": "2023-06-19",
+                "publisher": "NZ Formulary",
+                "description": "Returns medications matching the community funding level",
+                "code": "nzf-community-funding",
+                "base": [
+                    "Medication"
+                ],
+                "type": "token",
+                "expression": "Medication.extension.where(url = 'http://hl7.org.nz/fhir/StructureDefinition/nzf-funding').extension.where(url = 'status')",
+                "target": [
+                    "Medication"
+                ]
+            },
+            "request": {
+                "method": "POST",
+                "url": "SearchParameter"
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "SearchParameter",
+                "url": "http://hl7.org/fhir/nzf/SearchParameter/nzf-funding-rule-schedule-date",
+                "version": "1.0.0",
+                "name": "NzfFundingRuleScheduleDate",
+                "status": "active",
+                "date": "2023-06-19",
+                "publisher": "NZ Formulary",
+                "description": "Returns medications with funding rules matching the given schedule date",
+                "code": "nzf-funding-rule-schedule-date",
+                "base": [
+                    "Medication"
+                ],
+                "type": "date",
+                "expression": "Medication.extension.where(url = 'http://hl7.org.nz/fhir/StructureDefinition/nzf-funding-rule').extension.where(url = 'scheduleDate').value",
+                "target": [
+                    "Medication"
+                ]
+            },
+            "request": {
+                "method": "POST",
+                "url": "SearchParameter"
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "SearchParameter",
+                "url": "http://hl7.org/fhir/nzf/SearchParameter/nzf-funding-schedule-date",
+                "version": "1.0.0",
+                "name": "NzfFundingScheduleDate",
+                "status": "active",
+                "date": "2023-06-19",
+                "publisher": "NZ Formulary",
+                "description": "Returns medications with funding matching the given schedule date",
+                "code": "nzf-funding-schedule-date",
+                "base": [
+                    "Medication"
+                ],
+                "type": "date",
+                "expression": "Medication.extension.where(url = 'http://hl7.org.nz/fhir/StructureDefinition/nzf-funding').extension.where(url = 'scheduleDate').value",
+                "target": [
+                    "Medication"
+                ]
+            },
+            "request": {
+                "method": "POST",
+                "url": "SearchParameter"
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "SearchParameter",
+                "url": "http://hl7.org/fhir/nzf/SearchParameter/nzf-funding-type",
+                "version": "1.0.1",
+                "name": "NzfFundingType",
+                "status": "active",
+                "date": "2023-06-19",
+                "publisher": "NZ Formulary",
+                "description": "Returns medications matching the funding type",
+                "code": "nzf-funding-type",
+                "base": [
+                    "Medication"
+                ],
+                "type": "token",
+                "expression": "Medication.extension.where(url = 'http://hl7.org.nz/fhir/StructureDefinition/nzf-funding').extension.where(url = 'type')",
+                "target": [
+                    "Medication"
+                ]
+            },
+            "request": {
+                "method": "POST",
+                "url": "SearchParameter"
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "SearchParameter",
+                "url": "http://hl7.org/fhir/nzf/SearchParameter/nzf-link",
+                "version": "1.0.1",
+                "name": "NzfLink",
+                "status": "active",
+                "date": "2023-06-19",
+                "publisher": "NZ Formulary",
+                "description": "Returns medications matching the given document reference",
+                "code": "nzf-link",
+                "base": [
+                    "Medication"
+                ],
+                "type": "reference",
+                "expression": "Medication.extension.where(url = 'http://hl7.org.nz/fhir/StructureDefinition/nzf-link')",
+                "target": [
+                    "Medication"
+                ]
+            },
+            "request": {
+                "method": "POST",
+                "url": "SearchParameter"
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "SearchParameter",
+                "url": "http://hl7.org/fhir/nzf/SearchParameter/nzf-preferred-term",
+                "version": "1.0.3",
+                "name": "NzfPreferredTerm",
+                "status": "active",
+                "date": "2023-06-19",
+                "publisher": "NZ Formulary",
+                "description": "Returns medications based on the medication preferred term",
+                "code": "nzf-preferred-term",
+                "base": [
+                    "Medication"
+                ],
+                "type": "string",
+                "expression": "Medication.code.coding.where(system = 'http://nzmt.org.nz').display",
+                "target": [
+                    "Medication"
+                ]
+            },
+            "request": {
+                "method": "POST",
+                "url": "SearchParameter"
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "SearchParameter",
+                "url": "http://hl7.org/fhir/nzf/SearchParameter/nzf-prescribe-by-brand",
+                "version": "1.0.0",
+                "name": "NzfPrescribeByBrand",
+                "status": "active",
+                "date": "2023-06-19",
+                "publisher": "NZ Formulary",
+                "description": "Returns medications with the prescribe by brand flag set.",
+                "code": "nzf-prescribe-by-brand",
+                "base": [
+                    "Medication"
+                ],
+                "type": "token",
+                "expression": "Medication.extension.where(url = 'http://hl7.org.nz/fhir/StructureDefinition/nzf-prescribe-by-brand').value",
+                "target": [
+                    "Medication"
+                ]
+            },
+            "request": {
+                "method": "POST",
+                "url": "SearchParameter"
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "SearchParameter",
+                "url": "http://hl7.org/fhir/nzf/SearchParameter/nzf-related-medication",
+                "version": "1.0.0",
+                "name": "NzfRelatedMedication",
+                "status": "active",
+                "date": "2023-06-19",
+                "publisher": "NZ Formulary",
+                "description": "Returns medications matching the related medication code",
+                "code": "nzf-related-medication",
+                "base": [
+                    "Medication"
+                ],
+                "type": "token",
+                "expression": "Medication.extension.where(url = 'http://hl7.org.nz/fhir/StructureDefinition/nzf-related-medication').extension.where(url = 'code')",
+                "target": [
+                    "Medication"
+                ]
+            },
+            "request": {
+                "method": "POST",
+                "url": "SearchParameter"
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "SearchParameter",
+                "url": "http://hl7.org/fhir/nzf/SearchParameter/nzf-supply-information-type",
+                "version": "1.0.4",
+                "name": "NzfSupplyInformationType",
+                "status": "active",
+                "date": "2023-06-19",
+                "publisher": "NZ Formulary",
+                "description": "Returns medications matching the supply information type",
+                "code": "nzf-supply-information-type",
+                "base": [
+                    "Medication"
+                ],
+                "type": "token",
+                "expression": "Medication.extension.where(url = 'http://hl7.org.nz/fhir/StructureDefinition/nzf-supply-information').extension.where(url = 'type').value.text",
+                "target": [
+                    "Medication"
+                ]
+            },
+            "request": {
+                "method": "POST",
+                "url": "SearchParameter"
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "SearchParameter",
+                "url": "http://hl7.org/fhir/nzf/SearchParameter/nzf-unapproved",
+                "version": "1.0.0",
+                "name": "NzfUnapproved",
+                "status": "active",
+                "date": "2023-06-19",
+                "publisher": "NZ Formulary",
+                "description": "Returns medications that are unapproved.",
+                "code": "nzf-unapproved",
+                "base": [
+                    "Medication"
+                ],
+                "type": "token",
+                "expression": "Medication.extension.where(url = 'http://hl7.org.nz/fhir/StructureDefinition/nzf-unapproved').value",
+                "target": [
+                    "Medication"
+                ]
+            },
+            "request": {
+                "method": "POST",
+                "url": "SearchParameter"
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "SearchParameter",
+                "url": "http://hl7.org/fhir/nzf/SearchParameter/nzf-nzmt-type",
+                "name": "NzfNzmtType",
+                "status": "active",
+                "date": "2023-06-19",
+                "publisher": "NZ Formulary",
+                "description": "Returns medications matching the given code.",
+                "code": "nzf-nzmt-type",
+                "base": [
+                    "Medication"
+                ],
+                "type": "token",
+                "expression": "Medication.extension.where(url = 'http://hl7.org.nz/fhir/StructureDefinition/nzf-nzmt-type')",
+                "target": [
+                    "Medication"
+                ]
+            },
+            "request": {
+                "method": "POST",
+                "url": "SearchParameter"
+            }
+        }
+    ]
+}

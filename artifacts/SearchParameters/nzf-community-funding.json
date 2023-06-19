@@ -1,9 +1,5 @@
 {
     "resourceType": "SearchParameter",
-    "meta": {
-        "versionId": "1",
-        "lastUpdated": "2022-01-26T23:49:51.179+00:00"
-    },
     "url": "http://hl7.org/fhir/nzf/SearchParameter/nzf-community-funding",
     "version": "1.0.1",
     "name": "NzfCommunityFunding",
@@ -17,8 +13,6 @@
     ],
     "type": "token",
     "expression": "Medication.extension.where(url = 'http://hl7.org.nz/fhir/StructureDefinition/nzf-funding').extension.where(url = 'status')",
-    "xpath": "f:Medication/f:extension[@url='http://hl7.org.nz/fhir/StructureDefinition/nzf-funding')']/f:extension[@url='status')]",
-    "xpathUsage": "normal",
     "target": [
         "Medication"
     ]

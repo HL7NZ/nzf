@@ -1,11 +1,10 @@
 {
     "resourceType": "SearchParameter",
-    "id": "9e93b54d-69af-4587-bae0-c2a0ac2d0137",
     "url": "http://hl7.org/fhir/nzf/SearchParameter/nzf-related-medication",
     "version": "1.0.0",
     "name": "NzfRelatedMedication",
     "status": "active",
-    "date": "2022-02-02",
+    "date": "2023-06-19",
     "publisher": "NZ Formulary",
     "description": "Returns medications matching the related medication code",
     "code": "nzf-related-medication",

@@ -2,8 +2,8 @@
     "resourceType": "Medication",
     "id": "mp-10013251000116106",
     "meta": {
-        "versionId": "2",
-        "lastUpdated": "2022-08-09T22:19:00.023+00:00"
+        "versionId": "1",
+        "lastUpdated": "2023-06-19T10:53:58.5+00:00"
     },
     "text": {
         "status": "generated",
@@ -15,12 +15,6 @@
             "valueCodeableConcept": {
                 "coding": [
                     {
-                        "extension": [
-                            {
-                                "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-is-primary-coding",
-                                "valueBoolean": false
-                            }
-                        ],
                         "system": "http://www.whocc.no/atc",
                         "code": "M01AE01",
                         "display": "Ibuprofen"
@@ -34,12 +28,6 @@
             "valueCodeableConcept": {
                 "coding": [
                     {
-                        "extension": [
-                            {
-                                "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-is-primary-coding",
-                                "valueBoolean": false
-                            }
-                        ],
                         "system": "http://www.whocc.no/atc",
                         "code": "C01EB16",
                         "display": "Ibuprofen"
@@ -53,12 +41,6 @@
             "valueCodeableConcept": {
                 "coding": [
                     {
-                        "extension": [
-                            {
-                                "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-is-primary-coding",
-                                "valueBoolean": false
-                            }
-                        ],
                         "system": "http://www.whocc.no/atc",
                         "code": "M02AA13",
                         "display": "Ibuprofen"
@@ -161,11 +143,119 @@
             "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-description"
         },
         {
+            "extension": [
+                {
+                    "url": "substance",
+                    "valueCodeableConcept": {
+                        "coding": [
+                            {
+                                "system": "http://nzmt.org.nz",
+                                "code": "2211011000036101"
+                            }
+                        ],
+                        "text": "ibuprofen"
+                    }
+                },
+                {
+                    "url": "classification",
+                    "valueCodeableConcept": {
+                        "text": "General Sale"
+                    }
+                },
+                {
+                    "url": "conditions",
+                    "valueString": "for external use;<br /> in divided solid dosage forms for oral use containing 200 milligrams or less per dose form with a recommended daily dose of not more than 1.2 grams and when sold in the manufacturer's original pack containing not more than 25 dose units per pack"
+                }
+            ],
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-legalclass"
+        },
+        {
+            "extension": [
+                {
+                    "url": "substance",
+                    "valueCodeableConcept": {
+                        "coding": [
+                            {
+                                "system": "http://nzmt.org.nz",
+                                "code": "2211011000036101"
+                            }
+                        ],
+                        "text": "ibuprofen"
+                    }
+                },
+                {
+                    "url": "classification",
+                    "valueCodeableConcept": {
+                        "text": "Pharmacy Only"
+                    }
+                },
+                {
+                    "url": "conditions",
+                    "valueString": "for oral use in liquid form with a recommended daily dose of not more than 1.2 grams for the relief of pain and reduction of fever or inflammation when sold in the manufacturer's original pack containing not more than 8 grams;<br /> for oral use in solid dose form containing not more than 200 milligrams per dose form and with a recommended daily dose of not more than 1.2 grams when sold in the manufacturer's original pack containing not more than 100 dose units;<br /> <strong>except</strong> in divided solid dosage forms for oral use containing 200 milligrams or less per dose form with a recommended daily dose of not more than 1.2 grams and when sold in the manufacturer's original pack containing not more than 25 dose units"
+                }
+            ],
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-legalclass"
+        },
+        {
+            "extension": [
+                {
+                    "url": "substance",
+                    "valueCodeableConcept": {
+                        "coding": [
+                            {
+                                "system": "http://nzmt.org.nz",
+                                "code": "2211011000036101"
+                            }
+                        ],
+                        "text": "ibuprofen"
+                    }
+                },
+                {
+                    "url": "classification",
+                    "valueCodeableConcept": {
+                        "text": "Prescription"
+                    }
+                },
+                {
+                    "url": "conditions",
+                    "valueString": "<strong>except</strong> when specified elsewhere in this schedule"
+                }
+            ],
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-legalclass"
+        },
+        {
+            "extension": [
+                {
+                    "url": "substance",
+                    "valueCodeableConcept": {
+                        "coding": [
+                            {
+                                "system": "http://nzmt.org.nz",
+                                "code": "2211011000036101"
+                            }
+                        ],
+                        "text": "ibuprofen"
+                    }
+                },
+                {
+                    "url": "classification",
+                    "valueCodeableConcept": {
+                        "text": "Restricted"
+                    }
+                },
+                {
+                    "url": "conditions",
+                    "valueString": "for oral use in tablets or capsules containing up to 400 milligrams per dose form and in packs containing not more than 50 dose units and that have received the consent of the Minister or the Director-General to their distribution as restricted medicines and that are sold in the manufacturer's original pack labelled for use by adults and children over 12 years of age;<br /> for oral use in powder form containing 300 milligrams per dose with a recommended daily dose of not more than 1.2 grams and sold in the manufacturers original packs containing not more than 12 dose units, and labelled for use in adults and children over 12 years of age."
+                }
+            ],
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-legalclass"
+        },
+        {
             "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-link",
             "valueReference": {
                 "reference": "DocumentReference/62c872cd-c784-441c-af93-88c4b63652ad",
                 "identifier": {
-                    "system": "http://nzformulary.org/monograph-system",
+                    "system": "https://standards.digital.health.nz/ns/nzf-monograph-code",
                     "value": "nzfc_70081"
                 },
                 "display": "nzfc_70081"
@@ -176,7 +266,7 @@
             "valueReference": {
                 "reference": "DocumentReference/514f2fff-301c-4fdb-832f-d34938252081",
                 "identifier": {
-                    "system": "http://nzformulary.org/monograph-system",
+                    "system": "https://standards.digital.health.nz/ns/nzf-monograph-code",
                     "value": "nzf_10069"
                 },
                 "display": "nzf_10069"
@@ -185,23 +275,23 @@
         {
             "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-link",
             "valueReference": {
-                "reference": "DocumentReference/2898ae58-55f3-44ab-bd12-6a89107471ef",
+                "reference": "DocumentReference/340ad3e8-56e6-4920-bfc5-529f1d7c6dd7",
                 "identifier": {
-                    "system": "http://nzformulary.org/monograph-system",
-                    "value": "nzfc_5524"
+                    "system": "https://standards.digital.health.nz/ns/nzf-monograph-code",
+                    "value": "nzf_5524"
                 },
-                "display": "nzfc_5524"
+                "display": "nzf_5524"
             }
         },
         {
             "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-link",
             "valueReference": {
-                "reference": "DocumentReference/340ad3e8-56e6-4920-bfc5-529f1d7c6dd7",
+                "reference": "DocumentReference/2898ae58-55f3-44ab-bd12-6a89107471ef",
                 "identifier": {
-                    "system": "http://nzformulary.org/monograph-system",
-                    "value": "nzf_5524"
+                    "system": "https://standards.digital.health.nz/ns/nzf-monograph-code",
+                    "value": "nzfc_5524"
                 },
-                "display": "nzf_5524"
+                "display": "nzfc_5524"
             }
         },
         {
@@ -236,6 +326,11 @@
                 "system": "http://nzmt.org.nz",
                 "code": "10013251000116106",
                 "display": "ibuprofen"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "38268001",
+                "display": "Product containing ibuprofen (medicinal product)"
             }
         ]
     },

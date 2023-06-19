@@ -2,8 +2,8 @@
     "resourceType": "Medication",
     "id": "ctpp-50079341000117105",
     "meta": {
-        "versionId": "2",
-        "lastUpdated": "2022-08-09T22:05:54.775+00:00"
+        "versionId": "1",
+        "lastUpdated": "2023-06-19T11:33:04.01+00:00"
     },
     "text": {
         "status": "generated",
@@ -15,12 +15,6 @@
             "valueCodeableConcept": {
                 "coding": [
                     {
-                        "extension": [
-                            {
-                                "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-is-primary-coding",
-                                "valueBoolean": true
-                            }
-                        ],
                         "system": "http://www.whocc.no/atc",
                         "code": "M01AE01",
                         "display": "Ibuprofen"
@@ -147,7 +141,7 @@
             "valueReference": {
                 "reference": "DocumentReference/340ad3e8-56e6-4920-bfc5-529f1d7c6dd7",
                 "identifier": {
-                    "system": "http://nzformulary.org/monograph-system",
+                    "system": "https://standards.digital.health.nz/ns/nzf-monograph-code",
                     "value": "nzf_5524"
                 },
                 "display": "nzf_5524"
@@ -158,7 +152,7 @@
             "valueReference": {
                 "reference": "DocumentReference/2898ae58-55f3-44ab-bd12-6a89107471ef",
                 "identifier": {
-                    "system": "http://nzformulary.org/monograph-system",
+                    "system": "https://standards.digital.health.nz/ns/nzf-monograph-code",
                     "value": "nzfc_5524"
                 },
                 "display": "nzfc_5524"
@@ -206,6 +200,93 @@
                         "coding": [
                             {
                                 "system": "http://nzmt.org.nz",
+                                "code": "10491491000116107",
+                                "display": "Nurofen (ibuprofen 200 mg) tablet: sugar-coated, 1 tablet"
+                            }
+                        ],
+                        "text": "Nurofen (ibuprofen 200 mg) tablet: sugar-coated, 1 tablet"
+                    }
+                },
+                {
+                    "url": "type",
+                    "valueCodeableConcept": {
+                        "coding": [
+                            {
+                                "system": "https://standards.digital.health.nz/ns/nzmt-type-code",
+                                "code": "tpuu"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-related-medication"
+        },
+        {
+            "extension": [
+                {
+                    "url": "code",
+                    "valueCodeableConcept": {
+                        "coding": [
+                            {
+                                "system": "http://nzmt.org.nz",
+                                "code": "10044651000116102",
+                                "display": "ibuprofen 200 mg tablet"
+                            }
+                        ],
+                        "text": "ibuprofen 200 mg tablet"
+                    }
+                },
+                {
+                    "url": "type",
+                    "valueCodeableConcept": {
+                        "coding": [
+                            {
+                                "system": "https://standards.digital.health.nz/ns/nzmt-type-code",
+                                "code": "mpuu"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-related-medication"
+        },
+        {
+            "extension": [
+                {
+                    "url": "code",
+                    "valueCodeableConcept": {
+                        "coding": [
+                            {
+                                "system": "http://nzmt.org.nz",
+                                "code": "10013251000116106",
+                                "display": "ibuprofen"
+                            }
+                        ],
+                        "text": "ibuprofen"
+                    }
+                },
+                {
+                    "url": "type",
+                    "valueCodeableConcept": {
+                        "coding": [
+                            {
+                                "system": "https://standards.digital.health.nz/ns/nzmt-type-code",
+                                "code": "mp"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-related-medication"
+        },
+        {
+            "extension": [
+                {
+                    "url": "code",
+                    "valueCodeableConcept": {
+                        "coding": [
+                            {
+                                "system": "http://nzmt.org.nz",
                                 "code": "10491731000116100"
                             }
                         ]
@@ -244,7 +325,7 @@
                         "valueBoolean": true
                     }
                 ],
-                "system": "https://nzulm.org.nz/pharmacode",
+                "system": "https://standards.digital.health.nz/ns/pharmac-subsidy-code",
                 "code": "377147"
             }
         ]
@@ -256,24 +337,20 @@
                 "coding": [
                     {
                         "system": "http://nzmt.org.nz",
-                        "code": "10013251000116106",
-                        "display": "ibuprofen"
-                    }
-                ]
-            },
-            "isActive": true
-        },
-        {
-            "itemCodeableConcept": {
-                "coding": [
-                    {
-                        "system": "http://nzmt.org.nz",
                         "code": "2211011000036101",
                         "display": "ibuprofen"
                     }
                 ]
             },
-            "isActive": true
+            "isActive": true,
+            "strength": {
+                "numerator": {
+                    "value": 200,
+                    "unit": "mg",
+                    "system": "http://nzmt.org.nz",
+                    "code": "99011000036109"
+                }
+            }
         }
     ]
 }

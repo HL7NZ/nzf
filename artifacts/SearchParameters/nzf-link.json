@@ -4,7 +4,7 @@
     "version": "1.0.1",
     "name": "NzfLink",
     "status": "active",
-    "date": "2021-08-26",
+    "date": "2023-06-19",
     "publisher": "NZ Formulary",
     "description": "Returns medications matching the given document reference",
     "code": "nzf-link",
@@ -13,8 +13,6 @@
     ],
     "type": "reference",
     "expression": "Medication.extension.where(url = 'http://hl7.org.nz/fhir/StructureDefinition/nzf-link')",
-    "xpath": "f:Medication/f:extension[@url='http://hl7.org.nz/fhir/StructureDefinition/nzf-link')']",
-    "xpathUsage": "normal",
     "target": [
         "Medication"
     ]

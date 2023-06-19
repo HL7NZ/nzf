@@ -4,7 +4,7 @@
     "version": "1.0.0",
     "name": "NzfUnapproved",
     "status": "active",
-    "date": "2022-08-26",
+    "date": "2023-06-19",
     "publisher": "NZ Formulary",
     "description": "Returns medications that are unapproved.",
     "code": "nzf-unapproved",
@@ -13,8 +13,6 @@
     ],
     "type": "token",
     "expression": "Medication.extension.where(url = 'http://hl7.org.nz/fhir/StructureDefinition/nzf-unapproved').value",
-    "xpath": "f:Medication/f:extension[@url='http://hl7.org.nz/fhir/StructureDefinition/nzf-unapproved')']/f:valueBoolean",
-    "xpathUsage": "normal",
     "target": [
         "Medication"
     ]

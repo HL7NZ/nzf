@@ -4,7 +4,7 @@
     "version": "1.0.4",
     "name": "NzfSupplyInformationType",
     "status": "active",
-    "date": "2022-01-27",
+    "date": "2023-06-19",
     "publisher": "NZ Formulary",
     "description": "Returns medications matching the supply information type",
     "code": "nzf-supply-information-type",

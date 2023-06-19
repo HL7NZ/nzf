@@ -2,8 +2,8 @@
     "resourceType": "Medication",
     "id": "ctpp-with-funding",
     "meta": {
-        "versionId": "7",
-        "lastUpdated": "2022-10-18T20:53:13.374+00:00"
+        "versionId": "1",
+        "lastUpdated": "2023-06-19T11:30:10.292+00:00"
     },
     "text": {
         "status": "generated",
@@ -76,7 +76,7 @@
             "extension": [
                 {
                     "url": "scheduleDate",
-                    "valueDate": "2022-11-01"
+                    "valueDate": "2023-07-01"
                 },
                 {
                     "url": "subsidy",
@@ -123,7 +123,7 @@
             "extension": [
                 {
                     "url": "scheduleDate",
-                    "valueDate": "2022-10-01"
+                    "valueDate": "2023-06-01"
                 },
                 {
                     "url": "subsidy",
@@ -170,7 +170,7 @@
             "extension": [
                 {
                     "url": "scheduleDate",
-                    "valueDate": "2022-10-01"
+                    "valueDate": "2023-06-01"
                 },
                 {
                     "url": "type",
@@ -202,7 +202,7 @@
             "extension": [
                 {
                     "url": "scheduleDate",
-                    "valueDate": "2022-10-01"
+                    "valueDate": "2023-06-01"
                 },
                 {
                     "url": "type",
@@ -238,7 +238,7 @@
             "extension": [
                 {
                     "url": "scheduleDate",
-                    "valueDate": "2022-11-01"
+                    "valueDate": "2023-07-01"
                 },
                 {
                     "url": "type",
@@ -270,7 +270,7 @@
             "extension": [
                 {
                     "url": "scheduleDate",
-                    "valueDate": "2022-11-01"
+                    "valueDate": "2023-07-01"
                 },
                 {
                     "url": "type",
@@ -321,6 +321,93 @@
                         "coding": [
                             {
                                 "system": "http://nzmt.org.nz",
+                                "code": "10025491000116107",
+                                "display": "Albustix (protein indicator urine) diagnostic test: strip"
+                            }
+                        ],
+                        "text": "Albustix (protein indicator urine) diagnostic test: strip"
+                    }
+                },
+                {
+                    "url": "type",
+                    "valueCodeableConcept": {
+                        "coding": [
+                            {
+                                "system": "https://standards.digital.health.nz/ns/nzmt-type-code",
+                                "code": "tpuu"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-related-medication"
+        },
+        {
+            "extension": [
+                {
+                    "url": "code",
+                    "valueCodeableConcept": {
+                        "coding": [
+                            {
+                                "system": "http://nzmt.org.nz",
+                                "code": "20015401000116107",
+                                "display": "protein indicator urine diagnostic test: strip"
+                            }
+                        ],
+                        "text": "protein indicator urine diagnostic test: strip"
+                    }
+                },
+                {
+                    "url": "type",
+                    "valueCodeableConcept": {
+                        "coding": [
+                            {
+                                "system": "https://standards.digital.health.nz/ns/nzmt-type-code",
+                                "code": "mpuu"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-related-medication"
+        },
+        {
+            "extension": [
+                {
+                    "url": "code",
+                    "valueCodeableConcept": {
+                        "coding": [
+                            {
+                                "system": "http://nzmt.org.nz",
+                                "code": "20015381000116107",
+                                "display": "protein indicator urine"
+                            }
+                        ],
+                        "text": "protein indicator urine"
+                    }
+                },
+                {
+                    "url": "type",
+                    "valueCodeableConcept": {
+                        "coding": [
+                            {
+                                "system": "https://standards.digital.health.nz/ns/nzmt-type-code",
+                                "code": "mp"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-related-medication"
+        },
+        {
+            "extension": [
+                {
+                    "url": "code",
+                    "valueCodeableConcept": {
+                        "coding": [
+                            {
+                                "system": "http://nzmt.org.nz",
                                 "code": "10025501000116103"
                             }
                         ]
@@ -359,24 +446,10 @@
                         "valueBoolean": true
                     }
                 ],
-                "system": "https://nzulm.org.nz/pharmacode",
+                "system": "https://standards.digital.health.nz/ns/pharmac-subsidy-code",
                 "code": "200190"
             }
         ]
     },
-    "status": "active",
-    "ingredient": [
-        {
-            "itemCodeableConcept": {
-                "coding": [
-                    {
-                        "system": "http://nzmt.org.nz",
-                        "code": "20015381000116107",
-                        "display": "protein indicator urine"
-                    }
-                ]
-            },
-            "isActive": true
-        }
-    ]
+    "status": "active"
 }

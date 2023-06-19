@@ -1,15 +1,9 @@
 {
     "resourceType": "SearchParameter",
-    "id": "7ba724c7-52e8-40e1-89b3-5368f1b38f3f",
-    "meta": {
-        "versionId": "1",
-        "lastUpdated": "2021-08-19T02:40:43.695+00:00"
-    },
     "url": "http://hl7.org/fhir/nzf/SearchParameter/nzf-nzmt-type",
-    "version": "1.0.1",
     "name": "NzfNzmtType",
     "status": "active",
-    "date": "2021-08-19",
+    "date": "2023-06-19",
     "publisher": "NZ Formulary",
     "description": "Returns medications matching the given code.",
     "code": "nzf-nzmt-type",
@@ -18,8 +12,6 @@
     ],
     "type": "token",
     "expression": "Medication.extension.where(url = 'http://hl7.org.nz/fhir/StructureDefinition/nzf-nzmt-type')",
-    "xpath": "f:Medication/f:extension[@url='http://hl7.org.nz/fhir/StructureDefinition/nzf-nzmt-type')']",
-    "xpathUsage": "normal",
     "target": [
         "Medication"
     ]
