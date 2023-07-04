@@ -45,7 +45,9 @@ Medications are also available via the code field which returns a bundle
 #### SNOMED CT Mappings
 
 ### Legal Classifications
-
+<!---
+Note that products unmapped to Medsafe (and therefore not considered registered) should only use this classification table where the classification is as a ‘Controlled Drug’ - as the Misuse of Drugs Act is separate from the Medicines Act and applies regardless of whether the sponsor has registered the product or not. Any other classification (General Sale, Prescription etc) requires the product to be registered and so these classifications are not appropriate to be used for unregistered products.
+--->
 ### Monograph Links
 
 ### Medsafe details

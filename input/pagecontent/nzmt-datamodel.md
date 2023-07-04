@@ -14,6 +14,38 @@ It does not show all of the information available and the multitude of relations
 
 *Panadol is a registered trademark of the GlaxoSmithKline group of companies.
 
+<table>
+<thead>
+<tr><td>Concept</td>
+<td>Examples</td>
+</tr>
+</thead>
+<tbody>
+<tr><td>Medicinal Product (MP)</td>
+<td>paracetamol</td>
+</tr>
+<tr><td>Medicinal Product Pack (MPP)</td>
+<td></td>
+</tr>
+<tr><td>Medicinal Product Unit of Use (MPUU)</td>
+<td></td>
+</tr>
+<tr><td>Trade Product (TP)</td>
+<td></td>
+</tr>
+<tr><td>Trade Product Pack (TPP)</td>
+<td></td>
+</tr>
+<tr><td>Trade Product Unit of Use (TPUU)</td>
+<td></td>
+</tr>
+<tr><td>Container Trade Product Pack (CTPP)</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+
 #### SNOMED ID Codes (SCTIDs) {#nzmt-id-details}
 
 ##### Overview
