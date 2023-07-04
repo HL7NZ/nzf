@@ -6,7 +6,7 @@ The New Zealand Medicines Terminology (NZMT) database has been designed from the
 
 #### New Zealand Medicines Terminology Data Model
 
-![NZMT Overview](./images/nzmt_data_model_sml.gif)
+![NZMT Overview](./nzmt_data_model_sml.gif)
 
 This is a simplified view of the structure of the NZ Medicines Terminology. It uses an example medicine to show how information is linked together.
 
