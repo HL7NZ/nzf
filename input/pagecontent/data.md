@@ -60,6 +60,8 @@ Medications are also available via the code field which returns a bundle
 
 ### Subsidy Information
 
+#### pharmacodes
+
 ### Pharmac Supply Information
 
 ### Cautionary and Advisory Labels (CALs)
