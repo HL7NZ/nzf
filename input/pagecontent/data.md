@@ -8,7 +8,7 @@ A medication resource is available for each of the seven main NZMT concepts.  Se
 
 #### Medicine code
 
-All medication resources have a unique NZMT ID (see <a href="./nzmt-datamodel.html#nzmt-id-details">).  This is used as the ID for a medication as well as being the first code listed in the medication.code
+All medication resources have a unique NZMT ID (see <a href="./nzmt-datamodel.html#nzmt-id-details">NZMT Data model - ID details</a>).  This is used as the ID for a medication as well as being the first code listed in the medication.code
 
 ##### Examples
 
