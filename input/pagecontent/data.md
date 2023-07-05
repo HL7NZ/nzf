@@ -1,16 +1,15 @@
 
 
 **DRAFT**
-### Core NZMT Data
 
 A medication resource is available for each of the seven main NZMT concepts.  See NZMT data model for more details.
 
 
-#### NZMT Medicine code
+### NZMT Medicine code
 
 All medication resources have a unique NZMT ID (see <a href="./nzmt-datamodel.html#nzmt-id-details">NZMT Data model - ID details</a>).  This is used as the ID for a medication as well as being the first code listed in the medication.code
 
-##### Examples
+#### Examples
 
 **FHIR data**
 ```
@@ -25,22 +24,25 @@ All medication resources have a unique NZMT ID (see <a href="./nzmt-datamodel.ht
   }
 ```
 
+**Example Queries**
+
 The simplist way to retrieve an individual medicine resource is via the id
 >[base]/Medication/44282231000116104
 
 Medications are also available via the code field which returns a bundle
 >[base]/Medication?code=http://nzmt.org.nz|44282231000116104
 
-##### Related Artifacts
-<a href="./StructureDefinition-NzfMedication-definitions.html#Medication.code">Medication code definition</a>
+#### Related Artifacts
 
-#### Concept Type
+Definition - <a href="./StructureDefinition-NzfMedication-definitions.html#Medication.code">Medication code definition</a>
+
+### NZMT Concept Type
 
 In order to identify what type of NZMT concept a particular medicine is there is an extension call nzfNzmtType.  This not only allows for concept identification but there is also a custom search parameter which allows for retrieval based on a particular type.
 
 The types allowed are - mp, mpp, mpuu, tp, tpp, tpuu, ctpp
 
-##### Examples
+#### Examples
 
 **FHIR data**
 ```
@@ -56,14 +58,16 @@ The types allowed are - mp, mpp, mpuu, tp, tpp, tpuu, ctpp
     }
 }
 ```
-**Queries**
+
+**Example Queries**
+
 To retrieve all MPUUs using the custom search parameter (nzf-nzmt-type)
 >[base]/Medication?nzf-nzmt-type=https://standards.digital.health.nz/ns/nzmt-type-code&#124;mpuu
 
 Note - it is possible to query without the system but for performance reasons it is not recommended
 >[base]/Medication?nzf-nzmt-type=mpuu
 
-##### Related Artifacts
+#### Related Artifacts
 
 Extension - <a href="./StructureDefinition-nzf-nzmtType.html">NzmtType extension</a>
 
@@ -71,27 +75,36 @@ Valueset - https://nzhts.digital.health.nz/fhir/ValueSet/nzmt-type-code
 
 Custom search parameter - <a href="./notes.html#custom-search-parameters">see details</a>
 
-#### Status
+### Status
 
-#### Concept relationships
+#### Examples
 
-#### Descriptions
+**FHIR Data**
 
-#### Form
+```
+"status": "inactive",
+```
 
-#### Ingredients
 
-#### Substances
+### Concept relationships
 
-#### Prescribe by brand
+### NZMT Descriptions
 
-#### Unapproved medications
+### Form
 
-#### ATC Codes
+### Ingredients
 
-#### GTINs
+### Substances
 
-#### SNOMED CT Mappings
+### Prescribe by brand
+
+### Unapproved medications
+
+### ATC Codes
+
+### GTINs
+
+### SNOMED CT Mappings
 
 ### Legal Classifications
 <!---
