@@ -9,9 +9,9 @@ A medication resource is available for each of the seven main NZMT concepts.  Se
 
 All medication resources have a unique NZMT ID (see <a href="./nzmt-datamodel.html#nzmt-id-details">NZMT Data model - ID details</a>).  This is used as the ID for a medication as well as being the first code listed in the medication.code
 
-#### Examples
+#### Usage details
 
-**FHIR data**
+**Example FHIR Data**
 ```
 "code": {
     "coding": [
@@ -42,9 +42,9 @@ In order to identify what type of NZMT concept a particular medicine is there is
 
 The types allowed are - mp, mpp, mpuu, tp, tpp, tpuu, ctpp
 
-#### Examples
+#### Usage details
 
-**FHIR data**
+**Example FHIR Data**
 ```
 {
     "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-nzmt-type",
@@ -85,9 +85,9 @@ A CTPP medication is deemed active if it is not deemed obsolete (as above) and t
 - Has no medsafe nzmt link
 - Medsafe status is either "Active" or "Under Assessment" and Medsafe regSituation is either "Consent given" or "Provisional consent"
 
-#### Examples
+#### Usage details
 
-**FHIR Data**
+**Example FHIR Data**
 
 ```
 "status": "inactive",
@@ -147,9 +147,9 @@ All medications will have one or more nzf-related-medication links to its applic
 
 These relationships can be used after retrieving individual medication resources or for queries via the custom search parameter 
 
-#### Examples
+#### Usage details
 
-**FHIR Data**
+**Example FHIR Data**
 
 ```
 {
@@ -288,9 +288,9 @@ These descriptions are added to each medication resource via the nzf-description
 
 There is also a custom search parameter on the preferred-term allowing for normal FHIR search based expressions - [see FHIR search documentation](https://hl7.org/fhir/R4B/search.html#string)
 
-#### Examples
+#### Usage details
 
-**FHIR Data**
+**Example FHIR Data**
 
 ```
 {
@@ -347,9 +347,9 @@ Custom search parameter - <a href="./notes.html#custom-search-parameters">see de
 
 The manufactured dose form is added to MPUU and TPUUs.  
 
-#### Examples
+#### Usage details
 
-**FHIR Data**
+**Example FHIR Data**
 
 ```
 form": {
@@ -387,9 +387,9 @@ Some generic medications should, for safety reasons, be prescribed by brand and 
 
 These are indicated via the nzf-prescribe-by-brand extension and is set to true when this applies.  There is also a custom search parameter available to allow for searching via this extension.
 
-#### Examples
+#### Usage details
 
-**FHIR Data**
+**Example FHIR Data**
 
 ```
 {
@@ -417,9 +417,9 @@ If this medication has not been approved by Medsafe and can be prescribed under 
 
 These are indicated via the nzf-unapproved extension and is set to true when this applies.  There is also a custom search parameter available to allow for searching via this extension.
 
-#### Examples
+#### Usage details
 
-**FHIR Data**
+**Example FHIR Data**
 
 ```
 {
@@ -449,9 +449,9 @@ Note that not all medications are linked.  There are, for example a number of it
 
 This is modelled via the nzf-atc code extension.
 
-#### Examples
+#### Usage details
 
-**FHIR Data**
+**Example FHIR Data**
 
 ```
 {
@@ -484,7 +484,7 @@ GS1 regulations require a new GTIN every time the product formulation or packagi
 
 These code(s) are added as codes in the medication code field
 
-**FHIR Data**
+**Example FHIR Data**
 
 ```
 "code": {
@@ -518,7 +518,7 @@ Where applicable mappings are available the SNOMED CT MP Products have been mapp
 
 These codes are added as a code in the medication code field
 
-**FHIR Data**
+**Example FHIR Data**
 
 ```
 "code": {
@@ -554,7 +554,7 @@ Note - medsafe also provide classifications at the substance level.  This has be
 Note that products unmapped to Medsafe (and therefore not considered registered) should only use this MP/Substance classification data where the classification is as a ‘Controlled Drug’ - as the Misuse of Drugs Act is separate from the Medicines Act and applies regardless of whether the sponsor has registered the product or not. Any other classification (General Sale, Prescription etc) requires the product to be registered and so these classifications are not appropriate to be used for unregistered products.
 
 
-**FHIR Data**
+**Example FHIR Data**
 
 CTPP (MPUU/TPUU) level
 ```
