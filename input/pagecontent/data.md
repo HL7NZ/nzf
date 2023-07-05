@@ -1,6 +1,6 @@
 
 
-**DRAFT**
+**DRAFT-NOT FOR CLINICAL USE**
 
 A medication resource is available for each of the seven main NZMT concepts.  See NZMT data model for more details.
 
@@ -534,9 +534,76 @@ Get a medication based on its SNOMED CT code
 >[base]/Medication?code=http://snomed.info/sct|90332006
 
 ### Legal Classifications
-<!---
-Note that products unmapped to Medsafe (and therefore not considered registered) should only use this classification table where the classification is as a ‘Controlled Drug’ - as the Misuse of Drugs Act is separate from the Medicines Act and applies regardless of whether the sponsor has registered the product or not. Any other classification (General Sale, Prescription etc) requires the product to be registered and so these classifications are not appropriate to be used for unregistered products.
---->
+
+Legal classifications, provided by medsafe, are primarily added to CTPPs via the nzf-legalclass extension.  However, for convenience, the legal classification extension is also added to TPUU and MPUU where all the related CTPPs have the same legal classification.
+
+See [here for a list of possible values](CodeSystem-medicine-classification-code.html)
+
+Note - medsafe also provide classifications at the substance level.  This has been added against MPs where applicable using the nzf-legalclass extension.  
+
+Note that products unmapped to Medsafe (and therefore not considered registered) should only use this MP/Substance classification data where the classification is as a ‘Controlled Drug’ - as the Misuse of Drugs Act is separate from the Medicines Act and applies regardless of whether the sponsor has registered the product or not. Any other classification (General Sale, Prescription etc) requires the product to be registered and so these classifications are not appropriate to be used for unregistered products.
+
+
+**FHIR Data**
+
+CTPP (MPUU/TPUU) level
+```
+{
+    "extension": [
+    {
+        "url": "code",
+        "valueCodeableConcept": {
+        "coding": [
+            {
+            "system": "https://standards.digital.health.nz/ns/medicine-classification-code",
+            "code": "PO"
+            }
+        ],
+        "text": "Pharmacy only"
+        }
+    }
+    ],
+    "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-legalclass"
+}
+```
+
+
+MP level 
+```
+{
+      "extension": [
+        {
+          "url": "substance",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://nzmt.org.nz",
+                "code": "2442011000036104"
+              }
+            ],
+            "text": "paracetamol"
+          }
+        },
+        {
+          "url": "classification",
+          "valueCodeableConcept": {
+            "text": "Prescription"
+          }
+        },
+        {
+          "url": "conditions",
+          "valueString": "<strong>except</strong> when specified elsewhere in this schedule"
+        }
+      ],
+      "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-legalclass"
+    }
+```
+
+#### Related Artifacts
+
+Extension - [nzf-legalclass extension](./StructureDefinition-nzf-legalclass.html)
+Valueset - [Definition](./ValueSet-medicine-classification-code.html) 
+
 ### Monograph Links
 
 ### Medsafe details
