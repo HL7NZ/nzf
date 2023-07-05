@@ -62,7 +62,7 @@ The types allowed are - mp, mpp, mpuu, tp, tpp, tpuu, ctpp
 **Example Queries**
 
 To retrieve all MPUUs using the custom search parameter (nzf-nzmt-type)
->[base]/Medication?nzf-nzmt-type=https://standards.digital.health.nz/ns/nzmt-type-code&#124;mpuu
+>[base]/Medication?nzf-nzmt-type=https://standards.digital.health.nz/ns/nzmt-type-code|mpuu
 
 Note - it is possible to query without the system but for performance reasons it is not recommended
 >[base]/Medication?nzf-nzmt-type=mpuu
@@ -125,7 +125,7 @@ All medications will have one or more nzf-related-medication links to its applic
 </tr>
 <tr>
     <td>CTPP</td>
-    <td>MP<br/>TPP</td>
+    <td>MP<br/>TPP<br/>TPUU<br/>MPUU</td>
 </tr>
 <tr>
     <td>MPP</td>
@@ -242,6 +242,48 @@ There are number of possible descriptions in addition to the FullySpecifiedName 
 - Synonyms (up to 1000 characters long)
 - CVX vaccine identifiers (up to 20 characters long)
 
+#### Prescribing Terms
+
+The Prescribing Terms description now has entries at the MPUU, MPP, TPUU and TPP level.  These entries are designed to provide a standard shorter abbreviation (200 characters instead of 1000 characters) for lengthy Preferred Terms.  While the field is 200 characters in length, in practice we have reduced the length of Prescribing Terms to 120 characters.  Where a Prescribing Term exists, we expect it to be used as a display term in preference to the Preferred Term in prescribing systems.  In the absence of a generic Prescribing Term, where a shortened name is needed, the MPUU PT is to be used.
+
+Note that an MPUU or MPP record that has the prescribe-by-brand flag set does not have a generic Prescribing Term and the MPUU or MPP PreferredTerm should not be used as a generic Prescribing Term.  For these generics, the Trade Prescribing Term is the only Prescribing Term to be used.
+
+#####	Sort Names
+
+The Sort Names description now has entries at the CTPP and MPUU level.  These entries are designed to support sorting the text Preferred Terms into ascending order by strength and unit dose.  They have only been added where required, and where they do not exist the Preferred Term is used to sort for text-based sorting of the records.  Note that the sort we use includes the dose form as a separate element and so the Sort Name is intended only to provide the correct ascending sequence for a given dose form.
+
+#####	Synonyms
+
+The Synonyms description now has entries at the MP and substance level.  These entries are designed to support searching for alternate names for medicines and so are currently only found at MP and substance level.
+
+#####	Dispensing Terms
+
+The Dispensing Term descriptions come in two types: 80-character Label Names and 40-character Label Names.  These two description types now have entries at the MPUU, MPP, TPUU, TPP and CTPP level (as of release 2.8.6.0).  These entries are designed to provide a standard shorter abbreviation (80 and 40 characters instead of 1000 characters) for lengthy Preferred Terms.  In practice we have limited the 80-character terms to 76 characters and the 40-character terms to 36 characters to enable vendors to prefix the label with the number of units of use and suffix the label with a plural if required.  All Dispensing Terms are singular to allow for consistency in their application.
+
+Unlike the Prescribing Terms, we have included Dispensing Terms for ‘virtual’ CTPP records.  These are necessarily at CTPP level and are effectively trade dispensing terms.
+
+Note that the ‘prescribe_by_brand’ flag at MPUU or MPP level does not affect Dispensing Terms.  All products that are not virtual CTPPs should have generic Dispensing Terms.
+
+#####	Charting Terms
+
+The Charting Terms description now has entries at the MPUU, MPP, TPUU and TPP level.  These entries are designed to provide a standard shorter abbreviation (100 characters instead of 1000 characters) for lengthy Preferred Terms.  These terms were specifically intended for use in hospital electronic charting systems.  Where a Charting Term exists, we expect it to be used as a display term in preference to the Preferred Term in such systems.  In the absence of a generic Prescribing Term, where a shortened name is needed, the MPUU PT is to be used.
+
+Note that unlike the Prescribing Term an MPUU or MPP record that has the prescribe-by-brand flag set does have a generic Charting Term and the MPUU or MPP PreferredTerm should be used as a generic Charting Term where required.  Another variation from the Preferred Term and the Prescribing is that the trade Charting Terms do not include details of the generic ingredients of the product.
+
+#####	LBL160 Terms
+
+Hospital clinicians were concerned about the level of abbreviation in the LBL80 label terms where these were used for internal hospital labels.  Accordingly, we now provide an LBL160 label which has dose forms (for example) no longer abbreviated as a matter of course.  These label terms are designed to provide a standard shorter abbreviation (160 characters instead of 1000 characters) for lengthy Preferred Terms for use in hospital pharmacy systems.
+Note that an MPUU or MPP record that has the prescribe-by-brand flag set still has a generic LBL160 Term.
+
+#####	Tallman Lettering Terms
+
+There are three terms intended to provide alternate descriptions using Tallman Lettering, as recommended by the Health Quality and Safety Commission.  There are alternates to the Preferred Term, the Prescribing Term and the Charting Term, and are intended to allow for safer selection of medicine through the use of the Tallman Lettering convention. For substance, MP and TP the alternate TallMan terms are all alternates to the PreferredTerm.  For MPUU, TPUU, MPP and TPP the alternate TallMan terms are alternates to the Charting Term and the Prescribing Term.
+
+#####	CVX Vaccine IDs
+
+This term is the American CVX vaccine code. Initially the codes for Covid-19 are supplied. Over time this will be extended to include other vaccines. This alternate description exists to provide an additional method of searching for specific vaccines. We are unsure as to whether or not multiple codes may apply, so it is possible that more than one code is present for a given NZMT record. These codes are linked to MP and TP records.
+
+
 These descriptions are added to each medication resource via the nzf-description extension.  This extension contains two fields, firstly the type of the description and secondly the description term.
 
 There is also a custom search parameter on the preferred-term allowing for normal FHIR search based expressions - [see FHIR search documentation](https://hl7.org/fhir/R4B/search.html#string)
@@ -301,19 +343,195 @@ Custom search parameter - <a href="./notes.html#custom-search-parameters">see de
 
 ### Form
 
+The manufactured dose form is added to MPUU and TPUUs.  
+
+#### Examples
+
+**FHIR Data**
+
+```
+form": {
+    "coding": [
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "147011000036100",
+        "display": "powder"
+      }
+    ]
+  }
+```
+
+**Examples Queries**
+
+Get medications that have a form of 'powder'
+
+>[base]/Medication?form=147011000036100
+
+#### Related Artifacts
+
+Definition - [Medication form](https://build.fhir.org/ig/HL7NZ/nzf/branches/main/StructureDefinition-NzfMedication-definitions.html#Medication.form)
+
 ### Ingredients
+
+TODO
 
 ### Substances
 
 ### Prescribe by brand
 
+Some generic medications should, for safety reasons, be prescribed by brand and have no generic prescribing term.
+
+These are indicated via the nzf-prescribe-by-brand extension and is set to true when this applies.  There is also a custom search parameter available to allow for searching via this extension.
+
+#### Examples
+
+**FHIR Data**
+
+```
+{
+    "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-prescribe-by-brand",
+    "valueBoolean": true
+}
+```
+
+**Examples Queries**
+
+Get a list of all prescribe-by-brand medications
+
+>[base]/Medication?nzf-prescribe-by-brand=true
+
+#### Related Artifacts
+
+Extension - [nzf-prescribe-by-brand extension](StructureDefinition-nzf-prescribe-by-brand.html)
+Custom search parameter - <a href="./notes.html#custom-search-parameters">see details</a>
+
 ### Unapproved medications
 
-### ATC Codes
+If this medication has not been approved by Medsafe and can be prescribed under section 29
+
+These are indicated via the nzf-unapproved extension and is set to true when this applies.  There is also a custom search parameter available to allow for searching via this extension.
+
+#### Examples
+
+**FHIR Data**
+
+```
+{
+    "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-prescribe-by-brand",
+    "valueBoolean": true
+}
+```
+
+**Examples Queries**
+
+Get a list of all unapproved medications
+
+>[base]/Medication?nzf-unapproved=true
+
+#### Related Artifacts
+
+Extension - [nzf-unapproved extension](StructureDefinition-nzf-unapproved.html)
+Custom search parameter - <a href="./notes.html#custom-search-parameters">see details</a>
+
+### Anatomical Therapeutic Chemical (ATC) Classification Codes
+
+CTPP, TPP, TPUU, MPP, MPUU and MP medications can be linked to one or more ATC codes.  
+
+Note that not all medications are linked.  There are, for example a number of items in the NZMT that simply don’t have an ATC code (particularly in the area of devices) because they do not fall within the coverage of the ATC system.  In addition, we chose not to add an ATC link to the MPUU and TPUU records for inert substances (diluents and similar) to avoid the potential for user confusion.
+
+This is modelled via the nzf-atc code extension.
+
+#### Examples
+
+**FHIR Data**
+
+```
+{
+    "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-atc",
+    "valueCodeableConcept": {
+    "coding": [
+        {
+        "system": "http://www.whocc.no/atc",
+        "code": "N02BE01",
+        "display": "Paracetamol"
+        }
+    ],
+    "text": "Paracetamol"
+    }
+}
+```
+
+#### Related Artifacts
+
+Extension - [nzf-atc extension](StructureDefinition-nzf-atc.html)
+Valueset - http://www.whocc.no/atc
 
 ### GTINs
 
+GTINs are GS1 Global Trade Identification Numbers. They are the most common type of barcode / number found on all kinds of products.
+
+GS1 regulations require a new GTIN every time the product formulation or packaging changes, so there may be more than one GTIN for a given CTPP (physical product pack), in which case there will be a code for each GTIN. 
+
+These code(s) are added as codes in the medication code field
+
+**FHIR Data**
+
+```
+"code": {
+    "coding": [
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "50066481000117107",
+        "display": "Paracetamol (Amcal) orange 250 mg/5 mL oral liquid: suspension, 200 mL, bottle"
+      },
+      {
+        "system": "https://www.gs1.org/gtin",
+        "code": "09403092340084"
+      }
+    ]
+  }
+```
+
+**Examples Queries**
+
+Get a medication based on its GTIN code
+
+>[base]/Medication?code=https://www.gs1.org/gtin|09403092340084
+
+#### Related Artifacts
+
+Valueset - https://www.gs1.org/gtin
+
 ### SNOMED CT Mappings
+
+Where applicable mappings are available the SNOMED CT MP Products have been mapped to NZMT MPs.  
+
+These codes are added as a code in the medication code field
+
+**FHIR Data**
+
+```
+"code": {
+    "coding": [
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "10037191000116105",
+        "display": "paracetamol"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "90332006",
+        "display": "Product containing paracetamol (medicinal product)"
+      }
+    ]
+  }
+```
+
+**Examples Queries**
+
+Get a medication based on its SNOMED CT code
+
+>[base]/Medication?code=http://snomed.info/sct|90332006
 
 ### Legal Classifications
 <!---

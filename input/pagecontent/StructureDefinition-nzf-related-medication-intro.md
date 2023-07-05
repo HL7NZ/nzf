@@ -7,11 +7,11 @@
 </tr>
 <tr>
     <td>CTPP</td>
-    <td>TPP</td>
+    <td>MP<br/>TPP<br/>TPUU<br/>MPUU</td>
 </tr>
 <tr>
     <td>MPP</td>
-    <td>MPUU (1 or more)</td>
+    <td>MP<br/>MPUU (1 or more)</td>
 </tr>
 <tr>
     <td>MPUU</td>
@@ -19,11 +19,11 @@
 </tr>
 <tr>
     <td>TPP</td>
-    <td>TPUU (1 or more)</td>
+    <td>MP<br/>TP<br/>TPUU (1 or more)<br/>MPP</td>
 </tr>
 <tr>
     <td>TPUU</td>
-    <td>TP<br>TPP (1 or more)<br>MPUU</td>
+    <td>MP<br/>TP<br>TPP (1 or more)<br>MPUU</td>
 </tr>
 </table>
 
