@@ -339,7 +339,9 @@ Search for a CTPP medication based on part of the preferred term
 #### Related Artifacts
 
 Extension - <a href="./StructureDefinition/nzf-description.html">nzf-related-medication extension</a>
+
 Custom search parameter - <a href="./notes.html#custom-search-parameters">see details</a>
+
 
 ### Form
 
@@ -377,6 +379,8 @@ TODO
 
 ### Substances
 
+TODO
+
 ### Prescribe by brand
 
 Some generic medications should, for safety reasons, be prescribed by brand and have no generic prescribing term.
@@ -403,7 +407,9 @@ Get a list of all prescribe-by-brand medications
 #### Related Artifacts
 
 Extension - [nzf-prescribe-by-brand extension](StructureDefinition-nzf-prescribe-by-brand.html)
+
 Custom search parameter - <a href="./notes.html#custom-search-parameters">see details</a>
+
 
 ### Unapproved medications
 
@@ -431,7 +437,9 @@ Get a list of all unapproved medications
 #### Related Artifacts
 
 Extension - [nzf-unapproved extension](StructureDefinition-nzf-unapproved.html)
+
 Custom search parameter - <a href="./notes.html#custom-search-parameters">see details</a>
+
 
 ### Anatomical Therapeutic Chemical (ATC) Classification Codes
 
@@ -464,7 +472,9 @@ This is modelled via the nzf-atc code extension.
 #### Related Artifacts
 
 Extension - [nzf-atc extension](StructureDefinition-nzf-atc.html)
+
 Valueset - http://www.whocc.no/atc
+
 
 ### GTINs
 
@@ -602,7 +612,9 @@ MP level
 #### Related Artifacts
 
 Extension - [nzf-legalclass extension](./StructureDefinition-nzf-legalclass.html)
+
 Valueset - [Definition](./ValueSet-medicine-classification-code.html) 
+
 
 ### Monograph Links
 
