@@ -12,6 +12,10 @@ nzf-supply-issues: token on Medication.extension.where(url = 'http://hl7.org.nz/
 
 nzf-link: reference on Medication.extension.where(url = 'http://hl7.org.nz/fhir/StructureDefinition/nzf-link')
 
+nzf-atc: token on Medication.extension.where(url = 'http://hl7.org.nz/fhir/StructureDefinition/nzf-atc')
+
+nzf-medsafe-status: token on Medication.extension.where(url = 'http://hl7.org.nz/fhir/StructureDefinition/nzf-medsafe-status')
+
 funding parameters:
 
 nzf-funding-schedule-date: date on Medication.extension.where(url = 'http://hl7.org.nz/fhir/StructureDefinition/nzf-funding').extension.where(url = 'scheduleDate').value

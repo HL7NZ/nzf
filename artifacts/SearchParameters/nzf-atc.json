@@ -1,0 +1,19 @@
+{
+    "resourceType": "SearchParameter",
+    "url": "http://hl7.org/fhir/nzf/SearchParameter/nzf-atc",
+    "version": "1.0.0",
+    "name": "NzfAtc",
+    "status": "active",
+    "date": "2023-07-08",
+    "publisher": "NZ Formulary",
+    "description": "Returns medications matching the given atc code",
+    "code": "nzf-atc",
+    "base": [
+        "Medication"
+    ],
+    "type": "token",
+    "expression": "Medication.extension.where(url = 'http://hl7.org.nz/fhir/StructureDefinition/nzf-atc')",
+    "target": [
+        "Medication"
+    ]
+}
