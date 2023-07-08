@@ -1,7 +1,7 @@
 {
     "resourceType": "SearchParameter",
     "url": "http://hl7.org/fhir/nzf/SearchParameter/nzf-medsafe-status",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "name": "NzfMedsafeStatus",
     "status": "active",
     "date": "2023-07-08",
@@ -12,7 +12,7 @@
         "Medication"
     ],
     "type": "token",
-    "expression": "Medication.extension.where(url = 'http://hl7.org.nz/fhir/StructureDefinition/nzf-medsafe').extension.where(url = 'status')",
+    "expression": "Medication.extension.where(url = 'http://hl7.org.nz/fhir/StructureDefinition/nzf-medsafe').extension.where(url = 'status').value.text",
     "target": [
         "Medication"
     ]

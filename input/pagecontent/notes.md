@@ -14,7 +14,7 @@ nzf-link: reference on Medication.extension.where(url = 'http://hl7.org.nz/fhir/
 
 nzf-atc: token on Medication.extension.where(url = 'http://hl7.org.nz/fhir/StructureDefinition/nzf-atc')
 
-nzf-medsafe-status: token on Medication.extension.where(url = 'http://hl7.org.nz/fhir/StructureDefinition/nzf-medsafe-status')
+nzf-medsafe-status: token on Medication.extension.where(url = 'http://hl7.org.nz/fhir/StructureDefinition/nzf-medsafe-status').value.text
 
 funding parameters:
 
