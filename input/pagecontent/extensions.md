@@ -1,0 +1,234 @@
+<div xmlns='http://www.w3.org/1999/xhtml'>
+<br/><strong>Extensions defined in this guide</strong><br/><br/>
+<table width='100%' border='1' cellspacing='0' cellpadding='5px'>
+<tr><th>Id</th><th>Url</th><th>Context of Use</th><th>Description</th><th>Purpose</th>
+<th>FMM</th>
+<th>Status</th>
+</tr>
+<tr>
+<td><a href='StructureDefinition-nzf-atc.html'>nzf-atc</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/nzf-atc</td>
+<td>
+<div>Medication</div>
+</td>
+<td>Anatomical Therapeutic Chemical (ATC) Classification - see https://www.who.int/tools/atc-ddd-toolkit/atc-classification</td>
+<td></td>
+<td>0</td>
+<td>draft</td>
+</tr>
+<tr>
+<td><a href='StructureDefinition-nzf-cal.html'>nzf-cal</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/nzf-cal</td>
+<td>
+<div>Medication</div>
+</td>
+<td>Cautionary and Advisory Label</td>
+<td></td>
+<td>0</td>
+<td>draft</td>
+</tr>
+<tr>
+<td><a href='StructureDefinition-nzf-description.html'>nzf-description</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/nzf-description</td>
+<td>
+<div>Medication</div>
+</td>
+<td>Specific NZMT descriptions that apply to this medication</td>
+<td></td>
+<td>0</td>
+<td>draft</td>
+</tr>
+<tr>
+<td><a href='StructureDefinition-nzf-funding-rule.html'>nzf-funding-rule</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/nzf-funding-rule</td>
+<td>
+<div>Medication</div>
+</td>
+<td>Funding restriction information which complements the general funding information provided in the nzf-funding extension.  The extension can be added multiple times to a product for each given rule as well as for each PHARMAC schedule.  These can be differentiated via the scheduleDate field.</td>
+<td></td>
+<td>0</td>
+<td>draft</td>
+</tr>
+<tr>
+<td><a href='StructureDefinition-nzf-funding.html'>nzf-funding</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/nzf-funding</td>
+<td>
+<div>Medication</div>
+</td>
+<td>Core funding information specific to NZ.  The extension can be added multiple times to a product for each PHARMAC schedule.  These can be differentiated via the scheduleDate field.</td>
+<td></td>
+<td>0</td>
+<td>draft</td>
+</tr>
+<tr>
+<td><a href='StructureDefinition-nzf-is-primary-coding.html'>nzf-is-primary-coding</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/nzf-is-primary-coding</td>
+<td>
+<div>Coding</div>
+</td>
+<td>Is primary code within given context, e.g. primary Pharmacode® when multiple given</td>
+<td></td>
+<td>0</td>
+<td>draft</td>
+</tr>
+<tr>
+<td><a href='StructureDefinition-nzf-legalclass.html'>nzf-legalclass</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/nzf-legalclass</td>
+<td>
+<div>Medication</div>
+</td>
+<td>Legal classification</td>
+<td></td>
+<td>0</td>
+<td>draft</td>
+</tr>
+<tr>
+<td><a href='StructureDefinition-nzf-link.html'>nzf-link</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/nzf-link</td>
+<td>
+<div>Medication</div>
+</td>
+<td>Reference to other information about this medication</td>
+<td></td>
+<td>0</td>
+<td>draft</td>
+</tr>
+<tr>
+<td><a href='StructureDefinition-nzf-medsafe.html'>nzf-medsafe</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/nzf-medsafe</td>
+<td>
+<div>Medication</div>
+</td>
+<td>Medsafe package, reg situation and administration route details</td>
+<td></td>
+<td>0</td>
+<td>draft</td>
+</tr>
+<tr>
+<td><a href='StructureDefinition-nzf-nzmtType.html'>nzf-nzmtType</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/nzf-nzmt-type</td>
+<td>
+<div>Medication</div>
+</td>
+<td>The NZ Medicines Terminology (NZMT) Data Class – MP (Medicinal Product), MPUU (Medicinal Product Unit of Use), MPP (Medicinal Product Pack), TP (Trade Product), TPUU (Trade Product Unit of Use), TPP (Trade Product Pack) or CTPP (Containered Trade Product Pack) – that the Medication is a member of.</td>
+<td></td>
+<td>0</td>
+<td>draft</td>
+</tr>
+<tr>
+<td><a href='StructureDefinition-nzf-page-size.html'>nzf-page-size</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/nzf-page-size</td>
+<td>
+<div>DocumentReference.content.attachment</div>
+</td>
+<td>Attachment page size</td>
+<td></td>
+<td>0</td>
+<td>draft</td>
+</tr>
+<tr>
+<td><a href='StructureDefinition-nzf-pil-dose-form.html'>nzf-pil-dose-form</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/nzf-pil-dose-form</td>
+<td>
+<div>DocumentReference.context</div>
+</td>
+<td>Doseform that this PIL applies to</td>
+<td></td>
+<td>0</td>
+<td>draft</td>
+</tr>
+<tr>
+<td><a href='StructureDefinition-nzf-pil-formulary.html'>nzf-pil-formulary</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/nzf-pil-formulary</td>
+<td>
+<div>DocumentReference.context</div>
+</td>
+<td>Applicable formulary for PIL</td>
+<td></td>
+<td>0</td>
+<td>draft</td>
+</tr>
+<tr>
+<td><a href='StructureDefinition-nzf-pil-indication.html'>nzf-pil-indication</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/nzf-pil-indication</td>
+<td>
+<div>DocumentReference.context</div>
+</td>
+<td>Indication that this PIL applies to</td>
+<td></td>
+<td>0</td>
+<td>draft</td>
+</tr>
+<tr>
+<td><a href='StructureDefinition-nzf-pil-route-of-admin.html'>nzf-pil-route-of-admin</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/nzf-pil-route-of-admin</td>
+<td>
+<div>DocumentReference.context</div>
+</td>
+<td>Route of admin that this PIL applies to</td>
+<td></td>
+<td>0</td>
+<td>draft</td>
+</tr>
+<tr>
+<td><a href='StructureDefinition-nzf-pil-source.html'>nzf-pil-source</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/nzf-pil-source</td>
+<td>
+<div>DocumentReference.context</div>
+</td>
+<td>Source of the PIL (e.g. mymedicines)</td>
+<td></td>
+<td>0</td>
+<td>draft</td>
+</tr>
+<tr>
+<td><a href='StructureDefinition-nzf-prescribe-by-brand.html'>nzf-prescribe-by-brand</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/nzf-prescribe-by-brand</td>
+<td>
+<div>Medication</div>
+</td>
+<td>True if can be prescribed by brand</td>
+<td></td>
+<td>0</td>
+<td>draft</td>
+</tr>
+<tr>
+<td><a href='StructureDefinition-nzf-related-medication.html'>nzf-related-medication</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/nzf-related-medication</td>
+<td>
+<div>Medication</div>
+</td>
+<td>A related medication within the NZMT hierarchy</td>
+<td></td>
+<td>0</td>
+<td>draft</td>
+</tr>
+<tr>
+<td><a href='StructureDefinition-nzf-supply-information.html'>nzf-supply-information</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/nzf-supply-information</td>
+<td>
+<div>Medication</div>
+</td>
+<td>Information around the supply and availability of medications applied at each NZMT level.  For example, when paracetamol tablets are in short supply an alert may be attached to the MP level medication along with the relevant details.</td>
+<td></td>
+<td>0</td>
+<td>draft</td>
+</tr>
+<tr>
+<td><a href='StructureDefinition-nzf-unapproved.html'>nzf-unapproved</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/nzf-unapproved</td>
+<td>
+<div>Medication</div>
+</td>
+<td>True if this medication has not been approved by Medsafe and can be prescribed under section 29</td>
+<td></td>
+<td>0</td>
+<td>draft</td>
+</tr>
+</table>
+<a name="externalExtensions"> </a>
+<h3>Extensions used but defined elsewhere</h3>
+<table width='100%' border='1' cellspacing='0' cellpadding='5px'>
+<tr><th>Path</th><th>Url</th><th>Description</th><th>IG where defined</th></tr>
+</table>
+</div>
