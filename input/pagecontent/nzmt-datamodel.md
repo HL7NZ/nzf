@@ -26,7 +26,7 @@ It does not show all of the information available and the multitude of relations
 </tr>
 <tr><td>Medicinal Product Pack (MPP)</td>
 <td>ibuprofen 10 mg/2 mL injection, 4 x 2 mL ampoules<<br/>
-ibuprofen 200 mg capsule, 96/td>
+ibuprofen 200 mg capsule, 96</td>
 </tr>
 <tr><td>Medicinal Product Unit of Use (MPUU)</td>
 <td>ibuprofen 800 mg tablet: modified release<br/>
