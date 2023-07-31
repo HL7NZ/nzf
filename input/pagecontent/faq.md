@@ -12,7 +12,7 @@
 > We are aiming to make this as close to real-time as possible, so when a new medication is released then it should be available with the API shortly afterwards.
 
 **We don't want to rely on an external API, can we cache the data?**
-> We certainly understand that every use case is different and local caching maybe a requirement.  There is no reason why this can't be done and your cache updated whenever you need to.
+> We certainly understand that every use case is different and local caching maybe a requirement.  There is no reason why this can't be done and your cache updated whenever you need to.  For large volume usage this is the recommended approach.
 
 **We like the idea of using the FHIR API but it doesn't have all the data we need.  What can we do?**
 > Please get in touch with us, we'd love to hear what we need to add and discuss how best we can go about that.

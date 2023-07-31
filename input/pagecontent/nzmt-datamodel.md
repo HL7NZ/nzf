@@ -22,25 +22,32 @@ It does not show all of the information available and the multitude of relations
 </thead>
 <tbody>
 <tr><td>Medicinal Product (MP)</td>
-<td>paracetamol</td>
+<td>ibuprofen</td>
 </tr>
 <tr><td>Medicinal Product Pack (MPP)</td>
-<td></td>
+<td>ibuprofen 10 mg/2 mL injection, 4 x 2 mL ampoules<<br/>
+ibuprofen 200 mg capsule, 96/td>
 </tr>
 <tr><td>Medicinal Product Unit of Use (MPUU)</td>
-<td></td>
+<td>ibuprofen 800 mg tablet: modified release<br/>
+ibuprofen 200 mg/5 mL oral liquid</td>
 </tr>
 <tr><td>Trade Product (TP)</td>
-<td></td>
+<td>Fenpaed<br/>Caldolor<br/>Nurofen</td>
 </tr>
 <tr><td>Trade Product Pack (TPP)</td>
-<td></td>
+<td>ACT-3 200 mg capsule: soft, 48 capsules<br/>ACT-3 200 mg capsule: soft, 20 capsules<br/>ACT-3 (ibuprofen 200 mg) capsule: soft, 12</td>
 </tr>
 <tr><td>Trade Product Unit of Use (TPUU)</td>
-<td></td>
+<td>Nurofen Solutabs (ibuprofen 200 mg) tablet: dispersible, 1 tablet<br/>
+Nurofen Duralast (ibuprofen 200 mg/24 hours) patch<br/>
+Nurofen Caplet (ibuprofen 200 mg) tablet: sugar-coated, 1 tablet
+</td>
 </tr>
 <tr><td>Container Trade Product Pack (CTPP)</td>
-<td></td>
+<td>Medreich Ibuprofen 200 mg tablet: film-coated, 96 tablets, blister pack<br/>
+Nurofen 200 mg tablet: sugar-coated, 6 tablets, blister pack<br/>
+Nurofen 400 Double Strength 400 mg tablet: sugar-coated, 48 tablets, blister pack</td>
 </tr>
 </tbody>
 </table>
