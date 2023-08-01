@@ -12,7 +12,7 @@ This is a simplified view of the structure of the NZ Medicines Terminology. It u
 
 It does not show all of the information available and the multitude of relationships that can exist. For example a medicine may be available in more than one dose form, strength and brand.
 
-*Panadol is a registered trademark of the GlaxoSmithKline group of companies.
+*Panadol is a registered trademark of the Haleon group of companies.
 
 <table class="table table-bordered">
 <thead>
