@@ -4,9 +4,9 @@ CALs – Cautionary and Advisory Labels
 
 CMI – Consumer Medicines Information, usually a pamphlet of information to be given to consumers at the point of prescribing or dispensing
 
-combination medicine – medicine with more than one dose-form in a pack, more than one type of device in a pack, or a mix of medicine and device in a pack. e.g. levonorgestrel 50 microgram + ethinyloestradiol 30 microgram tablet [18 tablets] (&) levonorgestrel 75 microgram + ethinyloestradiol 40 microgram tablet [15 tablets] (&) levonorgestrel 125 microgram + ethinyloestradiol 30 microgram tablet [30 tablets] (&) inert substance tablet [21 tablets], 84 [3 x 28 tablets] (cf. compound and simple medicines)
+combination medicine – medicine with more than one dose-form and/or strength combination in a pack, more than one type of device in a pack, or a mix of medicine and device in a pack. e.g. levonorgestrel 50 microgram + ethinyloestradiol 30 microgram tablet [18 tablets] (&) levonorgestrel 75 microgram + ethinyloestradiol 40 microgram tablet [15 tablets] (&) levonorgestrel 125 microgram + ethinyloestradiol 30 microgram tablet [30 tablets] (&) inert substance tablet [21 tablets], 84 [3 x 28 tablets] (cf. compound and simple medicines)
 
-compound medicine – medicine with two or more active ingredients, with one dose-form in a pack e.g. paracetamol 500 mg + metoclopramide 5 mg tablet, 60 tablets(cf. combination and simple medicine)
+compound medicine – medicine with two or more active ingredients, with one dose-form and/or strength combination in a pack e.g. paracetamol 500 mg + metoclopramide 5 mg tablet, 60 tablets(cf. combination and simple medicine)
 
 CSV – Comma Separated Values, a file format for exporting and import of data tables
 
@@ -20,7 +20,7 @@ MP – Medicinal Product; an NZMT concept reflecting the generic medicine
 
 MPP – Medicinal Product Pack; an NZMT concept reflecting a generic pack and its contents expressed in generic terms
 
-MPUU – Medicinal Product Unit of Use; an NZMT concept reflecting a specific dose-form of a generic medicine
+MPUU – Medicinal Product Unit of Use; an NZMT concept reflecting a specific dose-form and strength combination of a generic medicine
 
 no-action dampening – the withholding of Stockelys alerts that recommend no action (alerts that confirm there is a basis for the assertion that there is no interaction) (cf. topical dampening)
 
@@ -44,7 +44,7 @@ TP – Trade Product; an NZMT concept reflecting the brand medicine
 
 TPP – Trade Product Pack; an NZMT concept reflecting a brand pack and its contents, but without details of the container
 
-TPUU – Trade Product Unit of Use; an NZMT concept reflecting a specific dose-form of a brand medicine
+TPUU – Trade Product Unit of Use; an NZMT concept reflecting a specific dose-form and strength combination of a brand medicine
 
 virtual product – a CTPP in the NZMT that has no TPP or any other concept. These are used for funding codes, not actual products.
 
