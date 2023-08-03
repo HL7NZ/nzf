@@ -5,11 +5,36 @@
         {
             "resource": {
                 "resourceType": "SearchParameter",
+                "url": "http://hl7.org/fhir/nzf/SearchParameter/nzf-atc",
+                "version": "1.0.0",
+                "name": "NzfAtc",
+                "status": "active",
+                "date": "2023-07-08",
+                "publisher": "NZ Formulary",
+                "description": "Returns medications matching the given atc code",
+                "code": "nzf-atc",
+                "base": [
+                    "Medication"
+                ],
+                "type": "token",
+                "expression": "Medication.extension.where(url = 'http://hl7.org.nz/fhir/StructureDefinition/nzf-atc')",
+                "target": [
+                    "Medication"
+                ]
+            },
+            "request": {
+                "method": "POST",
+                "url": "SearchParameter"
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "SearchParameter",
                 "url": "http://hl7.org/fhir/nzf/SearchParameter/nzf-community-funding",
                 "version": "1.0.1",
                 "name": "NzfCommunityFunding",
                 "status": "active",
-                "date": "2023-06-19",
+                "date": "2022-01-27",
                 "publisher": "NZ Formulary",
                 "description": "Returns medications matching the community funding level",
                 "code": "nzf-community-funding",
@@ -118,6 +143,31 @@
                 ],
                 "type": "reference",
                 "expression": "Medication.extension.where(url = 'http://hl7.org.nz/fhir/StructureDefinition/nzf-link')",
+                "target": [
+                    "Medication"
+                ]
+            },
+            "request": {
+                "method": "POST",
+                "url": "SearchParameter"
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "SearchParameter",
+                "url": "http://hl7.org/fhir/nzf/SearchParameter/nzf-medsafe-status",
+                "version": "1.0.2",
+                "name": "NzfMedsafeStatus",
+                "status": "active",
+                "date": "2023-07-08",
+                "publisher": "NZ Formulary",
+                "description": "Returns medications matching the medsafe status",
+                "code": "nzf-medsafe-status",
+                "base": [
+                    "Medication"
+                ],
+                "type": "token",
+                "expression": "Medication.extension.where(url = 'http://hl7.org.nz/fhir/StructureDefinition/nzf-medsafe').extension.where(url = 'status').value.text",
                 "target": [
                     "Medication"
                 ]
