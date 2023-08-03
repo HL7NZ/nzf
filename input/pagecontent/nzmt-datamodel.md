@@ -2,7 +2,7 @@
 
 ### New Zealand Medicines Terminology (NZMT) overview
 
-The New Zealand Medicines Terminology (NZMT) database has been designed from the SNOMED design model, and is intended to provide a single, consistent database of names for medicines and trade products containing these medicines.
+The New Zealand Medicines Terminology (NZMT) database has been designed from the SNOMED data model, and is intended to provide a single, consistent database of names for medicines and trade products containing these medicines.
 
 #### New Zealand Medicines Terminology Data Model
 
@@ -59,7 +59,7 @@ Nurofen 400 Double Strength 400 mg tablet: sugar-coated, 48 tablets, blister pac
 The SNOMED spec dictates that all records are identified by a globally unique 18-digit number. 
 This means that you can create a single lookup table inside your database that contains all the id numbers of all the NZMT records in your database and you won’t get a single duplicate.
 
-The primary purpose of this globally unique key is to allow records from any of the Medicines Terminologies operated by SNOMED member nations to co-exist in a single database if required, and also to conform to the very flexible but rather inefficient “three-table” structure of the standard SNOMED data structure (which is not covered in this document – please ask if you need additional information).
+The primary purpose of this globally unique key is to allow records from any of the Medicines Terminologies operated by SNOMED member nations to co-exist in a single database if required, and also to conform to the very flexible but rather challenging to use “three-table” structure of the standard SNOMED data structure (which is not covered in this document – please ask if you need additional information).
 
 ##### ID Data Format
 
