@@ -1,5 +1,3 @@
-** DRAFT **
-
 ### New Zealand Medicines Terminology (NZMT) overview
 
 The New Zealand Medicines Terminology (NZMT) database has been designed from the SNOMED data model, and is intended to provide a single, consistent database of names for medicines and trade products containing these medicines.

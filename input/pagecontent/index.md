@@ -10,144 +10,13 @@ The key resource for this implementation is the Medication resource. For those t
 - Medicinal Product Pack (MPP) e.g. paracetamol 120 mg/5 mL oral liquid, 200 mL
 - Trade Product Pack (TPP) e.g. Panadol 500 mg tablet: film-coated, 12 tablets
 
-The standard Medication resource provides the key information needed for integration however we have defined several extensions to allow for the addition of specific NZULM/Formulary information. The following table describes these extensions and shows which extensions apply to which medication type.
+*Panadol is a registered trademark of the Haleon group of companies.
 
-<table class="table table-bordered">
-    <tr>
-        <th>Extension</th>
-        <th>Description</th>
-        <th>MP</th>
-        <th>TP</th>
-        <th>MPUU</th>
-        <th>TPUU</th>
-        <th>MPP</th>
-        <th>TPP</th>
-        <th>CTPP</th>
-    </tr>
-    <tr>
-        <td>Type</td>
-        <td>Type of NZMT reference (e.g. CTPP, MPUU) etc.</td>
-        <td>Yes</td>
-        <td>Yes</td>
-        <td>Yes</td>
-        <td>Yes</td>
-        <td>Yes</td>
-        <td></td>
-        <td>Yes</td>
-    </tr>
-    <tr>
-        <td>Cautionary and Advisory Labels (CALs)</td>
-        <td>List of all Cautionary and Advisory labels associated with the medication</td>
-        <td></td>
-        <td></td>
-        <td>Yes</td>
-        <td>Yes</td>
-        <td>Yes</td>
-        <td>Yes</td>
-        <td>Yes</td>
-    </tr>
-    <tr>
-        <td>ATC</td>
-        <td>The Anatomical Therapeutic Chemical Classification code(s)</td>
-        <td>Yes</td>
-        <td></td>
-        <td>Yes</td>
-        <td>Yes</td>
-        <td>Yes</td>
-        <td>Yes</td>
-        <td>Yes</td>
-    </tr>
-    <tr>
-        <td>Unapproved</td>
-        <td>True if the medication has not been approved by Medsafe and can be prescribed under section 29</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td>Yes</td>
-    </tr>
-    <tr>
-        <td>Legal Classification</td>
-        <td>Medsafe legal classification</td>
-        <td></td>
-        <td></td>
-        <td>Yes</td>
-        <td>Yes</td>
-        <td></td>
-        <td></td>
-        <td>Yes</td>
-    </tr>
-    <tr>
-        <td>Medsafe Status</td>
-        <td>Medsafe product status</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td>Yes</td>
-    </tr>    
-    <tr>
-        <td>Prescribe by Brand</td>
-        <td>Whether the medication should be prescribed by brand or not</td>
-        <td></td>
-        <td></td>
-        <td>Yes</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Funding</td>
-        <td>NZ specific funding information provided by PHARMAC</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td>Yes</td>
-    </tr>
-    <tr>
-        <td>Funding rules</td>
-        <td>The rules and constraints around funding for the given medicine provided by PHARMAC</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td>Yes</td>
-    </tr>    
-    <tr>
-        <td>PHARMAC Supply Information</td>
-        <td>PHARMAC provided information detailing medication supply issues</td>
-        <td>Yes</td>
-        <td>Yes</td>
-        <td>Yes</td>
-        <td>Yes</td>
-        <td>Yes</td>
-        <td>Yes</td>
-        <td>Yes</td>
-    </tr>
-    <tr>
-        <td>Links</td>
-        <td>Links to associated resources, such as monographs, datasheets and patient information leaflets</td>
-        <td>Yes</td>
-        <td>Yes</td>
-        <td>Yes</td>
-        <td>Yes</td>
-        <td>Yes</td>
-        <td>Yes</td>
-        <td>Yes</td>
-    </tr>
-</table>
+Click [here](./nzmt-datamodel.html) for more information on the NZMT data model.
 
-The medication resources will also link to several documents (using the link extension). To facilitate this, we use [DocumentReference](http://hl7.org/fhir/R4B/documentreference.html) resources.
+Complementing the NZMT information is information from the NZF Formulary, Pharmac and Medsafe.  This includes information ranging from funding to legal classifications to Cautionary and Advisory labels.  For more information on the full data set see the [data](./data.html), including examples of how to retrieve specific information.
+
+The medication resources also link to several documents (using the link extension). To facilitate this, we use [DocumentReference](http://hl7.org/fhir/R4B/documentreference.html) resources.
 
 We provide document references for the following data:
 
@@ -178,122 +47,20 @@ We provide document references for the following data:
 </tr>
 </table>
 
-We also provide substance resources for each NZMT substance. [Substance](http://hl7.org/fhir/R4B/substance.html) resources.
+We also provide substance resources for each NZMT substance. See [Substance](http://hl7.org/fhir/R4B/substance.html) resources.
 
-<h3>Medication code</h3>
+This guide is divided into a number of sections
+- How to use: A brief explanation on how to connect to the API and some of its basic usage
+- Data: This is a detailed explanation on all the data that is provided via the API
+- Glossary: A glossary of some of the terms and abbrievations used
+- FAQ: 
+- Roadmap:  A guide on what is coming to the API
+- Change log: What has changed recently
 
-<p>All medications will have a nzmt code.  Where applicable one or more Pharmacodes® will be added to a CTPP.  Where applicable one or more GTIN codes will added to a CTPP or a TPUU</p>
+We also work closely with the NZ Health Terminology Service (NZHTS).  The codes from the NZMT are published to the NZHTS and this might be the best option for light use-cases or if terminology services are needed.  The services are complementary so both APIs can be used together.  To get more information please see here: https://www.tewhatuora.govt.nz/our-health-system/digital-health/terminology-service/ .  Any valuesets created will also be published to this service.
 
-<h3>Subsidy information</h3>
+To contact us please use the email address fhir 'at' nzformulary.org with any questions or requests to access the data.
 
-<p>Subsidy information is added to Containered Trade Product Packs where applicable.  The funding information is derived from both the PHARMAC community schedule as well as the HML.</p>
-<p>There are two extensions added that store this information.  The first is <b>nzf-funding</b>.  This stores the general information around funding for a specific product, including some of the community schedule details (price etc.) - <a href="./StructureDefinition-nzf-funding.html">see extension details for more information</a> To cater for the existence of multiple schedules this extension can be added to a product multiple times, once per schedule - to make it easy to determine which schedules are available we provide a metadata resource, see example queries for more info.  This allows vendors to see both the current schedule information as well as an upcoming schedule.  To determine which set of information to use the 'scheduleDate' field can be used.  The second extension is <b>nzf-funding-rule</b>.  This extension once again has a schedule date so vendors can determine which schedule they would like to look at.  The purpose of this extension is to provide the PHARMAC funding rules that apply to the given product.  Most of the data here comes from the ps_rule table (in the NZMT releases) however a number of attribute rules are also added.  These are:</p>
+We want, not only the API, but also this documentation to be as useful as possible so please get in touch if you have any feedback.
 
-<table class="table table-bordered">
-    <tr>
-    <td>Name</td>
-    <td>Condition</td>
-    <td>Rule Type</td>
-    <td>Rule value</td>
-    <td>Rule text</td>
-    </tr>
-    <tr>
-    <td>Sole Subsidised Supply</td>
-    <td>When a CTPP associated with a ps_brand entry has the sole_supply flag set</td>
-    <td>SoleSupply</td>
-    <td></td>
-    <td>Sole Subsidised Supply</td>
-    </tr>
-    <tr>
-    <td>Principal Sole Supply</td>
-    <td>When a CTPP associated with a ps_brand entry has the pss flag set</td>
-    <td>PrincipalSoleSupply</td>
-    <td></td>
-    <td>Principal Sole Supply</td>
-    </tr>
-    <tr>
-    <td>Cost Brand Source</td>
-    <td>When a CTPP associated with ps_pack entry has cost brand source = 1</td>
-    <td>CostBrandSource</td>
-    <td></td>
-    <td>CBS</td>
-    </tr>
-    <tr>
-    <td>Original Pack</td>
-    <td>When a CTPP associated with ps_pack entry has originalPack = 1</td>
-    <td>OriginalPack</td>
-    <td></td>
-    <td>Original Pack</td>
-    </tr>
-    <tr>
-    <td>Hospital Supply Status</td>
-    <td>When a CTPP associated with a ps_brand entry has the hss set</td>
-    <td>HospitalSupplyStatus</td>
-    <td></td>
-    <td>Hospital Supply Status</td>
-    </tr>
-    <tr>
-    <td>Safety: Uncompounded</td>
-    <td>ps_formulary.safety = Uncompounded</td>
-    <td>Safety</td>
-    <td>Uncompounded</td>
-    <td>Safety cap required</td>
-    </tr>
-    <tr>
-    <td>Safety: Compounded</td>
-    <td>ps_formulary.safety = compounded</td>
-    <td>Safety</td>
-    <td>Compounded</td>
-    <td>Safety cap required for extemporaneously compounded oral liquid preparations</td>
-    </tr>
-    <tr>
-    <td>Statim</td>
-    <td>ps_formulary.statim = Must</td>
-    <td>Statim</td>
-    <td>Must</td>
-    <td>Statim: Three months or six months, as applicable, dispensed all-at-once.</td>
-    </tr>
-    <tr>
-    <td>Statim</td>
-    <td>ps_formulary.statim = Must</td>
-    <td>Statim</td>
-    <td>Must</td>
-    <td>Statim: Three months or six months, as applicable, dispensed all-at-once.</td>
-    </tr>
-</table>
 
-<p>See <a href="./StructureDefinition-nzf-funding-rule.html">extension details</a></p>
-
-<p>As we stated we want this to be as useful as possible so please get in touch if you have any feedback.</p>
-
-<h3>Related medications</h3>
-
-<p>Each medication can have one or more optional related medication extensions.  These allow navigation through the NZMT concept hierarchy.<p>
-<p>See <a href="./StructureDefinition-nzf-related-medication.html">extension details</a></p>
-<p>The following table shows the related medications for each concept</p>
-<table class="table table-bordered">
-<tr>
-<td>Concept</td>
-<td>Related medications</td>
-</tr>
-<tr>
-    <td>CTPP</td>
-    <td>MP<br/>TPP</td>
-</tr>
-<tr>
-    <td>MPP</td>
-    <td>MP<br/>MPUU (1 or more)</td>
-</tr>
-<tr>
-    <td>MPUU</td>
-    <td>MP<br>MPP (1 or more)</td>
-</tr>
-<tr>
-    <td>TPP</td>
-    <td>MP<br/>TP<br/>TPUU (1 or more)<br/>MPP</td>
-</tr>
-<tr>
-    <td>TPUU</td>
-    <td>MP<br/>TP<br>TPP (1 or more)<br>MPUU</td>
-</tr>
-</table>

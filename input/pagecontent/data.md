@@ -1,7 +1,3 @@
-
-
-**DRAFT-NOT FOR CLINICAL USE**
-
 The aim of this page is to detail all the data items available from this API.  For each there should be a brief description of the data along with details on how it be retrieved and used.  Most of these apply to medication resources but some also use other FHIR resource types (Substance, DocumentReference).  
 
 
@@ -26,7 +22,7 @@ All medication resources have a unique NZMT ID (see <a href="./nzmt-datamodel.ht
 
 **Example Queries**
 
-The simplist way to retrieve an individual medicine resource is via the id
+The simplest way to retrieve an individual medicine resource is via the id from any level of the NZMT hierarchy
 >[base]/Medication/44282231000116104
 
 Medications are also available via the code field which returns a bundle
@@ -79,11 +75,11 @@ Custom search parameter - <a href="./notes.html#custom-search-parameters">see de
 
 ### Status
 
-MP, TP, MPP, TPP, MPUU, TPUU and substances are deemed inactive if they are either duplicates, known to be obsolete, replaced by another entry (possibly due to error) or products that have been rebranded
+MP, TP, MPP, TPP, MPUU, TPUU and substances are deemed inactive if they are either duplicates, known to be obsolete, replaced by another entry (possibly due to error) or products that have been rebranded.
 
-A CTPP medication is deemed active if it is not deemed obsolete (as above) and one of the following criteria is met:
+A CTPP medication is deemed active if it is not deemed obsolete (as above) and at least one of the following criteria is met:
 - Has some level of community funding or HML funding for any of the schedules associated with the medication (i.e. current or future)
-- Is unapproved (i.e. section 29)
+- Is an unapproved (i.e. section 29)
 - Has no medsafe nzmt link
 - Medsafe status is either "Active" or "Under Assessment" and Medsafe regSituation is either "Consent given" or "Provisional consent"
 
@@ -229,7 +225,7 @@ Custom search parameter - <a href="./notes.html#custom-search-parameters">see de
 
 ### NZMT Descriptions
 
-Each medication always have a preferred term and a fully specified name description.
+Each medication has a preferred term and a fully specified name description.
 
 A description is a text expression related to a Concept ID.  Each of these descriptions has a SNOMED CT description ID of its own, in addition to the SNOMED CT Concept ID to which it is related.  The primary descriptions are the FullySpecifiedName and PreferredTerm but this table includes other variant Terms or names for a substance or product.  There are number of types of descriptions including Label Names, Pharmac-specific names and Prescribing Terms (see 3.5.7 for more details).
 
@@ -572,7 +568,7 @@ Custom search parameter - <a href="./notes.html#custom-search-parameters">see de
 
 NB: section 29 medicines are medicines covered by the Medicines Act that have not been granted formal consent to distribute by Medsafe. They are supplied under the compassionate use provisions of Section 29 of the Medicines Act
 
-These are indicated via the nzf-unapproved extension and is set to true when this applies.  There is also a custom search parameter available to allow for searching via this extension.
+These are indicated via the nzf-unapproved extension and is set to true when this applies.  This extension applies to Medications at the CTPP level.  There is also a custom search parameter available to allow for searching via this extension.
 
 #### Usage details
 
@@ -681,7 +677,7 @@ Valueset - https://www.gs1.org/gtin
 
 ### SNOMED CT Mappings
 
-Where applicable mappings are available the SNOMED CT MP Products have been mapped to NZMT MPs.  
+Where applicable mappings and are available the NZMT MPs have been mapped to SNOMED CT MP Products.  
 
 These codes are added as a code in the medication code field alongside the NZMT code and any other applicable code.
 
@@ -718,11 +714,11 @@ Get all medications that have a SNOMED CT code assigned
 
 ### Legal Classifications
 
-Legal classifications, provided by medsafe, are primarily added to CTPPs via the nzf-legalclass extension.  However, for convenience, the legal classification extension is also added to TPUU and MPUU where all the related CTPPs have the same legal classification.
+Legal classifications, provided by Medsafe, are primarily added to CTPPs via the nzf-legalclass extension.  However, for convenience, the legal classification extension is also added to TPUU and MPUU where all the related CTPPs have the same legal classification.
 
 See [here for a list of possible values](CodeSystem-medicine-classification-code.html)
 
-Note - medsafe also provide classifications at the substance level.  This has been added against MPs where applicable using the nzf-legalclass extension.  
+Note - Medsafe also provide classifications at the substance level.  This has been added against MPs where applicable using the nzf-legalclass extension.  
 
 Note that products unmapped to Medsafe (and therefore not considered registered) should only use this MP/Substance classification data where the classification is as a ‘Controlled Drug’ - as the Misuse of Drugs Act is separate from the Medicines Act and applies regardless of whether the sponsor has registered the product or not. Any other classification (General Sale, Prescription etc) requires the product to be registered and so these classifications are not appropriate to be used for unregistered products.
 

@@ -22,12 +22,12 @@ releaseLabel: ci-build
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   Home: index.html
-  Extensions: extensions.html
-  Profiles: profiles.html
-  Artifacts: artifacts.html
-  Notes: notes.html
-  Mappings: mapping.html
-  Example queries: example-queries.html
+  How to use: howtouse.html
+  Data: data.html
+  Glossary: glossary.html
   FAQ: faq.html
   Roadmap: roadmap.html
   Change log: changelog.html
+  Extensions: extensions.html
+  Profiles: profiles.html
+  Artifacts: artifacts.html

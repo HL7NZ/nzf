@@ -1,5 +1,3 @@
-**DRAFT**
-
 ### Getting started
 
 The first step to getting access to the API is to email fhir 'at' nzformulary.org.  We will help with the onboarding process and send you the required authentication details.
@@ -21,7 +19,7 @@ The easiest way to test this is by going to the following url:
 
 > [base]/Medication
 
-(where base is the location of the server you are accessing)
+(where base is the location of the server you are accessing).
 
 We use a standard FHIR server to host our API and resources therefore all the standard read and search operations are available.  See [here](http://hl7.org/fhir/R4B/search.html) for more details.
 
@@ -99,4 +97,4 @@ We are more than willing to help you get the data that you need.  Please contact
 
 ### Accreditation
 
-Before going into production there is an accreditation process... [TODO]
+Before going into production there is an accreditation process.  Please contact fhir 'at' nzformulary.org for more details.
