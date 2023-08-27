@@ -23,7 +23,7 @@ Description:    "Interaction Clincial Use Definition resource for NZ Formulary"
 * interaction.interactant.extension contains 
     $route named route 1..*
 * interaction.extension contains
-    $severity named interactionSeverity 1..1 and 
+    $severity named severity 1..1 and 
     $warning named warning 1..1 and
     $modificationDate named modificationDate 1..1 and
     $reviewDate named reviewDate 1..1 and
