@@ -53,7 +53,7 @@ TODO - Add example
 
 ##### Clinical Use Definitions (Interactions)
 
-A profile for interactions is provided [here](./StructureDefinition-NzfMedication.html) - Draft/Work in progress
+A profile for interactions is provided [here](./StructureDefinition-NzfInteractionClinicalUseDefinition.html) - Draft/Work in progress
 
 #### Interactions Of
 
