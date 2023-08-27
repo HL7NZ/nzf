@@ -2,7 +2,7 @@
 
 THE NZF/NZULM FHIR API provides support for interactions checking based on Stockleys Alerts.  This support comes in the form of two custom FHIR [Operations](https://hl7.org/fhir/R4B/operations.html).  The first provides a list of interactions for a given NZMT medication and the second provides a list of interactions between a list of NZMT medication codes.
 
-Each API call returns a Bundle which alongside associated resources returns a list of [ClnicalUseDefinitions](https://hl7.org/fhir/R4B/clinicaluseDefinition.html)
+Each API call returns a Bundle which, alongside associated resources, returns a list of [ClnicalUseDefinitions](https://hl7.org/fhir/R4B/clinicaluseDefinition.html)
 
 
 ### Background
@@ -23,7 +23,9 @@ The system will then determine that this MP is mapped to the Martidale Id of (26
 
 This martindale id is then used to retrieve the associated interactions (in the form of Clinical Use Defintions)
 
-**Note** - It is possible that a medication code (or a component of a medication) is submitted that has not yet been mapped to a Martindale Id.  If this happens then an OperationalOutcome with a status of warning is returned.  The specific component can also be determined via the returned Medication and ConceptMap resources.
+**Note** - It is possible that a submitted medication code (or a component of a medication) has not yet been mapped to a Martindale Id.  If this happens then an OperationalOutcome with a status of warning is returned.  The specific component can also be determined via the returned Medication and ConceptMap resources.
+
+TODO - Add example
 
 ### Custom Operations
 
@@ -41,11 +43,13 @@ A warning will occur if an NZMT code has not yet been mapped to an interaction s
 
 ##### Medications [Optional]
 
-The full medication resource for each submitted NZMT code is returned in the Bundle.  These are provided for convenience as well as providing the tracibility around which MP(s) are associated with the given medication.
+The full medication resource for each submitted NZMT code is returned in the Bundle.  These are provided for convenience and provide tracibility around which MP(s) are associated with the given medication.
 
 ##### Concept Map [Optional]
 
 A partial [concept map](https://hl7.org/fhir/R4B/conceptmap.html) is provided detailing the mapping between NZMT MPs and their associated Martindale Ids.  If a MP has not yet been mapped to a Martindale Id then there will be no codes listed.  However, if a MP has attempted to be mapped by the NZF but no appropriate Martindale Id was determined then this is recorded as Unmatched in the Concept Map resource.
+
+TODO - Add example
 
 ##### Clinical Use Definitions (Interactions)
 
