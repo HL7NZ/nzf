@@ -24585,7 +24585,7 @@
                                 "user content"
                             ],
                             "min": 0,
-                            "max": "*",
+                            "max": "0",
                             "base": {
                                 "path": "Element.extension",
                                 "min": 0,
@@ -24674,157 +24674,7 @@
                             },
                             "type": [
                                 {
-                                    "code": "base64Binary"
-                                },
-                                {
-                                    "code": "boolean"
-                                },
-                                {
-                                    "code": "canonical"
-                                },
-                                {
-                                    "code": "code"
-                                },
-                                {
                                     "code": "date"
-                                },
-                                {
-                                    "code": "dateTime"
-                                },
-                                {
-                                    "code": "decimal"
-                                },
-                                {
-                                    "code": "id"
-                                },
-                                {
-                                    "code": "instant"
-                                },
-                                {
-                                    "code": "integer"
-                                },
-                                {
-                                    "code": "markdown"
-                                },
-                                {
-                                    "code": "oid"
-                                },
-                                {
-                                    "code": "positiveInt"
-                                },
-                                {
-                                    "code": "string"
-                                },
-                                {
-                                    "code": "time"
-                                },
-                                {
-                                    "code": "unsignedInt"
-                                },
-                                {
-                                    "code": "uri"
-                                },
-                                {
-                                    "code": "url"
-                                },
-                                {
-                                    "code": "uuid"
-                                },
-                                {
-                                    "code": "Address"
-                                },
-                                {
-                                    "code": "Age"
-                                },
-                                {
-                                    "code": "Annotation"
-                                },
-                                {
-                                    "code": "Attachment"
-                                },
-                                {
-                                    "code": "CodeableConcept"
-                                },
-                                {
-                                    "code": "CodeableReference"
-                                },
-                                {
-                                    "code": "Coding"
-                                },
-                                {
-                                    "code": "ContactPoint"
-                                },
-                                {
-                                    "code": "Count"
-                                },
-                                {
-                                    "code": "Distance"
-                                },
-                                {
-                                    "code": "Duration"
-                                },
-                                {
-                                    "code": "HumanName"
-                                },
-                                {
-                                    "code": "Identifier"
-                                },
-                                {
-                                    "code": "Money"
-                                },
-                                {
-                                    "code": "Period"
-                                },
-                                {
-                                    "code": "Quantity"
-                                },
-                                {
-                                    "code": "Range"
-                                },
-                                {
-                                    "code": "Ratio"
-                                },
-                                {
-                                    "code": "RatioRange"
-                                },
-                                {
-                                    "code": "Reference"
-                                },
-                                {
-                                    "code": "SampledData"
-                                },
-                                {
-                                    "code": "Signature"
-                                },
-                                {
-                                    "code": "Timing"
-                                },
-                                {
-                                    "code": "ContactDetail"
-                                },
-                                {
-                                    "code": "Contributor"
-                                },
-                                {
-                                    "code": "DataRequirement"
-                                },
-                                {
-                                    "code": "Expression"
-                                },
-                                {
-                                    "code": "ParameterDefinition"
-                                },
-                                {
-                                    "code": "RelatedArtifact"
-                                },
-                                {
-                                    "code": "TriggerDefinition"
-                                },
-                                {
-                                    "code": "UsageContext"
-                                },
-                                {
-                                    "code": "Dosage"
                                 }
                             ],
                             "constraint": [
@@ -24851,9 +24701,23 @@
                 "differential": {
                     "element": [
                         {
+                            "id": "Extension.extension",
+                            "path": "Extension.extension",
+                            "max": "0"
+                        },
+                        {
                             "id": "Extension.url",
                             "path": "Extension.url",
                             "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/stockleys-interaction-modification-date"
+                        },
+                        {
+                            "id": "Extension.value[x]",
+                            "path": "Extension.value[x]",
+                            "type": [
+                                {
+                                    "code": "date"
+                                }
+                            ]
                         }
                     ]
                 }
@@ -25013,7 +24877,7 @@
                                 "user content"
                             ],
                             "min": 0,
-                            "max": "*",
+                            "max": "0",
                             "base": {
                                 "path": "Element.extension",
                                 "min": 0,
@@ -25102,157 +24966,7 @@
                             },
                             "type": [
                                 {
-                                    "code": "base64Binary"
-                                },
-                                {
-                                    "code": "boolean"
-                                },
-                                {
-                                    "code": "canonical"
-                                },
-                                {
-                                    "code": "code"
-                                },
-                                {
                                     "code": "date"
-                                },
-                                {
-                                    "code": "dateTime"
-                                },
-                                {
-                                    "code": "decimal"
-                                },
-                                {
-                                    "code": "id"
-                                },
-                                {
-                                    "code": "instant"
-                                },
-                                {
-                                    "code": "integer"
-                                },
-                                {
-                                    "code": "markdown"
-                                },
-                                {
-                                    "code": "oid"
-                                },
-                                {
-                                    "code": "positiveInt"
-                                },
-                                {
-                                    "code": "string"
-                                },
-                                {
-                                    "code": "time"
-                                },
-                                {
-                                    "code": "unsignedInt"
-                                },
-                                {
-                                    "code": "uri"
-                                },
-                                {
-                                    "code": "url"
-                                },
-                                {
-                                    "code": "uuid"
-                                },
-                                {
-                                    "code": "Address"
-                                },
-                                {
-                                    "code": "Age"
-                                },
-                                {
-                                    "code": "Annotation"
-                                },
-                                {
-                                    "code": "Attachment"
-                                },
-                                {
-                                    "code": "CodeableConcept"
-                                },
-                                {
-                                    "code": "CodeableReference"
-                                },
-                                {
-                                    "code": "Coding"
-                                },
-                                {
-                                    "code": "ContactPoint"
-                                },
-                                {
-                                    "code": "Count"
-                                },
-                                {
-                                    "code": "Distance"
-                                },
-                                {
-                                    "code": "Duration"
-                                },
-                                {
-                                    "code": "HumanName"
-                                },
-                                {
-                                    "code": "Identifier"
-                                },
-                                {
-                                    "code": "Money"
-                                },
-                                {
-                                    "code": "Period"
-                                },
-                                {
-                                    "code": "Quantity"
-                                },
-                                {
-                                    "code": "Range"
-                                },
-                                {
-                                    "code": "Ratio"
-                                },
-                                {
-                                    "code": "RatioRange"
-                                },
-                                {
-                                    "code": "Reference"
-                                },
-                                {
-                                    "code": "SampledData"
-                                },
-                                {
-                                    "code": "Signature"
-                                },
-                                {
-                                    "code": "Timing"
-                                },
-                                {
-                                    "code": "ContactDetail"
-                                },
-                                {
-                                    "code": "Contributor"
-                                },
-                                {
-                                    "code": "DataRequirement"
-                                },
-                                {
-                                    "code": "Expression"
-                                },
-                                {
-                                    "code": "ParameterDefinition"
-                                },
-                                {
-                                    "code": "RelatedArtifact"
-                                },
-                                {
-                                    "code": "TriggerDefinition"
-                                },
-                                {
-                                    "code": "UsageContext"
-                                },
-                                {
-                                    "code": "Dosage"
                                 }
                             ],
                             "constraint": [
@@ -25279,9 +24993,23 @@
                 "differential": {
                     "element": [
                         {
+                            "id": "Extension.extension",
+                            "path": "Extension.extension",
+                            "max": "0"
+                        },
+                        {
                             "id": "Extension.url",
                             "path": "Extension.url",
                             "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/stockleys-interaction-review-date"
+                        },
+                        {
+                            "id": "Extension.value[x]",
+                            "path": "Extension.value[x]",
+                            "type": [
+                                {
+                                    "code": "date"
+                                }
+                            ]
                         }
                     ]
                 }
@@ -25441,7 +25169,7 @@
                                 "user content"
                             ],
                             "min": 0,
-                            "max": "*",
+                            "max": "0",
                             "base": {
                                 "path": "Element.extension",
                                 "min": 0,
@@ -25530,157 +25258,7 @@
                             },
                             "type": [
                                 {
-                                    "code": "base64Binary"
-                                },
-                                {
-                                    "code": "boolean"
-                                },
-                                {
-                                    "code": "canonical"
-                                },
-                                {
-                                    "code": "code"
-                                },
-                                {
-                                    "code": "date"
-                                },
-                                {
-                                    "code": "dateTime"
-                                },
-                                {
-                                    "code": "decimal"
-                                },
-                                {
-                                    "code": "id"
-                                },
-                                {
-                                    "code": "instant"
-                                },
-                                {
-                                    "code": "integer"
-                                },
-                                {
-                                    "code": "markdown"
-                                },
-                                {
-                                    "code": "oid"
-                                },
-                                {
-                                    "code": "positiveInt"
-                                },
-                                {
-                                    "code": "string"
-                                },
-                                {
-                                    "code": "time"
-                                },
-                                {
-                                    "code": "unsignedInt"
-                                },
-                                {
-                                    "code": "uri"
-                                },
-                                {
-                                    "code": "url"
-                                },
-                                {
-                                    "code": "uuid"
-                                },
-                                {
-                                    "code": "Address"
-                                },
-                                {
-                                    "code": "Age"
-                                },
-                                {
-                                    "code": "Annotation"
-                                },
-                                {
-                                    "code": "Attachment"
-                                },
-                                {
                                     "code": "CodeableConcept"
-                                },
-                                {
-                                    "code": "CodeableReference"
-                                },
-                                {
-                                    "code": "Coding"
-                                },
-                                {
-                                    "code": "ContactPoint"
-                                },
-                                {
-                                    "code": "Count"
-                                },
-                                {
-                                    "code": "Distance"
-                                },
-                                {
-                                    "code": "Duration"
-                                },
-                                {
-                                    "code": "HumanName"
-                                },
-                                {
-                                    "code": "Identifier"
-                                },
-                                {
-                                    "code": "Money"
-                                },
-                                {
-                                    "code": "Period"
-                                },
-                                {
-                                    "code": "Quantity"
-                                },
-                                {
-                                    "code": "Range"
-                                },
-                                {
-                                    "code": "Ratio"
-                                },
-                                {
-                                    "code": "RatioRange"
-                                },
-                                {
-                                    "code": "Reference"
-                                },
-                                {
-                                    "code": "SampledData"
-                                },
-                                {
-                                    "code": "Signature"
-                                },
-                                {
-                                    "code": "Timing"
-                                },
-                                {
-                                    "code": "ContactDetail"
-                                },
-                                {
-                                    "code": "Contributor"
-                                },
-                                {
-                                    "code": "DataRequirement"
-                                },
-                                {
-                                    "code": "Expression"
-                                },
-                                {
-                                    "code": "ParameterDefinition"
-                                },
-                                {
-                                    "code": "RelatedArtifact"
-                                },
-                                {
-                                    "code": "TriggerDefinition"
-                                },
-                                {
-                                    "code": "UsageContext"
-                                },
-                                {
-                                    "code": "Dosage"
                                 }
                             ],
                             "constraint": [
@@ -25707,9 +25285,23 @@
                 "differential": {
                     "element": [
                         {
+                            "id": "Extension.extension",
+                            "path": "Extension.extension",
+                            "max": "0"
+                        },
+                        {
                             "id": "Extension.url",
                             "path": "Extension.url",
                             "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/stockleys-interaction-route"
+                        },
+                        {
+                            "id": "Extension.value[x]",
+                            "path": "Extension.value[x]",
+                            "type": [
+                                {
+                                    "code": "CodeableConcept"
+                                }
+                            ]
                         }
                     ]
                 }
@@ -25869,7 +25461,7 @@
                                 "user content"
                             ],
                             "min": 0,
-                            "max": "*",
+                            "max": "0",
                             "base": {
                                 "path": "Element.extension",
                                 "min": 0,
@@ -25958,157 +25550,7 @@
                             },
                             "type": [
                                 {
-                                    "code": "base64Binary"
-                                },
-                                {
-                                    "code": "boolean"
-                                },
-                                {
-                                    "code": "canonical"
-                                },
-                                {
-                                    "code": "code"
-                                },
-                                {
-                                    "code": "date"
-                                },
-                                {
-                                    "code": "dateTime"
-                                },
-                                {
-                                    "code": "decimal"
-                                },
-                                {
-                                    "code": "id"
-                                },
-                                {
-                                    "code": "instant"
-                                },
-                                {
-                                    "code": "integer"
-                                },
-                                {
-                                    "code": "markdown"
-                                },
-                                {
-                                    "code": "oid"
-                                },
-                                {
-                                    "code": "positiveInt"
-                                },
-                                {
-                                    "code": "string"
-                                },
-                                {
-                                    "code": "time"
-                                },
-                                {
-                                    "code": "unsignedInt"
-                                },
-                                {
-                                    "code": "uri"
-                                },
-                                {
-                                    "code": "url"
-                                },
-                                {
-                                    "code": "uuid"
-                                },
-                                {
-                                    "code": "Address"
-                                },
-                                {
-                                    "code": "Age"
-                                },
-                                {
-                                    "code": "Annotation"
-                                },
-                                {
-                                    "code": "Attachment"
-                                },
-                                {
                                     "code": "CodeableConcept"
-                                },
-                                {
-                                    "code": "CodeableReference"
-                                },
-                                {
-                                    "code": "Coding"
-                                },
-                                {
-                                    "code": "ContactPoint"
-                                },
-                                {
-                                    "code": "Count"
-                                },
-                                {
-                                    "code": "Distance"
-                                },
-                                {
-                                    "code": "Duration"
-                                },
-                                {
-                                    "code": "HumanName"
-                                },
-                                {
-                                    "code": "Identifier"
-                                },
-                                {
-                                    "code": "Money"
-                                },
-                                {
-                                    "code": "Period"
-                                },
-                                {
-                                    "code": "Quantity"
-                                },
-                                {
-                                    "code": "Range"
-                                },
-                                {
-                                    "code": "Ratio"
-                                },
-                                {
-                                    "code": "RatioRange"
-                                },
-                                {
-                                    "code": "Reference"
-                                },
-                                {
-                                    "code": "SampledData"
-                                },
-                                {
-                                    "code": "Signature"
-                                },
-                                {
-                                    "code": "Timing"
-                                },
-                                {
-                                    "code": "ContactDetail"
-                                },
-                                {
-                                    "code": "Contributor"
-                                },
-                                {
-                                    "code": "DataRequirement"
-                                },
-                                {
-                                    "code": "Expression"
-                                },
-                                {
-                                    "code": "ParameterDefinition"
-                                },
-                                {
-                                    "code": "RelatedArtifact"
-                                },
-                                {
-                                    "code": "TriggerDefinition"
-                                },
-                                {
-                                    "code": "UsageContext"
-                                },
-                                {
-                                    "code": "Dosage"
                                 }
                             ],
                             "constraint": [
@@ -26135,9 +25577,23 @@
                 "differential": {
                     "element": [
                         {
+                            "id": "Extension.extension",
+                            "path": "Extension.extension",
+                            "max": "0"
+                        },
+                        {
                             "id": "Extension.url",
                             "path": "Extension.url",
                             "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/stockleys-interaction-severity-code"
+                        },
+                        {
+                            "id": "Extension.value[x]",
+                            "path": "Extension.value[x]",
+                            "type": [
+                                {
+                                    "code": "CodeableConcept"
+                                }
+                            ]
                         }
                     ]
                 }
@@ -26297,7 +25753,7 @@
                                 "user content"
                             ],
                             "min": 0,
-                            "max": "*",
+                            "max": "0",
                             "base": {
                                 "path": "Element.extension",
                                 "min": 0,
@@ -26386,157 +25842,7 @@
                             },
                             "type": [
                                 {
-                                    "code": "base64Binary"
-                                },
-                                {
-                                    "code": "boolean"
-                                },
-                                {
-                                    "code": "canonical"
-                                },
-                                {
-                                    "code": "code"
-                                },
-                                {
-                                    "code": "date"
-                                },
-                                {
-                                    "code": "dateTime"
-                                },
-                                {
-                                    "code": "decimal"
-                                },
-                                {
-                                    "code": "id"
-                                },
-                                {
-                                    "code": "instant"
-                                },
-                                {
-                                    "code": "integer"
-                                },
-                                {
-                                    "code": "markdown"
-                                },
-                                {
-                                    "code": "oid"
-                                },
-                                {
-                                    "code": "positiveInt"
-                                },
-                                {
                                     "code": "string"
-                                },
-                                {
-                                    "code": "time"
-                                },
-                                {
-                                    "code": "unsignedInt"
-                                },
-                                {
-                                    "code": "uri"
-                                },
-                                {
-                                    "code": "url"
-                                },
-                                {
-                                    "code": "uuid"
-                                },
-                                {
-                                    "code": "Address"
-                                },
-                                {
-                                    "code": "Age"
-                                },
-                                {
-                                    "code": "Annotation"
-                                },
-                                {
-                                    "code": "Attachment"
-                                },
-                                {
-                                    "code": "CodeableConcept"
-                                },
-                                {
-                                    "code": "CodeableReference"
-                                },
-                                {
-                                    "code": "Coding"
-                                },
-                                {
-                                    "code": "ContactPoint"
-                                },
-                                {
-                                    "code": "Count"
-                                },
-                                {
-                                    "code": "Distance"
-                                },
-                                {
-                                    "code": "Duration"
-                                },
-                                {
-                                    "code": "HumanName"
-                                },
-                                {
-                                    "code": "Identifier"
-                                },
-                                {
-                                    "code": "Money"
-                                },
-                                {
-                                    "code": "Period"
-                                },
-                                {
-                                    "code": "Quantity"
-                                },
-                                {
-                                    "code": "Range"
-                                },
-                                {
-                                    "code": "Ratio"
-                                },
-                                {
-                                    "code": "RatioRange"
-                                },
-                                {
-                                    "code": "Reference"
-                                },
-                                {
-                                    "code": "SampledData"
-                                },
-                                {
-                                    "code": "Signature"
-                                },
-                                {
-                                    "code": "Timing"
-                                },
-                                {
-                                    "code": "ContactDetail"
-                                },
-                                {
-                                    "code": "Contributor"
-                                },
-                                {
-                                    "code": "DataRequirement"
-                                },
-                                {
-                                    "code": "Expression"
-                                },
-                                {
-                                    "code": "ParameterDefinition"
-                                },
-                                {
-                                    "code": "RelatedArtifact"
-                                },
-                                {
-                                    "code": "TriggerDefinition"
-                                },
-                                {
-                                    "code": "UsageContext"
-                                },
-                                {
-                                    "code": "Dosage"
                                 }
                             ],
                             "constraint": [
@@ -26563,9 +25869,23 @@
                 "differential": {
                     "element": [
                         {
+                            "id": "Extension.extension",
+                            "path": "Extension.extension",
+                            "max": "0"
+                        },
+                        {
                             "id": "Extension.url",
                             "path": "Extension.url",
                             "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/stockleys-interaction-text-link"
+                        },
+                        {
+                            "id": "Extension.value[x]",
+                            "path": "Extension.value[x]",
+                            "type": [
+                                {
+                                    "code": "string"
+                                }
+                            ]
                         }
                     ]
                 }
@@ -26725,7 +26045,7 @@
                                 "user content"
                             ],
                             "min": 0,
-                            "max": "*",
+                            "max": "0",
                             "base": {
                                 "path": "Element.extension",
                                 "min": 0,
@@ -26814,157 +26134,7 @@
                             },
                             "type": [
                                 {
-                                    "code": "base64Binary"
-                                },
-                                {
-                                    "code": "boolean"
-                                },
-                                {
-                                    "code": "canonical"
-                                },
-                                {
-                                    "code": "code"
-                                },
-                                {
-                                    "code": "date"
-                                },
-                                {
-                                    "code": "dateTime"
-                                },
-                                {
-                                    "code": "decimal"
-                                },
-                                {
-                                    "code": "id"
-                                },
-                                {
-                                    "code": "instant"
-                                },
-                                {
-                                    "code": "integer"
-                                },
-                                {
-                                    "code": "markdown"
-                                },
-                                {
-                                    "code": "oid"
-                                },
-                                {
-                                    "code": "positiveInt"
-                                },
-                                {
-                                    "code": "string"
-                                },
-                                {
-                                    "code": "time"
-                                },
-                                {
-                                    "code": "unsignedInt"
-                                },
-                                {
-                                    "code": "uri"
-                                },
-                                {
-                                    "code": "url"
-                                },
-                                {
-                                    "code": "uuid"
-                                },
-                                {
-                                    "code": "Address"
-                                },
-                                {
-                                    "code": "Age"
-                                },
-                                {
-                                    "code": "Annotation"
-                                },
-                                {
-                                    "code": "Attachment"
-                                },
-                                {
                                     "code": "CodeableConcept"
-                                },
-                                {
-                                    "code": "CodeableReference"
-                                },
-                                {
-                                    "code": "Coding"
-                                },
-                                {
-                                    "code": "ContactPoint"
-                                },
-                                {
-                                    "code": "Count"
-                                },
-                                {
-                                    "code": "Distance"
-                                },
-                                {
-                                    "code": "Duration"
-                                },
-                                {
-                                    "code": "HumanName"
-                                },
-                                {
-                                    "code": "Identifier"
-                                },
-                                {
-                                    "code": "Money"
-                                },
-                                {
-                                    "code": "Period"
-                                },
-                                {
-                                    "code": "Quantity"
-                                },
-                                {
-                                    "code": "Range"
-                                },
-                                {
-                                    "code": "Ratio"
-                                },
-                                {
-                                    "code": "RatioRange"
-                                },
-                                {
-                                    "code": "Reference"
-                                },
-                                {
-                                    "code": "SampledData"
-                                },
-                                {
-                                    "code": "Signature"
-                                },
-                                {
-                                    "code": "Timing"
-                                },
-                                {
-                                    "code": "ContactDetail"
-                                },
-                                {
-                                    "code": "Contributor"
-                                },
-                                {
-                                    "code": "DataRequirement"
-                                },
-                                {
-                                    "code": "Expression"
-                                },
-                                {
-                                    "code": "ParameterDefinition"
-                                },
-                                {
-                                    "code": "RelatedArtifact"
-                                },
-                                {
-                                    "code": "TriggerDefinition"
-                                },
-                                {
-                                    "code": "UsageContext"
-                                },
-                                {
-                                    "code": "Dosage"
                                 }
                             ],
                             "constraint": [
@@ -26991,9 +26161,23 @@
                 "differential": {
                     "element": [
                         {
+                            "id": "Extension.extension",
+                            "path": "Extension.extension",
+                            "max": "0"
+                        },
+                        {
                             "id": "Extension.url",
                             "path": "Extension.url",
                             "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/stockleys-interaction-warning-code"
+                        },
+                        {
+                            "id": "Extension.value[x]",
+                            "path": "Extension.value[x]",
+                            "type": [
+                                {
+                                    "code": "CodeableConcept"
+                                }
+                            ]
                         }
                     ]
                 }
