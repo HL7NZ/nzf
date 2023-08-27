@@ -10,7 +10,7 @@ Description: ""
 * ^context.expression = "ClinicalUseDefinition"       
 
 * extension 0..0
-* value only CodeableConcept
+* value[x] only CodeableConcept
 
 Extension: InteractionSeverity
 Id: stockleys-interaction-severity-code
@@ -24,7 +24,7 @@ Description: ""
 * ^context.expression = "ClinicalUseDefinition"
 
 * extension 0..0
-* value only CodeableConcept
+* value[x] only CodeableConcept
 
 Extension: InteractionWarning
 Id: stockleys-interaction-warning-code
@@ -38,7 +38,7 @@ Description: ""
 * ^context.expression = "ClinicalUseDefinition"
 
 * extension 0..0
-* value only CodeableConcept
+* value[x] only CodeableConcept
 
 Extension: InteractionReviewDate
 Id: stockleys-interaction-review-date
@@ -52,7 +52,7 @@ Description: ""
 * ^context.expression = "ClinicalUseDefinition"
 
 * extension 0..0
-* value only date
+* value[x] only date
 
 Extension: InteractionModificationDate
 Id: stockleys-interaction-modification-date
@@ -66,7 +66,7 @@ Description: ""
 * ^context.expression = "ClinicalUseDefinition"
 
 * extension 0..0
-* value only date
+* value[x] only date
 
 Extension: InteractionTextLink
 Id: stockleys-interaction-text-link
@@ -80,4 +80,4 @@ Description: ""
 * ^context.expression = "ClinicalUseDefinition"
 
 * extension 0..0
-* value only string
+* value[x] only string
