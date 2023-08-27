@@ -401,6 +401,72 @@
 <td>0</td>
 <td>draft</td>
 </tr>
+<tr>
+<td><a href='StructureDefinition-stockleys-interaction-modification-date.html'>stockleys-interaction-modification-date</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/stockleys-interaction-modification-date</td>
+<td>
+<div>ClinicalUseDefinition</div>
+</td>
+<td>undefined</td>
+<td></td>
+<td>0</td>
+<td>draft</td>
+</tr>
+<tr>
+<td><a href='StructureDefinition-stockleys-interaction-review-date.html'>stockleys-interaction-review-date</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/stockleys-interaction-review-date</td>
+<td>
+<div>ClinicalUseDefinition</div>
+</td>
+<td>undefined</td>
+<td></td>
+<td>0</td>
+<td>draft</td>
+</tr>
+<tr>
+<td><a href='StructureDefinition-stockleys-interaction-route.html'>stockleys-interaction-route</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/stockleys-interaction-route</td>
+<td>
+<div>ClinicalUseDefinition</div>
+</td>
+<td>undefined</td>
+<td></td>
+<td>0</td>
+<td>draft</td>
+</tr>
+<tr>
+<td><a href='StructureDefinition-stockleys-interaction-severity-code.html'>stockleys-interaction-severity-code</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/stockleys-interaction-severity-code</td>
+<td>
+<div>ClinicalUseDefinition</div>
+</td>
+<td>undefined</td>
+<td></td>
+<td>0</td>
+<td>draft</td>
+</tr>
+<tr>
+<td><a href='StructureDefinition-stockleys-interaction-text-link.html'>stockleys-interaction-text-link</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/stockleys-interaction-text-link</td>
+<td>
+<div>ClinicalUseDefinition</div>
+</td>
+<td>undefined</td>
+<td></td>
+<td>0</td>
+<td>draft</td>
+</tr>
+<tr>
+<td><a href='StructureDefinition-stockleys-interaction-warning-code.html'>stockleys-interaction-warning-code</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/stockleys-interaction-warning-code</td>
+<td>
+<div>ClinicalUseDefinition</div>
+</td>
+<td>undefined</td>
+<td></td>
+<td>0</td>
+<td>draft</td>
+</tr>
 </table>
 <a name="externalExtensions"> </a>
 <h3>Extensions used but defined elsewhere</h3>

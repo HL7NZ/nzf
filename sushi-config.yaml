@@ -12,7 +12,7 @@ publisher:
   email: mailto:reuben@illuminsoftware.com 
 status: draft
 version: 0.1.0
-fhirVersion: 4.0.1
+fhirVersion: 4.3.0
 copyrightYear: 2021+
 releaseLabel: ci-build
 

@@ -14,6 +14,11 @@
 <td>DocumentReference resource for NZ Formulary</td>
 </tr>
 <tr>
+<td><a href='StructureDefinition-NzfInteractionClinicalUseDefinition.html'>NzfInteractionClinicalUseDefinition</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/nzf-interaction-clinical-use-definition</td>
+<td>Interaction Clincial Use Definition resource for NZ Formulary</td>
+</tr>
+<tr>
 <td><a href='StructureDefinition-NzfMedication.html'>NzfMedication</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/nzf-medication</td>
 <td>Medication resource for NZ Formulary</td>
