@@ -59,11 +59,25 @@ A profile for interactions is provided [here](./StructureDefinition-NzfInteracti
 
 Takes a NZMT Id (MP, TP, MPP, TPP, MPUU, TPUU or CTPP) and returns the stockleys interactions for that given id
 
+##### Parameters
+
+**nzmtid**: fhir string - which is a NZMT Code for any of the following concepts (MP, TP, MPP, TPP, MPUU, TPUU or CTPP)
+**includeMedicationAndConceptMap**: boolean - which indicates whether the medication and concept maps should be included in the returned bundle
+
 GET [base]/Medication/$interactions-of?nzmtId=10037191000116105&includeMedicationAndConceptMap=true
 
 #### Interactions Between
 
 Takes two or more NZMT Ids (MP, TP, MPP, TPP, MPUU, TPUU or CTPP) and returns the stockleys interactions between those NZMT Ids
+
+##### Parameters
+
+**nzmtid**: fhir strings - two or more NZMT Codes for any of the following concepts (MP, TP, MPP, TPP, MPUU, TPUU or CTPP)
+
+**includeMedicationAndConceptMap**: boolean - which indicates whether the medication and concept maps should be included in the returned bundle
+
+**filterComplementaryRecords**: boolean - when true complementary clinical use definitions are filtered out.  These records are when an interaction is the same except the subject and interactant are reversed.
+
 
 [HttpPost]
 POST [base]/Medication/$interactions-between
@@ -83,6 +97,10 @@ content-type: application/json
     },
     {
       "name":"includeMedicationAndConceptMap",
+      "valueBoolean": true
+    },
+    {
+      "name":"filterComplementaryRecords",
       "valueBoolean": true
     }
   ]
