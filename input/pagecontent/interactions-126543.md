@@ -66,13 +66,13 @@ Takes a NZMT Id (MP, TP, MPP, TPP, MPUU, TPUU or CTPP) and returns the stockleys
 
 GET [base]/Medication/$interactions-of?nzmtId=10037191000116105&includeMedicationAndConceptMap=true
 
-#### Interactions Between
+#### Interactions Between - All
 
 Takes two or more NZMT Ids (MP, TP, MPP, TPP, MPUU, TPUU or CTPP) and returns the stockleys interactions between those NZMT Ids
 
 ##### Parameters
 
-**nzmtid**: fhir strings - two or more NZMT Codes for any of the following concepts (MP, TP, MPP, TPP, MPUU, TPUU or CTPP)
+**nzmtid**: fhir strings - two or more NZMT Codes from any of the following concepts (MP, TP, MPP, TPP, MPUU, TPUU or CTPP)
 
 **includeMedicationAndConceptMap**: boolean - which indicates whether the medication and concept maps should be included in the returned bundle
 
@@ -87,6 +87,55 @@ content-type: application/json
   "resourceType": "Parameters",
     "id": "560c7c61-2c70-4c54-b86d-c53a9d29495e",
     "parameter": [
+    {
+      "name": "nzmtid",
+      "valueString": "10037191000116105"
+    },
+    {
+      "name": "nzmtid",
+      "valueString": "10194111000116109"
+    },
+    {
+      "name":"includeMedicationAndConceptMap",
+      "valueBoolean": true
+    },
+    {
+      "name":"filterComplementaryRecords",
+      "valueBoolean": true
+    }
+  ]
+}
+```
+
+#### Interactions Between - Focussed
+
+Takes a single focussed nzmt id and one or more other nzmtids and returns interactions between the focussed nzmt and the other nzmt ids.  Interactions between the other nzmt ids are not performed.
+
+All NZMT Ids need to be within the following concepts  - MP, TP, MPP, TPP, MPUU, TPUU or CTPP.
+
+##### Parameters
+
+**focussednzmtid**: fhir string - a single NZMT Codes from any of the following concepts (MP, TP, MPP, TPP, MPUU, TPUU or CTPP)
+
+**nzmtid**: fhir strings - two or more NZMT Codes from any of the following concepts (MP, TP, MPP, TPP, MPUU, TPUU or CTPP)
+
+**includeMedicationAndConceptMap**: boolean - which indicates whether the medication and concept maps should be included in the returned bundle
+
+**filterComplementaryRecords**: boolean - when true complementary clinical use definitions are filtered out.  These records are when an interaction is the same except the subject and interactant are reversed.
+
+
+[HttpPost]
+POST [base]/Medication/$interactions-between
+content-type: application/json
+```
+{
+  "resourceType": "Parameters",
+    "id": "560c7c61-2c70-4c54-b86d-c53a9d29495e",
+    "parameter": [
+    {
+      "name": "focussednzmtid",
+      "valueString": "10010681000116105"
+    },      
     {
       "name": "nzmtid",
       "valueString": "10037191000116105"
