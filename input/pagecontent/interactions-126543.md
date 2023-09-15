@@ -1,13 +1,13 @@
 **DRAFT - SUBJECT TO CHANGE, NOT FOR CLINICAL USE**
 
-THE NZF/NZULM FHIR API provides support for interactions checking based on Stockleys Alerts.  This support comes in the form of two custom FHIR [Operations](https://hl7.org/fhir/R4B/operations.html).  The first provides a list of interactions for a given NZMT medication and the second provides a list of interactions between a list of NZMT medication codes.
+THE NZF/NZULM FHIR API provides support for interactions checking based on Stockleys Alerts.  This support comes in the form of two custom FHIR [Operations](https://hl7.org/fhir/R4B/operations.html).  The first provides a list of interactions for a given NZMT medication and the second provides a list of interactions between a list of NZMT medication codes.  This second API call can be limited to checking against a focussed nzmt id code.
 
 Each API call returns a Bundle which, alongside associated resources, returns a list of [ClnicalUseDefinitions](https://hl7.org/fhir/R4B/clinicaluseDefinition.html)
 
 
 ### Background
 
-TODO
+The NZ Formulary currently provides support for interactions checking via their websites and via the older webservice.  The older webservice is being phased out and being replaced by this newer FHIR API.  These custom operations provide support for interactions checking and should provide a level of familarity with the existing webservice calls.  Due to contractual constraints the interactions data (i.e. the clinical use definitions) can not be provided via a download or for searching via the standard FHIR API.  The only way to retrieve interactions data is via these custom operations.
 
 ### How it works
 
@@ -21,15 +21,13 @@ The system will retrieve the MP of 20025461000116102 - Paracetamol via the Medic
 
 The system will then determine that this MP is mapped to the Martidale Id of (2679-p - paracetamol)
 
-This martindale id is then used to retrieve the associated interactions (in the form of Clinical Use Defintions)
+This martindale id is then used to retrieve the associated interactions (in the form of Clinical Use Definitions)
 
 **Note** - It is possible that a submitted medication code (or a component of a medication) has not yet been mapped to a Martindale Id.  If this happens then an OperationalOutcome with a status of warning is returned.  The specific component can also be determined via the returned Medication and ConceptMap resources.
 
-TODO - Add example
-
 ### Custom Operations
 
-The interaction system has two distinct API methods, each of which return a bundle.  Both methods also allow for an optional parameter (includeMedicationAndConceptMap) to indicate whether the medication and concept map resources shouold be returned in the response bundle.
+The interaction system has two distinct API methods, each of which return a bundle.  Both methods also allow for an optional parameter (includeMedicationAndConceptMap) to indicate whether the medication and concept map resources should be returned in the response bundle.
 
 #### Bundle details
 
@@ -49,7 +47,64 @@ The full medication resource for each submitted NZMT code is returned in the Bun
 
 A partial [concept map](https://hl7.org/fhir/R4B/conceptmap.html) is provided detailing the mapping between NZMT MPs and their associated Martindale Ids.  If a MP has not yet been mapped to a Martindale Id then there will be no codes listed.  However, if a MP has attempted to be mapped by the NZF but no appropriate Martindale Id was determined then this is recorded as Unmatched in the Concept Map resource.
 
-TODO - Add example
+```
+{
+  "resourceType": "ConceptMap",
+  "id": "9f0ab0a4-5068-4616-b923-9ec3ff7a69da",
+  "status": "draft",
+  "group": [
+    {
+      "source": "http://nzmt.org.nz",
+      "target": "http://rpharms.com/mart-id",
+      "element": [
+        {
+          "code": "46125321000116100",
+          "target": [
+            {
+              "code": "20322-a",
+              "equivalence": "inexact",
+              "comment": "[NEEDS COMMENT]"
+            },
+            {
+              "code": "21229-g",
+              "equivalence": "inexact",
+              "comment": "[NEEDS COMMENT]"
+            },
+            {
+              "code": "22631-n",
+              "equivalence": "inexact",
+              "comment": "[NEEDS COMMENT]"
+            },
+            {
+              "code": "24730-x",
+              "equivalence": "inexact",
+              "comment": "[NEEDS COMMENT]"
+            },
+            {
+              "code": "9021-f",
+              "equivalence": "inexact",
+              "comment": "[NEEDS COMMENT]"
+            },
+            {
+              "code": "9043-v",
+              "equivalence": "inexact",
+              "comment": "[NEEDS COMMENT]"
+            }
+          ]
+        },
+        {
+          "code": "20006751000116107",
+          "target": [
+            {
+              "equivalence": "unmatched"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+```
 
 ##### Clinical Use Definitions (Interactions)
 
@@ -160,11 +215,9 @@ content-type: application/json
 
 Specific definitions of the codes are provided via Code system definitions.  More details to follow.  
 
-TODO
-
 ### Usage and display recommendation
 
-TODO
+Details to follow
 
 ### FAQ
 
