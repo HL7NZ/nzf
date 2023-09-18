@@ -1,6 +1,6 @@
 **DRAFT - SUBJECT TO CHANGE, NOT FOR CLINICAL USE**
 
-THE NZF/NZULM FHIR API provides support for interactions checking based on Stockleys Alerts.  This support comes in the form of two custom FHIR [Operations](https://hl7.org/fhir/R4B/operations.html).  The first provides a list of interactions for a given NZMT medication and the second provides a list of interactions between a list of NZMT medication codes.  This second API call can be limited to checking against a focussed nzmt id code.
+THE NZF/NZULM FHIR API provides support for interactions checking based on Stockley's Alerts.  This support comes in the form of two custom FHIR [Operations](https://hl7.org/fhir/R4B/operations.html).  The first provides a list of interactions for a given NZMT medication and the second provides a list of interactions between a list of NZMT medication codes.  This second API call can be limited to checking against a focussed nzmt id code.
 
 Each API call returns a Bundle which, alongside associated resources, returns a list of [ClnicalUseDefinitions](https://hl7.org/fhir/R4B/clinicaluseDefinition.html)
 
@@ -11,7 +11,7 @@ The NZ Formulary currently provides support for interactions checking via their 
 
 ### How it works
 
-Stockleys Alerts data is currently provided via XML in a drug to drug format using Martindale Ids as the code for each interactant.  Each interaction is a one to one interaction.  The New Zealand Formulary maps NZMT Medicinal Products (MP) to Martindale Ids to support retrieving interactions for the NZMT system.  When a NZMT code is submitted to the API, the related MP or MPs for each medication are retrieved.  These MPs are then used to get the mapped Martindale Ids which are then used to retrieve the appropriate interaction records in the form of ClinicalUseDefinitions.  In accordance with the intended design of the FHIR ClinicalUseDefinition each one to one stockleys interaction is mapped to two ClinicalUseDefinition records, the first has one interactant as the subject and the other as the interactant and the second has the subject and interactants switched.
+Stockley's Alerts data is currently provided via XML in a drug to drug format using Martindale Ids as the code for each interactant.  Each interaction is a one to one interaction.  The New Zealand Formulary maps NZMT Medicinal Products (MP) to Martindale Ids to support retrieving interactions for the NZMT system.  When a NZMT code is submitted to the API, the related MP or MPs for each medication are retrieved.  These MPs are then used to get the mapped Martindale Ids which are then used to retrieve the appropriate interaction records in the form of ClinicalUseDefinitions.  In accordance with the intended design of the FHIR ClinicalUseDefinition each one to one Stockley's interaction is mapped to two ClinicalUseDefinition records, the first has one interactant as the subject and the other as the interactant and the second has the subject and interactants switched.
 
 For example:
 
@@ -112,7 +112,7 @@ A profile for interactions is provided [here](./StructureDefinition-NzfInteracti
 
 #### Interactions Of
 
-Takes a NZMT Id (MP, TP, MPP, TPP, MPUU, TPUU or CTPP) and returns the stockleys interactions for that given id
+Takes a NZMT Id (MP, TP, MPP, TPP, MPUU, TPUU or CTPP) and returns the Stockley's interactions for that given id
 
 ##### Parameters
 
@@ -123,7 +123,7 @@ GET [base]/Medication/$interactions-of?nzmtId=10037191000116105&includeMedicatio
 
 #### Interactions Between - All
 
-Takes two or more NZMT Ids (MP, TP, MPP, TPP, MPUU, TPUU or CTPP) and returns the stockleys interactions between those NZMT Ids
+Takes two or more NZMT Ids (MP, TP, MPP, TPP, MPUU, TPUU or CTPP) and returns the Stockley's interactions between those NZMT Ids
 
 ##### Parameters
 
