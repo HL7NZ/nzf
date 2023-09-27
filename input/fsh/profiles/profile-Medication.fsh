@@ -11,6 +11,7 @@ Alias: $medsafe = http://hl7.org.nz/fhir/StructureDefinition/nzf-medsafe
 Alias: $pbb = http://hl7.org.nz/fhir/StructureDefinition/nzf-prescribe-by-brand
 Alias: $si = http://hl7.org.nz/fhir/StructureDefinition/nzf-supply-information
 Alias: $rm = http://hl7.org.nz/fhir/StructureDefinition/nzf-related-medication
+Alias: $nzfpack = http://hl7.org.nz/fhir/StructureDefinition/nzf-pack
 
 Profile:        NzfMedication
 Parent:         Medication
@@ -34,6 +35,7 @@ Description:    "Medication resource for NZ Formulary"
     $medsafe named medsafe 0..1 and
     $pbb named prescribebybrand 0..1 and
     $si named supplyinformation 0..* and
+    $nzfpack named nzfpack 0..1 and
     $rm named relatedmedication 0..*
 
 
@@ -50,6 +52,7 @@ Description:    "Medication resource for NZ Formulary"
 * extension[medsafe] ^short = "Medsafe details of the medication"
 * extension[prescribebybrand] ^short = "True if can be prescribed by brand"
 * extension[supplyinformation] ^short = "Supply information"
+* extension[nzfpack] ^short = "NZF Pack details"
 * extension[relatedmedication] ^short = "Related medication"
 
 * code only CodeableConcept

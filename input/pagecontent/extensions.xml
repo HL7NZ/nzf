@@ -163,6 +163,19 @@
     <td>Yes</td>
   </tr>
   <tr>
+    <td>NZF Pack details</td>
+    <td>
+      Unit quantity and  (if applicable) unit size details for the given medicine pack
+    </td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>Yes</td>
+  </tr>
+  <tr>
     <td>Related medication</td>
     <td>A related medication within the NZMT hierarchy</td>
     <td>Yes</td>
@@ -287,6 +300,17 @@
 <div>Medication</div>
 </td>
 <td>The NZ Medicines Terminology (NZMT) Data Class – MP (Medicinal Product), MPUU (Medicinal Product Unit of Use), MPP (Medicinal Product Pack), TP (Trade Product), TPUU (Trade Product Unit of Use), TPP (Trade Product Pack) or CTPP (Containered Trade Product Pack) – that the Medication is a member of.</td>
+<td></td>
+<td>0</td>
+<td>draft</td>
+</tr>
+<tr>
+<td><a href='StructureDefinition-nzf-pack.html'>nzf-pack</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/nzf-pack</td>
+<td>
+<div>Medication</div>
+</td>
+<td>NZF Pack detail</td>
 <td></td>
 <td>0</td>
 <td>draft</td>

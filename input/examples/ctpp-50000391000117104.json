@@ -1,442 +1,476 @@
 {
-    "resourceType": "Medication",
-    "id": "ctpp-50000391000117104",
-    "meta": {
-        "versionId": "1",
-        "lastUpdated": "2023-06-19T11:30:10.527+00:00"
-    },
-    "text": {
-        "status": "generated",
-        "div": "<div xmlns='http://www.w3.org/1999/xhtml'>Glycoprep-C lemon oral liquid: powder for, 1 x 70 g sachet (ctpp) - 50000391000117104</div>"
-    },
-    "extension": [
-        {
-            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-atc",
-            "valueCodeableConcept": {
-                "coding": [
-                    {
-                        "system": "http://www.whocc.no/atc",
-                        "code": "A06AD65",
-                        "display": "Macrogol, combinations"
-                    }
-                ],
-                "text": "Macrogol, combinations"
-            }
-        },
-        {
-            "extension": [
-                {
-                    "url": "type",
-                    "valueCodeableConcept": {
-                        "coding": [
-                            {
-                                "system": "http://nzmt.org.nz",
-                                "code": "20069071000116107",
-                                "display": "Preferred Term"
-                            }
-                        ],
-                        "text": "Preferred Term"
-                    }
-                },
-                {
-                    "url": "term",
-                    "valueCodeableConcept": {
-                        "coding": [
-                            {
-                                "system": "http://nzmt.org.nz",
-                                "code": "24035031000116117",
-                                "display": "Glycoprep-C lemon oral liquid: powder for, 1 x 70 g sachet"
-                            }
-                        ],
-                        "text": "Glycoprep-C lemon oral liquid: powder for, 1 x 70 g sachet"
-                    }
-                }
-            ],
-            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-description"
-        },
-        {
-            "extension": [
-                {
-                    "url": "type",
-                    "valueCodeableConcept": {
-                        "coding": [
-                            {
-                                "system": "http://nzmt.org.nz",
-                                "code": "20072381000116109",
-                                "display": "Fully Specified Name"
-                            }
-                        ],
-                        "text": "Fully Specified Name"
-                    }
-                },
-                {
-                    "url": "term",
-                    "valueCodeableConcept": {
-                        "coding": [
-                            {
-                                "system": "http://nzmt.org.nz",
-                                "code": "24035041000116112",
-                                "display": "Glycoprep-C lemon (ascorbic acid 5.96 g + macrogol-3350 52.9 g + potassium chloride 739 mg (potassium 10 mmol) + sodium chloride 2.61 g + sodium sulfate 5.64 g) oral liquid: powder for, 1 x 70g sachet (containered trade product pack)"
-                            }
-                        ],
-                        "text": "Glycoprep-C lemon (ascorbic acid 5.96 g + macrogol-3350 52.9 g + potassium chloride 739 mg (potassium 10 mmol) + sodium chloride 2.61 g + sodium sulfate 5.64 g) oral liquid: powder for, 1 x 70g sachet (containered trade product pack)"
-                    }
-                }
-            ],
-            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-description"
-        },
-        {
-            "extension": [
-                {
-                    "url": "type",
-                    "valueCodeableConcept": {
-                        "coding": [
-                            {
-                                "system": "http://nzmt.org.nz",
-                                "code": "24312321000116102",
-                                "display": "Sort Name"
-                            }
-                        ],
-                        "text": "Sort Name"
-                    }
-                },
-                {
-                    "url": "term",
-                    "valueCodeableConcept": {
-                        "coding": [
-                            {
-                                "system": "http://nzmt.org.nz",
-                                "code": "26643661000116116",
-                                "display": "Glycoprep-C lemon oral liquid: powder for, 1 x 070 g sachet"
-                            }
-                        ],
-                        "text": "Glycoprep-C lemon oral liquid: powder for, 1 x 070 g sachet"
-                    }
-                }
-            ],
-            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-description"
-        },
-        {
-            "extension": [
-                {
-                    "url": "code",
-                    "valueCodeableConcept": {
-                        "coding": [
-                            {
-                                "system": "https://standards.digital.health.nz/ns/medicine-classification-code",
-                                "code": "RM"
-                            }
-                        ],
-                        "text": "Restricted"
-                    }
-                }
-            ],
-            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-legalclass"
-        },
-        {
-            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-link",
-            "valueReference": {
-                "reference": "DocumentReference/b578c1c1-cd61-4675-9929-bd5fa55ec268",
-                "identifier": {
-                    "system": "https://standards.digital.health.nz/ns/nzf-monograph-code",
-                    "value": "nzf_10182"
-                },
-                "display": "nzf_10182"
-            }
-        },
-        {
-            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-link",
-            "valueReference": {
-                "reference": "DocumentReference/6c675a61-c0be-4a1a-8ba6-d4de5429a0df",
-                "display": "Datasheet for 50000391000117104"
-            }
-        },
-        {
-            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-link",
-            "valueReference": {
-                "reference": "DocumentReference/773781f6-7253-4754-92c6-4f3605e2347d",
-                "display": "CMI for 50000391000117104"
-            }
-        },
-        {
-            "extension": [
-                {
-                    "url": "status",
-                    "valueCodeableConcept": {
-                        "text": "Active"
-                    }
-                },
-                {
-                    "url": "regSituation",
-                    "valueCodeableConcept": {
-                        "text": "Consent given"
-                    }
-                },
-                {
-                    "url": "administrationRoute",
-                    "valueCodeableConcept": {
-                        "text": "Oral"
-                    }
-                }
-            ],
-            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-medsafe"
-        },
-        {
-            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-nzmt-type",
-            "valueCodeableConcept": {
-                "coding": [
-                    {
-                        "system": "https://standards.digital.health.nz/ns/nzmt-type-code",
-                        "code": "ctpp"
-                    }
-                ]
-            }
-        },
-        {
-            "extension": [
-                {
-                    "url": "code",
-                    "valueCodeableConcept": {
-                        "coding": [
-                            {
-                                "system": "http://nzmt.org.nz",
-                                "code": "24307041000116108",
-                                "display": "Glycoprep-C lemon (ascorbic acid 5.96 g + macrogol-3350 52.9 g + potassium chloride 739 mg (potassium 10 mmol) + sodium chloride 2.61 g + sodium sulfate 5.64 g) oral liquid: powder for, 70 g sachet"
-                            }
-                        ],
-                        "text": "Glycoprep-C lemon (ascorbic acid 5.96 g + macrogol-3350 52.9 g + potassium chloride 739 mg (potassium 10 mmol) + sodium chloride 2.61 g + sodium sulfate 5.64 g) oral liquid: powder for, 70 g sachet"
-                    }
-                },
-                {
-                    "url": "type",
-                    "valueCodeableConcept": {
-                        "coding": [
-                            {
-                                "system": "https://standards.digital.health.nz/ns/nzmt-type-code",
-                                "code": "tpuu"
-                            }
-                        ]
-                    }
-                }
-            ],
-            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-related-medication"
-        },
-        {
-            "extension": [
-                {
-                    "url": "code",
-                    "valueCodeableConcept": {
-                        "coding": [
-                            {
-                                "system": "http://nzmt.org.nz",
-                                "code": "10311411000116108",
-                                "display": "ascorbic acid 5.96 g + macrogol-3350 52.9 g + potassium chloride 739 mg (potassium 10 mmol) + sodium chloride 2.61 g + sodium sulfate 5.64 g oral liquid: powder for, 70 g sachet"
-                            }
-                        ],
-                        "text": "ascorbic acid 5.96 g + macrogol-3350 52.9 g + potassium chloride 739 mg (potassium 10 mmol) + sodium chloride 2.61 g + sodium sulfate 5.64 g oral liquid: powder for, 70 g sachet"
-                    }
-                },
-                {
-                    "url": "type",
-                    "valueCodeableConcept": {
-                        "coding": [
-                            {
-                                "system": "https://standards.digital.health.nz/ns/nzmt-type-code",
-                                "code": "mpuu"
-                            }
-                        ]
-                    }
-                }
-            ],
-            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-related-medication"
-        },
-        {
-            "extension": [
-                {
-                    "url": "code",
-                    "valueCodeableConcept": {
-                        "coding": [
-                            {
-                                "system": "http://nzmt.org.nz",
-                                "code": "20477391000116100",
-                                "display": "ascorbic acid + macrogol-3350 + potassium chloride + sodium chloride + sodium sulfate"
-                            }
-                        ],
-                        "text": "ascorbic acid + macrogol-3350 + potassium chloride + sodium chloride + sodium sulfate"
-                    }
-                },
-                {
-                    "url": "type",
-                    "valueCodeableConcept": {
-                        "coding": [
-                            {
-                                "system": "https://standards.digital.health.nz/ns/nzmt-type-code",
-                                "code": "mp"
-                            }
-                        ]
-                    }
-                }
-            ],
-            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-related-medication"
-        },
-        {
-            "extension": [
-                {
-                    "url": "code",
-                    "valueCodeableConcept": {
-                        "coding": [
-                            {
-                                "system": "http://nzmt.org.nz",
-                                "code": "10311451000116107"
-                            }
-                        ]
-                    }
-                },
-                {
-                    "url": "type",
-                    "valueCodeableConcept": {
-                        "coding": [
-                            {
-                                "system": "https://standards.digital.health.nz/ns/nzmt-type-code",
-                                "code": "tpp"
-                            }
-                        ]
-                    }
-                }
-            ],
-            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-related-medication"
-        },
-        {
-            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-unapproved",
-            "valueBoolean": false
-        }
-    ],
-    "code": {
+  "resourceType": "Medication",
+  "id": "50000391000117104",
+  "meta": {
+    "versionId": "2",
+    "lastUpdated": "2023-09-21T01:58:06.572+00:00"
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns='http://www.w3.org/1999/xhtml'>Glycoprep-C lemon oral liquid: powder for, 1 x 70 g sachet (ctpp) - 50000391000117104</div>"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-atc",
+      "valueCodeableConcept": {
         "coding": [
-            {
-                "system": "http://nzmt.org.nz",
-                "code": "50000391000117104",
-                "display": "Glycoprep-C lemon oral liquid: powder for, 1 x 70 g sachet"
-            },
-            {
-                "extension": [
-                    {
-                        "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-is-primary-coding",
-                        "valueBoolean": true
-                    }
-                ],
-                "system": "https://standards.digital.health.nz/ns/pharmac-subsidy-code",
-                "code": "2003899"
-            }
-        ]
+          {
+            "system": "http://www.whocc.no/atc",
+            "code": "A06AD65",
+            "display": "Macrogol, combinations"
+          }
+        ],
+        "text": "Macrogol, combinations"
+      }
     },
-    "status": "active",
-    "ingredient": [
+    {
+      "extension": [
         {
-            "itemCodeableConcept": {
-                "coding": [
-                    {
-                        "system": "http://nzmt.org.nz",
-                        "code": "30781011000036102",
-                        "display": "ascorbic acid"
-                    }
-                ]
-            },
-            "isActive": true,
-            "strength": {
-                "numerator": {
-                    "value": 5.96,
-                    "unit": "g",
-                    "system": "http://nzmt.org.nz",
-                    "code": "100011000036107"
-                }
-            }
-        },
-        {
-            "itemCodeableConcept": {
-                "coding": [
-                    {
-                        "system": "http://nzmt.org.nz",
-                        "code": "2799011000036106",
-                        "display": "macrogol-3350"
-                    }
-                ]
-            },
-            "isActive": true,
-            "strength": {
-                "numerator": {
-                    "value": 52.9,
-                    "unit": "g",
-                    "system": "http://nzmt.org.nz",
-                    "code": "100011000036107"
-                }
-            }
-        },
-        {
-            "extension": [
-                {
-                    "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-alternate-strength-representation",
-                    "valueString": "potassium 10 mmol"
-                }
+          "url": "type",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://nzmt.org.nz",
+                "code": "20069071000116107",
+                "display": "Preferred Term"
+              }
             ],
-            "itemCodeableConcept": {
-                "coding": [
-                    {
-                        "system": "http://nzmt.org.nz",
-                        "code": "2500011000036101",
-                        "display": "potassium chloride"
-                    }
-                ]
-            },
-            "isActive": true,
-            "strength": {
-                "numerator": {
-                    "value": 739,
-                    "unit": "mg",
-                    "system": "http://nzmt.org.nz",
-                    "code": "99011000036109"
-                }
-            }
+            "text": "Preferred Term"
+          }
         },
         {
-            "itemCodeableConcept": {
-                "coding": [
-                    {
-                        "system": "http://nzmt.org.nz",
-                        "code": "2591011000036106",
-                        "display": "sodium chloride"
-                    }
-                ]
-            },
-            "isActive": true,
-            "strength": {
-                "numerator": {
-                    "value": 2.61,
-                    "unit": "g",
-                    "system": "http://nzmt.org.nz",
-                    "code": "100011000036107"
-                }
-            }
-        },
-        {
-            "itemCodeableConcept": {
-                "coding": [
-                    {
-                        "system": "http://nzmt.org.nz",
-                        "code": "52367011000036107",
-                        "display": "sodium sulfate"
-                    }
-                ]
-            },
-            "isActive": true,
-            "strength": {
-                "numerator": {
-                    "value": 5.64,
-                    "unit": "g",
-                    "system": "http://nzmt.org.nz",
-                    "code": "100011000036107"
-                }
-            }
+          "url": "term",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://nzmt.org.nz",
+                "code": "24035031000116117",
+                "display": "Glycoprep-C lemon oral liquid: powder for, 1 x 70 g sachet"
+              }
+            ],
+            "text": "Glycoprep-C lemon oral liquid: powder for, 1 x 70 g sachet"
+          }
         }
+      ],
+      "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-description"
+    },
+    {
+      "extension": [
+        {
+          "url": "type",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://nzmt.org.nz",
+                "code": "20072381000116109",
+                "display": "Fully Specified Name"
+              }
+            ],
+            "text": "Fully Specified Name"
+          }
+        },
+        {
+          "url": "term",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://nzmt.org.nz",
+                "code": "24035041000116112",
+                "display": "Glycoprep-C lemon (ascorbic acid 5.96 g + macrogol-3350 52.9 g + potassium chloride 739 mg (potassium 10 mmol) + sodium chloride 2.61 g + sodium sulfate 5.64 g) oral liquid: powder for, 1 x 70g sachet (containered trade product pack)"
+              }
+            ],
+            "text": "Glycoprep-C lemon (ascorbic acid 5.96 g + macrogol-3350 52.9 g + potassium chloride 739 mg (potassium 10 mmol) + sodium chloride 2.61 g + sodium sulfate 5.64 g) oral liquid: powder for, 1 x 70g sachet (containered trade product pack)"
+          }
+        }
+      ],
+      "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-description"
+    },
+    {
+      "extension": [
+        {
+          "url": "type",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://nzmt.org.nz",
+                "code": "24312321000116102",
+                "display": "Sort Name"
+              }
+            ],
+            "text": "Sort Name"
+          }
+        },
+        {
+          "url": "term",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://nzmt.org.nz",
+                "code": "26643661000116116",
+                "display": "Glycoprep-C lemon oral liquid: powder for, 1 x 070 g sachet"
+              }
+            ],
+            "text": "Glycoprep-C lemon oral liquid: powder for, 1 x 070 g sachet"
+          }
+        }
+      ],
+      "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-description"
+    },
+    {
+      "extension": [
+        {
+          "url": "code",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "https://standards.digital.health.nz/ns/medicine-classification-code",
+                "code": "RM"
+              }
+            ],
+            "text": "Restricted"
+          }
+        }
+      ],
+      "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-legalclass"
+    },
+    {
+      "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-link",
+      "valueReference": {
+        "reference": "DocumentReference/b578c1c1-cd61-4675-9929-bd5fa55ec268",
+        "identifier": {
+          "system": "https://standards.digital.health.nz/ns/nzf-monograph-code",
+          "value": "nzf_10182"
+        },
+        "display": "nzf_10182"
+      }
+    },
+    {
+      "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-link",
+      "valueReference": {
+        "reference": "DocumentReference/6c675a61-c0be-4a1a-8ba6-d4de5429a0df",
+        "display": "Datasheet for 50000391000117104"
+      }
+    },
+    {
+      "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-link",
+      "valueReference": {
+        "reference": "DocumentReference/773781f6-7253-4754-92c6-4f3605e2347d",
+        "display": "CMI for 50000391000117104"
+      }
+    },
+    {
+      "extension": [
+        {
+          "url": "status",
+          "valueCodeableConcept": {
+            "text": "Active"
+          }
+        },
+        {
+          "url": "regSituation",
+          "valueCodeableConcept": {
+            "text": "Consent given"
+          }
+        },
+        {
+          "url": "administrationRoute",
+          "valueCodeableConcept": {
+            "text": "Oral"
+          }
+        }
+      ],
+      "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-medsafe"
+    },
+    {
+      "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-nzmt-type",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "https://standards.digital.health.nz/ns/nzmt-type-code",
+            "code": "ctpp"
+          }
+        ]
+      }
+    },
+    {
+      "extension": [
+        {
+          "url": "nzmtMedicineCode",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://nzmt.org.nz",
+                "code": "24307041000116108"
+              }
+            ]
+          }
+        },
+        {
+          "url": "quantity",
+          "valueQuantity": {
+            "value": 1,
+            "unit": "sachet",
+            "system": "http://nzmt.org.nz",
+            "code": "31011000036100"
+          }
+        },
+        {
+          "url": "size",
+          "valueQuantity": {
+            "value": 70,
+            "unit": "g",
+            "system": "http://nzmt.org.nz",
+            "code": "100011000036107"
+          }
+        }
+      ],
+      "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-pack"
+    },
+    {
+      "extension": [
+        {
+          "url": "code",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://nzmt.org.nz",
+                "code": "24307041000116108",
+                "display": "Glycoprep-C lemon (ascorbic acid 5.96 g + macrogol-3350 52.9 g + potassium chloride 739 mg (potassium 10 mmol) + sodium chloride 2.61 g + sodium sulfate 5.64 g) oral liquid: powder for, 70 g sachet"
+              }
+            ],
+            "text": "Glycoprep-C lemon (ascorbic acid 5.96 g + macrogol-3350 52.9 g + potassium chloride 739 mg (potassium 10 mmol) + sodium chloride 2.61 g + sodium sulfate 5.64 g) oral liquid: powder for, 70 g sachet"
+          }
+        },
+        {
+          "url": "type",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "https://standards.digital.health.nz/ns/nzmt-type-code",
+                "code": "tpuu"
+              }
+            ]
+          }
+        }
+      ],
+      "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-related-medication"
+    },
+    {
+      "extension": [
+        {
+          "url": "code",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://nzmt.org.nz",
+                "code": "10311411000116108",
+                "display": "ascorbic acid 5.96 g + macrogol-3350 52.9 g + potassium chloride 739 mg (potassium 10 mmol) + sodium chloride 2.61 g + sodium sulfate 5.64 g oral liquid: powder for, 70 g sachet"
+              }
+            ],
+            "text": "ascorbic acid 5.96 g + macrogol-3350 52.9 g + potassium chloride 739 mg (potassium 10 mmol) + sodium chloride 2.61 g + sodium sulfate 5.64 g oral liquid: powder for, 70 g sachet"
+          }
+        },
+        {
+          "url": "type",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "https://standards.digital.health.nz/ns/nzmt-type-code",
+                "code": "mpuu"
+              }
+            ]
+          }
+        }
+      ],
+      "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-related-medication"
+    },
+    {
+      "extension": [
+        {
+          "url": "code",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://nzmt.org.nz",
+                "code": "20477391000116100",
+                "display": "ascorbic acid + macrogol-3350 + potassium chloride + sodium chloride + sodium sulfate"
+              }
+            ],
+            "text": "ascorbic acid + macrogol-3350 + potassium chloride + sodium chloride + sodium sulfate"
+          }
+        },
+        {
+          "url": "type",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "https://standards.digital.health.nz/ns/nzmt-type-code",
+                "code": "mp"
+              }
+            ]
+          }
+        }
+      ],
+      "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-related-medication"
+    },
+    {
+      "extension": [
+        {
+          "url": "code",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://nzmt.org.nz",
+                "code": "10311451000116107"
+              }
+            ]
+          }
+        },
+        {
+          "url": "type",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "https://standards.digital.health.nz/ns/nzmt-type-code",
+                "code": "tpp"
+              }
+            ]
+          }
+        }
+      ],
+      "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-related-medication"
+    },
+    {
+      "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-unapproved",
+      "valueBoolean": false
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://nzmt.org.nz",
+        "code": "50000391000117104",
+        "display": "Glycoprep-C lemon oral liquid: powder for, 1 x 70 g sachet"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-is-primary-coding",
+            "valueBoolean": true
+          }
+        ],
+        "system": "https://standards.digital.health.nz/ns/pharmac-subsidy-code",
+        "code": "2003899"
+      }
     ]
+  },
+  "status": "active",
+  "ingredient": [
+    {
+      "itemCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://nzmt.org.nz",
+            "code": "30781011000036102",
+            "display": "ascorbic acid"
+          }
+        ]
+      },
+      "isActive": true,
+      "strength": {
+        "numerator": {
+          "value": 5.96,
+          "unit": "g",
+          "system": "http://nzmt.org.nz",
+          "code": "100011000036107"
+        }
+      }
+    },
+    {
+      "itemCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://nzmt.org.nz",
+            "code": "2799011000036106",
+            "display": "macrogol-3350"
+          }
+        ]
+      },
+      "isActive": true,
+      "strength": {
+        "numerator": {
+          "value": 52.9,
+          "unit": "g",
+          "system": "http://nzmt.org.nz",
+          "code": "100011000036107"
+        }
+      }
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-alternate-strength-representation",
+          "valueString": "potassium 10 mmol"
+        }
+      ],
+      "itemCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://nzmt.org.nz",
+            "code": "2500011000036101",
+            "display": "potassium chloride"
+          }
+        ]
+      },
+      "isActive": true,
+      "strength": {
+        "numerator": {
+          "value": 739,
+          "unit": "mg",
+          "system": "http://nzmt.org.nz",
+          "code": "99011000036109"
+        }
+      }
+    },
+    {
+      "itemCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://nzmt.org.nz",
+            "code": "2591011000036106",
+            "display": "sodium chloride"
+          }
+        ]
+      },
+      "isActive": true,
+      "strength": {
+        "numerator": {
+          "value": 2.61,
+          "unit": "g",
+          "system": "http://nzmt.org.nz",
+          "code": "100011000036107"
+        }
+      }
+    },
+    {
+      "itemCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://nzmt.org.nz",
+            "code": "52367011000036107",
+            "display": "sodium sulfate"
+          }
+        ]
+      },
+      "isActive": true,
+      "strength": {
+        "numerator": {
+          "value": 5.64,
+          "unit": "g",
+          "system": "http://nzmt.org.nz",
+          "code": "100011000036107"
+        }
+      }
+    }
+  ]
 }
