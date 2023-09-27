@@ -1,180 +1,4 @@
 <div xmlns='http://www.w3.org/1999/xhtml'>
-<p>
-  The standard Medication resource provides the key information needed for
-  integration however we have defined several extensions to allow for the
-  addition of specific NZULM/Formulary information. The following table
-  describes these extensions and shows which extensions apply to which
-  medication type.
-</p>
-
-<table class="table table-bordered">
-  <tr>
-    <th>Extension</th>
-    <th>Description</th>
-    <th>MP</th>
-    <th>TP</th>
-    <th>MPUU</th>
-    <th>TPUU</th>
-    <th>MPP</th>
-    <th>TPP</th>
-    <th>CTPP</th>
-  </tr>
-  <tr>
-    <td>Type</td>
-    <td>Type of NZMT reference (e.g. CTPP, MPUU) etc.</td>
-    <td>Yes</td>
-    <td>Yes</td>
-    <td>Yes</td>
-    <td>Yes</td>
-    <td>Yes</td>
-    <td>Yes</td>
-    <td>Yes</td>
-  </tr>
-  <tr>
-    <td>Descriptions</td>
-    <td>Specific NZMT descriptions that apply to this medication</td>
-    <td>Yes</td>
-    <td>Yes</td>
-    <td>Yes</td>
-    <td>Yes</td>
-    <td>Yes</td>
-    <td>Yes</td>
-    <td>Yes</td>
-  </tr>
-  <tr>
-    <td>Cautionary and Advisory Labels (CALs)</td>
-    <td>
-      List of all Cautionary and Advisory labels associated with the medication
-    </td>
-    <td></td>
-    <td></td>
-    <td>Yes</td>
-    <td>Yes</td>
-    <td>Yes</td>
-    <td>Yes</td>
-    <td>Yes</td>
-  </tr>
-  <tr>
-    <td>ATC</td>
-    <td>The Anatomical Therapeutic Chemical Classification code(s)</td>
-    <td>Yes</td>
-    <td></td>
-    <td>Yes</td>
-    <td>Yes</td>
-    <td>Yes</td>
-    <td>Yes</td>
-    <td>Yes</td>
-  </tr>
-  <tr>
-    <td>Unapproved</td>
-    <td>
-      True if the medication has not been approved by Medsafe and can be
-      prescribed under section 29
-    </td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td>Yes</td>
-  </tr>
-  <tr>
-    <td>Legal Classification</td>
-    <td>Medsafe legal classification</td>
-    <td></td>
-    <td></td>
-    <td>Yes</td>
-    <td>Yes</td>
-    <td></td>
-    <td></td>
-    <td>Yes</td>
-  </tr>
-  <tr>
-    <td>Medsafe</td>
-    <td>Medsafe status, regSituation and routes of administation</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td>Yes</td>
-  </tr>
-  <tr>
-    <td>Prescribe by Brand</td>
-    <td>Whether the medication should be prescribed by brand or not</td>
-    <td></td>
-    <td></td>
-    <td>Yes</td>
-    <td></td>
-    <td>Yes</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Funding</td>
-    <td>NZ specific funding information provided by PHARMAC</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td>Yes</td>
-  </tr>
-  <tr>
-    <td>Funding rules</td>
-    <td>
-      The rules and constraints around funding for the given medicine provided
-      by PHARMAC
-    </td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td>Yes</td>
-  </tr>
-  <tr>
-    <td>PHARMAC Supply Information</td>
-    <td>PHARMAC provided information detailing medication supply issues</td>
-    <td>Yes</td>
-    <td>Yes</td>
-    <td>Yes</td>
-    <td>Yes</td>
-    <td>Yes</td>
-    <td>Yes</td>
-    <td>Yes</td>
-  </tr>
-  <tr>
-    <td>Links</td>
-    <td>
-      Links to associated resources, such as monographs, datasheets and patient
-      information leaflets
-    </td>
-    <td>Yes</td>
-    <td>Yes</td>
-    <td>Yes</td>
-    <td>Yes</td>
-    <td>Yes</td>
-    <td>Yes</td>
-    <td>Yes</td>
-  </tr>
-  <tr>
-    <td>Related medication</td>
-    <td>A related medication within the NZMT hierarchy</td>
-    <td>Yes</td>
-    <td>Yes</td>
-    <td>Yes</td>
-    <td>Yes</td>
-    <td>Yes</td>
-    <td>Yes</td>
-    <td>Yes</td>
-  </tr>
-</table>
-
 <br/><strong>Extensions defined in this guide</strong><br/><br/>
 <table width='100%' border='1' cellspacing='0' cellpadding='5px'>
 <tr><th>Id</th><th>Url</th><th>Context of Use</th><th>Description</th><th>Purpose</th>
@@ -287,6 +111,17 @@
 <div>Medication</div>
 </td>
 <td>The NZ Medicines Terminology (NZMT) Data Class – MP (Medicinal Product), MPUU (Medicinal Product Unit of Use), MPP (Medicinal Product Pack), TP (Trade Product), TPUU (Trade Product Unit of Use), TPP (Trade Product Pack) or CTPP (Containered Trade Product Pack) – that the Medication is a member of.</td>
+<td></td>
+<td>0</td>
+<td>draft</td>
+</tr>
+<tr>
+<td><a href='StructureDefinition-nzf-pack.html'>nzf-pack</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/nzf-pack</td>
+<td>
+<div>Medication</div>
+</td>
+<td>NZF Pack detail</td>
 <td></td>
 <td>0</td>
 <td>draft</td>

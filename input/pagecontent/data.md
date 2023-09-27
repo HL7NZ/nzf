@@ -786,6 +786,51 @@ Extension - [nzf-legalclass extension](./StructureDefinition-nzf-legalclass.html
 
 Valueset - [Definition](./ValueSet-medicine-classification-code.html) 
 
+### NZF Pack details
+
+NZF Pack details based on linked NZMT TPUU (Trade Product Unit of Use) details are added to CTPPs via the nzf-pack extension.  
+
+#### Usage details
+
+**Example FHIR Data**
+
+CTPP level
+```
+{
+  "extension": [
+    {
+      "url": "nzmtMedicineCode",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://nzmt.org.nz",
+            "code": "10491491000116107"
+          }
+        ]
+      }
+    },
+    {
+      "url": "quantity",
+      "valueQuantity": {
+        "value": 12,
+        "unit": "tablet",
+        "system": "http://nzmt.org.nz",
+        "code": "63011000036109"
+      }
+    },
+    {
+      "url": "size",
+      "valueQuantity": {
+        "value": 1,
+        "unit": "tablet",
+        "system": "http://nzmt.org.nz",
+        "code": "63011000036109"
+      }
+    }
+  ],
+  "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-pack"
+}
+
 
 ### Monographs / Monograph Links
 
