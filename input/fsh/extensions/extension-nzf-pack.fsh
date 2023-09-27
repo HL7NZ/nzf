@@ -18,7 +18,7 @@ Description: "NZF Pack detail"
 * extension[nzmtMedicineCode] ^definition = "NZMT reference code"
 * extension[nzmtMedicineCode] ^short = "NZMT reference"
 * extension[nzmtMedicineCode].value[x] only CodeableConcept 
-* extension[nzmtMedicineCode].valueCodeableConcept from https://nzhts.digital.health.nz/fhir/ValueSet/medicine-classification-code
+* extension[nzmtMedicineCode].valueCodeableConcept from http://nzmt.org.nz/vs
 
 * extension[quantity].url = "quantity" (exactly)
 * extension[quantity] ^definition = "NZF Pack quantity of units"
