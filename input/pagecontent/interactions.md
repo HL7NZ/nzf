@@ -5,6 +5,7 @@ THE NZF/NZULM FHIR API provides support for interactions checking based on Stock
 Each API call returns a Bundle which, alongside associated resources, returns a list of [ClnicalUseDefinitions](https://hl7.org/fhir/R4B/clinicaluseDefinition.html)
 
 
+
 ### Background
 
 The NZ Formulary currently provides support for interactions checking via their websites and via the older webservice.  The older webservice is being phased out and being replaced by this newer FHIR API.  These custom operations provide support for interactions checking and should provide a level of familarity with the existing webservice calls.  Due to contractual constraints the interactions data (i.e. the clinical use definitions) can not be provided via a download or for searching via the standard FHIR API.  The only way to retrieve interactions data is via these custom operations.
