@@ -10,9 +10,9 @@ description: IG that details how to use the New Zealand Formulary/NZULM FHIR ser
 publisher:
   name: New Zealand Medicines Formulary LP
   email: mailto:fhir@nzformulary.org
-status: draft
+status: active
 version: 1.0.0
-fhirVersion: 4.0.1
+fhirVersion: 4.3.0
 copyrightYear: 2021+
 releaseLabel: ci-build
 
