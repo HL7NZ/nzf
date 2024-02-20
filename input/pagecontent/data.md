@@ -2282,7 +2282,7 @@ Where applicable Pharmacodes® are added to CTPP resources.
 
 These codes are added as a code in the medication code field alongside the NZMT code and any other applicable code.
 
-Currently only the primary pharmacode is added to a record which is indicated via the nzf-is-primary-coding extension (shown below) however it is possible in the future, older codes will be added where applicable.
+A primary pharmacode is indicated via the nzf-is-primary-coding extension (shown below) and older codes are also added where applicable.
 
 Note - the code system used for Pharmacode<sup>®</sup> is https://standards.digital.health.nz/ns/pharmac-subsidy-code.  The reason for this is that on occassion a new code can be created by PHARMAC for generic funding purposes.  
 
