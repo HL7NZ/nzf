@@ -3,15 +3,16 @@
 # │  supported properties, see: https://fshschool.org/sushi/configuration/                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: hl7.org.nz.fhir.ig.formulary
-canonical: http://hl7.org.nz/fhir/ig/formulary
+canonical: https://fhir-docs.nzf.org.nz
+url: https://fhir-docs.nzf.org.nz 
 name: NZFormulary IG
 title: HL7 FHIR Implementation Guide - New Zealand Formulary/NZULM IG
 description: IG that details how to use the New Zealand Formulary/NZULM FHIR server
 publisher:
   name: New Zealand Medicines Formulary LP
-  email: mailto:reuben@illuminsoftware.com 
-status: draft
-version: 0.1.0
+  email: mailto:fhir@nzformulary.org
+status: active
+version: 1.0.0
 fhirVersion: 4.3.0
 copyrightYear: 2021+
 releaseLabel: ci-build
