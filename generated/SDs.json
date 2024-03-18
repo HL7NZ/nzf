@@ -13,7 +13,7 @@
                 "url": "http://hl7.org.nz/fhir/StructureDefinition/NzfCoding",
                 "name": "NzfCoding",
                 "title": "Coding resource for NZ Formulary",
-                "status": "active",
+                "status": "draft",
                 "description": "Coding resource for NZ Formulary",
                 "jurisdiction": [
                     {
@@ -521,7 +521,7 @@
                 "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-documentreference",
                 "name": "NzfDocumentReference",
                 "title": "DocumentReference resource for NZ Formulary",
-                "status": "active",
+                "status": "draft",
                 "description": "DocumentReference resource for NZ Formulary",
                 "jurisdiction": [
                     {
@@ -2977,7 +2977,7 @@
                 "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-interaction-clinical-use-definition",
                 "name": "NzfInteractionClinicalUseDefinition",
                 "title": "Interaction Clincial Use Definition resource for NZ Formulary",
-                "status": "active",
+                "status": "draft",
                 "description": "Interaction Clincial Use Definition resource for NZ Formulary",
                 "jurisdiction": [
                     {
@@ -6885,7 +6885,7 @@
                 "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-medication",
                 "name": "NzfMedication",
                 "title": "Medication resource for NZ Formulary",
-                "status": "active",
+                "status": "draft",
                 "description": "Medication resource for NZ Formulary",
                 "jurisdiction": [
                     {
