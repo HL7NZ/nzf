@@ -29,3 +29,4 @@ This page details the recent changes we have made to the NZ Formulary/NZULM FHIR
 - 3/5/2023: Added substance resources for each NZMT substance
 - 27/9/2023: Added NZF pack details to CTPP medication resources
 - 20/2/2024: Added non primary pharmacode detail to CTPP medication resources
+- 17/3/2024: Added Pharmac claim unit extension to funding extension
