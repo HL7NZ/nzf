@@ -958,7 +958,7 @@ Extension - [nzf-link extension](./StructureDefinition-nzf-link.html)
 
 Subsidy information is added to Containered Trade Product Packs where applicable.  The funding information is derived from both the PHARMAC community schedule as well as the HML.
 
-There are two extensions added that store this information.  The first is **nzf-funding**.  This stores the general information around funding for a specific product, such as price and subsidy - [see extension details for more information](./StructureDefinition-nzf-funding.html).  To cater for the existence of multiple schedules this extension can be added to a product multiple times, once per schedule (i.e. the current schedule and an upcoming (draft) schedule).
+There are two extensions added that store this information.  The first is **nzf-funding**.  This stores the general information around funding for a specific product, such as price, subsidy and for community schedules, the claim unit (further description pending) - [see extension details for more information](./StructureDefinition-nzf-funding.html).  To cater for the existence of multiple schedules this extension can be added to a product multiple times, once per schedule (i.e. the current schedule and an upcoming (draft) schedule).
 
 To make it easy to determine which schedules are available we provide a metadata resource.  This lists the available schedules on the dataset at any given time.  This allows vendors to see both the current schedule information as well as an upcoming schedule between the release of the Schedule for the coming month and the end of the calendar month.  To determine which set of information to use the 'scheduleDate' field can be used.  The second extension is **nzf-funding-rule**.  This extension once again has a schedule date so vendors can determine which schedule they would like to look at.  The purpose of this extension is to provide the PHARMAC funding rules that apply to the given product.  
 
@@ -2282,7 +2282,7 @@ Where applicable Pharmacodes® are added to CTPP resources.
 
 These codes are added as a code in the medication code field alongside the NZMT code and any other applicable code.
 
-Currently only the primary pharmacode is added to a record which is indicated via the nzf-is-primary-coding extension (shown below) however it is possible in the future, older codes will be added where applicable.
+A primary pharmacode is indicated via the nzf-is-primary-coding extension (shown below) and older codes are also added where applicable.
 
 Note - the code system used for Pharmacode<sup>®</sup> is https://standards.digital.health.nz/ns/pharmac-subsidy-code.  The reason for this is that on occassion a new code can be created by PHARMAC for generic funding purposes.  
 
