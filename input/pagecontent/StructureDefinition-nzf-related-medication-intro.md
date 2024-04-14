@@ -7,7 +7,7 @@
 </tr>
 <tr>
     <td>CTPP</td>
-    <td>MP<br/>TPP<br/>TPUU<br/>MPUU</td>
+    <td>MP<br/>TPP<br/>TPUU<br/>MPUU<br/>TP (via TPP)</td>
 </tr>
 <tr>
     <td>MPP</td>

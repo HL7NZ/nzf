@@ -28,3 +28,4 @@ This page details the recent changes we have made to the NZ Formulary/NZULM FHIR
 - 13/4/2023: Added a metadata resource to allow easy retrieving of details around pharmac schedules
 - 3/5/2023: Added substance resources for each NZMT substance
 - 27/9/2023: Added NZF pack details to CTPP medication resources
+- 15/4/2024: Added a related medication link to the CTPP medication resource to the Trade Product Medication resource (via TPP)
