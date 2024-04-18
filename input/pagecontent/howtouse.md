@@ -91,6 +91,8 @@ This returns all the medications that have been created or updated since the Jul
 
 Note - this does not return deleted items.  These can be retrieved by the resource history if needed, however, medications and substances should not, in general ever be deleted from the API (they may be made inactive).
 
+If, when caching, items are retrieved since the last update date then it is recommended that the system calls the API with the new last updated date to ensure that there were no content updates that happened during the API request (although unlikely).
+
 ### Help
 
 We are more than willing to help you get the data that you need.  Please contact us at any stage for assistance if needed.
