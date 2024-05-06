@@ -426,6 +426,17 @@
 <td>draft</td>
 </tr>
 <tr>
+<td><a href='StructureDefinition-stockleys-interaction-evidence-code.html'>stockleys-interaction-evidence-code</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/stockleys-interaction-evidence-code</td>
+<td>
+<div>ClinicalUseDefinition</div>
+</td>
+<td>undefined</td>
+<td></td>
+<td>0</td>
+<td>draft</td>
+</tr>
+<tr>
 <td><a href='StructureDefinition-stockleys-interaction-modification-date.html'>stockleys-interaction-modification-date</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/stockleys-interaction-modification-date</td>
 <td>

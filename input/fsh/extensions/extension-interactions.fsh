@@ -40,6 +40,20 @@ Description: ""
 * extension 0..0
 * value[x] only CodeableConcept
 
+Extension: InteractionEvidence
+Id: stockleys-interaction-evidence-code
+Description: ""
+
+* ^url = "http://hl7.org.nz/fhir/StructureDefinition/stockleys-interaction-evidence-code"
+* ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
+
+* ^status = #draft
+* ^context.type = #element
+* ^context.expression = "ClinicalUseDefinition"
+
+* extension 0..0
+* value[x] only CodeableConcept
+
 Extension: InteractionReviewDate
 Id: stockleys-interaction-review-date
 Description: ""

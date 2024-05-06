@@ -2,6 +2,7 @@ Alias: $route = http://hl7.org.nz/fhir/StructureDefinition/stockleys-interaction
 
 Alias: $severity = http://hl7.org.nz/fhir/StructureDefinition/stockleys-interaction-severity-code
 Alias: $warning = http://hl7.org.nz/fhir/StructureDefinition/stockleys-interaction-warning-code
+Alias: $evidence = http://hl7.org.nz/fhir/StructureDefinition/stockleys-interaction-evidence-code
 Alias: $modificationDate = http://hl7.org.nz/fhir/StructureDefinition/stockleys-interaction-modification-date
 Alias: $reviewDate = http://hl7.org.nz/fhir/StructureDefinition/stockleys-interaction-review-date
 Alias: $textLink = http://hl7.org.nz/fhir/StructureDefinition/stockleys-interaction-text-link
@@ -25,9 +26,10 @@ Description:    "Interaction Clincial Use Definition resource for NZ Formulary"
 * interaction.extension contains
     $severity named severity 1..1 and 
     $warning named warning 1..1 and
+    $evidence named evidence 1..1 and
     $modificationDate named modificationDate 1..1 and
     $reviewDate named reviewDate 1..1 and
-    $textLink named textLink 1..1
+    $textLink named textLink 1..1 
 
 // elements that have been removed
 * interaction.type 0..0
@@ -36,4 +38,6 @@ Description:    "Interaction Clincial Use Definition resource for NZ Formulary"
 * indication 0..0
 * undesirableEffect 0..0
 * warning 0..0
+* interaction.incidence 0..0
+
 
