@@ -42,7 +42,7 @@ A warning will occur if an NZMT code has not yet been mapped to an interaction s
 
 ##### Medications [Optional]
 
-The full medication resource for each submitted NZMT code is returned in the Bundle.  These are provided for convenience and provide tracibility around which MP(s) are associated with the given medication.
+The full medication resource for each submitted NZMT code is returned in the Bundle.  These are provided for convenience and provide traceability around which MP(s) are associated with the given medication.
 
 ##### Concept Map [Optional]
 
@@ -64,32 +64,32 @@ A partial [concept map](https://hl7.org/fhir/R4B/conceptmap.html) is provided de
             {
               "code": "20322-a",
               "equivalence": "inexact",
-              "comment": "[NEEDS COMMENT]"
+              "comment": "As the NZF and Stockley's medicines are derived from different terminology sets a direct 1:1 mapping is always not appropriate. NZF interactions are always associated at MP level, whereas MartIDs range from individual substances through to therapeutic group, therefore there may be a many:many relationship."
             },
             {
               "code": "21229-g",
               "equivalence": "inexact",
-              "comment": "[NEEDS COMMENT]"
+              "comment": "As the NZF and Stockley's medicines are derived from different terminology sets a direct 1:1 mapping is always not appropriate. NZF interactions are always associated at MP level, whereas MartIDs range from individual substances through to therapeutic group, therefore there may be a many:many relationship."
             },
             {
               "code": "22631-n",
               "equivalence": "inexact",
-              "comment": "[NEEDS COMMENT]"
+              "comment": "As the NZF and Stockley's medicines are derived from different terminology sets a direct 1:1 mapping is always not appropriate. NZF interactions are always associated at MP level, whereas MartIDs range from individual substances through to therapeutic group, therefore there may be a many:many relationship."
             },
             {
               "code": "24730-x",
               "equivalence": "inexact",
-              "comment": "[NEEDS COMMENT]"
+              "comment": "As the NZF and Stockley's medicines are derived from different terminology sets a direct 1:1 mapping is always not appropriate. NZF interactions are always associated at MP level, whereas MartIDs range from individual substances through to therapeutic group, therefore there may be a many:many relationship."
             },
             {
               "code": "9021-f",
               "equivalence": "inexact",
-              "comment": "[NEEDS COMMENT]"
+              "comment": "As the NZF and Stockley's medicines are derived from different terminology sets a direct 1:1 mapping is always not appropriate. NZF interactions are always associated at MP level, whereas MartIDs range from individual substances through to therapeutic group, therefore there may be a many:many relationship."
             },
             {
               "code": "9043-v",
               "equivalence": "inexact",
-              "comment": "[NEEDS COMMENT]"
+              "comment": "As the NZF and Stockley's medicines are derived from different terminology sets a direct 1:1 mapping is always not appropriate. NZF interactions are always associated at MP level, whereas MartIDs range from individual substances through to therapeutic group, therefore there may be a many:many relationship."
             }
           ]
         },
@@ -211,10 +211,28 @@ content-type: application/json
   ]
 }
 ```
+### Operation outcomes
+
+The API will return Operation Outcomes at times.  It is important that these are checked and understood.  
+
+If an error bundle is returned then there should be an operation outcome explaining the cause of this.  This could be due to failed validation on input parameters for example.
+
+Other reasons for these include (but not exclusive to):
+
+- Warning - An Mp has not been mapped and therefore is not included in the results.
+- Warning - A given medication has no MP link and therefore is not included in the results.
+- Warning - An unknown parameter is supplied to the API
+
 
 ### Associated Code Systems
 
-Specific definitions of the codes are provided via Code system definitions.  More details to follow.  
+There are four associated code system definitions which are available via the FHIR server.
+
+- stockleys-interaction-action-code-cs:  This contains the details of the Action codes used in the CUD extension.
+- stockleys-interaction-severity-code-cs: This contains the details of the Severity codes used in the CUD extension.
+- stockleys-interaction-warning-code-cs: This contains the details the Warning codes used in the CUD extension.
+- stockleys-interaction-evidence-code-cs: This contains the details of the Evidence codes used in the CUD extension
+
 
 ### Usage and display recommendation
 
@@ -226,6 +244,6 @@ Details to follow
 
 Due to legal reasons we cannot provide a full download of all of our source data via the clinical use definitions.  These therefore need to be provided via an API on a per medication basis.
 
-#### Why return include the medication and concept map resources in the response?
+#### Why include the medication and concept map resources in the response?
 
 The medication and concept maps resources are optionally included in the reponse (defaulting to be included).  The reason for this is that it provides full tracibility to the mapping process.
