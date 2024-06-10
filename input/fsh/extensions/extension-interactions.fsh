@@ -25,6 +25,7 @@ Description: ""
 
 * extension 0..0
 * value[x] only CodeableConcept
+* value[x] from https://pharmaceuticalpress.com/ns/stockleys-interaction-severity-code/vs (required)
 
 Extension: InteractionWarning
 Id: stockleys-interaction-warning-code
@@ -39,6 +40,8 @@ Description: ""
 
 * extension 0..0
 * value[x] only CodeableConcept
+* value[x] from https://pharmaceuticalpress.com/ns/stockleys-interaction-warning-code/vs (required)
+
 
 Extension: InteractionEvidence
 Id: stockleys-interaction-evidence-code
@@ -53,6 +56,7 @@ Description: ""
 
 * extension 0..0
 * value[x] only CodeableConcept
+* value[x] from https://pharmaceuticalpress.com/ns/stockleys-interaction-evidence-code/vs (required)
 
 Extension: InteractionReviewDate
 Id: stockleys-interaction-review-date

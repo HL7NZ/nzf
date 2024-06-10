@@ -228,10 +228,10 @@ Other reasons for these include (but not exclusive to):
 
 There are four associated code system definitions which are available via the FHIR server.
 
-- stockleys-interaction-action-code-cs:  This contains the details of the Action codes used in the CUD extension.
-- stockleys-interaction-severity-code-cs: This contains the details of the Severity codes used in the CUD extension.
-- stockleys-interaction-warning-code-cs: This contains the details the Warning codes used in the CUD extension.
-- stockleys-interaction-evidence-code-cs: This contains the details of the Evidence codes used in the CUD extension
+- https://pharmaceuticalpress.com/ns/stockleys-interaction-action-code:  This contains the details of the Action codes used in the CUD extension.
+- https://pharmaceuticalpress.com/ns/stockleys-interaction-severity-code: This contains the details of the Severity codes used in the CUD extension.
+- https://pharmaceuticalpress.com/ns/stockleys-interaction-warning-code: This contains the details the Warning codes used in the CUD extension.
+- https://pharmaceuticalpress.com/ns/stockleys-interaction-evidence-code: This contains the details of the Evidence codes used in the CUD extension
 
 
 ### Usage and display recommendation
