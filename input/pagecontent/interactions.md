@@ -141,7 +141,6 @@ content-type: application/json
 ```
 {
   "resourceType": "Parameters",
-    "id": "560c7c61-2c70-4c54-b86d-c53a9d29495e",
     "parameter": [
     {
       "name": "nzmtid",
@@ -186,7 +185,6 @@ content-type: application/json
 ```
 {
   "resourceType": "Parameters",
-    "id": "560c7c61-2c70-4c54-b86d-c53a9d29495e",
     "parameter": [
     {
       "name": "focussednzmtid",
