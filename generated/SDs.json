@@ -26566,6 +26566,10 @@
                             ],
                             "isModifier": false,
                             "isSummary": false,
+                            "binding": {
+                                "strength": "required",
+                                "valueSet": "https://pharmaceuticalpress.com/ns/stockleys-interaction-evidence-code/vs"
+                            },
                             "mapping": [
                                 {
                                     "identity": "rim",
@@ -26594,7 +26598,11 @@
                                 {
                                     "code": "CodeableConcept"
                                 }
-                            ]
+                            ],
+                            "binding": {
+                                "strength": "required",
+                                "valueSet": "https://pharmaceuticalpress.com/ns/stockleys-interaction-evidence-code/vs"
+                            }
                         }
                     ]
                 }
@@ -27734,6 +27742,10 @@
                             ],
                             "isModifier": false,
                             "isSummary": false,
+                            "binding": {
+                                "strength": "required",
+                                "valueSet": "https://pharmaceuticalpress.com/ns/stockleys-interaction-severity-code/vs"
+                            },
                             "mapping": [
                                 {
                                     "identity": "rim",
@@ -27762,7 +27774,11 @@
                                 {
                                     "code": "CodeableConcept"
                                 }
-                            ]
+                            ],
+                            "binding": {
+                                "strength": "required",
+                                "valueSet": "https://pharmaceuticalpress.com/ns/stockleys-interaction-severity-code/vs"
+                            }
                         }
                     ]
                 }
@@ -28318,6 +28334,10 @@
                             ],
                             "isModifier": false,
                             "isSummary": false,
+                            "binding": {
+                                "strength": "required",
+                                "valueSet": "https://pharmaceuticalpress.com/ns/stockleys-interaction-warning-code/vs"
+                            },
                             "mapping": [
                                 {
                                     "identity": "rim",
@@ -28346,7 +28366,11 @@
                                 {
                                     "code": "CodeableConcept"
                                 }
-                            ]
+                            ],
+                            "binding": {
+                                "strength": "required",
+                                "valueSet": "https://pharmaceuticalpress.com/ns/stockleys-interaction-warning-code/vs"
+                            }
                         }
                     ]
                 }
