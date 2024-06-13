@@ -128,12 +128,13 @@ Takes two or more NZMT Ids (MP, TP, MPP, TPP, MPUU, TPUU or CTPP) and returns th
 
 ##### Parameters
 
-**nzmtid**: fhir strings - two or more NZMT Codes from any of the following concepts (MP, TP, MPP, TPP, MPUU, TPUU or CTPP)
+**nzmtid**: fhir strings - one or more NZMT Codes from any of the following concepts (MP, TP, MPP, TPP, MPUU, TPUU or CTPP)
 
 **includeMedicationAndConceptMap**: boolean - which indicates whether the medication and concept maps should be included in the returned bundle
 
 **filterComplementaryRecords**: boolean - when true complementary clinical use definitions are filtered out.  These records are when an interaction is the same except the subject and interactant are reversed.
 
+**Note - if a single nzmt id is supplied then the interactions between check will return any interactions between the components of that medication (if there are multiple components mapped to martindale ids)**
 
 [HttpPost]
 POST [base]/Medication/$interactions-between
@@ -178,6 +179,7 @@ All NZMT Ids need to be within the following concepts  - MP, TP, MPP, TPP, MPUU,
 
 **filterComplementaryRecords**: boolean - when true complementary clinical use definitions are filtered out.  These records are when an interaction is the same except the subject and interactant are reversed.
 
+**Note - if a nzmt id is supplied as both the focussed id and as the only nzmt id in the list then the interactions between check will include any interactions between the components of that medication (if there are multiple components mapped to martindale ids)**
 
 [HttpPost]
 POST [base]/Medication/$interactions-between
