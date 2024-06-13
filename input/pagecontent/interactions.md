@@ -242,7 +242,7 @@ Details to follow
 
 #### Why can we not just search for interactions via the normal FHIR search operations?
 
-Due to legal reasons we cannot provide a full download of all of our source data via the clinical use definitions.  These therefore need to be provided via an API on a per medication basis.
+Due to licencing requirements of the interactions data, we cannot provide a full download of all of our source data via the clinical use definitions. These therefore need to be provided via an API on a per medication basis.
 
 #### Why include the medication and concept map resources in the response?
 
