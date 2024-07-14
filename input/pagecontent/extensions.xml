@@ -186,6 +186,19 @@
     <td>Yes</td>
     <td>Yes</td>
   </tr>
+  <tr>
+    <td>NZF Medication Sponsor</td>
+    <td>
+      Organization sponsoring the medication
+    </td>
+    <td></td>
+    <td>Yes</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
 </table>
 
 <br/><strong>Extensions defined in this guide</strong><br/><br/>
@@ -278,6 +291,17 @@
 <div>Medication</div>
 </td>
 <td>Reference to other information about this medication</td>
+<td></td>
+<td>0</td>
+<td>draft</td>
+</tr>
+<tr>
+<td><a href='StructureDefinition-nzf-medication-sponsor.html'>nzf-medication-sponsor</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/nzf-medication-sponsor</td>
+<td>
+<div>Medication</div>
+</td>
+<td>Organization sponsoring this medication</td>
 <td></td>
 <td>0</td>
 <td>draft</td>
