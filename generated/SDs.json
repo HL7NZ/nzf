@@ -11,7 +11,6 @@
                     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Coding</div>"
                 },
                 "url": "http://hl7.org.nz/fhir/StructureDefinition/NzfCoding",
-                "version": "1.0.0",
                 "name": "NzfCoding",
                 "title": "Coding resource for NZ Formulary",
                 "status": "active",
@@ -53,16 +52,6 @@
                     "element": [
                         {
                             "id": "Coding",
-                            "extension": [
-                                {
-                                    "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-                                    "valueCode": "normative"
-                                },
-                                {
-                                    "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-                                    "valueCode": "4.0.0"
-                                }
-                            ],
                             "path": "Coding",
                             "short": "A reference to a code defined by a terminology system",
                             "definition": "A reference to a code defined by a terminology system.",
@@ -529,18 +518,7 @@
             "resource": {
                 "resourceType": "StructureDefinition",
                 "id": "NzfDocumentReference",
-                "extension": [
-                    {
-                        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
-                        "valueString": "Foundation.Documents"
-                    },
-                    {
-                        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
-                        "valueCode": "not-classified"
-                    }
-                ],
                 "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-documentreference",
-                "version": "1.0.0",
                 "name": "NzfDocumentReference",
                 "title": "DocumentReference resource for NZ Formulary",
                 "status": "active",
@@ -2996,18 +2974,7 @@
             "resource": {
                 "resourceType": "StructureDefinition",
                 "id": "NzfInteractionClinicalUseDefinition",
-                "extension": [
-                    {
-                        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
-                        "valueString": "Specialized.Medication Definition"
-                    },
-                    {
-                        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
-                        "valueCode": "anonymous"
-                    }
-                ],
                 "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-interaction-clinical-use-definition",
-                "version": "1.0.0",
                 "name": "NzfInteractionClinicalUseDefinition",
                 "title": "Interaction Clincial Use Definition resource for NZ Formulary",
                 "status": "active",
@@ -6988,18 +6955,7 @@
             "resource": {
                 "resourceType": "StructureDefinition",
                 "id": "NzfMedication",
-                "extension": [
-                    {
-                        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
-                        "valueString": "Clinical.Medications"
-                    },
-                    {
-                        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
-                        "valueCode": "business"
-                    }
-                ],
                 "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-medication",
-                "version": "1.0.0",
                 "name": "NzfMedication",
                 "title": "Medication resource for NZ Formulary",
                 "status": "active",
@@ -9361,7 +9317,6 @@
                 "resourceType": "StructureDefinition",
                 "id": "nzf-atc",
                 "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-atc",
-                "version": "1.0.0",
                 "name": "Atc",
                 "status": "draft",
                 "description": "Anatomical Therapeutic Chemical (ATC) Classification - see https://www.who.int/tools/atc-ddd-toolkit/atc-classification",
@@ -9398,16 +9353,6 @@
                     "element": [
                         {
                             "id": "Extension",
-                            "extension": [
-                                {
-                                    "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-                                    "valueCode": "normative"
-                                },
-                                {
-                                    "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-                                    "valueCode": "4.0.0"
-                                }
-                            ],
                             "path": "Extension",
                             "short": "Optional Extensions Element",
                             "definition": "Anatomical Therapeutic Chemical (ATC) Classification - see https://www.who.int/tools/atc-ddd-toolkit/atc-classification",
@@ -9667,7 +9612,6 @@
                 "resourceType": "StructureDefinition",
                 "id": "nzf-cal",
                 "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-cal",
-                "version": "1.0.0",
                 "name": "Cal",
                 "title": "Cautionary and Advisory Label",
                 "status": "draft",
@@ -9705,16 +9649,6 @@
                     "element": [
                         {
                             "id": "Extension",
-                            "extension": [
-                                {
-                                    "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-                                    "valueCode": "normative"
-                                },
-                                {
-                                    "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-                                    "valueCode": "4.0.0"
-                                }
-                            ],
                             "path": "Extension",
                             "short": "Optional Extensions Element",
                             "definition": "Cautionary and Advisory Label",
@@ -10847,7 +10781,6 @@
                 "resourceType": "StructureDefinition",
                 "id": "nzf-description",
                 "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-description",
-                "version": "1.0.0",
                 "name": "NzmtDescription",
                 "status": "draft",
                 "description": "Specific NZMT descriptions that apply to this medication",
@@ -10884,16 +10817,6 @@
                     "element": [
                         {
                             "id": "Extension",
-                            "extension": [
-                                {
-                                    "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-                                    "valueCode": "normative"
-                                },
-                                {
-                                    "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-                                    "valueCode": "4.0.0"
-                                }
-                            ],
                             "path": "Extension",
                             "short": "Optional Extensions Element",
                             "definition": "Specific NZMT descriptions that apply to this medication",
@@ -11787,7 +11710,6 @@
                 "resourceType": "StructureDefinition",
                 "id": "nzf-funding-rule",
                 "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-funding-rule",
-                "version": "1.0.0",
                 "name": "FundingRule",
                 "status": "draft",
                 "description": "Funding restriction information which complements the general funding information provided in the nzf-funding extension.  The extension can be added multiple times to a product for each given rule as well as for each PHARMAC schedule.  These can be differentiated via the scheduleDate field.",
@@ -11824,16 +11746,6 @@
                     "element": [
                         {
                             "id": "Extension",
-                            "extension": [
-                                {
-                                    "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-                                    "valueCode": "normative"
-                                },
-                                {
-                                    "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-                                    "valueCode": "4.0.0"
-                                }
-                            ],
                             "path": "Extension",
                             "short": "Optional Extensions Element",
                             "definition": "Funding restriction information which complements the general funding information provided in the nzf-funding extension.  The extension can be added multiple times to a product for each given rule as well as for each PHARMAC schedule.  These can be differentiated via the scheduleDate field.",
@@ -14199,7 +14111,6 @@
                 "resourceType": "StructureDefinition",
                 "id": "nzf-funding",
                 "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-funding",
-                "version": "1.0.0",
                 "name": "Funding",
                 "status": "draft",
                 "description": "Core funding information specific to NZ.  The extension can be added multiple times to a product for each PHARMAC schedule.  These can be differentiated via the scheduleDate field.",
@@ -14236,16 +14147,6 @@
                     "element": [
                         {
                             "id": "Extension",
-                            "extension": [
-                                {
-                                    "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-                                    "valueCode": "normative"
-                                },
-                                {
-                                    "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-                                    "valueCode": "4.0.0"
-                                }
-                            ],
                             "path": "Extension",
                             "short": "Optional Extensions Element",
                             "definition": "Core funding information specific to NZ.  The extension can be added multiple times to a product for each PHARMAC schedule.  These can be differentiated via the scheduleDate field.",
@@ -16374,7 +16275,6 @@
                 "resourceType": "StructureDefinition",
                 "id": "nzf-is-primary-coding",
                 "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-is-primary-coding",
-                "version": "1.0.0",
                 "name": "IsPrimary",
                 "status": "draft",
                 "description": "Is primary code within given context, e.g. primary Pharmacode® when multiple given",
@@ -16411,16 +16311,6 @@
                     "element": [
                         {
                             "id": "Extension",
-                            "extension": [
-                                {
-                                    "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-                                    "valueCode": "normative"
-                                },
-                                {
-                                    "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-                                    "valueCode": "4.0.0"
-                                }
-                            ],
                             "path": "Extension",
                             "short": "Optional Extensions Element",
                             "definition": "Is primary code within given context, e.g. primary Pharmacode® when multiple given",
@@ -16672,7 +16562,6 @@
                 "resourceType": "StructureDefinition",
                 "id": "nzf-legalclass",
                 "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-legalclass",
-                "version": "1.0.0",
                 "name": "LegalClass",
                 "status": "draft",
                 "description": "Legal classification",
@@ -16709,16 +16598,6 @@
                     "element": [
                         {
                             "id": "Extension",
-                            "extension": [
-                                {
-                                    "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-                                    "valueCode": "normative"
-                                },
-                                {
-                                    "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-                                    "valueCode": "4.0.0"
-                                }
-                            ],
                             "path": "Extension",
                             "short": "Optional Extensions Element",
                             "definition": "Legal classification",
@@ -17040,53 +16919,6 @@
                         {
                             "id": "Extension.extension:code.value[x]",
                             "path": "Extension.extension.value[x]",
-                            "slicing": {
-                                "discriminator": [
-                                    {
-                                        "type": "type",
-                                        "path": "$this"
-                                    }
-                                ],
-                                "ordered": false,
-                                "rules": "open"
-                            },
-                            "short": "Value of extension",
-                            "definition": "Value of extension - must be one of a constrained set of the data types (see [Extensibility](extensibility.html) for a list).",
-                            "min": 0,
-                            "max": "1",
-                            "base": {
-                                "path": "Extension.value[x]",
-                                "min": 0,
-                                "max": "1"
-                            },
-                            "type": [
-                                {
-                                    "code": "CodeableConcept"
-                                }
-                            ],
-                            "constraint": [
-                                {
-                                    "key": "ele-1",
-                                    "severity": "error",
-                                    "human": "All FHIR elements must have a @value or children",
-                                    "expression": "hasValue() or (children().count() > id.count())",
-                                    "xpath": "@value|f:*|h:div",
-                                    "source": "http://hl7.org/fhir/StructureDefinition/Element"
-                                }
-                            ],
-                            "isModifier": false,
-                            "isSummary": false,
-                            "mapping": [
-                                {
-                                    "identity": "rim",
-                                    "map": "N/A"
-                                }
-                            ]
-                        },
-                        {
-                            "id": "Extension.extension:code.value[x]:valueCodeableConcept",
-                            "path": "Extension.extension.value[x]",
-                            "sliceName": "valueCodeableConcept",
                             "short": "Value of extension",
                             "definition": "Value of extension - must be one of a constrained set of the data types (see [Extensibility](extensibility.html) for a list).",
                             "min": 0,
@@ -17600,27 +17432,11 @@
                         {
                             "id": "Extension.extension:code.value[x]",
                             "path": "Extension.extension.value[x]",
-                            "slicing": {
-                                "discriminator": [
-                                    {
-                                        "type": "type",
-                                        "path": "$this"
-                                    }
-                                ],
-                                "ordered": false,
-                                "rules": "open"
-                            },
                             "type": [
                                 {
                                     "code": "CodeableConcept"
                                 }
-                            ]
-                        },
-                        {
-                            "id": "Extension.extension:code.valueCodeableConcept",
-                            "path": "Extension.extension.valueCodeableConcept",
-                            "min": 0,
-                            "max": "1",
+                            ],
                             "binding": {
                                 "strength": "required",
                                 "valueSet": "https://nzhts.digital.health.nz/fhir/ValueSet/medicine-classification-code"
@@ -17677,7 +17493,6 @@
                 "resourceType": "StructureDefinition",
                 "id": "nzf-link",
                 "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-link",
-                "version": "1.0.0",
                 "name": "Link",
                 "status": "draft",
                 "description": "Reference to other information about this medication",
@@ -17714,16 +17529,6 @@
                     "element": [
                         {
                             "id": "Extension",
-                            "extension": [
-                                {
-                                    "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-                                    "valueCode": "normative"
-                                },
-                                {
-                                    "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-                                    "valueCode": "4.0.0"
-                                }
-                            ],
                             "path": "Extension",
                             "short": "Optional Extensions Element",
                             "definition": "Reference to other information about this medication",
@@ -17981,7 +17786,6 @@
                 "resourceType": "StructureDefinition",
                 "id": "nzf-medication-sponsor",
                 "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-medication-sponsor",
-                "version": "1.0.0",
                 "name": "MedicationSponsor",
                 "status": "draft",
                 "description": "Organization sponsoring this medication",
@@ -18018,16 +17822,6 @@
                     "element": [
                         {
                             "id": "Extension",
-                            "extension": [
-                                {
-                                    "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-                                    "valueCode": "normative"
-                                },
-                                {
-                                    "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-                                    "valueCode": "4.0.0"
-                                }
-                            ],
                             "path": "Extension",
                             "short": "Optional Extensions Element",
                             "definition": "Organization sponsoring this medication",
@@ -18285,7 +18079,6 @@
                 "resourceType": "StructureDefinition",
                 "id": "nzf-medsafe",
                 "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-medsafe",
-                "version": "1.0.0",
                 "name": "Medsafe",
                 "status": "draft",
                 "description": "Medsafe package, reg situation and administration route details",
@@ -18322,16 +18115,6 @@
                     "element": [
                         {
                             "id": "Extension",
-                            "extension": [
-                                {
-                                    "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-                                    "valueCode": "normative"
-                                },
-                                {
-                                    "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-                                    "valueCode": "4.0.0"
-                                }
-                            ],
                             "path": "Extension",
                             "short": "Optional Extensions Element",
                             "definition": "Medsafe package, reg situation and administration route details",
@@ -19459,7 +19242,6 @@
                 "resourceType": "StructureDefinition",
                 "id": "nzf-nzmtType",
                 "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-nzmt-type",
-                "version": "1.0.0",
                 "name": "NzmtType",
                 "status": "draft",
                 "description": "The NZ Medicines Terminology (NZMT) Data Class – MP (Medicinal Product), MPUU (Medicinal Product Unit of Use), MPP (Medicinal Product Pack), TP (Trade Product), TPUU (Trade Product Unit of Use), TPP (Trade Product Pack) or CTPP (Containered Trade Product Pack) – that the Medication is a member of.",
@@ -19496,16 +19278,6 @@
                     "element": [
                         {
                             "id": "Extension",
-                            "extension": [
-                                {
-                                    "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-                                    "valueCode": "normative"
-                                },
-                                {
-                                    "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-                                    "valueCode": "4.0.0"
-                                }
-                            ],
                             "path": "Extension",
                             "short": "Optional Extensions Element",
                             "definition": "The NZ Medicines Terminology (NZMT) Data Class – MP (Medicinal Product), MPUU (Medicinal Product Unit of Use), MPP (Medicinal Product Pack), TP (Trade Product), TPUU (Trade Product Unit of Use), TPP (Trade Product Pack) or CTPP (Containered Trade Product Pack) – that the Medication is a member of.",
@@ -19683,53 +19455,6 @@
                         {
                             "id": "Extension.value[x]",
                             "path": "Extension.value[x]",
-                            "slicing": {
-                                "discriminator": [
-                                    {
-                                        "type": "type",
-                                        "path": "$this"
-                                    }
-                                ],
-                                "ordered": false,
-                                "rules": "open"
-                            },
-                            "short": "Value of extension",
-                            "definition": "Value of extension - must be one of a constrained set of the data types (see [Extensibility](extensibility.html) for a list).",
-                            "min": 0,
-                            "max": "1",
-                            "base": {
-                                "path": "Extension.value[x]",
-                                "min": 0,
-                                "max": "1"
-                            },
-                            "type": [
-                                {
-                                    "code": "CodeableConcept"
-                                }
-                            ],
-                            "constraint": [
-                                {
-                                    "key": "ele-1",
-                                    "severity": "error",
-                                    "human": "All FHIR elements must have a @value or children",
-                                    "expression": "hasValue() or (children().count() > id.count())",
-                                    "xpath": "@value|f:*|h:div",
-                                    "source": "http://hl7.org/fhir/StructureDefinition/Element"
-                                }
-                            ],
-                            "isModifier": false,
-                            "isSummary": false,
-                            "mapping": [
-                                {
-                                    "identity": "rim",
-                                    "map": "N/A"
-                                }
-                            ]
-                        },
-                        {
-                            "id": "Extension.value[x]:valueCodeableConcept",
-                            "path": "Extension.value[x]",
-                            "sliceName": "valueCodeableConcept",
                             "short": "Value of extension",
                             "definition": "Value of extension - must be one of a constrained set of the data types (see [Extensibility](extensibility.html) for a list).",
                             "min": 0,
@@ -19789,27 +19514,11 @@
                         {
                             "id": "Extension.value[x]",
                             "path": "Extension.value[x]",
-                            "slicing": {
-                                "discriminator": [
-                                    {
-                                        "type": "type",
-                                        "path": "$this"
-                                    }
-                                ],
-                                "ordered": false,
-                                "rules": "open"
-                            },
                             "type": [
                                 {
                                     "code": "CodeableConcept"
                                 }
-                            ]
-                        },
-                        {
-                            "id": "Extension.valueCodeableConcept",
-                            "path": "Extension.valueCodeableConcept",
-                            "min": 0,
-                            "max": "1",
+                            ],
                             "binding": {
                                 "strength": "required",
                                 "valueSet": "https://nzhts.digital.health.nz/fhir/ValueSet/nzmt-type"
@@ -19828,7 +19537,6 @@
                 "resourceType": "StructureDefinition",
                 "id": "nzf-pack",
                 "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-pack",
-                "version": "1.0.0",
                 "name": "NzfPack",
                 "status": "draft",
                 "description": "NZF Pack detail",
@@ -19865,16 +19573,6 @@
                     "element": [
                         {
                             "id": "Extension",
-                            "extension": [
-                                {
-                                    "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-                                    "valueCode": "normative"
-                                },
-                                {
-                                    "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-                                    "valueCode": "4.0.0"
-                                }
-                            ],
                             "path": "Extension",
                             "short": "Optional Extensions Element",
                             "definition": "NZF Pack detail",
@@ -20196,53 +19894,6 @@
                         {
                             "id": "Extension.extension:nzmtMedicineCode.value[x]",
                             "path": "Extension.extension.value[x]",
-                            "slicing": {
-                                "discriminator": [
-                                    {
-                                        "type": "type",
-                                        "path": "$this"
-                                    }
-                                ],
-                                "ordered": false,
-                                "rules": "open"
-                            },
-                            "short": "Value of extension",
-                            "definition": "Value of extension - must be one of a constrained set of the data types (see [Extensibility](extensibility.html) for a list).",
-                            "min": 0,
-                            "max": "1",
-                            "base": {
-                                "path": "Extension.value[x]",
-                                "min": 0,
-                                "max": "1"
-                            },
-                            "type": [
-                                {
-                                    "code": "CodeableConcept"
-                                }
-                            ],
-                            "constraint": [
-                                {
-                                    "key": "ele-1",
-                                    "severity": "error",
-                                    "human": "All FHIR elements must have a @value or children",
-                                    "expression": "hasValue() or (children().count() > id.count())",
-                                    "xpath": "@value|f:*|h:div",
-                                    "source": "http://hl7.org/fhir/StructureDefinition/Element"
-                                }
-                            ],
-                            "isModifier": false,
-                            "isSummary": false,
-                            "mapping": [
-                                {
-                                    "identity": "rim",
-                                    "map": "N/A"
-                                }
-                            ]
-                        },
-                        {
-                            "id": "Extension.extension:nzmtMedicineCode.value[x]:valueCodeableConcept",
-                            "path": "Extension.extension.value[x]",
-                            "sliceName": "valueCodeableConcept",
                             "short": "Value of extension",
                             "definition": "Value of extension - must be one of a constrained set of the data types (see [Extensibility](extensibility.html) for a list).",
                             "min": 0,
@@ -20968,27 +20619,11 @@
                         {
                             "id": "Extension.extension:nzmtMedicineCode.value[x]",
                             "path": "Extension.extension.value[x]",
-                            "slicing": {
-                                "discriminator": [
-                                    {
-                                        "type": "type",
-                                        "path": "$this"
-                                    }
-                                ],
-                                "ordered": false,
-                                "rules": "open"
-                            },
                             "type": [
                                 {
                                     "code": "CodeableConcept"
                                 }
-                            ]
-                        },
-                        {
-                            "id": "Extension.extension:nzmtMedicineCode.valueCodeableConcept",
-                            "path": "Extension.extension.valueCodeableConcept",
-                            "min": 0,
-                            "max": "1",
+                            ],
                             "binding": {
                                 "strength": "required",
                                 "valueSet": "http://nzmt.org.nz/vs"
@@ -21073,7 +20708,6 @@
                 "resourceType": "StructureDefinition",
                 "id": "nzf-page-size",
                 "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-page-size",
-                "version": "1.0.0",
                 "name": "NzfPageSize",
                 "status": "draft",
                 "description": "Attachment page size",
@@ -21110,16 +20744,6 @@
                     "element": [
                         {
                             "id": "Extension",
-                            "extension": [
-                                {
-                                    "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-                                    "valueCode": "normative"
-                                },
-                                {
-                                    "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-                                    "valueCode": "4.0.0"
-                                }
-                            ],
                             "path": "Extension",
                             "short": "Optional Extensions Element",
                             "definition": "Attachment page size",
@@ -21297,53 +20921,6 @@
                         {
                             "id": "Extension.value[x]",
                             "path": "Extension.value[x]",
-                            "slicing": {
-                                "discriminator": [
-                                    {
-                                        "type": "type",
-                                        "path": "$this"
-                                    }
-                                ],
-                                "ordered": false,
-                                "rules": "open"
-                            },
-                            "short": "Value of extension",
-                            "definition": "Value of extension - must be one of a constrained set of the data types (see [Extensibility](extensibility.html) for a list).",
-                            "min": 0,
-                            "max": "1",
-                            "base": {
-                                "path": "Extension.value[x]",
-                                "min": 0,
-                                "max": "1"
-                            },
-                            "type": [
-                                {
-                                    "code": "CodeableConcept"
-                                }
-                            ],
-                            "constraint": [
-                                {
-                                    "key": "ele-1",
-                                    "severity": "error",
-                                    "human": "All FHIR elements must have a @value or children",
-                                    "expression": "hasValue() or (children().count() > id.count())",
-                                    "xpath": "@value|f:*|h:div",
-                                    "source": "http://hl7.org/fhir/StructureDefinition/Element"
-                                }
-                            ],
-                            "isModifier": false,
-                            "isSummary": false,
-                            "mapping": [
-                                {
-                                    "identity": "rim",
-                                    "map": "N/A"
-                                }
-                            ]
-                        },
-                        {
-                            "id": "Extension.value[x]:valueCodeableConcept",
-                            "path": "Extension.value[x]",
-                            "sliceName": "valueCodeableConcept",
                             "short": "Value of extension",
                             "definition": "Value of extension - must be one of a constrained set of the data types (see [Extensibility](extensibility.html) for a list).",
                             "min": 0,
@@ -21403,27 +20980,11 @@
                         {
                             "id": "Extension.value[x]",
                             "path": "Extension.value[x]",
-                            "slicing": {
-                                "discriminator": [
-                                    {
-                                        "type": "type",
-                                        "path": "$this"
-                                    }
-                                ],
-                                "ordered": false,
-                                "rules": "open"
-                            },
                             "type": [
                                 {
                                     "code": "CodeableConcept"
                                 }
-                            ]
-                        },
-                        {
-                            "id": "Extension.valueCodeableConcept",
-                            "path": "Extension.valueCodeableConcept",
-                            "min": 0,
-                            "max": "1",
+                            ],
                             "binding": {
                                 "strength": "required",
                                 "valueSet": "https://nzhts.digital.health.nz/fhir/ValueSet/nzf-page-size"
@@ -21442,7 +21003,6 @@
                 "resourceType": "StructureDefinition",
                 "id": "nzf-pil-dose-form",
                 "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-pil-dose-form",
-                "version": "1.0.0",
                 "name": "PilDoseForm",
                 "status": "draft",
                 "description": "Doseform that this PIL applies to",
@@ -21479,16 +21039,6 @@
                     "element": [
                         {
                             "id": "Extension",
-                            "extension": [
-                                {
-                                    "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-                                    "valueCode": "normative"
-                                },
-                                {
-                                    "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-                                    "valueCode": "4.0.0"
-                                }
-                            ],
                             "path": "Extension",
                             "short": "Optional Extensions Element",
                             "definition": "Doseform that this PIL applies to",
@@ -21740,7 +21290,6 @@
                 "resourceType": "StructureDefinition",
                 "id": "nzf-pil-formulary",
                 "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-pil-formulary",
-                "version": "1.0.0",
                 "name": "PilFormulary",
                 "status": "draft",
                 "description": "Applicable formulary for PIL",
@@ -21777,16 +21326,6 @@
                     "element": [
                         {
                             "id": "Extension",
-                            "extension": [
-                                {
-                                    "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-                                    "valueCode": "normative"
-                                },
-                                {
-                                    "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-                                    "valueCode": "4.0.0"
-                                }
-                            ],
                             "path": "Extension",
                             "short": "Optional Extensions Element",
                             "definition": "Applicable formulary for PIL",
@@ -22038,7 +21577,6 @@
                 "resourceType": "StructureDefinition",
                 "id": "nzf-pil-indication",
                 "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-pil-indication",
-                "version": "1.0.0",
                 "name": "PilIndication",
                 "status": "draft",
                 "description": "Indication that this PIL applies to",
@@ -22075,16 +21613,6 @@
                     "element": [
                         {
                             "id": "Extension",
-                            "extension": [
-                                {
-                                    "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-                                    "valueCode": "normative"
-                                },
-                                {
-                                    "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-                                    "valueCode": "4.0.0"
-                                }
-                            ],
                             "path": "Extension",
                             "short": "Optional Extensions Element",
                             "definition": "Indication that this PIL applies to",
@@ -22336,7 +21864,6 @@
                 "resourceType": "StructureDefinition",
                 "id": "nzf-pil-route-of-admin",
                 "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-pil-route-of-admin",
-                "version": "1.0.0",
                 "name": "PilRouteOfAdmin",
                 "status": "draft",
                 "description": "Route of admin that this PIL applies to",
@@ -22373,16 +21900,6 @@
                     "element": [
                         {
                             "id": "Extension",
-                            "extension": [
-                                {
-                                    "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-                                    "valueCode": "normative"
-                                },
-                                {
-                                    "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-                                    "valueCode": "4.0.0"
-                                }
-                            ],
                             "path": "Extension",
                             "short": "Optional Extensions Element",
                             "definition": "Route of admin that this PIL applies to",
@@ -22634,7 +22151,6 @@
                 "resourceType": "StructureDefinition",
                 "id": "nzf-pil-source",
                 "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-pil-source",
-                "version": "1.0.0",
                 "name": "PilSource",
                 "status": "draft",
                 "description": "Source of the PIL (e.g. mymedicines)",
@@ -22671,16 +22187,6 @@
                     "element": [
                         {
                             "id": "Extension",
-                            "extension": [
-                                {
-                                    "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-                                    "valueCode": "normative"
-                                },
-                                {
-                                    "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-                                    "valueCode": "4.0.0"
-                                }
-                            ],
                             "path": "Extension",
                             "short": "Optional Extensions Element",
                             "definition": "Source of the PIL (e.g. mymedicines)",
@@ -22932,7 +22438,6 @@
                 "resourceType": "StructureDefinition",
                 "id": "nzf-prescribe-by-brand",
                 "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-prescribe-by-brand",
-                "version": "1.0.0",
                 "name": "PrescribeByBrand",
                 "status": "draft",
                 "description": "True if can be prescribed by brand",
@@ -22969,16 +22474,6 @@
                     "element": [
                         {
                             "id": "Extension",
-                            "extension": [
-                                {
-                                    "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-                                    "valueCode": "normative"
-                                },
-                                {
-                                    "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-                                    "valueCode": "4.0.0"
-                                }
-                            ],
                             "path": "Extension",
                             "short": "Optional Extensions Element",
                             "definition": "True if can be prescribed by brand",
@@ -23230,7 +22725,6 @@
                 "resourceType": "StructureDefinition",
                 "id": "nzf-related-medication",
                 "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-related-medication",
-                "version": "1.0.0",
                 "name": "RelatedMedication",
                 "status": "draft",
                 "description": "A related medication within the NZMT hierarchy",
@@ -23267,16 +22761,6 @@
                     "element": [
                         {
                             "id": "Extension",
-                            "extension": [
-                                {
-                                    "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-                                    "valueCode": "normative"
-                                },
-                                {
-                                    "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-                                    "valueCode": "4.0.0"
-                                }
-                            ],
                             "path": "Extension",
                             "short": "Optional Extensions Element",
                             "definition": "A related medication within the NZMT hierarchy",
@@ -24164,7 +23648,6 @@
                 "resourceType": "StructureDefinition",
                 "id": "nzf-supply-information",
                 "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-supply-information",
-                "version": "1.0.0",
                 "name": "SupplyInformation",
                 "status": "draft",
                 "description": "Information around the supply and availability of medications applied at each NZMT level.  For example, when paracetamol tablets are in short supply an alert may be attached to the MP level medication along with the relevant details.",
@@ -24201,16 +23684,6 @@
                     "element": [
                         {
                             "id": "Extension",
-                            "extension": [
-                                {
-                                    "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-                                    "valueCode": "normative"
-                                },
-                                {
-                                    "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-                                    "valueCode": "4.0.0"
-                                }
-                            ],
                             "path": "Extension",
                             "short": "Optional Extensions Element",
                             "definition": "Information around the supply and availability of medications applied at each NZMT level.  For example, when paracetamol tablets are in short supply an alert may be attached to the MP level medication along with the relevant details.",
@@ -26323,7 +25796,6 @@
                 "resourceType": "StructureDefinition",
                 "id": "nzf-unapproved",
                 "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-unapproved",
-                "version": "1.0.0",
                 "name": "Unapproved",
                 "status": "draft",
                 "description": "True if this medication has not been approved by Medsafe and can be prescribed under section 29",
@@ -26360,16 +25832,6 @@
                     "element": [
                         {
                             "id": "Extension",
-                            "extension": [
-                                {
-                                    "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-                                    "valueCode": "normative"
-                                },
-                                {
-                                    "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-                                    "valueCode": "4.0.0"
-                                }
-                            ],
                             "path": "Extension",
                             "short": "Optional Extensions Element",
                             "definition": "True if this medication has not been approved by Medsafe and can be prescribed under section 29",
@@ -26621,7 +26083,6 @@
                 "resourceType": "StructureDefinition",
                 "id": "stockleys-interaction-evidence-code",
                 "url": "http://hl7.org.nz/fhir/StructureDefinition/stockleys-interaction-evidence-code",
-                "version": "1.0.0",
                 "name": "InteractionEvidence",
                 "status": "draft",
                 "jurisdiction": [
@@ -26657,16 +26118,6 @@
                     "element": [
                         {
                             "id": "Extension",
-                            "extension": [
-                                {
-                                    "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-                                    "valueCode": "normative"
-                                },
-                                {
-                                    "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-                                    "valueCode": "4.0.0"
-                                }
-                            ],
                             "path": "Extension",
                             "short": "Optional Extensions Element",
                             "definition": "Optional Extension Element - found in all resources.",
@@ -26921,7 +26372,6 @@
                 "resourceType": "StructureDefinition",
                 "id": "stockleys-interaction-modification-date",
                 "url": "http://hl7.org.nz/fhir/StructureDefinition/stockleys-interaction-modification-date",
-                "version": "1.0.0",
                 "name": "InteractionModificationDate",
                 "status": "draft",
                 "jurisdiction": [
@@ -26957,16 +26407,6 @@
                     "element": [
                         {
                             "id": "Extension",
-                            "extension": [
-                                {
-                                    "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-                                    "valueCode": "normative"
-                                },
-                                {
-                                    "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-                                    "valueCode": "4.0.0"
-                                }
-                            ],
                             "path": "Extension",
                             "short": "Optional Extensions Element",
                             "definition": "Optional Extension Element - found in all resources.",
@@ -27213,7 +26653,6 @@
                 "resourceType": "StructureDefinition",
                 "id": "stockleys-interaction-review-date",
                 "url": "http://hl7.org.nz/fhir/StructureDefinition/stockleys-interaction-review-date",
-                "version": "1.0.0",
                 "name": "InteractionReviewDate",
                 "status": "draft",
                 "jurisdiction": [
@@ -27249,16 +26688,6 @@
                     "element": [
                         {
                             "id": "Extension",
-                            "extension": [
-                                {
-                                    "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-                                    "valueCode": "normative"
-                                },
-                                {
-                                    "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-                                    "valueCode": "4.0.0"
-                                }
-                            ],
                             "path": "Extension",
                             "short": "Optional Extensions Element",
                             "definition": "Optional Extension Element - found in all resources.",
@@ -27505,7 +26934,6 @@
                 "resourceType": "StructureDefinition",
                 "id": "stockleys-interaction-route",
                 "url": "http://hl7.org.nz/fhir/StructureDefinition/stockleys-interaction-route",
-                "version": "1.0.0",
                 "name": "InteractionsRoute",
                 "status": "draft",
                 "jurisdiction": [
@@ -27541,16 +26969,6 @@
                     "element": [
                         {
                             "id": "Extension",
-                            "extension": [
-                                {
-                                    "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-                                    "valueCode": "normative"
-                                },
-                                {
-                                    "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-                                    "valueCode": "4.0.0"
-                                }
-                            ],
                             "path": "Extension",
                             "short": "Optional Extensions Element",
                             "definition": "Optional Extension Element - found in all resources.",
@@ -27797,7 +27215,6 @@
                 "resourceType": "StructureDefinition",
                 "id": "stockleys-interaction-severity-code",
                 "url": "http://hl7.org.nz/fhir/StructureDefinition/stockleys-interaction-severity-code",
-                "version": "1.0.0",
                 "name": "InteractionSeverity",
                 "status": "draft",
                 "jurisdiction": [
@@ -27833,16 +27250,6 @@
                     "element": [
                         {
                             "id": "Extension",
-                            "extension": [
-                                {
-                                    "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-                                    "valueCode": "normative"
-                                },
-                                {
-                                    "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-                                    "valueCode": "4.0.0"
-                                }
-                            ],
                             "path": "Extension",
                             "short": "Optional Extensions Element",
                             "definition": "Optional Extension Element - found in all resources.",
@@ -28097,7 +27504,6 @@
                 "resourceType": "StructureDefinition",
                 "id": "stockleys-interaction-text-link",
                 "url": "http://hl7.org.nz/fhir/StructureDefinition/stockleys-interaction-text-link",
-                "version": "1.0.0",
                 "name": "InteractionTextLink",
                 "status": "draft",
                 "jurisdiction": [
@@ -28133,16 +27539,6 @@
                     "element": [
                         {
                             "id": "Extension",
-                            "extension": [
-                                {
-                                    "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-                                    "valueCode": "normative"
-                                },
-                                {
-                                    "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-                                    "valueCode": "4.0.0"
-                                }
-                            ],
                             "path": "Extension",
                             "short": "Optional Extensions Element",
                             "definition": "Optional Extension Element - found in all resources.",
@@ -28389,7 +27785,6 @@
                 "resourceType": "StructureDefinition",
                 "id": "stockleys-interaction-warning-code",
                 "url": "http://hl7.org.nz/fhir/StructureDefinition/stockleys-interaction-warning-code",
-                "version": "1.0.0",
                 "name": "InteractionWarning",
                 "status": "draft",
                 "jurisdiction": [
@@ -28425,16 +27820,6 @@
                     "element": [
                         {
                             "id": "Extension",
-                            "extension": [
-                                {
-                                    "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-                                    "valueCode": "normative"
-                                },
-                                {
-                                    "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-                                    "valueCode": "4.0.0"
-                                }
-                            ],
                             "path": "Extension",
                             "short": "Optional Extensions Element",
                             "definition": "Optional Extension Element - found in all resources.",
