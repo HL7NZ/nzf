@@ -2561,7 +2561,7 @@ TP level
       "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-medication-sponsor",
       "resourceReference": [
           {
-            "reference": "Organization/medicationsponsor",
+            "reference": "Organization/medicationsponsor/48441981000116107",
             "display": "48441981000116107"
           }
         ]
