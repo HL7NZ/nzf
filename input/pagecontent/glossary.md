@@ -16,6 +16,8 @@ dampening – the withholding of potentially unnecessary alerts in a decision su
 
 GTIN – Global Trade Item Number, an identifier for trade items developed by GS1, basically a barcode number
 
+medication sponsor – The New Zealand entity - exporter, importer or local manufacturer - responsible for the medication.
+
 MP – Medicinal Product; an NZMT concept reflecting the generic medicine
 
 MPP – Medicinal Product Pack; an NZMT concept reflecting a generic pack and its contents expressed in generic terms
