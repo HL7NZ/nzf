@@ -2547,7 +2547,7 @@ Extension - <a href="./StructureDefinition-nzf-link.html">nzf-link extension</a>
 
 ### Medication Sponsor
 
-Medication sponsor details are added to TPs using an Organization/medicationsponsor resource Reference in the nzf-medication-sponsor extension.  
+Medication sponsor details are added to TPs using an Organization resource reference in the nzf-medication-sponsor extension.  
 
 #### Usage details
 
@@ -2561,7 +2561,7 @@ TP level
       "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-medication-sponsor",
       "resourceReference": [
           {
-            "reference": "Organization/medicationsponsor/48441981000116107",
+            "reference": "Organization/48441981000116107",
             "display": "48441981000116107"
           }
         ]
