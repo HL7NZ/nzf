@@ -118,9 +118,10 @@ Takes a NZMT Id (MP, TP, MPP, TPP, MPUU, TPUU or CTPP) and returns the Stockley'
 ##### Parameters
 
 **nzmtid**: fhir string - which is a NZMT Code for any of the following concepts (MP, TP, MPP, TPP, MPUU, TPUU or CTPP)
-**includeMedicationAndConceptMap**: boolean - which indicates whether the medication and concept maps should be included in the returned bundle
+**includeMedication**: boolean - which indicates whether medication resources should be included in the returned bundle
+**includeConceptMap**: boolean - which indicates whether the concept map resources should be included in the returned bundle
 
-GET [base]/Medication/$interactions-of?nzmtId=10037191000116105&includeMedicationAndConceptMap=true
+GET [base]/Medication/$interactions-of?nzmtId=10037191000116105&includeMedication=true&includeConceptMap=true
 
 #### Interactions Between - All
 
@@ -130,7 +131,9 @@ Takes two or more NZMT Ids (MP, TP, MPP, TPP, MPUU, TPUU or CTPP) and returns th
 
 **nzmtid**: fhir strings - one or more NZMT Codes from any of the following concepts (MP, TP, MPP, TPP, MPUU, TPUU or CTPP)
 
-**includeMedicationAndConceptMap**: boolean - which indicates whether the medication and concept maps should be included in the returned bundle
+**includeMedication**: boolean - which indicates whether the medication resources should be included in the returned bundle
+
+**includeConceptMap**: boolean - which indicates whether the concept map resources should be included in the returned bundle
 
 **filterComplementaryRecords**: boolean - when true complementary clinical use definitions are filtered out.  These records are when an interaction is the same except the subject and interactant are reversed.
 
@@ -152,7 +155,11 @@ content-type: application/json
       "valueString": "10194111000116109"
     },
     {
-      "name":"includeMedicationAndConceptMap",
+      "name":"includeMedication",
+      "valueBoolean": true
+    },
+    {
+      "name":"includeConceptMap",
       "valueBoolean": true
     },
     {
@@ -175,7 +182,9 @@ All NZMT Ids need to be within the following concepts  - MP, TP, MPP, TPP, MPUU,
 
 **nzmtid**: fhir strings - two or more NZMT Codes from any of the following concepts (MP, TP, MPP, TPP, MPUU, TPUU or CTPP)
 
-**includeMedicationAndConceptMap**: boolean - which indicates whether the medication and concept maps should be included in the returned bundle
+**includeMedication**: boolean - which indicates whether the medication resources should be included in the returned bundle
+
+**includeConceptMap**: boolean - which indicates whether the concept map resources should be included in the returned bundle
 
 **filterComplementaryRecords**: boolean - when true complementary clinical use definitions are filtered out.  These records are when an interaction is the same except the subject and interactant are reversed.
 
@@ -201,7 +210,11 @@ content-type: application/json
       "valueString": "10194111000116109"
     },
     {
-      "name":"includeMedicationAndConceptMap",
+      "name":"includeMedication",
+      "valueBoolean": true
+    },
+    {
+      "name":"includeConceptMap",
       "valueBoolean": true
     },
     {

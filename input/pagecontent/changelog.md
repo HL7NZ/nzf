@@ -32,4 +32,5 @@ This page details the recent changes we have made to the NZ Formulary/NZULM FHIR
 - 20/2/2024: Added non primary pharmacode detail to CTPP medication resources
 - 17/3/2024: Added Pharmac claim unit extension to funding extension
 - 15/4/2024: Added a related medication link to the CTPP medication resource to the Trade Product Medication resource (via TPP)
+- 15/7/2024: Added medication sponsor reference to TP medication resource
 - 23/10/2024: Added a related medication link to the CTPP medication resource to the Medicinal Product Pack resource (via TPP)
