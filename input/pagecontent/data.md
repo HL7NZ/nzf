@@ -1339,7 +1339,7 @@ A restrictions on the amount of medicine to be supplied per week
    </tbody>
 </table>
 
-##### DoseMMax, DoseMWt, DoseSMax, DoseWWt
+##### DoseDwt, DoseMMax, DoseMWt, DoseSMax, DoseWWt
 
 These are similar restriction rules to above which could be used but are not in the current dataset.
 
@@ -1615,6 +1615,12 @@ Where the value > ‘0’, each applicable medicine has an additional text of �
     </tr>     
    </tbody>
 </table>
+
+### MaxQtyDisp
+Not currently in use in the xml version of the Pharmaceutical Schedule.
+
+### MaxQtyPres
+Not currently in use in the xml version of the Pharmaceutical Schedule.
 
 ##### NotCombined
 
@@ -2151,6 +2157,36 @@ The waiver field can be populated and this adjusts the rule text.
     </tr>
    </tbody>
 </table>
+
+##### TreatMax
+
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <td>Type</td>
+      <td>Rule Type</td>
+      <td>Value</td>
+      <td>Rule Attribute</td>
+      <td>Rule Waiver</td>
+      <td>Rule XlinkHref</td>
+      <td>Rule Text</td>
+      <td>Rule Additional Data</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Community</td>
+      <td>TreatMax</td>
+      <td>Rx</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Maximum of [value] days treatment per prescription.</td>
+      <td></td>
+    </tr>
+   </tbody>
+</table>
+
 
 ##### TreatWt
 
