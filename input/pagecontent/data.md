@@ -1792,7 +1792,7 @@ Products with this rule are usually accompanied by a ps_note record reading ‘N
 
 ##### Principal Supply Status
 
-[TODO]
+Exclusive supply contract
 
 <table class="table table-bordered">
   <thead>
@@ -1889,7 +1889,7 @@ This Rule Type is not printed.
 
 ##### SafetyListMedicine
 
-[TODO]
+A Safety Medicine may be dispensed more frequently than the default frequency specified 
 
 <table class="table table-bordered">
   <thead>
