@@ -1616,10 +1616,10 @@ Where the value > ‘0’, each applicable medicine has an additional text of �
    </tbody>
 </table>
 
-### MaxQtyDisp
+##### MaxQtyDisp
 Not currently in use in the xml version of the Pharmaceutical Schedule.
 
-### MaxQtyPres
+##### MaxQtyPres
 Not currently in use in the xml version of the Pharmaceutical Schedule.
 
 ##### NotCombined
