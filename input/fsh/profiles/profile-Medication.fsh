@@ -31,7 +31,7 @@ Description:    "Medication resource for NZ Formulary"
     $fundingRule named fundingRule 0..* and
     $description named description 0..* and
     $unapproved named unapproved 0..1 and
-    $legalclass named legalclass 0..1 and
+    $legalclass named legalclass 0..* and
     $medsafe named medsafe 0..1 and
     $pbb named prescribebybrand 0..1 and
     $si named supplyinformation 0..* and

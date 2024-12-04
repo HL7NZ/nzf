@@ -1622,6 +1622,37 @@ Not currently in use in the xml version of the Pharmaceutical Schedule.
 ##### MaxQtyPres
 Not currently in use in the xml version of the Pharmaceutical Schedule.
 
+##### Multiple
+
+Based on the Multiple element in a Pack from the Pharmac Schedule
+
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <td>Type</td>
+      <td>Rule Type</td>
+      <td>Value</td>
+      <td>Rule Attribute</td>
+      <td>Rule Waiver</td>
+      <td>Rule XlinkHref</td>
+      <td>Rule Text</td>
+      <td>Rule Additional Data</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Community/HML</td>
+      <td>Multiple</td>
+      <td>{value from XML element}</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Subsidy is paid in multiples of {value}.</td>
+      <td></td>
+    </tr>
+   </tbody>
+</table>
+
 ##### NotCombined
 
 *NB: This means a medicine is not subsidised if prescribed as a compound with other ingredients.*
