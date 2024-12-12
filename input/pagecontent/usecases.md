@@ -16,7 +16,7 @@ To aid in the development of a list of medications to display in a community pre
 
 To retrieve the valueset:
 
->[base]/ValueSet/nzf-community-prescribing-list  (currently only available in the test system while ungoing QA)
+>[base]/ValueSet/nzf-community-prescribing-list  (currently only available in the test system while undergoing QA)
 
 This list contains the codes and the recommended description for each of these medications (prescribing term where available otherwise preferred term).
 
