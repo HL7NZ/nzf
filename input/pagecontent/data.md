@@ -1653,6 +1653,8 @@ Based on the Multiple element in a Pack from the Pharmac Schedule
    </tbody>
 </table>
 
+*NB: This means a medication is subsidised in defined numbers of dose units rather than single dose units.*
+
 ##### NotCombined
 
 *NB: This means a medicine is not subsidised if prescribed as a compound with other ingredients.*
