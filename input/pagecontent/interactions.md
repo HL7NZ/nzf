@@ -1,5 +1,3 @@
-**DRAFT - SUBJECT TO CHANGE, NOT FOR CLINICAL USE**
-
 THE NZF/NZULM FHIR API provides support for interactions checking based on Stockley's Alerts.  This support comes in the form of two custom FHIR [Operations](https://hl7.org/fhir/R4B/operations.html).  The first provides a list of interactions for a given NZMT medication and the second provides a list of interactions between a list of NZMT medication codes.  This second API call can be limited to checking against a focussed nzmt id code.
 
 Each API call returns a Bundle which, alongside associated resources, returns a list of [ClnicalUseDefinitions](https://hl7.org/fhir/R4B/clinicaluseDefinition.html)
