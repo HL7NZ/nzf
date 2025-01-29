@@ -1,3 +1,5 @@
+**We are now producing regular newsletter updates on development and changes with the API.  To subscribe click [here](https://confirmsubscription.com/h/d/F54343E1878E1AA0)** 
+
 This IG is to support retrieving formulary and medication information in New Zealand. This is part of a project by the NZULM/NZ Formulary to provide the information we produce and collate in a standards-based form. As an organisation we want to make it as easy as possible to retrieve the medication information that you require in a timely manner.
 
 The key resource for this implementation is the Medication resource. For those that are familiar with the New Zealand Medicines Terminology (NZMT) we provide a medication resource for the key types of medications in the NZMT. These are:
