@@ -1,5 +1,9 @@
 ### Recent changes
 
+**For more detailed information about changes please see our newsletter updates**
+
+- [Feb 2025](https://createsend.com/t/d-5499701F763B5CAD2540EF23F30FEDED)
+
 This page details the recent changes we have made to the NZ Formulary/NZULM FHIR resources
 
 - 23/4/2021: Added ATC extension to medication resources

@@ -1,11 +1,6 @@
 ## Details on what we are working on and what is coming up
 
-### Short-term
+**For more detailed information about upcoming changes please see our newsletter updates**
 
-### Medium term
+- [Feb 2025](https://createsend.com/t/d-5499701F763B5CAD2540EF23F30FEDED)
 
-- **Medicine groups**: Establish a method of distributing medicine group information
-
-### Suggested additions under consideration
-- **Manufacturer info** - manufacturer info is not available but we could potential add sponsor details
-- **MedicationKnowledge**: Populate the MedicationKnowledge resource with more formulary information
