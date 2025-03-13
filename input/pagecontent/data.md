@@ -726,7 +726,7 @@ To help with this we also add a derived value for unapproved products that are n
 
 Controlled Drug A > Controlled Drug B > Controlled Drug C > Prescription Medicine
 
-If no matching classification is found then the product will default to 'Prescription'.
+If no matching classification is found then the product will default to 'Prescription' <ins>as unregistered medicines legally may only be prescribed by doctors</ins>.
 
 One exception to this rule is if the product is unapproved, is not obsolete, and still has a medsafe classification.  In those cases the existing classification is kept.
 
