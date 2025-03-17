@@ -16,6 +16,7 @@ Description: "Core funding information specific to NZ.  The extension can be add
     higherSubsidy 0..1 and
     price 0..1 and
     claimUnit 0..1 and
+    packQuantity 0..1 and
     type 1..*
 
 * extension[scheduleDate].url = "scheduleDate" (exactly)
@@ -48,6 +49,11 @@ Description: "Core funding information specific to NZ.  The extension can be add
 * extension[claimUnit] ^definition = "Pharmac claim unit"
 * extension[claimUnit] ^short = "Pharmac claim unit"
 * extension[claimUnit].value[x] only CodeableConcept
+
+* extension[packQuantity].url = "packQuantity" (exactly)
+* extension[packQuantity] ^definition = "The product pack quantity"
+* extension[packQuantity] ^short = "The product pack quantity"
+* extension[packQuantity].value[x] only Quantity
 
 * extension[type].url = "type" (exactly)
 * extension[type] ^definition = "A list of funding types, currently either community or hml"
