@@ -2,7 +2,7 @@
 
 **This page is a work-in-progress, more use cases will be added in time**
 
-#### Community Prescribing List [ ** DRAFT ** ]
+#### Community Prescribing List
 
 To aid in the development of a list of medications to display in a community prescribing system we have developed a FHIR valueset.  This valueset contains codes and display values for our suggested list of medications for community prescribing.  This list is based on the following criteria:
 
@@ -16,7 +16,7 @@ To aid in the development of a list of medications to display in a community pre
 
 To retrieve the valueset:
 
->[base]/ValueSet/nzf-community-prescribing-list  (currently only available in the test system while undergoing QA)
+>[base]/ValueSet/nzf-community-prescribing-list
 
 This list contains the codes and the recommended description for each of these medications (prescribing term where available otherwise preferred term).
 
