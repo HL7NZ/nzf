@@ -1929,8 +1929,6 @@ This Rule Type is not printed.
 
 ##### Safety
 
-Not currently used
-
 <table class="table table-bordered">
   <thead>
     <tr>
