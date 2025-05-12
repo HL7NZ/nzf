@@ -1927,6 +1927,47 @@ This Rule Type is not printed.
    </tbody>
 </table>
 
+##### Safety
+
+Not currently used
+
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <td>Type</td>
+      <td>Rule Type</td>
+      <td>Value</td>
+      <td>Rule Attribute</td>
+      <td>Rule Waiver</td>
+      <td>Rule XlinkHref</td>
+      <td>Rule Text</td>
+      <td>Rule Additional Data</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Community</td>
+      <td>Safety</td>
+      <td></td>
+      <td>Uncompounded</td>
+      <td></td>
+      <td></td>
+      <td>Safety cap required</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Community</td>
+      <td>Safety</td>
+      <td></td>
+      <td>Compounded</td>
+      <td></td>
+      <td></td>
+      <td>Safety cap required for extemporaneously compounded oral liquid preparations</td>
+      <td></td>
+    </tr>
+   </tbody>
+</table>
+
 ##### SafetyListMedicine
 
 A Safety Medicine may be dispensed more frequently than the default frequency specified 
