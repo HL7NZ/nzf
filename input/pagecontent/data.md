@@ -281,8 +281,9 @@ There are three terms intended to provide alternate descriptions using Tallman L
 
 This term is the American CVX vaccine code. This alternate description exists to provide an additional method of searching for specific vaccines. More than one code may be present for a given NZMT record. These codes are linked to MP and TP records.
 
+These are added to each medication resource via the nzf-description extension.  They are also added as a code in the medication code field alongside the NZMT code and any other applicable code.
 
-These descriptions are added to each medication resource via the nzf-description extension.  This extension contains two fields, firstly the type of the description and secondly the description term.
+The description extension contains two fields, firstly the type of the description and secondly the description term.
 
 There is also a custom search parameter on the preferred-term allowing for normal FHIR search based expressions - [see FHIR search documentation](https://hl7.org/fhir/R4B/search.html#string)
 
@@ -292,7 +293,20 @@ There is also a custom search parameter on the preferred-term allowing for norma
 
 ```
 {
-      "extension": [
+  "code": {
+      "coding": [
+        {
+          "system": "http://nzmt.org.nz",
+          "code": "20049351000116105",
+          "display": "hepatitis A virus inactivated + hepatitis B virus surface antigen recombinant vaccine "
+        },
+        {
+          "system": "https://standards.digital.health.nz/ns/NZVX-immunisation-code",
+          "code": "104"
+        }
+      ]
+  }
+  "extension": [
         {
           "url": "type",
           "valueCodeableConcept": {
@@ -321,10 +335,18 @@ There is also a custom search parameter on the preferred-term allowing for norma
         }
       ],
       "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-description"
-    }
+}
 ```
 
 **Examples Queries**
+
+Get medications based on a Vaccine code
+
+>[base]/Medication?code=https://standards.digital.health.nz/ns/NZVX-immunisation-code&#124;104
+
+Get all medications that have a Vaccine code assigned
+
+>[base]/Medication?code=https://standards.digital.health.nz/ns/NZVX-immunisation-code&#124;
 
 Search for a medication based on part of the preferred term
 
