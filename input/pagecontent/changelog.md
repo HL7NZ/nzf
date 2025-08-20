@@ -42,4 +42,5 @@ This page details the recent changes we have made to the NZ Formulary/NZULM FHIR
 - 15/7/2024: Added medication sponsor reference to TP medication resource
 - 23/10/2024: Added a related medication link to the CTPP medication resource to the Medicinal Product Pack resource (via TPP)
 - 5/12/2024: Added the 'Multiple' pharmac funding rule
-- 14/3/2025: Added PackQuantity extension to funding extension 
+- 14/3/2025: Added PackQuantity extension to funding extension
+- 19/8/2025: Added Vaccine code to medication coding
