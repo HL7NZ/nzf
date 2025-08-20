@@ -279,9 +279,9 @@ There are three terms intended to provide alternate descriptions using Tallman L
 
 #####	CVX Vaccine IDs
 
-This term is the American CVX vaccine code. This alternate description exists to provide an additional method of searching for specific vaccines. More than one code may be present for a given NZMT record. These codes are linked to MP and TP records.
+This term is the American CVX vaccine code. This alternate description exists to provide an additional method of searching for specific vaccines. More than one code may be present for a given NZMT record. These codes are linked to MP, MPUU and TP, TPUU records.
 
-These are added to each medication resource via the nzf-description extension.  They are also added as a code in the medication code field alongside the NZMT code and any other applicable code.
+These are added to each medication resource via the nzf-description extension.  They are also added as a code in the medication code field for MP and MPUU records alongside the NZMT code and any other applicable code.
 
 The description extension contains two fields, firstly the type of the description and secondly the description term.
 
