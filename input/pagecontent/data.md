@@ -744,7 +744,7 @@ Note - Medsafe also provide classifications at the substance level.  This has be
 
 Note that products unmapped to Medsafe (and therefore not considered registered) should only use this MP/Substance classification data where the classification is as a ‘Controlled Drug’ - as the Misuse of Drugs Act is separate from the Medicines Act and applies regardless of whether the sponsor has registered the product or not. Any other classification (General Sale, Prescription etc) requires the product to be registered and so these classifications are not appropriate to be used for unregistered products.
 
-To help with this we also add a derived value for unapproved products that are not foods or devices.  For each unapproved product meeting the criteria we check the substance level classifications and then apply the highest classification based on the following hierarchy.
+To help with this we also add a derived value for unapproved products that are not foods or devices. Where such an unapproved product has a dried THC herbal MPUU then the product is classified Controlled Drug C1. For any other unapproved product meeting the criteria we check the substance level classifications and then apply the highest classification based on the following hierarchy.
 
 Controlled Drug A > Controlled Drug B > Controlled Drug C > Prescription Medicine
 
