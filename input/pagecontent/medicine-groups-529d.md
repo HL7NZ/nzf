@@ -248,7 +248,7 @@ All NZMT Ids need to be within the following concepts  - MP, TP, MPP, TPP, MPUU,
 
 ##### Parameters
 
-**nzmtid**: fhir strings - two or more NZMT Codes from any of the following concepts (MP, TP, MPP, TPP, MPUU, TPUU or CTPP)
+**nzmtid**: fhir strings - one or more NZMT Codes from any of the following concepts (MP, TP, MPP, TPP, MPUU, TPUU or CTPP)
 
 ```
 POST [base]/Medication/$medicine-groups-commonmembership
