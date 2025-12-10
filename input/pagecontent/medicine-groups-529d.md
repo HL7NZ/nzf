@@ -20,7 +20,7 @@ Not all medicines belong in a group. If a medicine does not belong to any group,
 **Example** (note - data is representative only)
 
 
-![Example Medicine Group](medicine-groups-example.png)
+![Example Medicine Group](./medicine-groups-example.png)
 
 ### Definitions
 
@@ -64,7 +64,7 @@ The use cases relate to allergies and adverse reactions to medicines only. Other
 The warnings given as examples here are largely based on OpenEHR archetype Adverse Reaction, HISO 10041.1 Medications Lists Draft v0.2, and the HQSCNZ National Medication Chart http://www.hqsc.govt.nz/our-programmes/medication-safety/projects/national-medication-chart/ .
 The flow of warnings and alerts is illustrated in figure 1, below.
 
-![alt text](medicine-groups-1.png)
+![Medicine group flow](./medicine-groups-1.png)
 
 
 ### API Support
