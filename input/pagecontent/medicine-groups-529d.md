@@ -64,7 +64,9 @@ The use cases relate to allergies and adverse reactions to medicines only. Other
 The warnings given as examples here are largely based on OpenEHR archetype Adverse Reaction, HISO 10041.1 Medications Lists Draft v0.2, and the HQSCNZ National Medication Chart http://www.hqsc.govt.nz/our-programmes/medication-safety/projects/national-medication-chart/ .
 The flow of warnings and alerts is illustrated in figure 1, below.
 
+
 ![Medicine group flow](./medicine-groups-1.png)
+
 
 
 ### API Support
@@ -112,8 +114,10 @@ The output from a request is in the form of parameters.
 member:
 parts:
   medicine: 1..1 - NZMT Id CodeableConcept from request list
-  group: 1..* - Medicine Group CodeableConcept
+  group: 1..* 
     parts:
+      group: - Medicine Group CodeableConcept
+      groupType - Type of group
       groupLevel: The level of the group
 ```
 
@@ -142,7 +146,7 @@ parts:
           "name": "group",
           "part": [
             {
-              "name": "concept",
+              "name": "group",
               "valueCodeableConcept": {
                 "coding": [
                   {
@@ -170,7 +174,7 @@ parts:
           "name": "group",
           "part": [
             {
-              "name": "concept",
+              "name": "group",
               "valueCodeableConcept": {
                 "coding": [
                   {
@@ -198,7 +202,7 @@ parts:
           "name": "group",
           "part": [
             {
-              "name": "concept",
+              "name": "group",
               "valueCodeableConcept": {
                 "coding": [
                   {
@@ -267,8 +271,10 @@ pair:
 parts:
   foreground: 1..1 - NZMT Id CodeableConcept from Foreground list
   background: 1..1 - NZMT Id CodeableConcept from Background list
-  group: 1..1 - Medicine Group CodeableConcept
+  group: 1..1
     parts:
+      group: - Medicine Group CodeableConcept
+      groupType - Type of group
       groupLevel: The level of the group
 ```
 
@@ -311,7 +317,7 @@ For example, a request with foreground-nzmtid 10159631000116101 and background-n
           "name": "group",
           "part": [
             {
-              "name": "concept",
+              "name": "group",
               "valueCodeableConcept": {
                 "coding": [
                   {
@@ -376,7 +382,7 @@ For example, a request with foreground-nzmtid 10159631000116101 and background-n
           "name": "group",
           "part": [
             {
-              "name": "concept",
+              "name": "group",
               "valueCodeableConcept": {
                 "coding": [
                   {
