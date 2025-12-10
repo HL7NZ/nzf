@@ -20,7 +20,7 @@ Not all medicines belong in a group. If a medicine does not belong to any group,
 **Example** (note - data is representative only)
 
 
-![Example Medicine Group](./medicine-groups-example.png)
+![Example Medicine Group](./medicine-groups-example.png)  
 
 ### Definitions
 
@@ -65,7 +65,7 @@ The warnings given as examples here are largely based on OpenEHR archetype Adver
 The flow of warnings and alerts is illustrated in figure 1, below.
 
 
-![Medicine group flow](./medicine-groups-1.png)
+![Medicine group flow](./medicine-groups-1.png)  
 
 
 
