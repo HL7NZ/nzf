@@ -73,7 +73,7 @@ THE NZF/NZULM FHIR API provides support for Medicine Groups.
 
 This support comes in the form of two custom FHIR [Operations](https://hl7.org/fhir/R4B/operations.html).  The first takes one or more NZMT medication codes and returns a list of medicine groups that each code belongs to.  The second takes two lists of NZMT medication codes, a foreground and background list, and returns a list of medication pairs where one of the pair comes from the foreground medicines, one from the background medicines, and both belong to the same group
 
-These custom operations should provide a level of familarity with the existing webservice calls.
+These custom operations should provide a level of familiarity with the existing webservice calls.
 
 ### Custom Operations
 
