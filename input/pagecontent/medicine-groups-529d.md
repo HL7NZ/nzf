@@ -106,8 +106,135 @@ content-type: application/json
 }
 ```
 
+The output from a request is in the form of parameters.  
+
 ```
-Results - Details to come
+member:
+parts:
+  medicine: 1..1 - NZMT Id CodeableConcept from request list
+  group: 1..* - Medicine Group CodeableConcept
+    parts:
+      groupLevel: The level of the group
+```
+
+
+```
+{
+  "resourceType": "Parameters",
+  "parameter": [
+    {
+      "name": "member",
+      "part": [
+        {
+          "name": "medicine",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://nzmt.org.nz",
+                "code": "10048271000116101",
+                "display": "atenolol"
+              }
+            ],
+            "text": "atenolol"
+          }
+        },
+        {
+          "name": "group",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://nzmt.org.nz",
+                "code": "1820011000036108",
+                "display": "atenolol"
+              }
+            ],
+            "text": "atenolol"
+          },
+          "part": [
+            {
+              "name": "groupType",
+              "valueCodeableConcept": {
+                "coding": [
+                  {
+                    "system": "http://nzmt.org.nz",
+                    "display": "substance"
+                  }
+                ],
+                "text": "substance"
+              }
+            },
+            {
+              "name": "groupLevel",
+              "valueInteger": 1
+            }
+          ]
+        },
+        {
+          "name": "group",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://nzmt.org.nz",
+                "code": "10042431000166107",
+                "display": "beta blocker, selective"
+              }
+            ],
+            "text": "beta blocker, selective"
+          },
+          "part": [
+            {
+              "name": "groupType",
+              "valueCodeableConcept": {
+                "coding": [
+                  {
+                    "system": "http://nzmt.org.nz",
+                    "display": "pharmacological"
+                  }
+                ],
+                "text": "pharmacological"
+              }
+            },
+            {
+              "name": "groupLevel",
+              "valueInteger": 2
+            }
+          ]
+        },
+        {
+          "name": "group",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://nzmt.org.nz",
+                "code": "10055311000166101",
+                "display": "beta-blocker"
+              }
+            ],
+            "text": "beta-blocker"
+          },
+          "part": [
+            {
+              "name": "groupType",
+              "valueCodeableConcept": {
+                "coding": [
+                  {
+                    "system": "http://nzmt.org.nz",
+                    "display": "pharmacological"
+                  }
+                ],
+                "text": "pharmacological"
+              }
+            },
+            {
+              "name": "groupLevel",
+              "valueInteger": 3
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
 ```
 
 #### Common membership
@@ -142,8 +269,162 @@ content-type: application/json
 }
 ```
 
+The output from a request is in the form of parameters.  
+
 ```
-Results - Details to come
+pair:
+parts:
+  foreground: 1..1 - NZMT Id CodeableConcept from Foreground list
+  background: 1..1 - NZMT Id CodeableConcept from Background list
+  group: 1..1 - Medicine Group CodeableConcept
+    parts:
+      groupLevel: The level of the group
+```
+
+For example a request with a single sctid (10048271000116101) will return a result back similar to this:
+
+```
+{
+  "resourceType": "Parameters",
+  "parameter": [
+    {
+      "name": "pair",
+      "part": [
+        {
+          "name": "foreground",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://nzmt.org.nz",
+                "code": "10159631000116101",
+                "display": "clarithromycin 250 mg tablet"
+              }
+            ],
+            "text": "clarithromycin 250 mg tablet"
+          }
+        },
+        {
+          "name": "background",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://nzmt.org.nz",
+                "code": "10226361000116105",
+                "display": "erythromycin (as ethylsuccinate) 400 mg tablet"
+              }
+            ],
+            "text": "erythromycin (as ethylsuccinate) 400 mg tablet"
+          }
+        },
+        {
+          "name": "group",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://nzmt.org.nz",
+                "code": "10002311000166104",
+                "display": "macrolide antibiotic"
+              }
+            ],
+            "text": "macrolide antibiotic"
+          },
+          "part": [
+            {
+              "name": "groupType",
+              "valueCodeableConcept": {
+                "coding": [
+                  {
+                    "system": "http://nzmt.org.nz",
+                    "display": "pharmacological"
+                  }
+                ],
+                "text": "pharmacological"
+              }
+            },
+            {
+              "name": "groupType",
+              "valueCodeableConcept": {
+                "coding": [
+                  {
+                    "system": "http://nzmt.org.nz",
+                    "display": "allergy"
+                  }
+                ],
+                "text": "allergy"
+              }
+            },
+            {
+              "name": "groupLevel",
+              "valueInteger": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "pair",
+      "part": [
+        {
+          "name": "foreground",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://nzmt.org.nz",
+                "code": "10159631000116101",
+                "display": "clarithromycin 250 mg tablet"
+              }
+            ],
+            "text": "clarithromycin 250 mg tablet"
+          }
+        },
+        {
+          "name": "background",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://nzmt.org.nz",
+                "code": "10226361000116105",
+                "display": "erythromycin (as ethylsuccinate) 400 mg tablet"
+              }
+            ],
+            "text": "erythromycin (as ethylsuccinate) 400 mg tablet"
+          }
+        },
+        {
+          "name": "group",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://nzmt.org.nz",
+                "code": "10003161000166108",
+                "display": "macrolide"
+              }
+            ],
+            "text": "macrolide"
+          },
+          "part": [
+            {
+              "name": "groupType",
+              "valueCodeableConcept": {
+                "coding": [
+                  {
+                    "system": "http://nzmt.org.nz",
+                    "display": "therapeutic"
+                  }
+                ],
+                "text": "therapeutic"
+              }
+            },
+            {
+              "name": "groupLevel",
+              "valueInteger": 3
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
 ```
 
 ##### OperationOutcome
