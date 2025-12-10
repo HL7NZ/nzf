@@ -79,7 +79,7 @@ These custom operations should provide a level of familiarity with the existing 
 
 #### Group membership
 
-Takes one or more nzmt ids and returns a list of medicine groups that each nzmt id is in.
+Takes one or more NZMT Ids and returns a list of medicine groups that each nzmt id is in.
 
 All NZMT Ids need to be within the following concepts  - MP, TP, MPP, TPP, MPUU, TPUU or CTPP.
 
@@ -239,7 +239,7 @@ parts:
 
 #### Common membership
 
-Takes one or more foreground nzmt ids and one or more background nzmt ids.  
+Takes one or more foreground NZMT Ids and one or more background NZMT Ids.  
 
 Returns a list of medicine pairs where one of the pair comes from the foreground medicines, one from the background medicines, and both belong to the same group. Used to check whether a common group alert needs to be raised. The warnings/adverse reactions for a patient are the background, and the medicines being prescribed are the foreground. It can also be used for focussed duplicate therapy checking with the patient's current medications as the background and the medicines being prescribed as foreground.
 
