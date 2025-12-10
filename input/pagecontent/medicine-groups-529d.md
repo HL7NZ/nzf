@@ -67,7 +67,7 @@ The flow of warnings and alerts is illustrated in figure 1, below.
 
 ![Medicine group flow](./medicine-groups-1.png)  
 
-&nbsp;
+---
 
 ### API Support
 
