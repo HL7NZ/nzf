@@ -281,7 +281,7 @@ parts:
       groupLevel: The level of the group
 ```
 
-For example a request with a single sctid (10048271000116101) will return a result back similar to this:
+For example, a request with foreground-nzmtid 10159631000116101 and background-nzmtid 10226361000116105 will return a result similar to this:
 
 ```
 {
