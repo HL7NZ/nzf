@@ -140,26 +140,23 @@ parts:
         },
         {
           "name": "group",
-          "valueCodeableConcept": {
-            "coding": [
-              {
-                "system": "http://nzmt.org.nz",
-                "code": "1820011000036108",
-                "display": "atenolol"
-              }
-            ],
-            "text": "atenolol"
-          },
           "part": [
             {
-              "name": "groupType",
+              "name": "concept",
               "valueCodeableConcept": {
                 "coding": [
                   {
                     "system": "http://nzmt.org.nz",
-                    "display": "substance"
+                    "code": "1820011000036108",
+                    "display": "atenolol"
                   }
                 ],
+                "text": "atenolol"
+              }
+            },
+            {
+              "name": "groupType",
+              "valueCodeableConcept": {
                 "text": "substance"
               }
             },
@@ -171,26 +168,23 @@ parts:
         },
         {
           "name": "group",
-          "valueCodeableConcept": {
-            "coding": [
-              {
-                "system": "http://nzmt.org.nz",
-                "code": "10042431000166107",
-                "display": "beta blocker, selective"
-              }
-            ],
-            "text": "beta blocker, selective"
-          },
           "part": [
             {
-              "name": "groupType",
+              "name": "concept",
               "valueCodeableConcept": {
                 "coding": [
                   {
                     "system": "http://nzmt.org.nz",
-                    "display": "pharmacological"
+                    "code": "10042431000166107",
+                    "display": "beta blocker, selective"
                   }
                 ],
+                "text": "beta blocker, selective"
+              }
+            },
+            {
+              "name": "groupType",
+              "valueCodeableConcept": {
                 "text": "pharmacological"
               }
             },
@@ -202,26 +196,23 @@ parts:
         },
         {
           "name": "group",
-          "valueCodeableConcept": {
-            "coding": [
-              {
-                "system": "http://nzmt.org.nz",
-                "code": "10055311000166101",
-                "display": "beta-blocker"
-              }
-            ],
-            "text": "beta-blocker"
-          },
           "part": [
             {
-              "name": "groupType",
+              "name": "concept",
               "valueCodeableConcept": {
                 "coding": [
                   {
                     "system": "http://nzmt.org.nz",
-                    "display": "pharmacological"
+                    "code": "10055311000166101",
+                    "display": "beta-blocker"
                   }
                 ],
+                "text": "beta-blocker"
+              }
+            },
+            {
+              "name": "groupType",
+              "valueCodeableConcept": {
                 "text": "pharmacological"
               }
             },
@@ -318,38 +309,29 @@ For example, a request with foreground-nzmtid 10159631000116101 and background-n
         },
         {
           "name": "group",
-          "valueCodeableConcept": {
-            "coding": [
-              {
-                "system": "http://nzmt.org.nz",
-                "code": "10002311000166104",
-                "display": "macrolide antibiotic"
-              }
-            ],
-            "text": "macrolide antibiotic"
-          },
           "part": [
             {
-              "name": "groupType",
+              "name": "concept",
               "valueCodeableConcept": {
                 "coding": [
                   {
                     "system": "http://nzmt.org.nz",
-                    "display": "pharmacological"
+                    "code": "10002311000166104",
+                    "display": "macrolide antibiotic"
                   }
                 ],
+                "text": "macrolide antibiotic"
+              }
+            },
+            {
+              "name": "groupType",
+              "valueCodeableConcept": {
                 "text": "pharmacological"
               }
             },
             {
               "name": "groupType",
               "valueCodeableConcept": {
-                "coding": [
-                  {
-                    "system": "http://nzmt.org.nz",
-                    "display": "allergy"
-                  }
-                ],
                 "text": "allergy"
               }
             },
@@ -392,26 +374,23 @@ For example, a request with foreground-nzmtid 10159631000116101 and background-n
         },
         {
           "name": "group",
-          "valueCodeableConcept": {
-            "coding": [
-              {
-                "system": "http://nzmt.org.nz",
-                "code": "10003161000166108",
-                "display": "macrolide"
-              }
-            ],
-            "text": "macrolide"
-          },
           "part": [
             {
-              "name": "groupType",
+              "name": "concept",
               "valueCodeableConcept": {
                 "coding": [
                   {
                     "system": "http://nzmt.org.nz",
-                    "display": "therapeutic"
+                    "code": "10003161000166108",
+                    "display": "macrolide"
                   }
                 ],
+                "text": "macrolide"
+              }
+            },
+            {
+              "name": "groupType",
+              "valueCodeableConcept": {
                 "text": "therapeutic"
               }
             },
