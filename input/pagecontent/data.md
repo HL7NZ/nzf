@@ -2554,9 +2554,9 @@ CALs are assigned at an MPUU level and are provided for medications via the nzf-
 
 ### Patient information leaflets
 
-The New Zealand contains or links to a number of Patient Information Leaflets. 
+The New Zealand Formulary contains or links to a number of Patient Information Leaflets. 
 
-Each of these Patient Information leaflets is referenced by a DocumentReference resource.  A patient information contains links to PDFs which can have varying page sizes (A4,A5) and can potentially be in English or Te Reo.
+Each of these Patient Information leaflets is referenced by a DocumentReference resource.  A patient information contains links to PDFs which can have varying page sizes (A4,A5) and can potentially be in English,Te Reo, Cook Islands Maori, Hindi, Korean, Niuean, Samoan, Simplified Chinese, Tongan or Traditional Chinese.
 
 A patient information leaflet can potentially also have more information around its context, for example, the dose form it applies to.  See the extension definition for more details.
 
