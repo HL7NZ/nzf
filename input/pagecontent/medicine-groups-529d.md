@@ -65,7 +65,7 @@ The warnings given as examples here are largely based on OpenEHR archetype Adver
 The flow of warnings and alerts is illustrated in figure 1, below.
 
 <div>
-![Medicine group flow](./medicine-groups-1.png)  
+<img src='./medicine-groups-1.png'/>  
 </div>
 ---
 
