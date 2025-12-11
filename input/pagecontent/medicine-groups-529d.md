@@ -64,9 +64,9 @@ The use cases relate to allergies and adverse reactions to medicines only. Other
 The warnings given as examples here are largely based on OpenEHR archetype Adverse Reaction, HISO 10041.1 Medications Lists Draft v0.2, and the HQSCNZ National Medication Chart http://www.hqsc.govt.nz/our-programmes/medication-safety/projects/national-medication-chart/ .
 The flow of warnings and alerts is illustrated in figure 1, below.
 
-
+<div>
 ![Medicine group flow](./medicine-groups-1.png)  
-
+</div>
 ---
 
 ### API Support
