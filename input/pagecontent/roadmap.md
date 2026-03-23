@@ -10,4 +10,4 @@ If you'd like to get the FHIR newsletter please use the [FHIR Newsletter Signup 
 - [Jun 2025](https://newzealandformulary.createsend1.com/t/d-e-skrhttk-l-y/)
 - [Mar 2025](https://newzealandformulary.createsend1.com/t/d-e-stkhjyd-l-j/)
 - [Feb 2025](https://createsend.com/t/d-5499701F763B5CAD2540EF23F30FEDED)
-
+- [Mar 2026](https://createsend.com/t/d-92970162FDEAEA4B2540EF23F30FEDED)
