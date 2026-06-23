@@ -61,7 +61,7 @@ This guide is divided into a number of sections
 
 We also work closely with the NZ Health Terminology Service (NZHTS).  The codes from the NZMT are published to the NZHTS and this might be the best option for light use-cases or if terminology services are needed.  The services are complementary so both APIs can be used together.  To get more information please see here: https://www.tewhatuora.govt.nz/our-health-system/digital-health/terminology-service/ .  Any valuesets created will also be published to this service.
 
-To contact us please use the email address fhir 'at' nzformulary.org with any questions or requests to access the data.
+To contact us please use the email address fhir 'at' nzformulary.org with any questions or requests to access the data. 
 
 We want, not only the API, but also this documentation to be as useful as possible so please get in touch if you have any feedback.
 
