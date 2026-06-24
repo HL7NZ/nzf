@@ -2,7 +2,7 @@ ATC  –  Anatomical, Therapeutic, Chemical classification system. The WHO ATC c
 
 CALs – Cautionary and Advisory Labels
 
-CMI – Consumer Medicines Information, usually a pamphlet of information to be given to consumers at the point of prescribing or dispensing
+CMI – Consumer Medicines Information, usually a pamphlet of information to be given to consumers at the point of prescribing or dispensing 
 
 combination medicine – medicine with more than one dose-form and/or strength combination in a pack, more than one type of device in a pack, or a mix of medicine and device in a pack. e.g. levonorgestrel 50 microgram + ethinyloestradiol 30 microgram tablet [18 tablets] (&) levonorgestrel 75 microgram + ethinyloestradiol 40 microgram tablet [15 tablets] (&) levonorgestrel 125 microgram + ethinyloestradiol 30 microgram tablet [30 tablets] (&) inert substance tablet [21 tablets], 84 [3 x 28 tablets] (cf. compound and simple medicines)
 
