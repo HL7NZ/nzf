@@ -16,7 +16,7 @@ The key resource for this implementation is the Medication resource. For those t
 
 Click [here](./nzmt-datamodel.html) for more information on the NZMT data model.
 
-Complementing the NZMT information is information from the NZF Formulary, Pharmac and Medsafe.  This includes information ranging from funding to legal classifications to Cautionary and Advisory labels.  For more information on the full data set see the [data](./data.html), including examples of how to retrieve specific information.
+Complementing the NZMT information is information from the NZF Formulary, Pharmac and Medsafe.  This includes information ranging from funding to legal classifications to Cautionary and Advisory labels.  For more information on the full data set see the [data](./data.html), including examples of how to retrieve specific information. 
 
 The medication resources also link to several documents (using the link extension). To facilitate this, we use [DocumentReference](http://hl7.org/fhir/R4B/documentreference.html) resources.
 
