@@ -556,6 +556,113 @@ Get a list of all substances
 
 Definition - [FHIR Substance definition](https://hl7.org/fhir/R4B/substance.html)
 
+### Valuesets
+
+#### Community Prescribing List
+
+To aid in the development of a list of medications to display in a community prescribing system we have developed a FHIR valueset for our suggested list of medications for community prescribing.  This list takes into consideration Medsafe registration status, Pharmac funding status, whether a medicine should be prescribed by brand or generically, and obsoletion of listings.  
+
+To retrieve the valueset:
+
+>[base]/ValueSet/nzf-community-prescribing-list
+
+This list contains the codes and the recommended description for each of these medications (prescribing term where available otherwise preferred term).
+
+See [Clinical use cases](howtouse.md) for more details.
+
+#### Medicine Special Food List
+
+We have developed a FHIR valueset listing active items flagged specifically as a `special food`. All medicines in the current Pharmac schedule that have an HP3 classification in them have been verified as having a special food flag.
+
+To retrieve the valueset:
+
+>[base]/ValueSet/nzf-medicine-special-food-list
+
+This list contains the SCTID and the preferred term description for each of these medications.
+
+
+
+#### Medicine Device List
+
+We have developed a FHIR valueset listing active items flagged specifically as a `device`. This flag is used when something is not classified as a medicine.
+
+To retrieve the valueset:
+
+>[base]/ValueSet/nzf-medicine-device-list
+
+This list contains the SCTID and the preferred term description for each of these items.
+
+
+
+#### Medicine Composite Pack List
+
+We have a FHIR valueset listing active medications flagged specifically as `composite pack`.  Composite packs (a product that contains 2 or more separate individual components in a single pack) often require special handling in software systems.
+
+To retrieve the valueset:
+
+>[base]/ValueSet/nzf-medicine-composite-list
+
+This list contains the SCTID and the preferred term description for each of these medications.
+
+
+
+#### Medicine Extemporaneous Form List
+
+We provide a FHIR valueset listing all active medications flagged specifically as `Extemporaneous form`.  Items in this list indicate the standardised strengths available for an extemporaneously compounded medicine.
+
+To retrieve the valueset:
+
+>[base]/ValueSet/nzf-medicine-extemporaneous-form-list
+
+This list contains the SCTID and the preferred term description for each of these medications.
+
+#### Medicine Monitoring List
+
+We provide a Fhir valueset listing all active medications flagged specially medicines monitoring. This Medsafe derived information is part of a monitoring scheme designed to stimulate the reporting of adverse reactions to specific medicines providing more information to help CARM and Medsafe investigate safety signals
+
+To retrieve the valueset:
+
+>[base]/ValueSet/nzf-medicine-monitoring-list
+
+This list contains the SCTID and the preferred term description for each of these medications.
+
+
+#### Dose Form List
+
+We provide a FHIR valueset containing available `dose form`  values.
+
+To retrieve the valueset:
+
+>[base]/ValueSet/nzf-doseform-list
+
+This list contains dose form SCTID and preferred term values.
+
+
+
+#### Container Type List
+
+We provide a FHIR valueset containing available `container type` values.
+
+To retrieve the valueset:
+
+>[base]/ValueSet/nzf-container-type-list
+
+This list contains container type SCTID and preferred term values.
+
+
+
+#### Unit Of Measure List
+
+We provide a FHIR valueset containing the available `unit of measure` values.
+
+To retrieve the valueset:
+
+>[base]/ValueSet/nzf-unit-of-measure-list
+
+This list contains unit of measure SCTID and preferred term values.
+
+
+
 ### Prescribe by brand
 
 Some generic medications should, for safety reasons, be prescribed by brand and have no generic prescribing term. Medicines appearing in this extension are defined by the application of the Health Quality and Safety Commission’s Specify Brand Advice Guidance rules.
@@ -2706,3 +2813,6 @@ TP level
   ]
 }
 ```
+
+
+
